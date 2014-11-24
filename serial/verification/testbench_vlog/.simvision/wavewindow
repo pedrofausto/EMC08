@@ -1,0 +1,1382 @@
+# SimVision Wave Window (Wed Oct 13 04:12:22 PM BRT 2010)
+
+pattern .waveWindow0 ::WaveWindow v1.0 {
+  overall {
+    data geometry 1280x920+0+26
+    data windowname {Waveform 1}
+    data istarget 1
+    data sidebar {visibility partial}
+    data waveforms {
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_br_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@c9
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {
+pattern ::stylepen12 stylepen v1.0 {
+  overall {
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+}}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_br_trans_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@ca
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_clear_count_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@cb
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_clock_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@cc
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::tb_serial_final.serial_top_tb.serial_data_sbuf_i[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@cd
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen13 {} 14477 {
+pattern ::stylepen13 stylepen v1.0 {
+  overall {
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+}}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::tb_serial_final.serial_top_tb.serial_data_sbuf_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@ce
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen13 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_p3_0_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@cf
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_p3_0_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d0
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_p3_1_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d1
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_p3en_0_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d2
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_p3en_1_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d3
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_reset_i_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d4
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_scon0_ri_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d5
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_scon0_ri_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d6
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_scon1_ti_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d7
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_scon1_ti_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d8
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_scon2_rb8_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d9
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_scon3_tb8_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@da
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_scon4_ren_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@db
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_scon7_sm0_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@dc
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_serial_tx_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@dd
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.mode0_tx
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@12d
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.mode2_tx
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@12e
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.not_send
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@12f
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_br_internal_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@130
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_br_trans_internal_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@131
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_clear_count_internal_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@132
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_clear_count_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@133
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_clock_internal_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@134
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_data_en_internal_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@135
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_data_sbuf_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@136
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen13 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_data_tx_internal_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@137
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_p3_0_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@138
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_p3_1_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@139
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_p3en_0_internal_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@13a
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_p3en_0_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@13b
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_p3en_1_internal_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@13c
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_p3en_1_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@13d
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_receive_internal_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@13e
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_reset_internal_i_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@13f
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_sbuf_rx_internal_i[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@140
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen13 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_scon0_ri_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@141
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_scon0_ri_o_internal_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@142
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_scon1_ti_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@143
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_scon1_ti_o_internal_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@144
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_scon2_rb8_internal_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@145
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_scon2_rb8_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@146
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_scon7_sm0_internal_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@147
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.serial_send_internal_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@148
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.shift_clock
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@149
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.temp_mode0
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@14a
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.temp_mode2
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@14b
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.transmitting_mode0
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@14c
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.transmitting_mode2
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@14d
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.txd_mode0
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@14e
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_outputs_logic_control.txd_mode2
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@14f
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_output_shifter_reg.data_to_transmit[9:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@156
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog bus} -stylemap {}}
+    object stylepen ::stylepen13 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_output_shifter_reg.serial_clock_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@157
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_output_shifter_reg.serial_data_sbuf_i[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@158
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen13 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_output_shifter_reg.serial_data_tx_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@159
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_output_shifter_reg.serial_end_bit_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@15a
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_output_shifter_reg.serial_reset_i_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@15b
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_output_shifter_reg.serial_scon3_tb8_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@15c
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_output_shifter_reg.serial_scon7_sm0_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@15d
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_output_shifter_reg.serial_shift_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@15e
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_output_shifter_reg.serial_shifter_reg_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@15f
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_output_shifter_reg.serial_start_shifter_reg_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@160
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_output_shifter_reg.serial_stop_bit_gen_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@161
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_control.aux2_tran_det
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@179
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_control.aux_tran_det
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@17a
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_control.br_detect
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@17b
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_control.do_first_shift_flag
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@17c
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_control.next_state_tx[3:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@17d
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen13 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_control.serial_br_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@17e
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_control.serial_clock_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@17f
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_control.serial_data_en_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@180
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_control.serial_end_bit_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@181
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_control.serial_p3en_0_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@182
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_control.serial_p3en_1_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@183
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_control.serial_reset_i_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@184
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_control.serial_scon1_ti_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@185
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_control.serial_scon1_ti_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@186
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_control.serial_scon7_sm0_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@187
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_control.serial_send_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@188
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_control.serial_serial_tx_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@189
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_control.serial_shift_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@18a
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_control.serial_start_shifter_reg_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@18b
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_control.serial_stop_bit_gen_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@18c
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_control.state_tx[3:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@18d
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen13 {} 14477 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::tb_serial_final.serial_top_tb.serial_tx_block.serial_tx_control.tran_det
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@18e
+    data pid 14477
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 14477 {}
+  }
+}}
+    data searchentry {}
+    data searchlist {}
+    data cursorname TimeA
+    data baseline 0
+    data timeunits ps
+    data currentzoom {0 : 2000ps}
+    data zoomhistory {{0 : 1,024,000ps} {0 : 512,000ps} {0 : 256,000ps} {0 : 128,000ps} {0 : 64,000ps} {0 : 32,000ps} {0 : 16,000ps} {0 : 8000ps} {0 : 4000ps} {0 : 2000ps}}
+    data displaysearchtoolbar 1
+    data labelmode name
+    data gridoptions {-state off -start 0 -delta 0}
+    data deltas {{-item baseline -value 0} {-item {cursor baseline} -value 93,552,700,000ps}}
+  }
+}

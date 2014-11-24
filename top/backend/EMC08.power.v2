@@ -1,0 +1,37 @@
+##############################################
+# The Power Analysis Report for VDD net      #
+##############################################
+power supply: 1.62 volt
+average power between 1.0000e-09 S and 5.0001e-02 S
+Total id in vcd file: 160
+    In module EMC08 valid id: 0
+         redundant id: 0
+    In module EMC08 invalid id: 160
+        redundant id: 0
+Total activity in vcd file: 6.1431e+06
+    In module EMC08 valid activity: 0
+    In module EMC08 invalid activity: 6.1431e+06
+average power(default): 2.6476e-03 mW
+    average switching power(default): 0.0000e+00 mW
+    average internal power(default): 0.0000e+00 mW
+    average leakage power(default): 2.6476e-03 mW
+    user specified power(default): 0.0000e+00 mW
+average power by cell category:
+    core:  1.6049e-03 mW
+    block: 1.0427e-03 mW
+    io:    0.0000e+00 mW
+average power(considered in rail analysis): 2.6388e-03 mW
+worst IR drop average analysis: 2.0659e-06 V
+  number of nodes in rail network: 93227 nodes
+worst EM:
+    "M1"  3.4794e-05 mA/u
+    "M2"  1.0432e-04 mA/u
+    "M3"  3.1094e-09 mA/u
+    "M4"  2.4187e-09 mA/u
+    "M5"  3.2174e-05 mA/u
+    "M6"  2.8740e-04 mA/u
+    "V12" 2.3068e-06 mA/cut
+    "V23" 1.7468e-06 mA/cut
+    "V34" 1.7468e-06 mA/cut
+    "V45" 1.7468e-06 mA/cut
+    "V56" 2.6752e-06 mA/cut

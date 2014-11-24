@@ -1,0 +1,176 @@
+Checking DFT rules for 'emc_top' module under 'muxed_scan' style
+Processing techlib D_CELLS_MOSLP_slow_1_62V_125C for muxed_scan scan cells
+  Identified a usable, flop scan cell 'SDFFQX0' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFQX1' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFQX2' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFQX4' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFRQX0' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFRQX1' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFRQX2' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFRQX4' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFRSQX0' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFRSQX1' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFRSQX2' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFRSQX4' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFRSX0' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFRSX1' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFRSX2' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFRSX4' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFRX0' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFRX1' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFRX2' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFRX4' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFSQX0' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFSQX1' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFSQX2' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFSQX4' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFSX0' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFSX1' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFSX2' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFSX4' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFX0' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFX1' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFX2' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFFX4' 
+	 active clock edge: falling
+  Identified a usable, flop scan cell 'SDFRQX0' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRQX1' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRQX2' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRQX4' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRRQX0' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRRQX1' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRRQX2' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRRQX4' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRRSQX0' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRRSQX1' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRRSQX2' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRRSQX4' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRRSX0' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRRSX1' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRRSX2' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRRSX4' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRRX0' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRRX1' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRRX2' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRRX4' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRSQX0' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRSQX1' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRSQX2' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRSQX4' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRSX0' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRSX1' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRSX2' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRSX4' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRX0' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRX1' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRX2' 
+	 active clock edge:  rising
+  Identified a usable, flop scan cell 'SDFRX4' 
+	 active clock edge:  rising
+Processing techlib ROM4096X8_slow_1_62V_125C for muxed_scan scan cells
+Processing techlib SPRAM128X8_slow_1_62V_125C for muxed_scan scan cells
+Identified 64 valid usable scan cells
+Detected 2 DFT rule violation(s)
+	Summary of check_dft_rules
+	**************************
+	Number of usable scan cells: 64
+Clock Rule Violations:
+---------------------
+	  Internally driven clock net: 2
+	      Tied constant clock net: 0
+	           Undriven clock net: 0
+	Conflicting async & clock net: 0
+	              Misc. clock net: 0
+
+Async. set/reset Rule Violations:
+--------------------------------
+	Internally driven async net: 0
+	      Tied active async net: 0
+	         Undriven async net: 0
+	            Misc. async net: 0
+
+   Total number of DFT violations: 2
+Clock Violation
+# 0: clock signal driven by a sequential element in module 'baud_rate', net 'baud_rate_br_trans_o', inst/pin 'BAUD_RATE_INSTANCE/baud_rate_br_trans_o_reg/q' (file: ../../design/rtl_v/emc_top.v, line 376) [CLOCK-06]
+  Effective fanin cone:
+    BAUD_RATE_INSTANCE/baud_rate_br_trans_o_reg/q 
+Clock Violation
+# 1: clock signal driven by a sequential element in module 'baud_rate', net 'baud_rate_cm_o', inst/pin 'BAUD_RATE_INSTANCE/baud_rate_cm_o_reg/q' (file: ../../design/rtl_v/emc_top.v, line 376) [CLOCK-06]
+  Effective fanin cone:
+    BAUD_RATE_INSTANCE/baud_rate_cm_o_reg/q 
+	Violation # 0 affects 11 registers
+	Violation # 1 affects 48 registers
+
+	Note - a register may be violating multiple DFT rules.
+Total number of Test Clock Domains: 2
+  DFT Test Clock Domain: domain_1
+	Test Clock 'clock_dft' (Positive edge) has 225 registers
+	Test Clock 'clock_dft' (Negative edge) has  54 registers
+  DFT Test Clock Domain: domain_2
+	Test Clock 'clock_mem_dft' (Positive edge) has 355 registers
+	Test Clock 'clock_mem_dft' (Negative edge) has  16 registers
+Number of user specified non-Scan registers:   1
+    Number of registers that fail DFT rules:  59
+    Number of registers that pass DFT rules: 650
+Percentage of total registers that are scannable: 91%

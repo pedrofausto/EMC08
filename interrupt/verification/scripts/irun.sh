@@ -1,0 +1,2 @@
+c
+irun -nbasync -gui -access +rwc -input "@source /home/student/EMC08/digital_A/interrupt/verification/scripts/restore.tcl" -snprerun "set check WARNING; test -seed=3; wave -event sys.env.agent_in.mon; set log logfiles/$1" /home/student/EMC08/digital_A/interrupt/verification/testbench/interrupt_tb.v /home/student/EMC08/digital_A/interrupt/design/rtl_v/interrupt.v -run -snload testbench/$1.e -coverage all -covtest $1 -covoverwrite &

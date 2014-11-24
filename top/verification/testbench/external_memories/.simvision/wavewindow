@@ -1,0 +1,692 @@
+# SimVision Wave Window (Tue Nov 23 10:57:53 AM BRT 2010)
+
+pattern .waveWindow0 ::WaveWindow v1.0 {
+  overall {
+    data geometry 1280x919+0+0
+    data windowname {Waveform 1}
+    data istarget 1
+    data sidebar {visibility partial}
+    data waveforms {
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.cycle_continue
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@23a
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen14 {} 16321 {
+pattern ::stylepen14 stylepen v1.0 {
+  overall {
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+}}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_alu_en_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@23b
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen14 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_alu_op1_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@23c
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {
+pattern ::stylepen15 stylepen v1.0 {
+  overall {
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+}}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_alu_op2_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@23d
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_alu_opcode_o[4:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@23e
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_alu_result_i[15:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@23f
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_bit_byte_flag_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@240
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen14 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_clock_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@241
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen14 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_ext_ram_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@242
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen14 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_int_na_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@243
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen14 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_int_rdy_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@244
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen14 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_int_vect_i[2:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@245
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_op1[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@246
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_op2[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@247
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_op_aux_1[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@248
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_op_aux_1_2[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@249
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_op_aux_2[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@24a
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_opcode[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@24b
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus} -stylemap ::stylemap1}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_pc_i[15:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@24c
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_pcau_direct_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@24d
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen14 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_pcau_en_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@24e
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen14 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_pcau_msb_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@24f
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_pcau_offset_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@250
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_psw_rs_i[1:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@251
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_ram_addr_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@252
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_ram_data_i[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@253
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_ram_data_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@254
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_ram_rd_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@255
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen14 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_ram_wr_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@256
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen14 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_reset_core_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@257
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen14 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_reset_i_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@258
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen14 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_rom_addr_o[15:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@259
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_rom_data_i[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@25a
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_rom_rd_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@25b
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen14 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_sfr_addr_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@25c
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_sfr_data_i[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@25d
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_sfr_data_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@25e
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_sfr_rd_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@25f
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen14 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_sfr_wr_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@260
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen14 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_state_o[2:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@261
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.lcall_hardware_flag
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@262
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen14 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.next_state[2:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@263
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.reg_ctrl.sfr[0:39]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@26c
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog array} -open 1}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_ext_ram_tb.external_ram.RAM_matrix[0:65535]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@2e9
+    data pid 16321
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog array} -open 1}
+    object stylepen ::stylepen15 {} 16321 {}
+  }
+}}
+    data searchentry {}
+    data searchlist {}
+    data cursorname TimeA
+    data baseline 48849890ps
+    data timeunits ps
+    data currentzoom {54084500ps : 56040960ps}
+    data zoomhistory {{50,758,450ps : 52,714,910ps} {48,019,350ps : 49,975,810ps} {59,171,400ps : 61,127,860ps} {52,519,300ps : 54,475,760ps} {51,149,750ps : 53,106,210ps} {50,954,100ps : 52,910,560ps} {50,758,450ps : 52,714,910ps} {50,562,800ps : 52,519,260ps} {50,367,150ps : 52,323,610ps} {49,388,900ps : 51,345,360ps}}
+    data displaysearchtoolbar 1
+    data labelmode name
+    data gridoptions {-state off -start 0 -delta 0}
+    data deltas {{-item baseline -value 48,849,890ps} {-item {cursor baseline} -value 6,806,290ps}}
+  }
+}

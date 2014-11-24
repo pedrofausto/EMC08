@@ -1,0 +1,2 @@
+
+irun -nbasync -gui -snload ./core_reg_control_test_case1_reset.e core_reg_ctrl.v core_reg_ctrl_tb.v -access r -timescale 1ns/10ps

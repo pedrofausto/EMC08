@@ -1,0 +1,332 @@
+# SimVision Wave Window (Wed Oct 06 08:53:08 AM BRT 2010)
+
+pattern .waveWindow0 ::WaveWindow v1.0 {
+  overall {
+    data geometry 1280x920+0+26
+    data windowname {Waveform 1}
+    data istarget 1
+    data sidebar {visibility partial}
+    data waveforms {
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::serial_rx_detector_tb.serial_rx_detector_tb.aux1_bit_det
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@a1
+    data pid 13882
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 13882 {
+pattern ::stylepen12 stylepen v1.0 {
+  overall {
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+}}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::serial_rx_detector_tb.serial_rx_detector_tb.aux2_bit_det
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@a4
+    data pid 13882
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 13882 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::serial_rx_detector_tb.serial_rx_detector_tb.aux2_tran_det
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@a5
+    data pid 13882
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 13882 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::serial_rx_detector_tb.serial_rx_detector_tb.aux3_bit_det
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@a6
+    data pid 13882
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 13882 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::serial_rx_detector_tb.serial_rx_detector_tb.aux_reset1
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@a7
+    data pid 13882
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 13882 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::serial_rx_detector_tb.serial_rx_detector_tb.aux_reset2
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@a8
+    data pid 13882
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 13882 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::serial_rx_detector_tb.serial_rx_detector_tb.aux_tran_det
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@a9
+    data pid 13882
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 13882 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::serial_rx_detector_tb.serial_rx_detector_tb.bit_det
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@aa
+    data pid 13882
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 13882 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::serial_rx_detector_tb.serial_rx_detector_tb.clear
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@ab
+    data pid 13882
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 13882 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::serial_rx_detector_tb.serial_rx_detector_tb.clear_br
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@ac
+    data pid 13882
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 13882 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::serial_rx_detector_tb.serial_rx_detector_tb.counter[3:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@ad
+    data pid 13882
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen13 {} 13882 {
+pattern ::stylepen13 stylepen v1.0 {
+  overall {
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+}}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::serial_rx_detector_tb.serial_rx_detector_tb.serial_br_trans_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@ae
+    data pid 13882
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 13882 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::serial_rx_detector_tb.serial_rx_detector_tb.serial_clear_count_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@af
+    data pid 13882
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 13882 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::serial_rx_detector_tb.serial_rx_detector_tb.serial_clock_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@b0
+    data pid 13882
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 13882 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::serial_rx_detector_tb.serial_rx_detector_tb.serial_reset_i_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@b1
+    data pid 13882
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 13882 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::serial_rx_detector_tb.serial_rx_detector_tb.serial_rxd_data_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@b2
+    data pid 13882
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 13882 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::serial_rx_detector_tb.serial_rx_detector_tb.serial_sample_detected_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@b3
+    data pid 13882
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 13882 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::serial_rx_detector_tb.serial_rx_detector_tb.serial_shift_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@b4
+    data pid 13882
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 13882 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::serial_rx_detector_tb.serial_rx_detector_tb.serial_transition_detected_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@b5
+    data pid 13882
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 13882 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::serial_rx_detector_tb.serial_rx_detector_tb.tran_det
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@b6
+    data pid 13882
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 13882 {}
+  }
+}}
+    data searchentry {}
+    data searchlist {}
+    data cursorname TimeA
+    data baseline 0
+    data timeunits ns
+    data currentzoom {0 : 19052ns}
+    data zoomhistory {{3052ns : 19,052ns} {11,052ns : 19,052ns} {15,052ns : 19,052ns} {17,052ns : 19,052ns} {0 : 2000ns} {0 : 14,052ns} {6052ns : 14,052ns} {10,052ns : 14,052ns} {12,052ns : 14,052ns} {0 : 2000ns}}
+    data displaysearchtoolbar 1
+    data labelmode name
+    data gridoptions {-state off -start 0 -delta 0}
+    data deltas {{-item baseline -value 0} {-item {cursor baseline} -value 19,052ns}}
+  }
+}

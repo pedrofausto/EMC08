@@ -1,0 +1,71 @@
+# SimVision Design (Wed Dec 15 12:28:32 PM BRT 2010)
+
+pattern design design v1.0 {
+  overall {
+    data databases {{/home/student/EMC08/digital_A/serial/design/rtl_v/waves.shm/waves.trn waves}}
+    data markers {
+pattern ::Markers ::Markers v1.0 {
+  overall {
+  }
+}}
+    data cursors {
+pattern ::Cursors ::Cursors v1.0 {
+  overall {
+  }
+  item {
+    data itemoptions {-label TimeA -time 261801ns}
+    data databasehandle @public@56
+    data databasename simulator
+    data markid cursor0
+    data position end
+  }
+}}
+    data groups {}
+    data conditions {}
+    data mnemonicmaps {
+pattern ::defBooleanAsLogic stylemap v1.0 {
+  overall {
+    data options {-name {Boolean as Logic} -radix %b}
+  }
+  item {
+    data pattern %c=FALSE
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority 1 -font {} -interpolation {} -label {} -linecolor {} -linedimcolor {} -linewidth {} -shape low -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+  item {
+    data pattern %c=TRUE
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority 1 -font {} -interpolation {} -label {} -linecolor {} -linedimcolor {} -linewidth {} -shape high -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+}
+pattern ::stylemap0 stylemap v1.0 {
+  overall {
+    data options {-name {Example Map} -radix %x}
+  }
+  item {
+    data pattern %b=11????
+    data options {-bgcolor orange -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label REG:%x -linecolor yellow -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+  item {
+    data pattern 1F
+    data options {-bgcolor red -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label ERROR -linecolor white -linedimcolor {} -linewidth {} -shape EVENT -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+  item {
+    data pattern 2C
+    data options {-bgcolor red -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label ERROR -linecolor white -linedimcolor {} -linewidth {} -shape EVENT -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+  item {
+    data pattern *
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label %x -linecolor gray -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+}}
+    data timeranges {
+pattern ::TimeRange ::TimeRange v1.0 {
+  overall {
+  }
+}}
+    data utilgeometry {}
+    data utilismapped 0
+    data utilselecttab {}
+    data consolegeometry 700x250+0+606
+    data consoleismapped 0
+  }
+}

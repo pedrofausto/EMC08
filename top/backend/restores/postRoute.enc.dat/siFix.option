@@ -1,0 +1,97 @@
+######################################################################
+##                                                                  ##
+## SOCE SI Flow Configuration File : Fri Dec 03 16:52:45 BRT 2010   ##
+##                                                                  ##
+######################################################################
+global rda_siFlow
+##------------------------------------------------------------------##
+## Parameter for 1.ToolSelect                                       ##
+##------------------------------------------------------------------##
+set rda_siFlow(maxNrCPU)               	{1}
+set rda_siFlow(runStandAloneQX)        	{0}
+set rda_siFlow(runStandAloneNanoRoute) 	{0}
+set rda_siFlow(numQXcpu)               	{1}
+
+##------------------------------------------------------------------##
+## Parameter for 2.Design                                           ##
+##------------------------------------------------------------------##
+set rda_siFlow(outputPath)             	{./timingReports/si_result_setup}
+set rda_siFlow(snapShot)               	{siFix}
+set rda_siFlow(runSpefOut)             	{0}
+
+##------------------------------------------------------------------##
+## Parameter for 3.Criteria                                         ##
+##------------------------------------------------------------------##
+set rda_siFlow(maxNrIter)              	{2}
+set rda_siFlow(acceptableNrVios)       	{0}
+set rda_siFlow(acceptableWNS)          	{same}
+
+##------------------------------------------------------------------##
+## Parameter for 5.CeltICAnalysis                                   ##
+##------------------------------------------------------------------##
+set rda_siFlow(usePrevCeltICRunDir)    	{}
+set rda_siFlow(usePrevSpefFile)        	{}
+set rda_siFlow(usePrevTwfFile)         	{}
+set rda_siFlow(noiseRunMode)           	{high}
+set rda_siFlow(noiseProcess)           	{90nm}
+set rda_siFlow(analyzeNoiseThreshold)  	{20}
+set rda_siFlow(rptPeakNoiseThreshold)  	{no}
+set rda_siFlow(rptDeltaDelayThreshold) 	{no}
+set rda_siFlow(rptDeltaSlewThreshold)  	{no}
+set rda_siFlow(noiseTwfMode)           	{}
+set rda_siFlow(cmdExtractSpef)         	{}
+set rda_siFlow(extractionEngine)       	{detail}
+set rda_siFlow(effortLevel)            	{default}
+
+##------------------------------------------------------------------##
+## Parameter for 6.SIFix                                            ##
+##------------------------------------------------------------------##
+set rda_siFlow(runFixNoiseDelay)       	{1}
+set rda_siFlow(runFixTranViolation)    	{0}
+set rda_siFlow(runFixGlitchViolation)  	{1}
+set rda_siFlow(runDownSizeAggressor)   	{0}
+
+######################################################################
+##                                                                  ##
+## SI Flow Run Time Result                                          ##
+##                                                                  ##
+######################################################################
+global rda_siResult
+set rda_siResult(CellName)             	{}
+set rda_siResult(CurrLoop)             	{0}
+set rda_siResult(ReportPath)           	{./timingReports/si_result_setup/Loop0}
+set rda_siResult(StartingLoop)         	{0}
+set rda_siResult(TNSorig)              	{0}
+set rda_siResult(TNSxtalk)             	{0}
+set rda_siResult(TimViolorig)          	{0}
+set rda_siResult(TimViolxtalk)         	{0}
+set rda_siResult(WNSorig)              	{ 0.002 }
+set rda_siResult(WNSorigByExtraPathGroup)	{{}}
+set rda_siResult(WNSorigByPathGroup)   	{{ 0.002 } {} {} {}}
+set rda_siResult(WNSxtalk)             	{0}
+set rda_siResult(WNSxtalkByExtraPathGroup)	{}
+set rda_siResult(WNSxtalkByPathGroup)  	{}
+set rda_siResult(cpu_celt)             	{0.0}
+set rda_siResult(cpu_celt_setup)       	{0}
+set rda_siResult(cpu_feipo)            	{0}
+set rda_siResult(cpu_rcxt)             	{0.0433333333333}
+set rda_siResult(cpu_route)            	{0}
+set rda_siResult(cpu_route_correction) 	{0}
+set rda_siResult(cpu_soce)             	{0.0808333333333}
+set rda_siResult(cpu_sta)              	{0}
+set rda_siResult(cpu_total)            	{0.0808333333333}
+set rda_siResult(nrDelayVio)           	{0}
+set rda_siResult(nrGlitchVio)          	{0}
+set rda_siResult(nrPeakVio)            	{0}
+set rda_siResult(nrSlewVio)            	{0}
+set rda_siResult(nrVio)                	{0}
+set rda_siResult(nrVio_ilm)            	{0}
+set rda_siResult(time_celt)            	{0.0}
+set rda_siResult(time_celt_setup)      	{0}
+set rda_siResult(time_feipo)           	{0}
+set rda_siResult(time_rcxt)            	{0.1}
+set rda_siResult(time_route)           	{0}
+set rda_siResult(time_soce)            	{0.0833333333333}
+set rda_siResult(time_sta)             	{0}
+
+set rdagSaveDesignAfterNR 0

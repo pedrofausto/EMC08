@@ -1,0 +1,14 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+emc08.v
+emc_pads.v
+../synthesis/structural_v/emc_top_netlist.v
+/ddk/XFABC018/cadence/xc018/verilog/D_CELLS.v
+/ddk/XFABC018/cadence/xc018/verilog/VLG_PRIMITIVES.v
+/ddk/XFABC018/cadence/xc018/verilog/IO_CELLS_3V.v
+../../../core/design/rtl_v/SPRAM128X8.v
+../../../core/design/rtl_v/ROM4096X8.v
+-timescale
+1ns/10ps

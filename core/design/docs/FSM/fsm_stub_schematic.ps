@@ -1,0 +1,343 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: nlviewTK
+%%For: student
+%%Title: root
+%%BoundingBox: 28 28 567 813
+%%CreationDate: 22 Sep 2010 16:20
+%%Pages: (atend)
+%%DocumentData: Clean7Bit
+%%DocumentNeededResources: font Helvetica
+%%EndComments
+
+%%BeginProlog
+50 dict begin
+/rectpath {
+    newpath 2 copy moveto
+    4 1 roll 1 index lineto
+    2 copy lineto
+    pop exch lineto
+    closepath
+} bind def
+/line {
+    newpath moveto lineto stroke
+} bind def
+/rect {
+    newpath rectpath stroke
+} bind def
+/filledrect {
+    newpath rectpath fill
+} bind def
+/dot {
+                                        % stack: offset x y
+    newpath moveto                      % stack: offset
+    dup dup rmoveto 2 mul               % stack: 2off
+    0 exch dup neg dup 0 exch 0 exch    % stack: 0 2off -2off 0 0 -2off
+    rlineto rlineto rlineto             % stack: 
+    closepath gsave fill grestore stroke
+} bind def
+/circle {
+    newpath 2 div 0 360 arc stroke
+} bind def
+/filledcircle {
+    newpath 2 div 0 360 arc fill
+} bind def
+/arcus {
+    newpath arc stroke
+} bind def
+/filledtriangle {
+    newpath moveto
+    lineto
+    lineto
+    closepath gsave fill grestore stroke
+} bind def
+/text {
+                                        % stack: x y rot just_x just_y (str)
+    gsave
+    6 4 roll moveto                     % stack: rot just_x just_y (str)
+    dup stringwidth pop /wid exch def   % string width --> wid
+    4 3 roll                            % stack: just_x just_y (str) rot
+    rotate
+    3 1 roll                            % stack: (str) just_x just_y
+    Fdescent exch
+    2 div Fdescent Fascent add mul sub  % desc - just_y/2 * (asc+desc)
+                                        % stack: (str) just_x ymove
+    exch
+    2 div wid mul neg                   % -just_x/2 * wid
+                                        % stack: (str) ymove xmove
+    exch rmoveto                        % stack: (str)
+    show                                % stack:
+    grestore
+} bind def
+/textsize {
+    currentdict /Ffac known not {
+        % Here we compute Ffac. Ffac is used below to resize the font
+        % in a way that the font's ascent+descent/2 fits the required
+        % text size. We compute Ffac only once, because the font F will
+        % never change.
+        %
+        dup dup F exch scalefont setfont % stack sz sz font
+        gsave
+        newpath 0 0 moveto (XTgq) false charpath
+        pathbbox                        % stack: sz sz l b r t
+        grestore
+        3 2 roll neg 2 div add          % fheight = ascent + descent/2
+        3 1 roll pop pop                % stack: sz sz fheight
+        div
+        /Ffac exch def                  % Ffac = sz/fheight
+    } if
+    Ffac mul F exch scalefont setfont
+    gsave
+    newpath
+    0 0 moveto (XTgq) false charpath pathbbox
+    /Fascent exch def			% top -> ascent
+    pop
+    /Fdescent exch neg 2 div def	% -bottom/2 -> descent
+    pop
+    grestore
+} bind def
+
+% Define the array ISOLatin1Encoding (which specifies how characters are
+% encoded for ISO-8859-1 fonts), if it isn't already present (Postscript
+% level 2 is supposed to define it, but level 1 doesn't).
+systemdict /ISOLatin1Encoding known not {
+    /ISOLatin1Encoding [
+	/space /space /space /space /space /space /space /space
+	/space /space /space /space /space /space /space /space
+	/space /space /space /space /space /space /space /space
+	/space /space /space /space /space /space /space /space
+	/space /exclam /quotedbl /numbersign /dollar /percent /ampersand
+	    /quoteright
+	/parenleft /parenright /asterisk /plus /comma /minus /period /slash
+	/zero /one /two /three /four /five /six /seven
+	/eight /nine /colon /semicolon /less /equal /greater /question
+	/at /A /B /C /D /E /F /G
+	/H /I /J /K /L /M /N /O
+	/P /Q /R /S /T /U /V /W
+	/X /Y /Z /bracketleft /backslash /bracketright /asciicircum
+	/underscore /quoteleft /a /b /c /d /e /f /g
+	/h /i /j /k /l /m /n /o
+	/p /q /r /s /t /u /v /w
+	/x /y /z /braceleft /bar /braceright /asciitilde /space
+	/space /space /space /space /space /space /space /space
+	/space /space /space /space /space /space /space /space
+	/dotlessi /grave /acute /circumflex /tilde /macron /breve /dotaccent
+	/dieresis /space /ring /cedilla /space /hungarumlaut /ogonek /caron
+	/space /exclamdown /cent /sterling /currency /yen /brokenbar /section
+	/dieresis /copyright /ordfeminine /guillemotleft /logicalnot /hyphen
+	    /registered /macron
+	/degree /plusminus /twosuperior /threesuperior /acute /mu /paragraph
+	    /periodcentered
+	/cedillar /onesuperior /ordmasculine /guillemotright /onequarter
+	    /onehalf /threequarters /questiondown
+	/Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla
+	/Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex
+	    /Idieresis
+	/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde /Odieresis
+	    /multiply
+	/Oslash /Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn
+	    /germandbls
+	/agrave /aacute /acircumflex /atilde /adieresis /aring /ae /ccedilla
+	/egrave /eacute /ecircumflex /edieresis /igrave /iacute /icircumflex
+	    /idieresis
+	/eth /ntilde /ograve /oacute /ocircumflex /otilde /odieresis /divide
+	/oslash /ugrave /uacute /ucircumflex /udieresis /yacute /thorn
+	    /ydieresis
+    ] def
+} if
+
+% font ISOEncode font
+% This procedure changes the encoding of a font from the default
+% Postscript encoding to ISOLatin1. The body of this procedure comes
+% from Section 5.6.1 of the Postscript book.
+/ISOEncode {
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding ISOLatin1Encoding def
+	currentdict
+    end
+    /Fname exch definefont
+} bind def
+%%EndProlog
+
+%%BeginSetup
+%%IncludeResource: font Helvetica
+<< /PageSize [595 841] /Policies << /PageSize 3 >> >> setpagedevice
+%%EndSetup
+
+%%Page: 1 1
+save
+90 rotate
+0 -841.89 translate
+27.7 814.19 814.1 274.39 rectpath
+gsave
+0.000 0.000 0.000 setrgbcolor
+fill
+grestore
+clip
+/F /Helvetica findfont ISOEncode def
+1 setlinecap 		% round caps
+1 setlinejoin		% round joins
+0.000 0.000 0.000 setrgbcolor
+288.8 772.09 newpath moveto
+540.2 772.09 lineto
+540.2 312.79 lineto
+288.8 312.79 lineto
+288.8 772.09 lineto
+fill
+0.5 setlinewidth
+0.000 0.996 0.000 setrgbcolor
+288.8 772.09 newpath moveto
+540.2 772.09 lineto
+540.2 312.79 lineto
+288.8 312.79 lineto
+288.8 772.09 lineto
+stroke
+0.996 0.996 0.996 setrgbcolor
+277.5 605.69 288.8 605.69 line
+9.4494 textsize
+286.9 606.69 0 2 0 (fsm_clock_i=) text
+277.5 586.79 288.8 586.79 line
+286.9 587.79 0 2 0 (reset=) text
+551.5 737.99 540.2 737.99 line
+542 738.99 0 0 0 (fsm_reset_core_o_b=) text
+551.5 530.09 540.2 530.09 line
+542 531.09 0 0 0 (fsm_bit_byte_flag_o=) text
+551.5 511.19 540.2 511.19 line
+542 512.19 0 0 0 (fsm_rom_rd_o_b=) text
+551.5 492.29 540.2 492.29 line
+542 493.29 0 0 0 (fsm_ram_rd_o_b=) text
+551.5 473.39 540.2 473.39 line
+542 474.39 0 0 0 (fsm_sfr_rd_o_b=) text
+551.5 454.49 540.2 454.49 line
+542 455.49 0 0 0 (fsm_ram_wr_o_b=) text
+551.5 435.59 540.2 435.59 line
+542 436.59 0 0 0 (fsm_sfr_wr_o_b=) text
+0.996 0.000 0.000 setrgbcolor
+551.5 416.69 540.2 416.69 line
+542 417.69 0 0 0 (fsm_alu_en_o=x) text
+0.996 0.996 0.996 setrgbcolor
+551.5 397.79 540.2 397.79 line
+542 398.79 0 0 0 (fsm_pcau_en_o=) text
+551.5 378.89 540.2 378.89 line
+542 379.89 0 0 0 (fsm_pcau_direct_o=) text
+551.5 359.99 540.2 359.99 line
+542 360.99 0 0 0 (fsm_int_na_o=) text
+551.5 341.09 540.2 341.09 line
+542 342.09 0 0 0 (fsm_int_rdy_o=) text
+551.5 322.19 540.2 322.19 line
+542 323.19 0 0 0 (fsm_ext_ram_o=) text
+1.5 setlinewidth
+277.5 624.59 288.8 624.59 line
+286.9 625.59 0 2 0 (alu_result_o[15:0]=) text
+551.5 756.89 540.2 756.89 line
+542 757.89 0 0 0 (fsm_sfr_addr_o[7:0]=) text
+551.5 719.09 540.2 719.09 line
+542 720.09 0 0 0 (fsm_rom_addr_o[15:0]=) text
+551.5 700.19 540.2 700.19 line
+542 701.19 0 0 0 (fsm_ram_addr_o[7:0]=) text
+551.5 681.29 540.2 681.29 line
+542 682.29 0 0 0 (fsm_alu_op1_o[7:0]=) text
+551.5 662.39 540.2 662.39 line
+542 663.39 0 0 0 (fsm_alu_op2_o[7:0]=) text
+551.5 643.49 540.2 643.49 line
+542 644.49 0 0 0 (fsm_alu_opcode_o[4:0]=) text
+277.5 567.89 288.8 567.89 line
+286.9 568.89 0 2 0 (fsm_sfr_data_i[7:0]=) text
+551.5 624.59 540.2 624.59 line
+542 625.59 0 0 0 (fsm_sfr_data_o[7:0]=) text
+277.5 548.99 288.8 548.99 line
+286.9 549.99 0 2 0 (fsm_ram_data_i[7:0]=) text
+551.5 605.69 540.2 605.69 line
+542 606.69 0 0 0 (fsm_ram_data_o[7:0]=) text
+277.5 530.09 288.8 530.09 line
+286.9 531.09 0 2 0 (fsm_rom_data_i[7:0]=) text
+277.5 511.19 288.8 511.19 line
+286.9 512.19 0 2 0 (fsm_psw_rs_i[1:0]=) text
+551.5 586.79 540.2 586.79 line
+542 587.79 0 0 0 (fsm_pcau_offset_o[7:0]=) text
+551.5 567.89 540.2 567.89 line
+542 568.89 0 0 0 (fsm_pcau_msb_o[7:0]=) text
+277.5 492.29 288.8 492.29 line
+286.9 493.29 0 2 0 (pcau_pc_o[15:0]=) text
+277.5 473.39 288.8 473.39 line
+286.9 474.39 0 2 0 (fsm_int_vect_i[2:0]=) text
+551.5 548.99 540.2 548.99 line
+542 549.99 0 0 0 (fsm_state_o[2:0]=) text
+0.5 setlinewidth
+0.000 0.996 0.000 setrgbcolor
+300.1 605.69 288.8 605.69 line
+290.7 606.69 0 0 0 (fsm_clock_i) text
+300.1 586.79 288.8 586.79 line
+290.7 587.79 0 0 0 (fsm_reset_i_b) text
+528.8 737.99 540.2 737.99 line
+538.3 738.99 0 2 0 (fsm_reset_core_o_b) text
+528.8 530.09 540.2 530.09 line
+538.3 531.09 0 2 0 (fsm_bit_byte_flag_o) text
+528.8 511.19 540.2 511.19 line
+538.3 512.19 0 2 0 (fsm_rom_rd_o_b) text
+528.8 492.29 540.2 492.29 line
+538.3 493.29 0 2 0 (fsm_ram_rd_o_b) text
+528.8 473.39 540.2 473.39 line
+538.3 474.39 0 2 0 (fsm_sfr_rd_o_b) text
+528.8 454.49 540.2 454.49 line
+538.3 455.49 0 2 0 (fsm_ram_wr_o_b) text
+528.8 435.59 540.2 435.59 line
+538.3 436.59 0 2 0 (fsm_sfr_wr_o_b) text
+528.8 416.69 540.2 416.69 line
+538.3 417.69 0 2 0 (fsm_alu_en_o) text
+528.8 397.79 540.2 397.79 line
+538.3 398.79 0 2 0 (fsm_pcau_en_o) text
+528.8 378.89 540.2 378.89 line
+538.3 379.89 0 2 0 (fsm_pcau_direct_o) text
+528.8 359.99 540.2 359.99 line
+538.3 360.99 0 2 0 (fsm_int_na_o) text
+528.8 341.09 540.2 341.09 line
+538.3 342.09 0 2 0 (fsm_int_rdy_o) text
+528.8 322.19 540.2 322.19 line
+538.3 323.19 0 2 0 (fsm_ext_ram_o) text
+1.5 setlinewidth
+300.1 624.59 288.8 624.59 line
+290.7 625.59 0 0 0 (fsm_alu_result_i[15:0]) text
+528.8 756.89 540.2 756.89 line
+538.3 757.89 0 2 0 (fsm_sfr_addr_o[7:0]) text
+528.8 719.09 540.2 719.09 line
+538.3 720.09 0 2 0 (fsm_rom_addr_o[15:0]) text
+528.8 700.19 540.2 700.19 line
+538.3 701.19 0 2 0 (fsm_ram_addr_o[7:0]) text
+528.8 681.29 540.2 681.29 line
+538.3 682.29 0 2 0 (fsm_alu_op1_o[7:0]) text
+528.8 662.39 540.2 662.39 line
+538.3 663.39 0 2 0 (fsm_alu_op2_o[7:0]) text
+528.8 643.49 540.2 643.49 line
+538.3 644.49 0 2 0 (fsm_alu_opcode_o[4:0]) text
+300.1 567.89 288.8 567.89 line
+290.7 568.89 0 0 0 (fsm_sfr_data_i[7:0]) text
+528.8 624.59 540.2 624.59 line
+538.3 625.59 0 2 0 (fsm_sfr_data_o[7:0]) text
+300.1 548.99 288.8 548.99 line
+290.7 549.99 0 0 0 (fsm_ram_data_i[7:0]) text
+528.8 605.69 540.2 605.69 line
+538.3 606.69 0 2 0 (fsm_ram_data_o[7:0]) text
+300.1 530.09 288.8 530.09 line
+290.7 531.09 0 0 0 (fsm_rom_data_i[7:0]) text
+300.1 511.19 288.8 511.19 line
+290.7 512.19 0 0 0 (fsm_psw_rs_i[1:0]) text
+528.8 586.79 540.2 586.79 line
+538.3 587.79 0 2 0 (fsm_pcau_offset_o[7:0]) text
+528.8 567.89 540.2 567.89 line
+538.3 568.89 0 2 0 (fsm_pcau_msb_o[7:0]) text
+300.1 492.29 288.8 492.29 line
+290.7 493.29 0 0 0 (fsm_pc_i[15:0]) text
+300.1 473.39 288.8 473.39 line
+290.7 474.39 0 0 0 (fsm_int_vect_i[2:0]) text
+528.8 548.99 540.2 548.99 line
+538.3 549.99 0 2 0 (fsm_state_o[2:0]) text
+11.3393 textsize
+414.5 773.99 0 1 0 (FSM) text
+414.5 310.89 0 1 2 (core_fsm) text
+restore
+showpage
+%%Trailer
+end
+%%Pages: 1
+%%EOF

@@ -1,0 +1,30 @@
+Encounter Mixed Signal flow Routing Checker Report
+Design: EMC08
+Date:  Mon Dec  6 15:17:58 2010
+ 
+Matched Pair Constraint Violations:   0
+
+
+Routed Net Violations:  0
+
+
+Differential Pair Constraint Violations:  0
+
+
+Shield Nets Constraint Violations: 0 
+
+DontCross Nets Constraint Violations: 0 
+
+Bus Violations: 0 
+
+
+Begin Summary...
+Dont Cross:   0
+Matched Pair:   0
+Routed Net::   0
+Differential Pair:   0
+Shield Nets:   0
+Bus:   0
+End Summary
+
+   Verification Complete: 0 Viols 

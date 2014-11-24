@@ -1,0 +1,668 @@
+# SimVision Command Script (Tue Nov 30 02:16:20 PM BRT 2010)
+#
+# Version 06.20.s002
+#
+# You can restore this configuration with:
+#
+#     irun -gui -access rwc -top core_fsm_tb core_fsm_tb.v core_fsm.v core_pcau.v core_alu.v -s -input /home/student/EMC08/digital_A/core/design/rtl_v/restore2.tcl
+#
+
+
+#
+# preferences
+#
+preferences set waveform-print-variables selected
+preferences set txe-locate-add-fibers 1
+preferences set signal-type-colors {assertion #FF0000 output #FFA500 group #0099FF inout #00FFFF input #FFFF00 fiber #FF99FF errorsignal #FF0000 unknown #FFFFFF overlay #0099FF internal #00FF00 reference #FFFFFF}
+preferences set waveform-print-time range
+preferences set toolbar-UserTB0-WaveWindow {
+  usual
+  add run
+  position -row 3 -pos 0
+  name {User Toolbar}
+}
+preferences set txe-navigate-search-locate 0
+preferences set txe-view-hold 0
+preferences set toolbar-SimControl-WaveWindow {
+  usual
+  position -anchor e
+}
+preferences set sb-editor-command kate
+preferences set verilog-colors {Su #ff0099 0 {} 1 {} HiZ #ff9900 We #00ffff Pu #9900ff Sm #00ff99 X #ff0000 StrX #ff0000 other #ffff00 Z #ff9900 Me #0000ff La #ff00ff St {}}
+preferences set save-state-on-startup 1
+preferences set restore-state-on-startup 1
+preferences set txe-navigate-waveform-locate 1
+preferences set txe-view-hidden 0
+preferences set waveform-print-paper {A4 (210mm x 297mm)}
+preferences set toolbar-UserTB3-WaveWindow {
+  usual
+  add action_specman_sendto_stripechart
+  add action_specman_sendto_databrowser
+  position -row 0 -pos 4 -anchor e
+  name {Send To Specman}
+}
+preferences set txe-search-show-linenumbers 1
+preferences set schematic-show-rtl 0
+preferences set console-output-limited 1
+preferences set toolbar-txe_waveform_toggle-WaveWindow {
+  usual
+  position -pos 1
+}
+preferences set toolbar-UserTB4-WaveWindow {
+  usual
+  add action_specman_sendto_stripechart
+  add action_specman_sendto_databrowser
+  position -row 0 -pos 4 -anchor e
+  name {Send To Specman}
+}
+preferences set toolbar-Windows-SrcBrowser {
+  usual
+  position -pos 1
+}
+preferences set print-company {CI Brasil - CT2}
+preferences set toolbar-txe_waveform_view-WaveWindow {
+  usual
+  shown 1
+  position -row 3
+}
+preferences set waveform-print-colors {As shown on screen}
+preferences set toolbar-Windows-WaveWindow {
+  usual
+  position -pos 2
+}
+preferences set txe-navigate-waveform-next-child 1
+preferences set print-designer {Pedro Fausto}
+preferences set vhdl-colors {H #00ffff L #00ffff 0 {} X #ff0000 - {} 1 {} U #9900ff Z #ff9900 W #ff0000}
+preferences set txe-locate-scroll-x 1
+preferences set txe-locate-scroll-y 1
+preferences set txe-locate-pop-waveform 1
+preferences set use-signal-type-colors 1
+
+#
+# Simulator
+#
+
+database require simulator -hints {
+	simulator "irun -gui -access rwc -top core_fsm_tb core_fsm_tb.v core_fsm.v core_pcau.v core_alu.v -s -input restore2.tcl"
+}
+
+#
+# groups
+#
+catch {group new -name ROM -overlay 0}
+catch {group new -name RAM -overlay 0}
+catch {group new -name SFR -overlay 0}
+catch {group new -name ALU -overlay 0}
+catch {group new -name PCAU -overlay 0}
+catch {group new -name INT -overlay 0}
+catch {group new -name {Group 1} -overlay 0}
+
+group using ROM
+group set -overlay 0
+group set -comment {}
+group set -parents {}
+group set -groups {}
+group clear 0 end
+
+group insert \
+    {core_fsm_tb.FSM.fsm_pc_i[15:0]} \
+    {core_fsm_tb.FSM.fsm_rom_data_i[7:0]} \
+    {core_fsm_tb.FSM.fsm_rom_addr_o[15:0]} \
+    core_fsm_tb.FSM.fsm_rom_rd_o_b
+
+group using RAM
+group set -overlay 0
+group set -comment {}
+group set -parents {}
+group set -groups {}
+group clear 0 end
+
+group insert \
+    {core_fsm_tb.FSM.fsm_ram_addr_o[7:0]} \
+    {core_fsm_tb.FSM.fsm_ram_data_o[7:0]} \
+    {core_fsm_tb.FSM.fsm_ram_data_i[7:0]} \
+    core_fsm_tb.FSM.fsm_ram_rd_o_b \
+    core_fsm_tb.FSM.fsm_ram_wr_o_b
+
+group using SFR
+group set -overlay 0
+group set -comment {}
+group set -parents {}
+group set -groups {}
+group clear 0 end
+
+group insert \
+    {core_fsm_tb.FSM.fsm_sfr_addr_o[7:0]} \
+    {core_fsm_tb.FSM.fsm_sfr_data_o[7:0]} \
+    {core_fsm_tb.FSM.fsm_sfr_data_i[7:0]} \
+    core_fsm_tb.FSM.fsm_sfr_rd_o_b \
+    core_fsm_tb.FSM.fsm_sfr_wr_o_b
+
+group using ALU
+group set -overlay 0
+group set -comment {}
+group set -parents {}
+group set -groups {}
+group clear 0 end
+
+group insert \
+    {core_fsm_tb.FSM.fsm_alu_opcode_o[4:0]} \
+    {core_fsm_tb.FSM.fsm_alu_op1_o[7:0]} \
+    {core_fsm_tb.FSM.fsm_alu_op2_o[7:0]} \
+    core_fsm_tb.ALU.alu_cy_o \
+    {core_fsm_tb.FSM.fsm_alu_result_i[15:0]} \
+    core_fsm_tb.ALU.alu_cy_i \
+    core_fsm_tb.fsm_alu_en_o
+
+group using PCAU
+group set -overlay 0
+group set -comment {}
+group set -parents {}
+group set -groups {}
+group clear 0 end
+
+group insert \
+    core_fsm_tb.FSM.fsm_pcau_en_o \
+    {core_fsm_tb.FSM.fsm_pcau_offset_o[7:0]}
+
+group using INT
+group set -overlay 0
+group set -comment {}
+group set -parents {}
+group set -groups {}
+group clear 0 end
+
+group insert \
+    {core_fsm_tb.FSM.fsm_int_vect_i[2:0]} \
+    core_fsm_tb.FSM.fsm_int_rdy_o \
+    core_fsm_tb.FSM.fsm_int_na_o
+
+group using {Group 1}
+group set -overlay 0
+group set -comment {}
+group set -parents {}
+group set -groups {}
+group clear 0 end
+
+group insert \
+    {core_fsm_tb.FSM.fsm_op_aux_1[7:0]}
+
+#
+# cursors
+#
+set time 432840ps
+if {[catch {cursor new -name  TimeA -time $time}] != ""} {
+    cursor set -using TimeA -time $time
+}
+set time 712460ps
+if {[catch {cursor new -name  TimeB -time $time}] != ""} {
+    cursor set -using TimeB -time $time
+}
+
+#
+# mmaps
+#
+mmap new -reuse -name {Boolean as Logic} -contents {
+{%c=FALSE -edgepriority 1 -shape low}
+{%c=TRUE -edgepriority 1 -shape high}
+}
+mmap new -reuse -name {Example Map} -contents {
+{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}
+}
+mmap new -reuse -name rd_wr_o_b -contents {
+{%x=1 -label OFF}
+{%x=0 -bgcolor white -font -*-courier-medium-r-normal--12-* -label ON -shape bus -textcolor #000000}
+}
+mmap new -reuse -name {fsm states} -contents {
+{%x=0 -bgcolor #ff0000 -font -*-courier-medium-r-normal--12-* -label DC1 -shape bus}
+{%x=1 -bgcolor #ff9900 -font -*-courier-medium-r-normal--12-* -label DC2 -shape bus}
+{%x=3 -bgcolor #ffff00 -font -*-courier-medium-r-normal--12-* -label EXE -shape bus -textcolor #000000}
+{%x=2 -bgcolor #00ffff -font -*-courier-medium-r-normal--12-* -label WBK -shape bus -textcolor #000000}
+{%x=4 -bgcolor #9900ff -font -*-courier-medium-r-normal--12-* -label RST -shape bus}
+}
+mmap new -reuse -name opcode -contents {
+{%x=00 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label NOP -shape bus -textcolor #000000}
+{%x=01 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label AJMP_1 -shape bus -textcolor #000000}
+{%x=02 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label LJMP -shape bus -textcolor #000000}
+{%x=03 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label RR_A -shape bus -textcolor #000000}
+{%x=04 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label INC_A -shape bus -textcolor #000000}
+{%x=05 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label INC_D -shape bus -textcolor #000000}
+{%x=06 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label INC_ATR0 -shape bus -textcolor #000000}
+{%x=07 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label INC_ATR1 -shape bus -textcolor #000000}
+{%x=08 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label INC_R0 -shape bus -textcolor #000000}
+{%x=09 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label INC_R1 -shape bus -textcolor #000000}
+{%x=0A -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label INC_R2 -shape bus -textcolor #000000}
+{%x=0B -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label INC_R3 -shape bus -textcolor #000000}
+{%x=0C -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label INC_R4 -shape bus -textcolor #000000}
+{%x=0D -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label INC_R5 -shape bus -textcolor #000000}
+{%x=0E -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label INC_R6 -shape bus -textcolor #000000}
+{%x=0F -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label INC_R7 -shape bus -textcolor #000000}
+{%x=10 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label JBC -shape bus -textcolor #000000}
+{%x=11 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ACALL_1 -shape bus -textcolor #000000}
+{%x=12 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label LCALL -shape bus -textcolor #000000}
+{%x=13 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label RRC_A -shape bus -textcolor #000000}
+{%x=14 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DEC_A -shape bus -textcolor #000000}
+{%x=15 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DEC_D -shape bus -textcolor #000000}
+{%x=16 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DEC_ATR0 -shape bus -textcolor #000000}
+{%x=17 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DEC_ATR1 -shape bus -textcolor #000000}
+{%x=18 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DEC_R0 -shape bus -textcolor #000000}
+{%x=19 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DEC_R1 -shape bus -textcolor #000000}
+{%x=1A -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DEC_R2 -shape bus -textcolor #000000}
+{%x=1B -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DEC_R3 -shape bus -textcolor #000000}
+{%x=1C -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DEC_R4 -shape bus -textcolor #000000}
+{%x=1D -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DEC_R5 -shape bus -textcolor #000000}
+{%x=1E -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DEC_R6 -shape bus -textcolor #000000}
+{%x=1F -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DEC_R7 -shape bus -textcolor #000000}
+{%x=20 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label JB -shape bus -textcolor #000000}
+{%x=21 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label AJMP_2 -shape bus -textcolor #000000}
+{%x=22 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label RET -shape bus -textcolor #000000}
+{%x=23 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label RL_A -shape bus -textcolor #000000}
+{%x=24 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADD_A_DATA -shape bus -textcolor #000000}
+{%x=25 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADD_A_D -shape bus -textcolor #000000}
+{%x=26 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADD_A_ATR0 -shape bus -textcolor #000000}
+{%x=27 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADD_A_ATR1 -shape bus -textcolor #000000}
+{%x=28 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADD_A_R0 -shape bus -textcolor #000000}
+{%x=29 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADD_A_R1 -shape bus -textcolor #000000}
+{%x=2A -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADD_A_R2 -shape bus -textcolor #000000}
+{%x=2B -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADD_A_R3 -shape bus -textcolor #000000}
+{%x=2C -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADD_A_R4 -shape bus -textcolor #000000}
+{%x=2D -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADD_A_R5 -shape bus -textcolor #000000}
+{%x=2E -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADD_A_R6 -shape bus -textcolor #000000}
+{%x=2F -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADD_A_R7 -shape bus -textcolor #000000}
+{%x=30 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label JNB -shape bus -textcolor #000000}
+{%x=31 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ACALL_2 -shape bus -textcolor #000000}
+{%x=32 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label RETI -shape bus -textcolor #000000}
+{%x=33 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label RLC_A -shape bus -textcolor #000000}
+{%x=34 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADDC_A_DATA -shape bus -textcolor #000000}
+{%x=35 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADDC_A_D -shape bus -textcolor #000000}
+{%x=36 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADDC_A_ATR0 -shape bus -textcolor #000000}
+{%x=37 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADDC_A_ATR1 -shape bus -textcolor #000000}
+{%x=38 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADDC_A_R0 -shape bus -textcolor #000000}
+{%x=39 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADDC_A_R1 -shape bus -textcolor #000000}
+{%x=3A -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADDC_A_R2 -shape bus -textcolor #000000}
+{%x=3B -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADDC_A_R3 -shape bus -textcolor #000000}
+{%x=3C -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADDC_A_R4 -shape bus -textcolor #000000}
+{%x=3D -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADDC_A_R5 -shape bus -textcolor #000000}
+{%x=3E -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADDC_A_R6 -shape bus -textcolor #000000}
+{%x=3F -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ADDC_A_R7 -shape bus -textcolor #000000}
+{%x=40 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label JC -shape bus -textcolor #000000}
+{%x=41 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label AJMP_3 -shape bus -textcolor #000000}
+{%x=42 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ORL_D_A -shape bus -textcolor #000000}
+{%x=43 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ORL_D_DATA -shape bus -textcolor #000000}
+{%x=44 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ORL_A_DATA -shape bus -textcolor #000000}
+{%x=45 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ORL_A_D -shape bus -textcolor #000000}
+{%x=46 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ORL_A_ATR0 -shape bus -textcolor #000000}
+{%x=47 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ORL_A_ATR1 -shape bus -textcolor #000000}
+{%x=48 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ORL_A_R0 -shape bus -textcolor #000000}
+{%x=49 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ORL_A_R1 -shape bus -textcolor #000000}
+{%x=4A -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ORL_A_R2 -shape bus -textcolor #000000}
+{%x=4B -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ORL_A_R3 -shape bus -textcolor #000000}
+{%x=4C -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ORL_A_R4 -shape bus -textcolor #000000}
+{%x=4D -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ORL_A_R5 -shape bus -textcolor #000000}
+{%x=4E -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ORL_A_R6 -shape bus -textcolor #000000}
+{%x=4F -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ORL_A_R7 -shape bus -textcolor #000000}
+{%x=50 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label JNC -shape bus -textcolor #000000}
+{%x=51 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ACALL_3 -shape bus -textcolor #000000}
+{%x=52 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ANL_D_A -shape bus -textcolor #000000}
+{%x=53 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ANL_D_DATA -shape bus -textcolor #000000}
+{%x=54 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ANL_A_DATA -shape bus -textcolor #000000}
+{%x=55 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ANL_A_D -shape bus -textcolor #000000}
+{%x=56 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ANL_A_ATR0 -shape bus -textcolor #000000}
+{%x=57 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ANL_A_ATR1 -shape bus -textcolor #000000}
+{%x=58 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ANL_A_R0 -shape bus -textcolor #000000}
+{%x=59 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ANL_A_R1 -shape bus -textcolor #000000}
+{%x=5A -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ANL_A_R2 -shape bus -textcolor #000000}
+{%x=5B -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ANL_A_R3 -shape bus -textcolor #000000}
+{%x=5C -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ANL_A_R4 -shape bus -textcolor #000000}
+{%x=5D -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ANL_A_R5 -shape bus -textcolor #000000}
+{%x=5E -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ANL_A_R6 -shape bus -textcolor #000000}
+{%x=5F -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ANL_A_R7 -shape bus -textcolor #000000}
+{%x=60 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label JZ -shape bus -textcolor #000000}
+{%x=61 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label AJMP_4 -shape bus -textcolor #000000}
+{%x=62 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XRL_D_A -shape bus -textcolor #000000}
+{%x=63 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XRL_D_DATA -shape bus -textcolor #000000}
+{%x=64 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XRL_A_DATA -shape bus -textcolor #000000}
+{%x=65 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XRL_A_D -shape bus -textcolor #000000}
+{%x=66 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XRL_A_ATR0 -shape bus -textcolor #000000}
+{%x=67 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XRL_A_ATR1 -shape bus -textcolor #000000}
+{%x=68 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XRL_A_R0 -shape bus -textcolor #000000}
+{%x=69 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XRL_A_R1 -shape bus -textcolor #000000}
+{%x=6A -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XRL_A_R2 -shape bus -textcolor #000000}
+{%x=6B -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XRL_A_R3 -shape bus -textcolor #000000}
+{%x=6C -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XRL_A_R4 -shape bus -textcolor #000000}
+{%x=6D -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XRL_A_R5 -shape bus -textcolor #000000}
+{%x=6E -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XRL_A_R6 -shape bus -textcolor #000000}
+{%x=6F -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XRL_A_R7 -shape bus -textcolor #000000}
+{%x=70 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label JNZ -shape bus -textcolor #000000}
+{%x=71 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ACALL_4 -shape bus -textcolor #000000}
+{%x=72 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ORL_C_BIT -shape bus -textcolor #000000}
+{%x=73 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label JMP_A_DPTR -shape bus -textcolor #000000}
+{%x=74 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_A_DATA -shape bus -textcolor #000000}
+{%x=75 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_D_DATA -shape bus -textcolor #000000}
+{%x=76 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_ATR0_DATA -shape bus -textcolor #000000}
+{%x=77 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_ATR1_DATA -shape bus -textcolor #000000}
+{%x=78 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R0_DATA -shape bus -textcolor #000000}
+{%x=79 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R1_DATA -shape bus -textcolor #000000}
+{%x=7A -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R2_DATA -shape bus -textcolor #000000}
+{%x=7B -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R3_DATA -shape bus -textcolor #000000}
+{%x=7C -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R4_DATA -shape bus -textcolor #000000}
+{%x=7D -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R5_DATA -shape bus -textcolor #000000}
+{%x=7E -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R6_DATA -shape bus -textcolor #000000}
+{%x=7F -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R7_DATA -shape bus -textcolor #000000}
+{%x=80 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label SJMP -shape bus -textcolor #000000}
+{%x=81 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label AJMP_5 -shape bus -textcolor #000000}
+{%x=82 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ANL_C_BIT -shape bus -textcolor #000000}
+{%x=83 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOVC_A_ATPC -shape bus -textcolor #000000}
+{%x=84 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DIV_AB -shape bus -textcolor #000000}
+{%x=85 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_D_D -shape bus -textcolor #000000}
+{%x=86 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_D_ATR0 -shape bus -textcolor #000000}
+{%x=87 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_D_ATR1 -shape bus -textcolor #000000}
+{%x=88 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_D_R0 -shape bus -textcolor #000000}
+{%x=89 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_D_R1 -shape bus -textcolor #000000}
+{%x=8A -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_D_R2 -shape bus -textcolor #000000}
+{%x=8B -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_D_R3 -shape bus -textcolor #000000}
+{%x=8C -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_D_R4 -shape bus -textcolor #000000}
+{%x=8D -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_D_R5 -shape bus -textcolor #000000}
+{%x=8E -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_D_R6 -shape bus -textcolor #000000}
+{%x=8F -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_D_R7 -shape bus -textcolor #000000}
+{%x=90 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_DPTR_DATA -shape bus -textcolor #000000}
+{%x=91 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ACALL_5 -shape bus -textcolor #000000}
+{%x=92 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_BIT_C -shape bus -textcolor #000000}
+{%x=93 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOVC_A_ATDPTR -shape bus -textcolor #000000}
+{%x=94 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label SUBB_A_DATA -shape bus -textcolor #000000}
+{%x=95 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label SUBB_A_D -shape bus -textcolor #000000}
+{%x=96 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label SUBB_A_ATR0 -shape bus -textcolor #000000}
+{%x=97 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label SUBB_A_ATR1 -shape bus -textcolor #000000}
+{%x=98 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label SUBB_A_R0 -shape bus -textcolor #000000}
+{%x=99 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label SUBB_A_R1 -shape bus -textcolor #000000}
+{%x=9A -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label SUBB_A_R2 -shape bus -textcolor #000000}
+{%x=9B -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label SUBB_A_R3 -shape bus -textcolor #000000}
+{%x=9C -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label SUBB_A_R4 -shape bus -textcolor #000000}
+{%x=9D -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label SUBB_A_R5 -shape bus -textcolor #000000}
+{%x=9E -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label SUBB_A_R6 -shape bus -textcolor #000000}
+{%x=9F -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label SUBB_A_R7 -shape bus -textcolor #000000}
+{%x=A0 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ORL_C_NBIT -shape bus -textcolor #000000}
+{%x=A1 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label AJMP_6 -shape bus -textcolor #000000}
+{%x=A2 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_C_BIT -shape bus -textcolor #000000}
+{%x=A3 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label INC_DPTR -shape bus -textcolor #000000}
+{%x=A4 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MUL_AB -shape bus -textcolor #000000}
+{%x=A6 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_ATR0_D -shape bus -textcolor #000000}
+{%x=A7 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_ATR1_D -shape bus -textcolor #000000}
+{%x=A8 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R0_D -shape bus -textcolor #000000}
+{%x=A9 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R1_D -shape bus -textcolor #000000}
+{%x=AA -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R2_D -shape bus -textcolor #000000}
+{%x=AB -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R3_D -shape bus -textcolor #000000}
+{%x=AC -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R4_D -shape bus -textcolor #000000}
+{%x=AD -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R5_D -shape bus -textcolor #000000}
+{%x=AE -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R6_D -shape bus -textcolor #000000}
+{%x=AF -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R7_D -shape bus -textcolor #000000}
+{%x=B0 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ANL_C_NBIT -shape bus -textcolor #000000}
+{%x=B1 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ACALL_6 -shape bus -textcolor #000000}
+{%x=B2 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label CPL_BIT -shape bus -textcolor #000000}
+{%x=B3 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label CPL_C -shape bus -textcolor #000000}
+{%x=B4 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label CJNE_A_DATA -shape bus -textcolor #000000}
+{%x=B5 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label CJNE_A_D -shape bus -textcolor #000000}
+{%x=B6 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label CJNE_ATR0_DATA -shape bus -textcolor #000000}
+{%x=B7 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label CJNE_ATR1_DATA -shape bus -textcolor #000000}
+{%x=B8 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label CJNE_R0_DATA -shape bus -textcolor #000000}
+{%x=B9 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label CJNE_R1_DATA -shape bus -textcolor #000000}
+{%x=BA -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label CJNE_R2_DATA -shape bus -textcolor #000000}
+{%x=BB -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label CJNE_R3_DATA -shape bus -textcolor #000000}
+{%x=BC -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label CJNE_R4_DATA -shape bus -textcolor #000000}
+{%x=BD -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label CJNE_R5_DATA -shape bus -textcolor #000000}
+{%x=BE -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label CJNE_R6_DATA -shape bus -textcolor #000000}
+{%x=BF -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label CJNE_R7_DATA -shape bus -textcolor #000000}
+{%x=C0 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label PUSH -shape bus -textcolor #000000}
+{%x=C1 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label AJMP_7 -shape bus -textcolor #000000}
+{%x=C2 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label CLR_BIT -shape bus -textcolor #000000}
+{%x=C3 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label CLR_C -shape bus -textcolor #000000}
+{%x=C4 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label SWAP_A -shape bus -textcolor #000000}
+{%x=C5 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XCH_A_D -shape bus -textcolor #000000}
+{%x=C6 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XCH_A_ATR0 -shape bus -textcolor #000000}
+{%x=C7 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XCH_A_ATR1 -shape bus -textcolor #000000}
+{%x=C8 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XCH_A_R0 -shape bus -textcolor #000000}
+{%x=C9 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XCH_A_R1 -shape bus -textcolor #000000}
+{%x=CA -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XCH_A_R2 -shape bus -textcolor #000000}
+{%x=CB -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XCH_A_R3 -shape bus -textcolor #000000}
+{%x=CC -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XCH_A_R4 -shape bus -textcolor #000000}
+{%x=CD -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XCH_A_R5 -shape bus -textcolor #000000}
+{%x=CE -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XCH_A_R6 -shape bus -textcolor #000000}
+{%x=CF -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XCH_A_R7 -shape bus -textcolor #000000}
+{%x=D0 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label POP -shape bus -textcolor #000000}
+{%x=D1 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ACALL_7 -shape bus -textcolor #000000}
+{%x=D2 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label SETB_BIT -shape bus -textcolor #000000}
+{%x=D3 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label SETB_C -shape bus -textcolor #000000}
+{%x=D4 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DA_A -shape bus -textcolor #000000}
+{%x=D5 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DJNZ_D -shape bus -textcolor #000000}
+{%x=D6 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XCHD_A_ATR0 -shape bus -textcolor #000000}
+{%x=D7 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label XCHD_A_ATR1 -shape bus -textcolor #000000}
+{%x=D8 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DJNZ_R0 -shape bus -textcolor #000000}
+{%x=D9 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DJNZ_R1 -shape bus -textcolor #000000}
+{%x=DA -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DJNZ_R2 -shape bus -textcolor #000000}
+{%x=DB -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DJNZ_R3 -shape bus -textcolor #000000}
+{%x=DC -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DJNZ_R4 -shape bus -textcolor #000000}
+{%x=DD -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DJNZ_R5 -shape bus -textcolor #000000}
+{%x=DE -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DJNZ_R6 -shape bus -textcolor #000000}
+{%x=DF -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label DJNZ_R7 -shape bus -textcolor #000000}
+{%x=E0 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOVX_A_ATDPTR -shape bus -textcolor #000000}
+{%x=E1 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label AJMP_8 -shape bus -textcolor #000000}
+{%x=E2 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOVX_A_ATR0 -shape bus -textcolor #000000}
+{%x=E3 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOVX_A_ATR1 -shape bus -textcolor #000000}
+{%x=E4 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label CLR_A -shape bus -textcolor #000000}
+{%x=E5 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_A_D -shape bus -textcolor #000000}
+{%x=E6 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_A_ATR0 -shape bus -textcolor #000000}
+{%x=E7 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_A_ATR1 -shape bus -textcolor #000000}
+{%x=E8 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_A_R0 -shape bus -textcolor #000000}
+{%x=E9 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_A_R1 -shape bus -textcolor #000000}
+{%x=EA -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_A_R2 -shape bus -textcolor #000000}
+{%x=EB -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_A_R3 -shape bus -textcolor #000000}
+{%x=EC -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_A_R4 -shape bus -textcolor #000000}
+{%x=ED -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_A_R5 -shape bus -textcolor #000000}
+{%x=EE -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_A_R6 -shape bus -textcolor #000000}
+{%x=EF -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_A_R7 -shape bus -textcolor #000000}
+{%x=F0 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOVX_ATDPTR_A -shape bus -textcolor #000000}
+{%x=F1 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label ACALL_8 -shape bus -textcolor #000000}
+{%x=F2 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOVX_ATR0_A -shape bus -textcolor #000000}
+{%x=F3 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOVX_ATR1_A -shape bus -textcolor #000000}
+{%x=F4 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label CPL_A -shape bus -textcolor #000000}
+{%x=F5 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_D_A -shape bus -textcolor #000000}
+{%x=F6 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_ATR0_A -shape bus -textcolor #000000}
+{%x=F7 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_ATR1_A -shape bus -textcolor #000000}
+{%x=F8 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R0_A -shape bus -textcolor #000000}
+{%x=F9 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R1_A -shape bus -textcolor #000000}
+{%x=FA -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R2_A -shape bus -textcolor #000000}
+{%x=FB -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R3_A -shape bus -textcolor #000000}
+{%x=FC -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R4_A -shape bus -textcolor #000000}
+{%x=FD -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R5_A -shape bus -textcolor #000000}
+{%x=FE -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R6_A -shape bus -textcolor #000000}
+{%x=FF -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label MOV_R7_A -shape bus -textcolor #000000}
+}
+mmap new -reuse -name flags -contents {
+{%b=0 -label DIS}
+{%b=1 -bgcolor white -font -*-courier-medium-r-normal--12-* -label EN -shape bus -textcolor #000000}
+}
+mmap new -reuse -name {New map} -contents {
+{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}
+}
+
+#
+# Design Browser windows
+#
+if {[catch {window new WatchList -name "Design Browser 1" -geometry 700x500+0+22}] != ""} {
+    window geometry "Design Browser 1" 700x500+0+22
+}
+window target "Design Browser 1" on
+browser using {Design Browser 1}
+browser set \
+    -scope simulator::core_fsm_tb \
+    -showinternals 0
+browser yview see simulator::core_fsm_tb
+browser timecontrol set -lock 0
+
+#
+# Waveform windows
+#
+if {[catch {window new WaveWindow -name "Waveform 2" -geometry 1274x915+0+0}] != ""} {
+    window geometry "Waveform 2" 1274x915+0+0
+}
+window target "Waveform 2" on
+waveform using {Waveform 2}
+waveform sidebar visibility partial
+waveform set \
+    -primarycursor TimeA \
+    -signalnames name \
+    -signalwidth 175 \
+    -units ps \
+    -valuewidth 183
+cursor set -using TimeA -time 432,840ps
+waveform baseline set -time 365,800ps
+
+set id [waveform add -signals [list simulator::core_fsm_tb.FSM.fsm_reset_i_b \
+	simulator::core_fsm_tb.PCAU.pcau_clock_mem_i \
+	simulator::core_fsm_tb.FSM.fsm_clock_i ]]
+set id [waveform add -signals [list {simulator::core_fsm_tb.FSM.fsm_state_o[2:0]} ]]
+waveform format $id -radix {fsm states} -color #000000
+set id [waveform add -signals [list {simulator::core_fsm_tb.FSM.fsm_opcode[7:0]} ]]
+waveform format $id -radix opcode -color #000000
+set id [waveform add -signals [list simulator::core_fsm_tb.FSM.cycle_continue ]]
+waveform format $id -radix flags -color #000000
+set id [waveform add -signals [list {simulator::core_fsm_tb.FSM.fsm_psw_rs_i[1:0]} \
+	{simulator::core_fsm_tb.FSM.fsm_op1[7:0]} \
+	{simulator::core_fsm_tb.FSM.fsm_op2[7:0]} \
+	{simulator::core_fsm_tb.FSM.fsm_op_aux_1[7:0]} \
+	{simulator::core_fsm_tb.FSM.fsm_op_aux_2[7:0]} ]]
+set groupId [waveform add -groups ROM]
+set glist [waveform hierarchy contents $groupId]
+set id [lindex $glist 0]
+foreach {name attrs} {
+    {simulator::core_fsm_tb.FSM.fsm_pc_i[15:0]} {-color #00ffff -namecolor #00ffff}
+    {simulator::core_fsm_tb.FSM.fsm_rom_data_i[7:0]} {-color #00ffff -namecolor #00ffff}
+    {simulator::core_fsm_tb.FSM.fsm_rom_addr_o[15:0]} {-color #00ffff -namecolor #00ffff}
+    simulator::core_fsm_tb.FSM.fsm_rom_rd_o_b {-radix rd_wr_o_b -color #00ffff -namecolor #00ffff}
+} {
+    set expected [ join [waveform signals -format fullpath $id] ]
+    if {[string equal $name $expected]} {
+        if {$attrs != ""} {
+            eval waveform format $id $attrs
+        }
+    }
+        set glist [lrange $glist 1 end]
+        set id [lindex $glist 0]
+}
+
+set groupId [waveform add -groups RAM]
+set glist [waveform hierarchy contents $groupId]
+set id [lindex $glist 0]
+foreach {name attrs} {
+    {simulator::core_fsm_tb.FSM.fsm_ram_addr_o[7:0]} {-color #00ff99 -namecolor #00ff99}
+    {simulator::core_fsm_tb.FSM.fsm_ram_data_o[7:0]} {-color #00ff99 -namecolor #00ff99}
+    {simulator::core_fsm_tb.FSM.fsm_ram_data_i[7:0]} {-color #00ff99 -namecolor #00ff99}
+    simulator::core_fsm_tb.FSM.fsm_ram_rd_o_b {-radix rd_wr_o_b -color #00ff99 -namecolor #00ff99}
+    simulator::core_fsm_tb.FSM.fsm_ram_wr_o_b {-radix rd_wr_o_b -color #00ff99 -namecolor #00ff99}
+} {
+    set expected [ join [waveform signals -format fullpath $id] ]
+    if {[string equal $name $expected]} {
+        if {$attrs != ""} {
+            eval waveform format $id $attrs
+        }
+    }
+        set glist [lrange $glist 1 end]
+        set id [lindex $glist 0]
+}
+waveform hierarchy collapse $groupId
+
+set groupId [waveform add -groups SFR]
+set glist [waveform hierarchy contents $groupId]
+set id [lindex $glist 0]
+foreach {name attrs} {
+    {simulator::core_fsm_tb.FSM.fsm_sfr_addr_o[7:0]} {-color #ffff00 -namecolor #ffff00}
+    {simulator::core_fsm_tb.FSM.fsm_sfr_data_o[7:0]} {-radix %x -color #ffff00 -namecolor #ffff00}
+    {simulator::core_fsm_tb.FSM.fsm_sfr_data_i[7:0]} {-radix %x -color #ffff00 -namecolor #ffff00}
+    simulator::core_fsm_tb.FSM.fsm_sfr_rd_o_b {-radix rd_wr_o_b -color #ffff00 -namecolor #ffff00}
+    simulator::core_fsm_tb.FSM.fsm_sfr_wr_o_b {-radix rd_wr_o_b -color #ffff00 -namecolor #ffff00}
+} {
+    set expected [ join [waveform signals -format fullpath $id] ]
+    if {[string equal $name $expected]} {
+        if {$attrs != ""} {
+            eval waveform format $id $attrs
+        }
+    }
+        set glist [lrange $glist 1 end]
+        set id [lindex $glist 0]
+}
+
+set groupId [waveform add -groups ALU]
+set glist [waveform hierarchy contents $groupId]
+set id [lindex $glist 0]
+foreach {name attrs} {
+    {simulator::core_fsm_tb.FSM.fsm_alu_opcode_o[4:0]} {-radix %d -color #ffffff -namecolor #ffffff}
+    {simulator::core_fsm_tb.FSM.fsm_alu_op1_o[7:0]} {-color #ffffff -namecolor #ffffff}
+    {simulator::core_fsm_tb.FSM.fsm_alu_op2_o[7:0]} {-color #ffffff -namecolor #ffffff}
+    simulator::core_fsm_tb.ALU.alu_cy_o {-color #ffffff -namecolor #ffffff}
+    {simulator::core_fsm_tb.FSM.fsm_alu_result_i[15:0]} {-color #ffffff -namecolor #ffffff}
+    simulator::core_fsm_tb.ALU.alu_cy_i {-color #ffffff -namecolor #ffffff}
+    simulator::core_fsm_tb.fsm_alu_en_o {-radix flags -color #ffffff -namecolor #ffffff}
+} {
+    set expected [ join [waveform signals -format fullpath $id] ]
+    if {[string equal $name $expected]} {
+        if {$attrs != ""} {
+            eval waveform format $id $attrs
+        }
+    }
+        set glist [lrange $glist 1 end]
+        set id [lindex $glist 0]
+}
+
+set groupId [waveform add -groups PCAU]
+set glist [waveform hierarchy contents $groupId]
+set id [lindex $glist 0]
+foreach {name attrs} {
+    simulator::core_fsm_tb.FSM.fsm_pcau_en_o {-color #ff9900}
+    {simulator::core_fsm_tb.FSM.fsm_pcau_offset_o[7:0]} {-color #ff9900}
+} {
+    set expected [ join [waveform signals -format fullpath $id] ]
+    if {[string equal $name $expected]} {
+        if {$attrs != ""} {
+            eval waveform format $id $attrs
+        }
+    }
+        set glist [lrange $glist 1 end]
+        set id [lindex $glist 0]
+}
+waveform hierarchy collapse $groupId
+
+set groupId [waveform add -groups INT]
+set glist [waveform hierarchy contents $groupId]
+set id [lindex $glist 0]
+foreach {name attrs} {
+    {simulator::core_fsm_tb.FSM.fsm_int_vect_i[2:0]} {-color #ff00ff -namecolor #ff00ff}
+    simulator::core_fsm_tb.FSM.fsm_int_rdy_o {-color #ff00ff -namecolor #ff00ff}
+    simulator::core_fsm_tb.FSM.fsm_int_na_o {-color #ff00ff -namecolor #ff00ff}
+} {
+    set expected [ join [waveform signals -format fullpath $id] ]
+    if {[string equal $name $expected]} {
+        if {$attrs != ""} {
+            eval waveform format $id $attrs
+        }
+    }
+        set glist [lrange $glist 1 end]
+        set id [lindex $glist 0]
+}
+waveform hierarchy collapse $groupId
+
+set id [waveform add -signals [list simulator::core_fsm_tb.FSM.fsm_bit_byte_flag_o ]]
+waveform format $id -radix flags
+
+waveform xview limits 365800ps 494270ps
+
+#
+# Console window
+#
+console set -windowname Console
+

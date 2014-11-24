@@ -1,0 +1,79 @@
+*----------------------------------------------------------------------------------------
+*	 -  - Version  32-bit 
+*	
+*
+* 	Date & Time:	2010-Dec-09 15:20:23 (2010-Dec-09 18:20:23 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*	Design: EMC08
+*
+*	Liberty Libraries used: 
+*	        /home/student/EMC08/common_blocks/SRAM/SPRAM128X8/SPRAM128X8_slow_1_62V_125C.lib
+*	        /home/student/EMC08/common_blocks/ROM/ROM4096X8/ROM4096X8_slow_1_62V_125C.lib
+*	        /ddk/XFABC018/synopsys/xc018/MOSLP/D_CELLS_MOSLP_slow_1_62V_125C.lib
+*
+*	Power Domain used: 
+*		Rail:       VDDR 	Voltage:        3.3 
+*		Rail:        VDD 	Voltage:       1.62 
+*
+*	Switching Activity File used: 
+*	        synthesis/structural_v/emc_top_netlist.vcd
+*
+*	Power Units = 1mW
+*
+*	Time Units = 1e-09 secs 
+*
+*       reportPower -outfile EMC08_power -sort total
+*
+-----------------------------------------------------------------------------------------
+
+
+Total Power 
+-----------------------------------------------------------------------------------------
+Total Internal Power:           0 
+Total Switching Power:          0 
+Total Leakage Power:            0 
+Total Power:                    0 
+-----------------------------------------------------------------------------------------
+
+
+Group                           Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+Sequential                             0           0           0           0         nan 
+Macro                                  0           0           0           0         nan 
+IO                                     0           0           0           0         nan 
+Combinational                          0           0           0           0         nan 
+-----------------------------------------------------------------------------------------
+Total                                  0           0           0           0         100 
+-----------------------------------------------------------------------------------------
+
+
+Rail                  Voltage   Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+VDDR                      3.3          0           0           0           0         nan 
+VDD                      1.62          0           0           0           0         nan 
+
+
+Clock                           Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+MEMCLK                                 0           0           0           0         nan 
+CLK                                    0           0           0           0         nan 
+-----------------------------------------------------------------------------------------
+Total                                  0           0           0           0         nan 
+-----------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------
+*	Power Distribution Summary: 
+* 		Highest Average Power: EMC_PADS_INSTANCE/P_CORNER_SW (CORNERP): 	         0 
+* 		Highest Leakage Power: EMC_PADS_INSTANCE/P_CORNER_SW (CORNERP): 	         0 
+* 		Total Cap: 	1.50873e-10 F
+* 		Total instances in design:  6943
+* 		Total instances in design with no power:  6943
+* 		Total Fillers and Decap:     0
+-----------------------------------------------------------------------------------------
+

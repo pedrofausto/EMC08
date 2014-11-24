@@ -1,0 +1,169 @@
+# SimVision Command Script (Thu Nov 04 12:10:51 PM BRT 2010)
+#
+# Version 06.10.p001
+#
+# You can restore this configuration with:
+#
+#     irun -gui -debug -top emc_top_ext_ram_tb emc_top_ext_ram_tb.v emc_top.v ROM4096X8.v SPRAM65536X8.v -input restore2.tcl
+#
+
+
+#
+# preferences
+#
+preferences set toolbar-txe_waveform_navigate-WaveWindow {
+  usual
+  position -row 1 -pos 0
+}
+preferences set waveform-print-variables selected
+preferences set txe-locate-add-fibers 1
+preferences set signal-type-colors {assertion #FF0000 output #FFA500 group #0099FF inout #00FFFF input #FFFF00 fiber #FF99FF errorsignal #FF0000 unknown #FFFFFF overlay #0099FF internal #00FF00 reference #FFFFFF}
+preferences set waveform-print-time range
+preferences set txe-navigate-search-locate 0
+preferences set txe-view-hold 0
+preferences set toolbar-SimControl-WaveWindow {
+  usual
+  position -anchor e
+}
+preferences set sb-editor-command kate
+preferences set verilog-colors {Su #ff0099 0 {} 1 {} HiZ #ff9900 We #00ffff Pu #9900ff Sm #00ff99 X #ff0000 StrX #ff0000 other #ffff00 Z #ff9900 Me #0000ff La #ff00ff St {}}
+preferences set txe-navigate-waveform-locate 1
+preferences set txe-view-hidden 0
+preferences set toolbar-UserTB2-WaveWindow {
+  usual
+  add action_specman_sendto_stripechart
+  add action_specman_sendto_databrowser
+  position -row 0 -pos 3 -anchor e
+  name {Send To Specman}
+}
+preferences set txe-search-show-linenumbers 1
+preferences set schematic-show-rtl 1
+preferences set delete-unused-cursors-on-exit 0
+preferences set toolbar-txe_waveform_toggle-WaveWindow {
+  usual
+  position -pos 1
+}
+preferences set toolbar-Windows-SrcBrowser {
+  usual
+  position -pos 1
+}
+preferences set print-company {CI Brasil - CT2}
+preferences set waveform-print-colors {As shown on screen}
+preferences set txe-navigate-waveform-next-child 1
+preferences set delete-unused-groups-on-exit 0
+preferences set print-designer {Pedro Fausto}
+preferences set vhdl-colors {H #00ffff L #00ffff 0 {} X #ff0000 - {} 1 {} U #9900ff Z #ff9900 W #ff0000}
+preferences set txe-locate-scroll-x 1
+preferences set txe-locate-scroll-y 1
+preferences set txe-locate-pop-waveform 1
+preferences set use-signal-type-colors 1
+
+#
+# Simulator
+#
+
+database require simulator -hints {
+	simulator "irun -gui -debug -top emc_top_ext_ram_tb emc_top_ext_ram_tb.v emc_top.v ROM4096X8.v SPRAM65536X8.v -input restore2.tcl -input restore2.tcl"
+}
+
+#
+# cursors
+#
+set time 1256840ps
+if {[catch {cursor new -name  TimeA -time $time}] != ""} {
+    cursor set -using TimeA -time $time
+}
+
+#
+# mmaps
+#
+mmap new -reuse -name {Boolean as Logic} -contents {
+{%c=FALSE -edgepriority 1 -shape low}
+{%c=TRUE -edgepriority 1 -shape high}
+}
+mmap new -reuse -name {Example Map} -contents {
+{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}
+}
+
+#
+# Design Browser windows
+#
+if {[catch {window new WatchList -name "Design Browser 1" -geometry 700x500+0+22}] != ""} {
+    window geometry "Design Browser 1" 700x500+0+22
+}
+window target "Design Browser 1" on
+browser using {Design Browser 1}
+browser set \
+    -scope emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm
+browser yview see emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm
+browser timecontrol set -lock 0
+
+#
+# Waveform windows
+#
+if {[catch {window new WaveWindow -name "Waveform 1" -geometry 1280x919+0+0}] != ""} {
+    window geometry "Waveform 1" 1280x919+0+0
+}
+window target "Waveform 1" on
+waveform using {Waveform 1}
+waveform sidebar visibility partial
+waveform set \
+    -primarycursor TimeA \
+    -signalnames name \
+    -signalwidth 175 \
+    -units ps \
+    -valuewidth 75
+cursor set -using TimeA -time 1,256,840ps
+waveform baseline set -time 189,040ps
+
+set id [waveform add -signals [list emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.cycle_continue \
+	emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_alu_en_o \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_alu_op1_o[7:0]} \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_alu_op2_o[7:0]} \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_alu_opcode_o[4:0]} \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_alu_result_i[15:0]} \
+	emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_bit_byte_flag_o \
+	emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_clock_i \
+	emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_ext_ram_o \
+	emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_int_na_o \
+	emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_int_rdy_o \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_int_vect_i[2:0]} \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_op1[7:0]} \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_op2[7:0]} \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_op_aux_1[7:0]} \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_op_aux_1_2[7:0]} \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_op_aux_2[7:0]} \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_opcode[7:0]} \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_pc_i[15:0]} \
+	emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_pcau_direct_o \
+	emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_pcau_en_o \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_pcau_msb_o[7:0]} \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_pcau_offset_o[7:0]} \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_psw_rs_i[1:0]} \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_ram_addr_o[7:0]} \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_ram_data_i[7:0]} \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_ram_data_o[7:0]} \
+	emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_ram_rd_o_b \
+	emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_ram_wr_o_b \
+	emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_reset_core_o_b \
+	emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_reset_i_b \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_rom_addr_o[15:0]} \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_rom_data_i[7:0]} \
+	emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_rom_rd_o_b \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_sfr_addr_o[7:0]} \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_sfr_data_i[7:0]} \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_sfr_data_o[7:0]} \
+	emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_sfr_rd_o_b \
+	emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_sfr_wr_o_b \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_state_o[2:0]} \
+	emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.lcall_hardware_flag \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.next_state[2:0]} \
+	{emc_top_ext_ram_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.reg_ctrl.sfr[0:39]} ]]
+set id [waveform add -signals [list {emc_top_ext_ram_tb.external_ram.RAM_matrix[0:65535]} ]]
+waveform hierarchy expand $id
+
+waveform xview limits 0 2000ps
+

@@ -1,0 +1,1 @@
+irun -nbasync -gui -snload top_feature_timers_testcase1.e emc_top_tb.v /home/student/EMC08/digital_A/top/design/rtl_v/emc_top.v -access rwc -timescale 1ns/10ps -snprerun "set check WARNING; test" -input restore2.tcl &

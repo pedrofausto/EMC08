@@ -1,0 +1,130 @@
+# SimVision Command Script (Wed Dec 01 03:35:00 PM BRT 2010)
+#
+# Version 06.10.p001
+#
+# You can restore this configuration with:
+#
+#     irun -access rwc /home/student/EMC08/digital_A/serial/design/rtl_v/serial_top.v tb_serial_final.v -timescale 1ns/10ps -gui -input tx_mode_2.tcl -input /home/student/EMC08/digital_A/serial/verification/testbench_vlog/tx_mode_2.tcl
+#
+
+
+#
+# preferences
+#
+preferences set txe-locate-add-fibers 1
+preferences set signal-type-colors {assertion #FF0000 output #FFA500 group #0099FF inout #00FFFF input #FFFF00 fiber #FF99FF errorsignal #FF0000 unknown #FFFFFF overlay #0000ff internal #00FF00 reference #FFFFFF}
+preferences set txe-navigate-search-locate 0
+preferences set txe-view-hold 0
+preferences set sb-editor-command {xterm -geometry 85x40 -e kwrite}
+preferences set save-state-on-startup 1
+preferences set restore-state-on-startup 1
+preferences set txe-navigate-waveform-locate 1
+preferences set txe-view-hidden 0
+preferences set waveform-print-paper {A3 (297mm x 420mm)}
+preferences set toolbar-UserTB2-WaveWindow {
+  usual
+  add action_specman_sendto_stripechart
+  add action_specman_sendto_databrowser
+  position -row 0 -pos 5 -anchor e
+  name {Send To Specman}
+}
+preferences set txe-search-show-linenumbers 1
+preferences set schematic-show-rtl 0
+preferences set toolbar-txe_waveform_toggle-WaveWindow {
+  usual
+  position -pos 1
+}
+preferences set print-company CI-BRASIL
+preferences set waveform-print-colors {As shown on screen}
+preferences set toolbar-Windows-WaveWindow {
+  usual
+  position -pos 4
+}
+preferences set txe-navigate-waveform-next-child 1
+preferences set print-designer {Inacio Mendonca Soares Filho}
+preferences set txe-locate-scroll-x 1
+preferences set txe-locate-scroll-y 1
+preferences set txe-locate-pop-waveform 1
+preferences set use-signal-type-colors 1
+
+#
+# Simulator
+#
+
+database require simulator -hints {
+	simulator "irun -access rwc /home/student/EMC08/digital_A/serial/design/rtl_v/serial_top.v tb_serial_final.v -timescale 1ns/10ps -gui -input tx_mode_2.tcl -input tx_mode_2.tcl"
+}
+
+#
+# cursors
+#
+set time 954400000ps
+if {[catch {cursor new -name  TimeA -time $time}] != ""} {
+    cursor set -using TimeA -time $time
+}
+
+#
+# mmaps
+#
+mmap new -reuse -name {Boolean as Logic} -contents {
+{%c=FALSE -edgepriority 1 -shape low}
+{%c=TRUE -edgepriority 1 -shape high}
+}
+mmap new -reuse -name {Example Map} -contents {
+{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}
+}
+
+#
+# Design Browser windows
+#
+if {[catch {window new WatchList -name "Design Browser 1" -geometry 1280x946+0+22}] != ""} {
+    window geometry "Design Browser 1" 1280x946+0+22
+}
+window target "Design Browser 1" on
+browser using {Design Browser 1}
+browser set \
+    -scope tb_serial_final.serial_top_tb.serial_tx_block
+browser yview see tb_serial_final.serial_top_tb.serial_tx_block
+browser timecontrol set -lock 0
+
+#
+# Waveform windows
+#
+if {[catch {window new WaveWindow -name "Waveform 2" -geometry 1280x946+0+0}] != ""} {
+    window geometry "Waveform 2" 1280x946+0+0
+}
+window target "Waveform 2" on
+waveform using {Waveform 2}
+waveform sidebar visibility partial
+waveform set \
+    -primarycursor TimeA \
+    -signalnames name \
+    -signalwidth 175 \
+    -units ns \
+    -valuewidth 75
+cursor set -using TimeA -time 954,400,000ps
+waveform baseline set -time 0
+
+set id [waveform add -signals [list tb_serial_final.serial_top_tb.serial_tx_block.serial_reset_i_b \
+	tb_serial_final.serial_top_tb.serial_tx_block.serial_send_o ]]
+set id [waveform add -signals [list {tb_serial_final.PACOTE[10:0]} ]]
+waveform format $id -radix %b
+set id [waveform add -signals [list tb_serial_final.br_trans \
+	tb_serial_final.br ]]
+set id [waveform add -signals [list tb_serial_final.serial_top_tb.serial_tx_block.serial_serial_tx_i ]]
+waveform format $id -color #00ffff
+set id [waveform add -signals [list tb_serial_final.serial_top_tb.serial_tx_block.serial_clock_i ]]
+set id [waveform add -signals [list tb_serial_final.serial_top_tb.serial_tx_block.serial_scon3_tb8_i ]]
+waveform format $id -color #ffff00
+set id [waveform add -signals [list tb_serial_final.scon0_ri_o ]]
+set id [waveform add -signals [list {tb_serial_final.serial_top_tb.serial_tx_block.serial_data_sbuf_i[7:0]} ]]
+waveform format $id -radix %b
+set id [waveform add -signals [list tb_serial_final.scon1_ti_o ]]
+set id [waveform add -signals [list tb_serial_final.serial_top_tb.serial_p3_1_o ]]
+waveform format $id -color #ffffff
+
+waveform xview limits 901650ns 994950ns
+

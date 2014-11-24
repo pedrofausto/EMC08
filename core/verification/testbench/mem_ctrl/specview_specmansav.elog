@@ -1,0 +1,822 @@
+
+Incisive Enterprise Simulator (6.1)  -  Linked on Sun Apr  1 10:15:44 2007
+Doing setup ...
+Generating the test using seed 1...
+                           > START connect_pointers MAIN... @mc_agent.e
+                           > START connect_pointers ACTIVE MC_IN... @mc_agent.e
+                           > START connect_pointers MAIN... @mc_agent.e
+                           > START connect_pointers ACTIVE MC_OUT... @mc_agent.e
+
+               MC: mc_env_u-@1
+EMC08 directory eVC  -  version 6.1.1
+               E path: sys.env
+
+                             > felipe INSIDE METHOD SHORT_NAME()... @mc_agent_h.e
+                             > felipe INSIDE METHOD SHORT_NAME()... @mc_agent_h.e
+Starting the test ...
+Running the test ...
+                             > felipe INSIDE METHOD SHORT_NAME()... @mc_agent_h.e
+[0] MC MC_OUT: unpacking...
+                             > inside run() is also... @mc_bfm_o_h
+                             > felipe INSIDE METHOD SHORT_NAME()... @mc_agent_h.e
+[0] MC MC_IN: unpacking...
+                             > START PRE_GENERATE... @mc_test.e
+                             > START POST_GENERATE... @mc_test.e
+Running should now be initiated from the simulator side
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+                             > Generating sequences (Gerando sequencias)... @mc_test.e
+REFMODEL[0] : 0 --- EXT_MEM[0] : 0
+[38] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+REFMODEL[0] : 0 --- EXT_MEM[0] : 0
+[63] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+REFMODEL[0] : 0 --- EXT_MEM[0] : 0
+[88] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+REFMODEL[0] : 0 --- EXT_MEM[0] : 0
+[113] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+REFMODEL[0] : 0 --- EXT_MEM[0] : 0
+[138] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+REFMODEL[0] : 0 --- EXT_MEM[0] : 0
+[163] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+REFMODEL[0] : 0 --- EXT_MEM[0] : 0
+[188] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+REFMODEL[0] : 0 --- EXT_MEM[0] : 0
+[213] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+REFMODEL[0] : 0 --- EXT_MEM[0] : 0
+[238] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+REFMODEL[0] : 0 --- EXT_MEM[0] : 0
+[263] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+[263] MC MC_IN: ########### > ROM_MODE: 0
+[263] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[0] : 0 --- EXT_MEM[0] : 0
+[288] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[288] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[313] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[313] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[338] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[338] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[363] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[363] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[388] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[388] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[749] : 120 --- INT_MEM[749] : 120
+[413] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[413] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[438] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[438] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[463] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[463] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[3941] : 100 --- INT_MEM[3941] : 100
+[488] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[488] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[3514] : 194 --- INT_MEM[3514] : 194
+[513] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[513] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[2048] : 1 --- EXT_MEM[2048] : 1
+[538] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[538] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[3910] : 1 --- EXT_MEM[3910] : 1
+[563] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[563] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[588] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[588] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[613] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[613] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[3212] : 30 --- INT_MEM[3212] : 30
+[638] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[638] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[2012] : 210 --- INT_MEM[2012] : 210
+[663] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[663] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[2120] : 1 --- EXT_MEM[2120] : 1
+[688] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[688] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[713] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[713] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[738] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[738] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[763] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[763] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[2272] : 145 --- INT_MEM[2272] : 145
+[788] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[788] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[3767] : 198 --- INT_MEM[3767] : 198
+[813] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[813] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[838] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[838] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[2848] : 41 --- INT_MEM[2848] : 41
+[863] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[863] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[888] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[888] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[913] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[913] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[582] : 176 --- INT_MEM[582] : 176
+[938] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[938] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[2589] : 29 --- INT_MEM[2589] : 29
+[963] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[963] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[4045] : 0 --- EXT_MEM[4045] : 0
+[988] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[988] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[2583] : 209 --- INT_MEM[2583] : 209
+[1013] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1013] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[1038] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1038] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[1063] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1063] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[3820] : 0 --- EXT_MEM[3820] : 0
+[1088] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1088] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[677] : 151 --- INT_MEM[677] : 151
+[1113] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1113] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[1138] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1138] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[1163] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1163] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[1188] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1188] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[1213] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1213] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[3989] : 44 --- INT_MEM[3989] : 44
+[1238] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1238] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[1263] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1263] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[3678] : 132 --- INT_MEM[3678] : 132
+[1288] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1288] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[1313] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1313] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[3179] : 153 --- INT_MEM[3179] : 153
+[1338] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1338] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[3957] : 253 --- INT_MEM[3957] : 253
+[1363] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1363] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[3488] : 43 --- INT_MEM[3488] : 43
+[1388] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1388] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[1413] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1413] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[1438] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1438] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[738] : 20 --- INT_MEM[738] : 20
+[1463] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1463] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[3531] : 94 --- INT_MEM[3531] : 94
+[1488] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1488] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[1513] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1513] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[1538] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1538] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[1880] : 121 --- INT_MEM[1880] : 121
+[1563] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1563] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[3861] : 18 --- INT_MEM[3861] : 18
+[1588] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1588] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[1490] : 117 --- INT_MEM[1490] : 117
+[1613] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1613] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[1638] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1638] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[1663] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1663] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[1688] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1688] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[1713] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1713] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[2722] : 134 --- INT_MEM[2722] : 134
+[1738] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1738] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[1763] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1763] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[1788] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1788] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[1606] : 196 --- INT_MEM[1606] : 196
+[1813] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1813] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[2887] : 158 --- INT_MEM[2887] : 158
+[1838] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1838] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[1863] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1863] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[1888] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1888] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[1913] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1913] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[3790] : 5 --- INT_MEM[3790] : 5
+[1938] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1938] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[2821] : 234 --- INT_MEM[2821] : 234
+[1963] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1963] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[2803] : 225 --- INT_MEM[2803] : 225
+[1988] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[1988] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[2013] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2013] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[2038] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2038] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[2063] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2063] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[2672] : 123 --- INT_MEM[2672] : 123
+[2088] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2088] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[2113] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2113] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[1197] : 12 --- INT_MEM[1197] : 12
+[2138] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2138] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[1556] : 172 --- INT_MEM[1556] : 172
+[2163] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2163] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[2188] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2188] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[2213] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2213] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[2238] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2238] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[2263] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2263] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[2091] : 137 --- INT_MEM[2091] : 137
+[2288] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2288] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[2313] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2313] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[1893] : 160 --- INT_MEM[1893] : 160
+[2338] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2338] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[338] : 225 --- INT_MEM[338] : 225
+[2363] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2363] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[2388] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2388] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[1938] : 10 --- INT_MEM[1938] : 10
+[2413] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2413] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[2438] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2438] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[2463] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2463] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[2488] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2488] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[1765] : 10 --- INT_MEM[1765] : 10
+[2513] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2513] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[2538] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2538] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[630] : 137 --- INT_MEM[630] : 137
+[2563] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2563] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[2588] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2588] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[2613] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2613] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[3942] : 0 --- EXT_MEM[3942] : 0
+[2638] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2638] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[2966] : 69 --- INT_MEM[2966] : 69
+[2663] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2663] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+[2688] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2688] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[894] : 251 --- INT_MEM[894] : 251
+[2713] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2713] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[626] : 102 --- INT_MEM[626] : 102
+[2738] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+[2738] MC MC_IN: :: RANDOM_MODE - RANDOM_MODE signal occurs
+                             >inside send_pkt()... @mc_bfm_i.e
+REFMODEL[2940] : 1 --- EXT_MEM[2940] : 1
+[2763] MC MC_IN: mc_mon_u-@6-----------------------------> Packet detected on monitor: mc_packet_type-@14
+                             > chamando reference model... @mc_mon.e
+                             > Starting Reference Model... @mc_reference_model.e
+                             > driver.item_done @mc_connect_seq.e
+                             > get the next packet coming from the driver.. @mc_connect_seq.e
+Last specman tick - stop_run() was called
+Normal stop - stop_run() is completed
+Checking the test ...
+Checking is complete - 0 DUT errors, 0 DUT warnings.

@@ -1,0 +1,841 @@
+
+
+
+
+
+Tracing Clock EMC_PADS_INSTANCE/P_CLOCK_MEM/Y
+
+****** Clock Tree (EMC_PADS_INSTANCE/P_CLOCK_MEM/Y) Structure
+Nr. Subtrees                   : 1
+Nr. Sinks                      : 373
+Nr.          Rising  Sync Pins : 357
+Nr. Inverter Rising  Sync Pins : 0
+Nr.          Falling Sync Pins : 16
+Nr. Inverter Falling Sync Pins : 0
+
+** Leaf Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+SDFRQX4 (C)                             3
+SPRAM128X8 (CLK)                        1
+SDFFX1 (CN)                             1
+SDFFQX2 (CN)                            3
+SDFRQX0 (C)                             294
+SDFFSQX2 (CN)                           1
+ROM4096X8 (CLK)                         1
+SDFRQX2 (C)                             51
+SDFFSX4 (CN)                            1
+SDFFQX1 (CN)                            7
+SDFFQX4 (CN)                            3
+SDFRQX1 (C)                             7
+-----------------------------------------------
+
+
+
+
+** Gate Component Input Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+-----------------------------------------------
+
+
+
+** Subtree Detail
+*DEPTH 0 Input_Pin: (EMPTY) Output_Pin: (EMC_PADS_INSTANCE/P_CLOCK_MEM/Y) Cell: (ICUDP) Net: (top_clock_mem_i) NO-INV
+          Nr. of Exclude Pins           : 0
+          Nr. of Total Sync Pins        : 373
+          Nr. of     Rising  Sync Pins  : 357
+          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Falling Sync Pins  : 16
+          Nr. of Inv Falling Sync Pins  : 0
+          Nr. of Gated Clocks           : 0
+***********************************************************
+
+****** Pre CTS Detail Structure for clock EMC_PADS_INSTANCE/P_CLOCK_MEM/Y
+*DEPTH 0: EMC_PADS_INSTANCE/P_CLOCK_MEM/Y
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_ram/CLK
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_rom/CLK
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[0]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[10]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[11]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[12]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[13]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[14]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[15]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[1]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[2]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[3]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[4]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[5]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[6]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[7]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[8]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[9]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/load_sbuf_prev_reg/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/read_data_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/read_data_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/read_data_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/read_data_reg[3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/read_data_reg[4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/read_data_reg[5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/read_data_reg[6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/read_data_reg[7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/serial_status_reg/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/serial_tx_tmp_reg/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[0][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[0][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[0][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[0][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[0][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[0][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[0][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[0][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[10][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[10][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[10][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[10][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[10][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[10][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[10][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[10][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[11][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[11][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[11][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[11][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[11][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[11][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[11][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[11][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[12][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[12][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[12][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[12][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[12][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[12][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[12][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[12][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[13][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[13][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[13][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[13][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[13][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[13][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[13][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[13][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[14][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[14][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[14][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[14][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[14][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[14][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[14][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[14][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[15][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[15][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[15][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[15][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[15][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[15][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[15][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[15][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[16][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[16][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[16][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[16][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[16][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[16][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[16][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[16][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[17][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[17][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[17][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[17][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[17][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[17][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[17][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[17][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[18][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[18][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[18][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[18][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[18][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[18][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[18][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[18][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[19][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[19][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[19][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[19][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[19][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[19][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[19][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[19][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[1][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[1][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[1][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[1][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[1][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[1][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[1][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[1][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[20][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[20][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[20][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[20][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[20][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[20][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[20][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[20][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[21][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[21][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[21][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[21][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[21][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[21][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[21][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[21][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[22][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[22][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[22][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[22][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[22][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[22][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[22][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[22][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[23][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[23][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[23][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[23][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[23][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[23][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[23][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[23][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[24][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[24][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[24][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[24][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[24][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[24][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[24][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[24][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[25][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[25][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[25][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[25][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[25][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[25][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[25][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[25][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[26][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[26][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[26][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[26][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[26][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[26][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[26][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[26][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[27][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[27][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[27][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[27][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[27][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[27][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[27][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[27][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[28][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[28][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[28][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[28][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[28][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[28][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[28][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[28][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[29][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[29][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[29][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[29][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[29][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[29][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[29][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[29][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[2][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[2][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[2][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[2][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[2][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[2][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[2][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[2][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[30][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[30][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[30][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[30][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[30][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[30][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[30][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[30][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[31][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[31][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[31][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[31][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[31][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[31][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[31][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[31][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[32][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[32][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[32][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[32][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[32][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[32][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[32][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[32][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[33][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[33][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[33][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[33][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[33][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[33][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[33][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[33][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[34][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[34][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[34][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[34][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[34][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[34][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[34][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[34][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[35][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[35][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[35][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[35][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[35][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[35][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[35][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[35][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[36][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[36][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[36][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[36][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[36][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[36][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[36][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[36][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[37][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[37][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[37][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[37][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[37][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[37][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[37][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[37][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[38][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[38][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[38][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[38][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[38][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[38][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[38][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[38][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[39][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[39][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[39][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[39][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[39][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[39][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[39][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[39][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[3][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[3][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[3][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[3][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[3][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[3][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[3][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[3][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[40][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[40][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[40][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[40][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[40][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[40][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[40][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[40][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[4][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[4][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[4][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[4][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[4][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[4][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[4][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[4][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[5][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[5][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[5][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[5][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[5][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[5][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[5][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[5][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[6][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[6][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[6][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[6][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[6][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[6][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[6][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[6][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[7][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[7][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[7][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[7][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[7][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[7][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[7][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[7][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[8][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[8][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[8][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[8][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[8][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[8][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[8][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[8][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[9][0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[9][1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[9][2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[9][3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[9][4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[9][5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[9][6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[9][7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[10]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[11]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[12]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[13]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[14]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[15]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[8]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[9]/C
+
+
+
+
+
+Tracing Clock EMC_PADS_INSTANCE/P_CLOCK/Y
+
+****** Clock Tree (EMC_PADS_INSTANCE/P_CLOCK/Y) Structure
+Nr. Subtrees                   : 3
+Nr. Sinks                      : 339
+Nr.          Rising  Sync Pins : 284
+Nr. Inverter Rising  Sync Pins : 0
+Nr.          Falling Sync Pins : 55
+Nr. Inverter Falling Sync Pins : 0
+
+** Leaf Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+SDFRX4 (C)                              2
+SDFRQX1 (C)                             8
+SDFFQX1 (CN)                            1
+DFFQX2 (CN)                             1
+SDFFQX0 (CN)                            35
+SDFRQX4 (C)                             5
+SDFFSQX2 (CN)                           2
+SDFRQX0 (C)                             244
+SDFFQX2 (CN)                            10
+SDFFX4 (CN)                             6
+SDFRQX2 (C)                             18
+SDFRX0 (C)                              7
+-----------------------------------------------
+
+
+
+
+** Gate Component Input Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+MU2X0 (IN1)                             2
+-----------------------------------------------
+
+
+
+** Subtree Detail
+*DEPTH 0 Input_Pin: (EMPTY) Output_Pin: (EMC_PADS_INSTANCE/P_CLOCK/Y) Cell: (ICUDP) Net: (top_clock_i) NO-INV
+          Nr. of Exclude Pins           : 0
+          Nr. of Total Sync Pins        : 280
+          Nr. of     Rising  Sync Pins  : 225
+          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Falling Sync Pins  : 55
+          Nr. of Inv Falling Sync Pins  : 0
+          Nr. of Gated Clocks           : 2
+*DEPTH 1 Input_Pin: (EMC_TOP_INSTANCE/TIMERS_INSTANCE/p214748365A/IN1) Output_Pin: (EMC_TOP_INSTANCE/TIMERS_INSTANCE/p214748365A/Q) Cell: (MU2X0) Net: (EMC_TOP_INSTANCE/TIMERS_INSTANCE/n_85) NO-INV
+          Nr. of Exclude Pins           : 0
+          Nr. of Total Sync Pins        : 48
+          Nr. of     Rising  Sync Pins  : 48
+          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Falling Sync Pins  : 0
+          Nr. of Inv Falling Sync Pins  : 0
+          Nr. of Gated Clocks           : 0
+*DEPTH 1 Input_Pin: (EMC_TOP_INSTANCE/p214748365A174/IN1) Output_Pin: (EMC_TOP_INSTANCE/p214748365A174/Q) Cell: (MU2X0) Net: (EMC_TOP_INSTANCE/n_145) NO-INV
+          Nr. of Exclude Pins           : 0
+          Nr. of Total Sync Pins        : 11
+          Nr. of     Rising  Sync Pins  : 11
+          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Falling Sync Pins  : 0
+          Nr. of Inv Falling Sync Pins  : 0
+          Nr. of Gated Clocks           : 0
+***********************************************************
+
+****** Pre CTS Detail Structure for clock EMC_PADS_INSTANCE/P_CLOCK/Y
+*DEPTH 0: EMC_PADS_INSTANCE/P_CLOCK/Y
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_width_reg[3]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_width_reg[4]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_width_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_width_reg[4]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_counter_reg[3]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_counter_reg[4]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_counter_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_counter_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_counter_reg[3]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_counter_reg[4]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_width_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_width_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_width_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_counter_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_counter_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_counter_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_br_trans_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_br_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_counter_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_trans_counter_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_trans_counter_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_trans_counter_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_trans_counter_reg[4]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_trans_counter_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_trans_counter_reg[3]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_width_reg[5]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_cm_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_width_reg[3]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_width_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_width_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_trans_counter_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/cycle_continue_reg/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op1_reg[7]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_state_o_reg[0]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op1_reg[0]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op1_reg[1]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op1_reg[2]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op1_reg[3]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op1_reg[4]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op1_reg[5]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op1_reg[6]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op2_reg[3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op2_reg[4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op2_reg[5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_reg[0]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_reg[1]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_reg[2]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_reg[3]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_reg[4]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_reg[5]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_reg[6]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_reg[7]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op2_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op2_reg[6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op2_reg[7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op2_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op2_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_2_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_2_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_2_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_2_reg[3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_2_reg[4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_2_reg[5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_2_reg[6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_2_reg[7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/lcall_hardware_flag_reg/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_opcode_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_opcode_reg[4]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_opcode_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_opcode_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_opcode_reg[3]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_opcode_reg[5]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_opcode_reg[6]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_opcode_reg[7]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_int_na_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[0]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[1]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[2]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[3]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[4]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[5]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[6]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[7]/CN
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_int_rdy_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_state_o_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_state_o_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_reset_core_o_b_reg/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/flag_intx_reg[0][0]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/flag_intx_reg[0][1]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/flag_intx_reg[1][0]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/flag_intx_reg[1][1]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/flag_out_reg_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/flag_out_reg_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/hi_ok_reg[0][0]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/hi_ok_reg[1][0]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_ctr_reg[0]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_ctr_reg[1]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_ctr_reg[2]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_ctr_reg[3]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_ctr_reg[4]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_ctr_reg[5]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_ctr_reg[6]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_reg[0]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_reg[1]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_reg[2]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_reg[3]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_reg[4]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_reg[5]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_reg[6]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/lo_ok_reg[0][0]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/lo_ok_reg[1][0]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/reset_reg/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/vect_register_reg[0]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/vect_register_reg[1]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/vect_register_reg[2]/CN
+ (Sync)EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/state_reg/CN
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/aux_tran_det_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/state_rx_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/state_rx_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/state_rx_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/state_rx_reg[3]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/aux2_tran_det_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/br_detect_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_scon0_ri_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_load_sbuf_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_receive_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_start_input_shift_reg_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_clear_count_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_shift_input_shift_reg_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_p3en_1_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_p3en_0_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/clear_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux_reset1_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/serial_transition_detected_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux2_tran_det_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux_tran_det_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[6]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[7]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[8]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[9]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[3]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[4]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[5]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_scon2_rb8_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[7]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[6]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[4]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[3]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[5]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_end_bit_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/aux_tran_det_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/state_tx_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/state_tx_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/state_tx_reg[3]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/state_tx_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/do_first_shift_flag_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/br_detect1_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/aux2_tran_det_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/br_detect_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_scon1_ti_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_p3en_0_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_send_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_p3en_1_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_data_en_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_shift_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_start_idle_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_start_shifter_reg_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_stop_bit_gen_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[3]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[4]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[5]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[6]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[7]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[8]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[9]/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/flag_end_bit_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/serial_data_tx_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/serial_end_bit_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/acr_inc_reg/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[10]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[11]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[12]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[13]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[14]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[15]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[16]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[17]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[18]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[19]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[20]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[21]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[22]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[23]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[3]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[4]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[5]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[6]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[7]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[8]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[9]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[10]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[11]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[12]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[13]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[14]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[15]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[16]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[17]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[18]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[19]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[20]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[21]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[22]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[23]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[3]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[4]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[5]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[6]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[7]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[8]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[9]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/state_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/state_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[3]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[4]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[5]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[6]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[7]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[3]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[4]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[5]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[6]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[7]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[3]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[4]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[5]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[6]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[7]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_tcon2_tf2_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[6]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[5]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[4]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[3]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/timers_timer2_pdcf_clkdiv_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/q_flop_reg/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/timers_timer2_pdfoutput_o_reg/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/pdf_2sample_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/pdf_out_reg/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/ff_sync_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/pdf_2sample_reg[1]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/pdf_2sample_reg[2]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/ff_sync_reg[0]/C
+ (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/reset_aux_reg/CN
+ *DEPTH 1: EMC_TOP_INSTANCE/TIMERS_INSTANCE/p214748365A(IN1->Q)
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[0]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[1]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[2]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[3]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[4]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[5]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[6]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[7]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[0]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[1]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[2]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[3]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[4]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[5]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[6]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[7]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[0]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[1]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[2]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[3]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[4]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[5]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[6]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[7]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[0]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[1]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[2]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[3]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[4]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[5]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[6]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[7]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[0]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[1]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[2]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[3]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[4]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[5]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[6]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[7]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[0]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[1]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[2]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[3]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[4]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[5]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[6]/C
+  (Sync)EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[7]/C
+ *DEPTH 1: EMC_TOP_INSTANCE/p214748365A174(IN1->Q)
+  (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/counter_reg[3]/C
+  (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux2_bit_det_reg/C
+  (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux1_bit_det_reg/C
+  (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux3_bit_det_reg/C
+  (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/counter_reg[2]/C
+  (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/counter_reg[1]/C
+  (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/clear_br_reg/C
+  (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/counter_reg[0]/C
+  (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux_reset2_reg/C
+  (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/serial_sample_detected_o_reg/C
+  (Sync)EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/serial_shift_o_reg/C

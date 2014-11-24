@@ -1,0 +1,5 @@
+source /home/student/DFund-SBTUSER_6_1_1/Data/SBTBASIC/.class_setup
+
+source /home/student/DFund-ICC_6_2/Data/ICC_6_2/.class_setup
+
+irun -nbasync -snload core_fsm_test_feature2.e -access rwc -timescale 1ns/10ps -gui core_fsm_tb.v /home/student/EMC08/digital_A/core/design/rtl_v/core_fsm.v /home/student/EMC08/digital_A/core/design/rtl_v/core_alu.v /home/student/EMC08/digital_A/core/design/rtl_v/core_pcau.v -snprerun "set check WARNING" -input restore.tcl -coverage all -covtest test_feature2 -covoverwrite -run &

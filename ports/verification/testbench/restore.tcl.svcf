@@ -1,0 +1,150 @@
+# SimVision Command Script (Thu Oct 07 08:54:43 AM BRT 2010)
+#
+# Version 06.20.s002
+#
+# You can restore this configuration with:
+#
+#     ncsim tb_ports_verification -gui -input /home/student/Val/New_Verification/restore.tcl
+#
+
+
+#
+# preferences
+#
+preferences set toolbar-txe_waveform_navigate-WaveWindow {
+  usual
+  shown 1
+}
+preferences set waveform-print-variables selected
+preferences set txe-locate-add-fibers 1
+preferences set signal-type-colors {assertion #FF0000 output #FFA500 group #0099FF inout #00FFFF input #FFFF00 fiber #FF99FF errorsignal #FF0000 unknown #FFFFFF overlay #0099FF internal #00FF00 reference #FFFFFF}
+preferences set waveform-print-time range
+preferences set txe-navigate-search-locate 0
+preferences set txe-view-hold 0
+preferences set save-state-on-startup 1
+preferences set restore-state-on-startup 1
+preferences set txe-navigate-waveform-locate 1
+preferences set txe-view-hidden 0
+preferences set waveform-print-paper {A4 (210mm x 297mm)}
+preferences set txe-search-show-linenumbers 1
+preferences set toolbar-txe_waveform_toggle-WaveWindow {
+  usual
+  position -pos 1
+}
+preferences set toolbar-txe_waveform_view-WaveWindow {
+  usual
+  shown 1
+}
+preferences set waveform-print-colors {Color on white}
+preferences set txe-navigate-waveform-next-child 1
+preferences set waveform-operation-mode zoom
+preferences set txe-locate-scroll-x 1
+preferences set txe-locate-scroll-y 1
+preferences set txe-locate-pop-waveform 1
+preferences set use-signal-type-colors 1
+
+#
+# Simulator
+#
+
+database require simulator -hints {
+	simulator "ncsim tb_ports_verification -gui -input restore.tcl"
+}
+
+#
+# cursors
+#
+set time 333740ps
+if {[catch {cursor new -name  TimeA -time $time}] != ""} {
+    cursor set -using TimeA -time $time
+}
+
+#
+# mmaps
+#
+mmap new -reuse -name {Boolean as Logic} -contents {
+{%c=FALSE -edgepriority 1 -shape low}
+{%c=TRUE -edgepriority 1 -shape high}
+}
+mmap new -reuse -name {Example Map} -contents {
+{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}
+}
+
+#
+# Waveform windows
+#
+if {[catch {window new WaveWindow -name "Waveform 1" -geometry 1280x919+0+0}] != ""} {
+    window geometry "Waveform 1" 1280x919+0+0
+}
+window target "Waveform 1" on
+waveform using {Waveform 1}
+waveform sidebar visibility partial
+waveform set \
+    -primarycursor TimeA \
+    -signalnames name \
+    -signalwidth 175 \
+    -units ps \
+    -valuewidth 75
+cursor set -using TimeA -time 333,740ps
+waveform baseline set -time 0
+
+set id [waveform add -signals [list {simulator::tb_ports_verification.p0_pin[2:0]} ]]
+waveform format $id -color #0099ff -namecolor #0099ff
+set id [waveform add -signals [list {simulator::tb_ports_verification.ports_sfr_P0EN_i[0]} ]]
+waveform format $id -color #0099ff -namecolor #0099ff
+set id [waveform add -signals [list {simulator::tb_ports_verification.en_port0_o[0]} ]]
+waveform format $id -color #0099ff -namecolor #0099ff
+set id [waveform add -signals [list {simulator::tb_ports_verification.ports_sfr_P0_i[0]} ]]
+waveform format $id -color #0099ff -namecolor #0099ff
+set id [waveform add -signals [list {simulator::tb_ports_verification.a_port0_o[0]} ]]
+waveform format $id -color #0099ff -namecolor #0099ff
+set id [waveform add -signals [list {simulator::tb_ports_verification.pad_port0[0]} ]]
+waveform format $id -color #0099ff -namecolor #0099ff
+set id [waveform add -signals [list {simulator::tb_ports_verification.y_port0_i[0]} ]]
+waveform format $id -color #0099ff -namecolor #0099ff
+set id [waveform add -signals [list {simulator::tb_ports_verification.ports_sfr_P0_o[0]} ]]
+waveform format $id -color #0099ff -namecolor #0099ff
+set id [waveform add -signals [list simulator::tb_ports_verification.Checker_P0EN.sfr_p0en ]]
+waveform format $id -color #99ff00 -namecolor #99ff00
+set id [waveform add -signals [list simulator::tb_ports_verification.Checker_P0EN.en ]]
+waveform format $id -color #99ff00 -namecolor #99ff00
+set id [waveform add -signals [list simulator::tb_ports_verification.Checker_SFR_P0.sfr_p0en ]]
+waveform format $id -color #ff0099 -namecolor #ff0099
+set id [waveform add -signals [list simulator::tb_ports_verification.Checker_SFR_P0.en ]]
+waveform format $id -color #ff0099 -namecolor #ff0099
+set id [waveform add -signals [list simulator::tb_ports_verification.Checker_SFR_P0.pad ]]
+waveform format $id -color #ff0099 -namecolor #ff0099
+set id [waveform add -signals [list simulator::tb_ports_verification.Checker_SFR_P0.sfr_p0 ]]
+waveform format $id -color #ff0099 -namecolor #ff0099
+set id [waveform add -signals [list simulator::tb_ports_verification.Checker_PAD_Port0.sfr_p0en ]]
+waveform format $id -color #ffffff -namecolor #ffffff
+set id [waveform add -signals [list simulator::tb_ports_verification.Checker_PAD_Port0.en ]]
+waveform format $id -color #ffffff -namecolor #ffffff
+set id [waveform add -signals [list simulator::tb_ports_verification.Checker_PAD_Port0.sfr_p0 ]]
+waveform format $id -color #ffffff -namecolor #ffffff
+set id [waveform add -signals [list simulator::tb_ports_verification.Checker_PAD_Port0.pad ]]
+waveform format $id -color #ffffff -namecolor #ffffff
+set id [waveform add -signals [list {simulator::tb_ports_verification.ports_sfr_P0_o[7:0]} ]]
+waveform format $id -color #0099ff
+set id [waveform add -signals [list {simulator::tb_ports_verification.y_port0_i[7:0]} ]]
+waveform format $id -color #0099ff
+set id [waveform add -signals [list {simulator::tb_ports_verification.pad_port0[7:0]} ]]
+waveform format $id -color #0099ff
+set id [waveform add -signals [list {simulator::tb_ports_verification.a_port0_o[7:0]} ]]
+waveform format $id -color #0099ff
+set id [waveform add -signals [list {simulator::tb_ports_verification.ports_sfr_P0_i[7:0]} ]]
+waveform format $id -color #0099ff
+set id [waveform add -signals [list {simulator::tb_ports_verification.en_port0_o[7:0]} ]]
+waveform format $id -color #0099ff
+set id [waveform add -signals [list {simulator::tb_ports_verification.ports_sfr_P0EN_i[7:0]} ]]
+waveform format $id -color #0099ff
+
+waveform xview limits 293520ps 446300ps
+
+#
+# Console window
+#
+console set -windowname Console

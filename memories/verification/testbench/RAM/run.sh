@@ -1,0 +1,1 @@
+irun -nbasync -debug -gui -snload ./testbench/RAM/ram_test.e ./testbench/RAM/ram_memory_top.v ./testbench/RAM/SPRAM128X8.v -input ./testbench/RAM/restore.tcl -l ./logfiles/ram_test.log

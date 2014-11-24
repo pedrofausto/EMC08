@@ -1,0 +1,1096 @@
+# SimVision Design (Tue Nov 23 10:57:53 AM BRT 2010)
+
+pattern design design v1.0 {
+  overall {
+    data databases {{/home/student/EMC08/digital_A/top/verification/testbench/external_memories/waves.shm/waves.trn waves}}
+    data markers {
+pattern ::Markers ::Markers v1.0 {
+  overall {
+  }
+}}
+    data cursors {
+pattern ::Cursors ::Cursors v1.0 {
+  overall {
+  }
+  item {
+    data itemoptions {-label TimeA -time 55656180ps}
+    data databasehandle @public@56
+    data databasename simulator
+    data markid cursor0
+    data position end
+  }
+}}
+    data groups {}
+    data conditions {}
+    data mnemonicmaps {
+pattern ::defBooleanAsLogic stylemap v1.0 {
+  overall {
+    data options {-name {Boolean as Logic} -radix %x}
+  }
+  item {
+    data pattern %c=FALSE
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority 1 -font {} -interpolation {} -label {} -linecolor {} -linedimcolor {} -linewidth {} -shape low -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+  item {
+    data pattern %c=TRUE
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority 1 -font {} -interpolation {} -label {} -linecolor {} -linedimcolor {} -linewidth {} -shape high -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+}
+pattern ::stylemap0 stylemap v1.0 {
+  overall {
+    data options {-name {Example Map} -radix %x}
+  }
+  item {
+    data pattern %b=11????
+    data options {-bgcolor orange -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label REG:%x -linecolor yellow -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+  item {
+    data pattern 1F
+    data options {-bgcolor red -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label ERROR -linecolor white -linedimcolor {} -linewidth {} -shape EVENT -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+  item {
+    data pattern 2C
+    data options {-bgcolor red -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label ERROR -linecolor white -linedimcolor {} -linewidth {} -shape EVENT -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+  item {
+    data pattern *
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label %x -linecolor gray -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+}
+pattern ::stylemap1 stylemap v1.0 {
+  overall {
+    data options {-name opcode -radix %x}
+  }
+  item {
+    data pattern 00
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label NOP -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 01
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label AJMP_1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 02
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label LJMP -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 03
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label RR_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 04
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label INC_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 05
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label INC_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 06
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label INC_ATR0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 07
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label INC_ATR1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 08
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label INC_R0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 09
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label INC_R1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 0A
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label INC_R2 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 0B
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label INC_R3 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 0C
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label INC_R4 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 0D
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label INC_R5 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 0E
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label INC_R6 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 0F
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label INC_R7 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 10
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label JBC -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 11
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ACALL_1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 12
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label LCALL -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 13
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label RRC_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 14
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DEC_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 15
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DEC_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 16
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DEC_ATR0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 17
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DEC_ATR1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 18
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DEC_R0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 19
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DEC_R1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 1A
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DEC_R2 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 1B
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DEC_R3 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 1C
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DEC_R4 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 1D
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DEC_R5 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 1E
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DEC_R6 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 1F
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DEC_R7 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 20
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label JB -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 21
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label AJMP_2 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 22
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label RET -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 23
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label RL_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 24
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADD_A_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 25
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADD_A_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 26
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADD_A_ATR0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 27
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADD_A_ATR1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 28
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADD_A_R0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 29
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADD_A_R1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 2A
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADD_A_R2 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 2B
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADD_A_R3 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 2C
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADD_A_R4 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 2D
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADD_A_R5 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 2E
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADD_A_R6 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 2F
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADD_A_R7 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 30
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label JNB -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 31
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ACALL_2 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 32
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label RETI -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 33
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label RLC_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 34
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADDC_A_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 35
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADDC_A_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 36
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADDC_A_ATR0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 37
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADDC_A_ATR1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 38
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADDC_A_R0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 39
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADDC_A_R1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 3A
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADDC_A_R2 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 3B
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADDC_A_R3 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 3C
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADDC_A_R4 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 3D
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADDC_A_R5 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 3E
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADDC_A_R6 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 3F
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADDC_A_R7 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 40
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label JC -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 41
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label AJMP_3 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 42
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_D_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 43
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_D_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 44
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_A_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 45
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_A_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 46
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_A_ATR0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 47
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_A_ATR1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 48
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_A_R0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 49
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_A_R1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 4A
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_A_R2 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 4B
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_A_R3 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 4C
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_A_R4 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 4D
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_A_R5 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 4E
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_A_R6 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 4F
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_A_R7 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 50
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label JNC -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 51
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ACALL_3 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 52
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ANL_D_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 53
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ANL_D_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 54
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ANL_A_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 55
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ANL_A_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 56
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ANL_A_ATR0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 57
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ANL_A_ATR1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 58
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ANL_A_R0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 59
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ANL_A_R1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 5A
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ANL_A_R2 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 5B
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ANL_A_R3 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 5C
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ANL_A_R4 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 5D
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ANL_A_R5 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 5E
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ANL_A_R6 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 5F
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ANL_A_R7 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 60
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label JZ -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 61
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label AJMP_4 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 62
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XRL_D_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 63
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XRL_D_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 64
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XRL_A_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 65
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XRL_A_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 66
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XRL_A_ATR0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 67
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XRL_A_ATR1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 68
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XRL_A_R0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 69
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XRL_A_R1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 6A
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XRL_A_R2 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 6B
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XRL_A_R3 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 6C
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XRL_A_R4 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 6D
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XRL_A_R5 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 6E
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XRL_A_R6 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 6F
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XRL_A_R7 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 70
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label JNZ -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 71
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ACALL_4 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 72
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_C_BIT -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 73
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label JMP_A_DPTR -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 74
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_A_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 75
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_D_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 76
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_ATR0_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 77
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_ATR1_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 78
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R0_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 79
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R1_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 7A
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R2_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 7B
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R3_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 7C
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R4_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 7D
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R5_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 7E
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R6_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 7F
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R7_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 80
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label SJMP -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 81
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label AJMP_5 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 82
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ANL_C_BIT -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 83
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOVC_A_ATPC -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 84
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DIV_AB -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 85
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_D_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 86
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_D_ATR0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 87
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_D_ATR1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 88
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_D_R0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 89
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_D_R1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 8A
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_D_R2 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 8B
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_D_R3 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 8C
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_D_R4 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 8D
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_D_R5 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 8E
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_D_R6 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 8F
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_D_R7 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 90
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_DPTR_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 91
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ACALL_5 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 92
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_BIT_C -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 93
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOVC_A_ATDPTR -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 94
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label SUBB_A_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 95
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label SUBB_A_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 96
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label SUBB_A_ATR0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 97
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label SUBB_A_ATR1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 98
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label SUBB_A_R0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 99
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label SUBB_A_R1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 9A
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label SUBB_A_R2 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 9B
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label SUBB_A_R3 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 9C
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label SUBB_A_R4 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 9D
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label SUBB_A_R5 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 9E
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label SUBB_A_R6 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 9F
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label SUBB_A_R7 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern A0
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_C_NBIT -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern A1
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label AJMP_6 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern A2
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_C_BIT -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern A3
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label INC_DPTR -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern A4
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MUL_AB -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern A6
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_ATR0_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern A7
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_ATR1_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern A8
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R0_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern A9
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R1_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern AA
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R2_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern AB
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R3_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern AC
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R4_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern AD
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R5_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern AE
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R6_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern AF
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R7_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern B0
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ANL_C_NBIT -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern B1
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ACALL_6 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern B2
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label CPL_BIT -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern B3
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label CPL_C -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern B4
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label CJNE_A_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern B5
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label CJNE_A_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern B6
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label CJNE_ATR0_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern B7
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label CJNE_ATR1_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern B8
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label CJNE_R0_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern B9
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label CJNE_R1_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern BA
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label CJNE_R2_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern BB
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label CJNE_R3_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern BC
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label CJNE_R4_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern BD
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label CJNE_R5_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern BE
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label CJNE_R6_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern BF
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label CJNE_R7_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern C0
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label PUSH -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern C1
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label AJMP_7 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern C2
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label CLR_BIT -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern C3
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label CLR_C -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern C4
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label SWAP_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern C5
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XCH_A_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern C6
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XCH_A_ATR0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern C7
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XCH_A_ATR1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern C8
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XCH_A_R0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern C9
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XCH_A_R1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern CA
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XCH_A_R2 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern CB
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XCH_A_R3 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern CC
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XCH_A_R4 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern CD
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XCH_A_R5 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern CE
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XCH_A_R6 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern CF
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XCH_A_R7 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern D0
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label POP -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern D1
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ACALL_7 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern D2
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label SETB_BIT -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern D3
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label SETB_C -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern D4
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DA_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern D5
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DJNZ_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern D6
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XCHD_A_ATR0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern D7
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label XCHD_A_ATR1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern D8
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DJNZ_R0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern D9
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DJNZ_R1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern DA
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DJNZ_R2 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern DB
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DJNZ_R3 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern DC
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DJNZ_R4 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern DD
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DJNZ_R5 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern DE
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DJNZ_R6 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern DF
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label DJNZ_R7 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern E0
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOVX_A_ATDPTR -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern E1
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label AJMP_8 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern E2
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOVX_A_ATR0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern E3
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOVX_A_ATR1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern E4
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label CLR_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern E5
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_A_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern E6
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_A_ATR0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern E7
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_A_ATR1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern E8
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_A_R0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern E9
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_A_R1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern EA
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_A_R2 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern EB
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_A_R3 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern EC
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_A_R4 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern ED
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_A_R5 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern EE
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_A_R6 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern EF
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_A_R7 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern F0
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOVX_ATDPTR_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern F1
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ACALL_8 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern F2
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOVX_ATR0_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern F3
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOVX_ATR1_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern F4
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label CPL_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern F5
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_D_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern F6
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_ATR0_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern F7
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_ATR1_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern F8
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R0_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern F9
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R1_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern FA
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R2_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern FB
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R3_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern FC
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R4_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern FD
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R5_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern FE
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R6_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern FF
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_R7_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+}}
+    data timeranges {
+pattern ::TimeRange ::TimeRange v1.0 {
+  overall {
+  }
+}}
+    data utilgeometry {}
+    data utilismapped 0
+    data utilselecttab {}
+    data consolegeometry 700x250+0+584
+    data consoleismapped 1
+  }
+}

@@ -1,0 +1,8 @@
+################################################
+#                                              #
+# Silicon Perspective, A Cadence Company       #
+# FirstEncounter Design Restore script         #
+#    for design session: /home/student/EMC08/digital_A/top/backend/restores/preCTS.enc                     
+#                                              #
+################################################
+restoreDesign /home/student/EMC08/digital_A/top/backend/restores/preCTS.enc.dat EMC08

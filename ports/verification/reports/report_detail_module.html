@@ -1,0 +1,1053 @@
+<HTML><HEAD>
+<TITLE>ICCR HTML Report</TITLE>
+</HEAD><BODY BGCOLOR="#FFFFFF">
+<TABLE WIDTH=100%><TR><TD>
+<H3>ICCR HTML Report</H3>
+</TD><TD><TABLE ALIGN=RIGHT><TR><TD>
+Go to <A HREF="#tabfile.1">First Summary Coverage File</A><BR>
+Go to <A HREF="#detfile.1">First Detail Coverage File</A>
+</TD></TR></TABLE>
+</TD></TR></TABLE>
+<UL><PRE>
+<A NAME="tabfile.1"></A>
+</PRE></UL>
+<HR SIZE=5 NOSHADE>
+<TABLE WIDTH=100%><TR><TD>
+<FONT SIZE=+2><B>COVERAGE FILE:</B></FONT></TD>
+<TD ALIGN=RIGHT><A NAME="/home/student/Val/New_Verification/cov_work/design/Test_Verification_Ports/icc.data_summary"></A>
+<FONT SIZE=-1><A HREF="#/home/student/Val/New_Verification/cov_work/design/Test_Verification_Ports/icc.data_detail">Go to detail report for this coverage file</A>
+</TD></TR><TR><TD ALIGN=RIGHT><FONT SIZE=+1 COLOR=GREEN> /home/student/Val/New_Verification/cov_work/design/Test_Verification_Ports/icc.data</FONT></TD></TR></TABLE><PRE><UL>
+
+</UL><TABLE BORDER=0 ALIGN=CENTER WIDTH=100%% BGCOLOR='DARKBLUE'><TR><TH><FONT COLOR='WHITE'>        Coverage Summary Report, Module-Based
+B = Block, BR = Branch, E = Expression
+ToC(%) = Total coverage percentage
+</FONT></TH></TR></TABLE><UL>
+<TABLE BORDER=2 ALIGN=CENTER><TR><TD><B>Coverage data sorted by:</B>  Block Expression <BR><B>Coverage data sorted using:</B> coverage percentages
+
+</TH></TR></TABLE>
+ToC(%)  B(%)              E(%)              Name
+------------------------------------------------
+0        -- (0/0)          -- (0/0)         PORT_TOP
+0        -- (0/0)          -- (0/0)         BBCUD8P
+90       91 (177/194)      89 (152/170)     tb_ports_verification
+100     100 (4/4)         100 (4/4)         PORTS
+
+<A NAME="detfile.1"></A>
+</PRE></UL>
+<HR SIZE=5 NOSHADE>
+<TABLE WIDTH=100%><TR><TD>
+<FONT SIZE=+2><B>COVERAGE FILE:</B></FONT></TD>
+<TD ALIGN=RIGHT><A NAME="/home/student/Val/New_Verification/cov_work/design/Test_Verification_Ports/icc.data_detail"></A>
+<FONT SIZE=-1><A HREF="#/home/student/Val/New_Verification/cov_work/design/Test_Verification_Ports/icc.data_summary">Go to summary report for this coverage file</A>
+</TD></TR><TR><TD ALIGN=RIGHT><FONT SIZE=+1 COLOR=GREEN> /home/student/Val/New_Verification/cov_work/design/Test_Verification_Ports/icc.data</FONT></TD></TR></TABLE><PRE><UL>
+
+</UL><TABLE BORDER=0 ALIGN=CENTER WIDTH=100% BGCOLOR='DARKBLUE'><TR><TH><FONT COLOR='WHITE'>        All Block Detail Report, Module/Entity-Based
+</FONT></TH></TR></TABLE><UL>
+
+
+<TABLE BORDER=1 ALIGN=CENTER><TR><TD>
+        <B>Module/Entity name:</B> tb_ports_verification<BR>
+        <B>File name:</B> /home/student/Val/New_Verification/ports_verification.v<BR>
+        <B>Number of covered blocks:</B> 177 of 194<BR>
+        <B>Number of blocks marked COV:</B> 0<BR>
+        <B>Number of blocks marked IGN:</B> 0<BR>
+
+</TD></TR></TABLE>
+ cnt  block line number             line origin description
+-----------------------------------------------------------------------
+   1     831                           831   begin
+   1     834     true part of          833   if (sfr_p0en == 1'b0) //Enabled as input
+   1     836     true part of          835   if (en == 1'b1)
+   0     840     false part of         835   if (en == 1'b1)
+   1     845     false part of         833   if (sfr_p0en == 1'b0) //Enabled as input
+   1     847     true part of          846   if (en == 1'b0)
+   0     851     false part of         846   if (en == 1'b0)
+   1     862                           862   begin
+   1     865     true part of          864   if (sfr_p1en == 1'b0) //Enabled as input
+   1     867     true part of          866   if (en == 1'b1)
+   0     871     false part of         866   if (en == 1'b1)
+   1     876     false part of         864   if (sfr_p1en == 1'b0) //Enabled as input
+   1     878     true part of          877   if (en == 1'b0)
+   0     882     false part of         877   if (en == 1'b0)
+   1     893                           893   begin
+   1     896     true part of          895   if (sfr_p2en == 1'b0) //Enabled as input
+   1     898     true part of          897   if (en == 1'b1)
+   0     902     false part of         897   if (en == 1'b1)
+   1     907     false part of         895   if (sfr_p2en == 1'b0) //Enabled as input
+   1     909     true part of          908   if (en == 1'b0)
+   0     913     false part of         908   if (en == 1'b0)
+   1     924                           924   begin
+   1     927     true part of          926   if (sfr_p3en == 1'b0) //Enabled as input
+   1     929     true part of          928   if (en == 1'b1)
+   0     933     false part of         928   if (en == 1'b1)
+   1     938     false part of         926   if (sfr_p3en == 1'b0) //Enabled as input
+   1     940     true part of          939   if (en == 1'b0)
+   0     944     false part of         939   if (en == 1'b0)
+   1     962                           962   begin
+   1     964     true part of          963   if (sfr_p0en == 1'b0) //Enabled as input
+   1     966     true part of          965   if (en == 1'b1)
+   1     968     true part of          967   if (pad == sfr_p0)
+   1     972     false part of         967   if (pad == sfr_p0)
+   0     977     false part of         965   if (en == 1'b1)
+   1     982     false part of         963   if (sfr_p0en == 1'b0) //Enabled as input
+   1     994                           994   begin
+   1     996     true part of          995   if (sfr_p1en == 1'b0) //Enabled as input
+   1     998     true part of          997   if (en == 1'b1)
+   1    1000     true part of          999   if (pad == sfr_p1)
+   1    1004     false part of         999   if (pad == sfr_p1)
+   0    1009     false part of         997   if (en == 1'b1)
+   1    1014     false part of         995   if (sfr_p1en == 1'b0) //Enabled as input
+   1    1026                          1026   begin
+   1    1028     true part of         1027   if (sfr_p2en == 1'b0) //Enabled as input
+   1    1030     true part of         1029   if (en == 1'b1)
+   1    1032     true part of         1031   if (pad == sfr_p2)
+   1    1036     false part of        1031   if (pad == sfr_p2)
+   0    1041     false part of        1029   if (en == 1'b1)
+   1    1046     false part of        1027   if (sfr_p2en == 1'b0) //Enabled as input
+   1    1058                          1058   begin
+   1    1060     true part of         1059   if (sfr_p3en == 1'b0) //Enabled as input
+   1    1062     true part of         1061   if (en == 1'b1)
+   1    1064     true part of         1063   if (pad == sfr_p3)
+   1    1068     false part of        1063   if (pad == sfr_p3)
+   0    1073     false part of        1061   if (en == 1'b1)
+   1    1078     false part of        1059   if (sfr_p3en == 1'b0) //Enabled as input
+   1    1095                          1095   begin
+   1    1097     true part of         1096   if (sfr_p0en == 1'b1) //Enabled as output
+   1    1099     true part of         1098   if (en == 1'b0)
+   1    1101     true part of         1100   if (pad == sfr_p0)
+   1    1105     false part of        1100   if (pad == sfr_p0)
+   0    1110     false part of        1098   if (en == 1'b0)
+   1    1115     false part of        1096   if (sfr_p0en == 1'b1) //Enabled as output
+   1    1127                          1127   begin
+   1    1129     true part of         1128   if (sfr_p1en == 1'b1) //Enabled as output
+   1    1131     true part of         1130   if (en == 1'b0)
+   1    1133     true part of         1132   if (pad == sfr_p1)
+   1    1137     false part of        1132   if (pad == sfr_p1)
+   0    1142     false part of        1130   if (en == 1'b0)
+   1    1147     false part of        1128   if (sfr_p1en == 1'b1) //Enabled as output
+   1    1159                          1159   begin
+   1    1161     true part of         1160   if (sfr_p2en == 1'b1) //Enabled as output
+   1    1163     true part of         1162   if (en == 1'b0)
+   1    1165     true part of         1164   if (pad == sfr_p2)
+   1    1169     false part of        1164   if (pad == sfr_p2)
+   0    1174     false part of        1162   if (en == 1'b0)
+   1    1179     false part of        1160   if (sfr_p2en == 1'b1) //Enabled as output
+   1    1191                          1191   begin
+   1    1193     true part of         1192   if (sfr_p3en == 1'b1) //Enabled as output
+   1    1195     true part of         1194   if (en == 1'b0)
+   1    1197     true part of         1196   if (pad == sfr_p3)
+   1    1201     false part of        1196   if (pad == sfr_p3)
+   0    1206     false part of        1194   if (en == 1'b0)
+   1    1211     false part of        1192   if (sfr_p3en == 1'b1) //Enabled as output
+   1    1221                          1221   begin
+   0    1223     true part of         1222   if (pad == sfr_p4)
+   1    1227     false part of        1222   if (pad == sfr_p4)
+   1    1235                          1235   begin
+   1    1238                          1238   vddo = 1'b1;
+   1    1276                          1276   p0_pin = 3'd0;   
+   1    1283                          1283   Checker_P1EN (ports_sfr_P1EN_i[0], en_port1_o[0]);
+   1    1284                          1284   Checker_P2EN (ports_sfr_P2EN_i[0], en_port2_o[0]);
+   1    1285                          1285   Checker_P3EN (ports_sfr_P3EN_i[0], en_port3_o[0]);
+   1    1287                          1287   Checker_SFR_P0 (ports_sfr_P0EN_i[0], en_port0_o[0], temp_pad_port0, ports_sfr_P0_o[0]);
+   1    1288                          1288   Checker_SFR_P1 (ports_sfr_P1EN_i[0], en_port1_o[0], temp_pad_port1, ports_sfr_P1_o[0]);
+   1    1289                          1289   Checker_SFR_P2 (ports_sfr_P2EN_i[0], en_port2_o[0], temp_pad_port2, ports_sfr_P2_o[0]);
+   1    1290                          1290   Checker_SFR_P3 (ports_sfr_P3EN_i[0], en_port3_o[0], temp_pad_port3, ports_sfr_P3_o[0]);
+   1    1292                          1292   Checker_PAD_Port0 (ports_sfr_P0EN_i[0], en_port0_o[0], pad_port0, ports_sfr_P0_i[0]);
+   1    1293                          1293   Checker_PAD_Port1 (ports_sfr_P1EN_i[0], en_port1_o[0], pad_port1, ports_sfr_P1_i[0]);
+   1    1294                          1294   Checker_PAD_Port2 (ports_sfr_P2EN_i[0], en_port2_o[0], pad_port2, ports_sfr_P2_i[0]);
+   1    1295                          1295   Checker_PAD_Port3 (ports_sfr_P3EN_i[0], en_port3_o[0], pad_port3, ports_sfr_P3_i[0]);
+   1    1297                          1297   Checker_PAD_Port4 (pad_port4, ports_sfr_P4_i[0]);
+   1    1300                          1300   p0_pin = 3'd1;   
+   1    1307                          1307   Checker_P1EN (ports_sfr_P1EN_i[1], en_port1_o[1]);
+   1    1308                          1308   Checker_P2EN (ports_sfr_P2EN_i[1], en_port2_o[1]);
+   1    1309                          1309   Checker_P3EN (ports_sfr_P3EN_i[1], en_port3_o[1]);
+   1    1311                          1311   Checker_SFR_P0 (ports_sfr_P0EN_i[1], en_port0_o[1], temp_pad_port0, ports_sfr_P0_o[1]);
+   1    1312                          1312   Checker_SFR_P1 (ports_sfr_P1EN_i[1], en_port1_o[1], temp_pad_port1, ports_sfr_P1_o[1]);
+   1    1313                          1313   Checker_SFR_P2 (ports_sfr_P2EN_i[1], en_port2_o[1], temp_pad_port2, ports_sfr_P2_o[1]);
+   1    1314                          1314   Checker_SFR_P3 (ports_sfr_P3EN_i[1], en_port3_o[1], temp_pad_port3, ports_sfr_P3_o[1]);
+   1    1316                          1316   Checker_PAD_Port0 (ports_sfr_P0EN_i[1], en_port0_o[1], pad_port0, ports_sfr_P0_i[1]);
+   1    1317                          1317   Checker_PAD_Port1 (ports_sfr_P1EN_i[1], en_port1_o[1], pad_port1, ports_sfr_P1_i[1]);
+   1    1318                          1318   Checker_PAD_Port2 (ports_sfr_P2EN_i[1], en_port2_o[1], pad_port2, ports_sfr_P2_i[1]);
+   1    1319                          1319   Checker_PAD_Port3 (ports_sfr_P3EN_i[1], en_port3_o[1], pad_port3, ports_sfr_P3_i[1]);
+   1    1321                          1321   Checker_PAD_Port4 (pad_port4, ports_sfr_P4_i[1]);
+   1    1324                          1324   p0_pin = 3'd2;   
+   1    1331                          1331   Checker_P1EN (ports_sfr_P1EN_i[2], en_port1_o[2]);
+   1    1332                          1332   Checker_P2EN (ports_sfr_P2EN_i[2], en_port2_o[2]);
+   1    1333                          1333   Checker_P3EN (ports_sfr_P3EN_i[2], en_port3_o[2]);
+   1    1335                          1335   Checker_SFR_P0 (ports_sfr_P0EN_i[2], en_port0_o[2], temp_pad_port0, ports_sfr_P0_o[2]);
+   1    1336                          1336   Checker_SFR_P1 (ports_sfr_P1EN_i[2], en_port1_o[2], temp_pad_port1, ports_sfr_P1_o[2]);
+   1    1337                          1337   Checker_SFR_P2 (ports_sfr_P2EN_i[2], en_port2_o[2], temp_pad_port2, ports_sfr_P2_o[2]);
+   1    1338                          1338   Checker_SFR_P3 (ports_sfr_P3EN_i[2], en_port3_o[2], temp_pad_port3, ports_sfr_P3_o[2]);
+   1    1340                          1340   Checker_PAD_Port0 (ports_sfr_P0EN_i[2], en_port0_o[2], pad_port0, ports_sfr_P0_i[2]);
+   1    1341                          1341   Checker_PAD_Port1 (ports_sfr_P1EN_i[2], en_port1_o[2], pad_port1, ports_sfr_P1_i[2]);
+   1    1342                          1342   Checker_PAD_Port2 (ports_sfr_P2EN_i[2], en_port2_o[2], pad_port2, ports_sfr_P2_i[2]);
+   1    1343                          1343   Checker_PAD_Port3 (ports_sfr_P3EN_i[2], en_port3_o[2], pad_port3, ports_sfr_P3_i[2]);
+   1    1345                          1345   Checker_PAD_Port4 (pad_port4, ports_sfr_P4_i[2]);
+   1    1348                          1348   p0_pin = 3'd3;   
+   1    1355                          1355   Checker_P1EN (ports_sfr_P1EN_i[3], en_port1_o[3]);
+   1    1356                          1356   Checker_P2EN (ports_sfr_P2EN_i[3], en_port2_o[3]);
+   1    1357                          1357   Checker_P3EN (ports_sfr_P3EN_i[3], en_port3_o[3]);
+   1    1359                          1359   Checker_SFR_P0 (ports_sfr_P0EN_i[3], en_port0_o[3], temp_pad_port0, ports_sfr_P0_o[3]);
+   1    1360                          1360   Checker_SFR_P1 (ports_sfr_P1EN_i[3], en_port1_o[3], temp_pad_port1, ports_sfr_P1_o[3]);
+   1    1361                          1361   Checker_SFR_P2 (ports_sfr_P2EN_i[3], en_port2_o[3], temp_pad_port2, ports_sfr_P2_o[3]);
+   1    1362                          1362   Checker_SFR_P3 (ports_sfr_P3EN_i[3], en_port3_o[3], temp_pad_port3, ports_sfr_P3_o[3]);
+   1    1364                          1364   Checker_PAD_Port0 (ports_sfr_P0EN_i[3], en_port0_o[3], pad_port0, ports_sfr_P0_i[3]);
+   1    1365                          1365   Checker_PAD_Port1 (ports_sfr_P1EN_i[3], en_port1_o[3], pad_port1, ports_sfr_P1_i[3]);
+   1    1366                          1366   Checker_PAD_Port2 (ports_sfr_P2EN_i[3], en_port2_o[3], pad_port2, ports_sfr_P2_i[3]);
+   1    1367                          1367   Checker_PAD_Port3 (ports_sfr_P3EN_i[3], en_port3_o[3], pad_port3, ports_sfr_P3_i[3]);
+   1    1369                          1369   Checker_PAD_Port4 (pad_port4, ports_sfr_P4_i[3]);
+   1    1372                          1372   p0_pin = 3'd4;   
+   1    1379                          1379   Checker_P1EN (ports_sfr_P1EN_i[4], en_port1_o[4]);
+   1    1380                          1380   Checker_P2EN (ports_sfr_P2EN_i[4], en_port2_o[4]);
+   1    1381                          1381   Checker_P3EN (ports_sfr_P3EN_i[4], en_port3_o[4]);
+   1    1383                          1383   Checker_SFR_P0 (ports_sfr_P0EN_i[4], en_port0_o[4], temp_pad_port0, ports_sfr_P0_o[4]);
+   1    1384                          1384   Checker_SFR_P1 (ports_sfr_P1EN_i[4], en_port1_o[4], temp_pad_port1, ports_sfr_P1_o[4]);
+   1    1385                          1385   Checker_SFR_P2 (ports_sfr_P2EN_i[4], en_port2_o[4], temp_pad_port2, ports_sfr_P2_o[4]);
+   1    1386                          1386   Checker_SFR_P3 (ports_sfr_P3EN_i[4], en_port3_o[4], temp_pad_port3, ports_sfr_P3_o[4]);
+   1    1388                          1388   Checker_PAD_Port0 (ports_sfr_P0EN_i[4], en_port0_o[4], pad_port0, ports_sfr_P0_i[4]);
+   1    1389                          1389   Checker_PAD_Port1 (ports_sfr_P1EN_i[4], en_port1_o[4], pad_port1, ports_sfr_P1_i[4]);
+   1    1390                          1390   Checker_PAD_Port2 (ports_sfr_P2EN_i[4], en_port2_o[4], pad_port2, ports_sfr_P2_i[4]);
+   1    1391                          1391   Checker_PAD_Port3 (ports_sfr_P3EN_i[4], en_port3_o[4], pad_port3, ports_sfr_P3_i[4]);
+   1    1393                          1393   Checker_PAD_Port4 (pad_port4, ports_sfr_P4_i[4]);
+   1    1396                          1396   p0_pin = 3'd5;   
+   1    1403                          1403   Checker_P1EN (ports_sfr_P1EN_i[5], en_port1_o[5]);
+   1    1404                          1404   Checker_P2EN (ports_sfr_P2EN_i[5], en_port2_o[5]);
+   1    1405                          1405   Checker_P3EN (ports_sfr_P3EN_i[5], en_port3_o[5]);
+   1    1407                          1407   Checker_SFR_P0 (ports_sfr_P0EN_i[5], en_port0_o[5], temp_pad_port0, ports_sfr_P0_o[5]);
+   1    1408                          1408   Checker_SFR_P1 (ports_sfr_P1EN_i[5], en_port1_o[5], temp_pad_port1, ports_sfr_P1_o[5]);
+   1    1409                          1409   Checker_SFR_P2 (ports_sfr_P2EN_i[5], en_port2_o[5], temp_pad_port2, ports_sfr_P2_o[5]);
+   1    1410                          1410   Checker_SFR_P3 (ports_sfr_P3EN_i[5], en_port3_o[5], temp_pad_port3, ports_sfr_P3_o[5]);
+   1    1412                          1412   Checker_PAD_Port0 (ports_sfr_P0EN_i[5], en_port0_o[5], pad_port0, ports_sfr_P0_i[5]);
+   1    1413                          1413   Checker_PAD_Port1 (ports_sfr_P1EN_i[5], en_port1_o[5], pad_port1, ports_sfr_P1_i[5]);
+   1    1414                          1414   Checker_PAD_Port2 (ports_sfr_P2EN_i[5], en_port2_o[5], pad_port2, ports_sfr_P2_i[5]);
+   1    1415                          1415   Checker_PAD_Port3 (ports_sfr_P3EN_i[5], en_port3_o[5], pad_port3, ports_sfr_P3_i[5]);
+   1    1417                          1417   Checker_PAD_Port4 (pad_port4, ports_sfr_P4_i[5]);
+   1    1420                          1420   p0_pin = 3'd6;   
+   1    1427                          1427   Checker_P1EN (ports_sfr_P1EN_i[6], en_port1_o[6]);
+   1    1428                          1428   Checker_P2EN (ports_sfr_P2EN_i[6], en_port2_o[6]);
+   1    1429                          1429   Checker_P3EN (ports_sfr_P3EN_i[6], en_port3_o[6]);
+   1    1431                          1431   Checker_SFR_P0 (ports_sfr_P0EN_i[6], en_port0_o[6], temp_pad_port0, ports_sfr_P0_o[6]);
+   1    1432                          1432   Checker_SFR_P1 (ports_sfr_P1EN_i[6], en_port1_o[6], temp_pad_port1, ports_sfr_P1_o[6]);
+   1    1433                          1433   Checker_SFR_P2 (ports_sfr_P2EN_i[6], en_port2_o[6], temp_pad_port2, ports_sfr_P2_o[6]);
+   1    1434                          1434   Checker_SFR_P3 (ports_sfr_P3EN_i[6], en_port3_o[6], temp_pad_port3, ports_sfr_P3_o[6]);
+   1    1436                          1436   Checker_PAD_Port0 (ports_sfr_P0EN_i[6], en_port0_o[6], pad_port0, ports_sfr_P0_i[6]);
+   1    1437                          1437   Checker_PAD_Port1 (ports_sfr_P1EN_i[6], en_port1_o[6], pad_port1, ports_sfr_P1_i[6]);
+   1    1438                          1438   Checker_PAD_Port2 (ports_sfr_P2EN_i[6], en_port2_o[6], pad_port2, ports_sfr_P2_i[6]);
+   1    1439                          1439   Checker_PAD_Port3 (ports_sfr_P3EN_i[6], en_port3_o[6], pad_port3, ports_sfr_P3_i[6]);
+   1    1441                          1441   Checker_PAD_Port4 (pad_port4, ports_sfr_P4_i[6]);
+   1    1444                          1444   p0_pin = 3'd7;   
+   1    1451                          1451   Checker_P1EN (ports_sfr_P1EN_i[7], en_port1_o[7]);
+   1    1452                          1452   Checker_P2EN (ports_sfr_P2EN_i[7], en_port2_o[7]);
+   1    1453                          1453   Checker_P3EN (ports_sfr_P3EN_i[7], en_port3_o[7]);
+   1    1455                          1455   Checker_SFR_P0 (ports_sfr_P0EN_i[7], en_port0_o[7], temp_pad_port0, ports_sfr_P0_o[7]);
+   1    1456                          1456   Checker_SFR_P1 (ports_sfr_P1EN_i[7], en_port1_o[7], temp_pad_port1, ports_sfr_P1_o[7]);
+   1    1457                          1457   Checker_SFR_P2 (ports_sfr_P2EN_i[7], en_port2_o[7], temp_pad_port2, ports_sfr_P2_o[7]);
+   1    1458                          1458   Checker_SFR_P3 (ports_sfr_P3EN_i[7], en_port3_o[7], temp_pad_port3, ports_sfr_P3_o[7]);
+   1    1460                          1460   Checker_PAD_Port0 (ports_sfr_P0EN_i[7], en_port0_o[7], pad_port0, ports_sfr_P0_i[7]);
+   1    1461                          1461   Checker_PAD_Port1 (ports_sfr_P1EN_i[7], en_port1_o[7], pad_port1, ports_sfr_P1_i[7]);
+   1    1462                          1462   Checker_PAD_Port2 (ports_sfr_P2EN_i[7], en_port2_o[7], pad_port2, ports_sfr_P2_i[7]);
+   1    1463                          1463   Checker_PAD_Port3 (ports_sfr_P3EN_i[7], en_port3_o[7], pad_port3, ports_sfr_P3_i[7]);
+   1    1465                          1465   Checker_PAD_Port4 (pad_port4, ports_sfr_P4_i[7]);
+   1    1468                          1468   p0_pin = 3'bz;   
+
+
+<TABLE BORDER=1 ALIGN=CENTER><TR><TD>
+        <B>Module/Entity name:</B> PORTS<BR>
+        <B>File name:</B> /home/student/Val/New_Verification/Port_func.v<BR>
+        <B>Number of covered blocks:</B> 4 of 4<BR>
+        <B>Number of blocks marked COV:</B> 0<BR>
+        <B>Number of blocks marked IGN:</B> 0<BR>
+
+</TD></TR></TABLE>
+ cnt  block line number             line origin description
+-----------------------------------------------------------------------
+   1      50                            50   begin
+   1      58                            58   begin
+   1      60     true part of           59   if (ports_sfr_PXEN_i[i] == 1'b0) // Pin configurating like input/reading 
+   1      64     false part of          59   if (ports_sfr_PXEN_i[i] == 1'b0) // Pin configurating like input/reading 
+
+</UL><TABLE BORDER=0 ALIGN=CENTER WIDTH=100% BGCOLOR='DARKBLUE'><TR><TH><FONT COLOR='WHITE'>        All Expression Detail Report, Module/Entity-Based
+</FONT></TH></TR></TABLE><UL>
+<TABLE BORDER=1><TR><TH>
+<FONT SIZE=-1>Coverage Table Legend</FONT></TH></TR><TR><TD>
+<FONT SIZE=-1><UL>
+<BR>  <B>-</B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;don't care
+<BR>  <B>O</B> (odd), <B>E</B> (even), <B>B</B> (both), <B>X</B> (not scored), <B>V</B> (marked covered),
+<BR>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B>I</B> (marked ignore) for parity trees
+<BR>  <B>COV</B>&nbsp;&nbsp;&nbsp;&nbsp;Marked covered by user - included in covered and totals
+<BR>  <B>IGN</B>&nbsp;&nbsp;&nbsp;&nbsp;Marked ignore by user or through COM - excluded from 
+<BR>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uncovered and totals
+<BR>  <B>CON</B>&nbsp;&nbsp;&nbsp;&nbsp;Impossible expression term as determined by instrumentation
+<BR>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;due to literal constants - excluded from uncovered and totals
+<BR>  <B>rval</B>&nbsp;&nbsp;&nbsp;Resulting value of the expression for coverage purposes given
+<BR>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the input values
+<BR>  <B>&lt;-n-&gt;</B>&nbsp;&nbsp;Shows the n-th term composition
+</UL></FONT></PRE></TD></TR></TABLE>
+
+
+<TABLE BORDER=1 ALIGN=CENTER><TR><TD>
+        <B>Module/Entity name:</B> tb_ports_verification<BR>
+        <B>File name:</B> /home/student/Val/New_Verification/ports_verification.v<BR>
+        <B>Number of covered expressions:</B> 152 of 170<BR>
+        <B>Number of expr items marked COV:</B> 0<BR>
+        <B>Number of expr items marked IGN:</B> 0<BR>
+
+</TD></TR></TABLE>
+Line    Coverage         Expression description
+--------------------------------------------------------------------------------
+  786 100% (3/3)         assign pad_port0[0] = ports_sfr_P0EN_i[0] ? 1'bz : temp_pad_port0[0];
+
+            ports_sfr_P0EN_i[0] ? 1'bz : temp_pad_port0[0]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  787 100% (3/3)         assign pad_port0[1] = ports_sfr_P0EN_i[1] ? 1'bz : temp_pad_port0[1];
+
+            ports_sfr_P0EN_i[1] ? 1'bz : temp_pad_port0[1]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  788 100% (3/3)         assign pad_port0[2] = ports_sfr_P0EN_i[2] ? 1'bz : temp_pad_port0[2];
+
+            ports_sfr_P0EN_i[2] ? 1'bz : temp_pad_port0[2]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  789 100% (3/3)         assign pad_port0[3] = ports_sfr_P0EN_i[3] ? 1'bz : temp_pad_port0[3];
+
+            ports_sfr_P0EN_i[3] ? 1'bz : temp_pad_port0[3]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  790 100% (3/3)         assign pad_port0[4] = ports_sfr_P0EN_i[4] ? 1'bz : temp_pad_port0[4];
+
+            ports_sfr_P0EN_i[4] ? 1'bz : temp_pad_port0[4]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  791 100% (3/3)         assign pad_port0[5] = ports_sfr_P0EN_i[5] ? 1'bz : temp_pad_port0[5];
+
+            ports_sfr_P0EN_i[5] ? 1'bz : temp_pad_port0[5]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  792 100% (3/3)         assign pad_port0[6] = ports_sfr_P0EN_i[6] ? 1'bz : temp_pad_port0[6];
+
+            ports_sfr_P0EN_i[6] ? 1'bz : temp_pad_port0[6]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  793 100% (3/3)         assign pad_port0[7] = ports_sfr_P0EN_i[7] ? 1'bz : temp_pad_port0[7];
+
+            ports_sfr_P0EN_i[7] ? 1'bz : temp_pad_port0[7]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  795 100% (3/3)         assign pad_port1[0] = ports_sfr_P1EN_i[0] ? 1'bz : temp_pad_port1[0];
+
+            ports_sfr_P1EN_i[0] ? 1'bz : temp_pad_port1[0]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  796 100% (3/3)         assign pad_port1[1] = ports_sfr_P1EN_i[1] ? 1'bz : temp_pad_port1[1];
+
+            ports_sfr_P1EN_i[1] ? 1'bz : temp_pad_port1[1]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  797 100% (3/3)         assign pad_port1[2] = ports_sfr_P1EN_i[2] ? 1'bz : temp_pad_port1[2];
+
+            ports_sfr_P1EN_i[2] ? 1'bz : temp_pad_port1[2]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  798 100% (3/3)         assign pad_port1[3] = ports_sfr_P1EN_i[3] ? 1'bz : temp_pad_port1[3];
+
+            ports_sfr_P1EN_i[3] ? 1'bz : temp_pad_port1[3]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  799 100% (3/3)         assign pad_port1[4] = ports_sfr_P1EN_i[4] ? 1'bz : temp_pad_port1[4];
+
+            ports_sfr_P1EN_i[4] ? 1'bz : temp_pad_port1[4]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  800 100% (3/3)         assign pad_port1[5] = ports_sfr_P1EN_i[5] ? 1'bz : temp_pad_port1[5];
+
+            ports_sfr_P1EN_i[5] ? 1'bz : temp_pad_port1[5]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  801 100% (3/3)         assign pad_port1[6] = ports_sfr_P1EN_i[6] ? 1'bz : temp_pad_port1[6];
+
+            ports_sfr_P1EN_i[6] ? 1'bz : temp_pad_port1[6]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  802 100% (3/3)         assign pad_port1[7] = ports_sfr_P1EN_i[7] ? 1'bz : temp_pad_port1[7];
+
+            ports_sfr_P1EN_i[7] ? 1'bz : temp_pad_port1[7]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  804 100% (3/3)         assign pad_port2[0] = ports_sfr_P2EN_i[0] ? 1'bz : temp_pad_port2[0];
+
+            ports_sfr_P2EN_i[0] ? 1'bz : temp_pad_port2[0]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  805 100% (3/3)         assign pad_port2[1] = ports_sfr_P2EN_i[1] ? 1'bz : temp_pad_port2[1];
+
+            ports_sfr_P2EN_i[1] ? 1'bz : temp_pad_port2[1]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  806 100% (3/3)         assign pad_port2[2] = ports_sfr_P2EN_i[2] ? 1'bz : temp_pad_port2[2];
+
+            ports_sfr_P2EN_i[2] ? 1'bz : temp_pad_port2[2]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  807 100% (3/3)         assign pad_port2[3] = ports_sfr_P2EN_i[3] ? 1'bz : temp_pad_port2[3];
+
+            ports_sfr_P2EN_i[3] ? 1'bz : temp_pad_port2[3]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  808 100% (3/3)         assign pad_port2[4] = ports_sfr_P2EN_i[4] ? 1'bz : temp_pad_port2[4];
+
+            ports_sfr_P2EN_i[4] ? 1'bz : temp_pad_port2[4]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  809 100% (3/3)         assign pad_port2[5] = ports_sfr_P2EN_i[5] ? 1'bz : temp_pad_port2[5];
+
+            ports_sfr_P2EN_i[5] ? 1'bz : temp_pad_port2[5]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  810 100% (3/3)         assign pad_port2[6] = ports_sfr_P2EN_i[6] ? 1'bz : temp_pad_port2[6];
+
+            ports_sfr_P2EN_i[6] ? 1'bz : temp_pad_port2[6]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  811 100% (3/3)         assign pad_port2[7] = ports_sfr_P2EN_i[7] ? 1'bz : temp_pad_port2[7];
+
+            ports_sfr_P2EN_i[7] ? 1'bz : temp_pad_port2[7]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  813 100% (3/3)         assign pad_port3[0] = ports_sfr_P3EN_i[0] ? 1'bz : temp_pad_port3[0];
+
+            ports_sfr_P3EN_i[0] ? 1'bz : temp_pad_port3[0]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  814 100% (3/3)         assign pad_port3[1] = ports_sfr_P3EN_i[1] ? 1'bz : temp_pad_port3[1];
+
+            ports_sfr_P3EN_i[1] ? 1'bz : temp_pad_port3[1]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  815 100% (3/3)         assign pad_port3[2] = ports_sfr_P3EN_i[2] ? 1'bz : temp_pad_port3[2];
+
+            ports_sfr_P3EN_i[2] ? 1'bz : temp_pad_port3[2]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  816 100% (3/3)         assign pad_port3[3] = ports_sfr_P3EN_i[3] ? 1'bz : temp_pad_port3[3];
+
+            ports_sfr_P3EN_i[3] ? 1'bz : temp_pad_port3[3]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  817 100% (3/3)         assign pad_port3[4] = ports_sfr_P3EN_i[4] ? 1'bz : temp_pad_port3[4];
+
+            ports_sfr_P3EN_i[4] ? 1'bz : temp_pad_port3[4]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  818 100% (3/3)         assign pad_port3[5] = ports_sfr_P3EN_i[5] ? 1'bz : temp_pad_port3[5];
+
+            ports_sfr_P3EN_i[5] ? 1'bz : temp_pad_port3[5]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  819 100% (3/3)         assign pad_port3[6] = ports_sfr_P3EN_i[6] ? 1'bz : temp_pad_port3[6];
+
+            ports_sfr_P3EN_i[6] ? 1'bz : temp_pad_port3[6]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  820 100% (3/3)         assign pad_port3[7] = ports_sfr_P3EN_i[7] ? 1'bz : temp_pad_port3[7];
+
+            ports_sfr_P3EN_i[7] ? 1'bz : temp_pad_port3[7]
+           <--------1--------->  <-2--> <--------3-------->
+
+              hit | rval | <1> <3> 
+             ----------------------
+                1 |    1 |  0   1  
+                1 |    0 |  -   0  
+                1 |    0 |  1   -  
+
+  833 100% (2/2)         if (sfr_p0en == 1'b0) //Enabled as input
+
+            sfr_p0en == 1'b0
+           <---1--->   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                1 | lhs  !=  rhs
+
+  835  50% (1/2)         if (en == 1'b1)
+
+            en == 1'b1
+           <1>   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                0 | lhs  !=  rhs
+
+  846  50% (1/2)         if (en == 1'b0)
+
+            en == 1'b0
+           <1>   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                0 | lhs  !=  rhs
+
+  864 100% (2/2)         if (sfr_p1en == 1'b0) //Enabled as input
+
+            sfr_p1en == 1'b0
+           <---1--->   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                1 | lhs  !=  rhs
+
+  866  50% (1/2)         if (en == 1'b1)
+
+            en == 1'b1
+           <1>   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                0 | lhs  !=  rhs
+
+  877  50% (1/2)         if (en == 1'b0)
+
+            en == 1'b0
+           <1>   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                0 | lhs  !=  rhs
+
+  895 100% (2/2)         if (sfr_p2en == 1'b0) //Enabled as input
+
+            sfr_p2en == 1'b0
+           <---1--->   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                1 | lhs  !=  rhs
+
+  897  50% (1/2)         if (en == 1'b1)
+
+            en == 1'b1
+           <1>   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                0 | lhs  !=  rhs
+
+  908  50% (1/2)         if (en == 1'b0)
+
+            en == 1'b0
+           <1>   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                0 | lhs  !=  rhs
+
+  926 100% (2/2)         if (sfr_p3en == 1'b0) //Enabled as input
+
+            sfr_p3en == 1'b0
+           <---1--->   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                1 | lhs  !=  rhs
+
+  928  50% (1/2)         if (en == 1'b1)
+
+            en == 1'b1
+           <1>   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                0 | lhs  !=  rhs
+
+  939  50% (1/2)         if (en == 1'b0)
+
+            en == 1'b0
+           <1>   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                0 | lhs  !=  rhs
+
+  963 100% (2/2)         if (sfr_p0en == 1'b0) //Enabled as input
+
+            sfr_p0en == 1'b0
+           <---1--->   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                1 | lhs  !=  rhs
+
+  965  50% (1/2)         if (en == 1'b1)
+
+            en == 1'b1
+           <1>   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                0 | lhs  !=  rhs
+
+  967 100% (2/2)         if (pad == sfr_p0)
+
+            pad == sfr_p0
+           <1->   <---2--->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                1 | lhs  !=  rhs
+
+  995 100% (2/2)         if (sfr_p1en == 1'b0) //Enabled as input
+
+            sfr_p1en == 1'b0
+           <---1--->   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                1 | lhs  !=  rhs
+
+  997  50% (1/2)         if (en == 1'b1)
+
+            en == 1'b1
+           <1>   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                0 | lhs  !=  rhs
+
+  999 100% (2/2)         if (pad == sfr_p1)
+
+            pad == sfr_p1
+           <1->   <---2--->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                1 | lhs  !=  rhs
+
+ 1027 100% (2/2)         if (sfr_p2en == 1'b0) //Enabled as input
+
+            sfr_p2en == 1'b0
+           <---1--->   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                1 | lhs  !=  rhs
+
+ 1029  50% (1/2)         if (en == 1'b1)
+
+            en == 1'b1
+           <1>   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                0 | lhs  !=  rhs
+
+ 1031 100% (2/2)         if (pad == sfr_p2)
+
+            pad == sfr_p2
+           <1->   <---2--->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                1 | lhs  !=  rhs
+
+ 1059 100% (2/2)         if (sfr_p3en == 1'b0) //Enabled as input
+
+            sfr_p3en == 1'b0
+           <---1--->   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                1 | lhs  !=  rhs
+
+ 1061  50% (1/2)         if (en == 1'b1)
+
+            en == 1'b1
+           <1>   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                0 | lhs  !=  rhs
+
+ 1063 100% (2/2)         if (pad == sfr_p3)
+
+            pad == sfr_p3
+           <1->   <---2--->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                1 | lhs  !=  rhs
+
+ 1096 100% (2/2)         if (sfr_p0en == 1'b1) //Enabled as output
+
+            sfr_p0en == 1'b1
+           <---1--->   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                1 | lhs  !=  rhs
+
+ 1098  50% (1/2)         if (en == 1'b0)
+
+            en == 1'b0
+           <1>   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                0 | lhs  !=  rhs
+
+ 1100 100% (2/2)         if (pad == sfr_p0)
+
+            pad == sfr_p0
+           <1->   <---2--->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                1 | lhs  !=  rhs
+
+ 1128 100% (2/2)         if (sfr_p1en == 1'b1) //Enabled as output
+
+            sfr_p1en == 1'b1
+           <---1--->   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                1 | lhs  !=  rhs
+
+ 1130  50% (1/2)         if (en == 1'b0)
+
+            en == 1'b0
+           <1>   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                0 | lhs  !=  rhs
+
+ 1132 100% (2/2)         if (pad == sfr_p1)
+
+            pad == sfr_p1
+           <1->   <---2--->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                1 | lhs  !=  rhs
+
+ 1160 100% (2/2)         if (sfr_p2en == 1'b1) //Enabled as output
+
+            sfr_p2en == 1'b1
+           <---1--->   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                1 | lhs  !=  rhs
+
+ 1162  50% (1/2)         if (en == 1'b0)
+
+            en == 1'b0
+           <1>   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                0 | lhs  !=  rhs
+
+ 1164 100% (2/2)         if (pad == sfr_p2)
+
+            pad == sfr_p2
+           <1->   <---2--->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                1 | lhs  !=  rhs
+
+ 1192 100% (2/2)         if (sfr_p3en == 1'b1) //Enabled as output
+
+            sfr_p3en == 1'b1
+           <---1--->   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                1 | lhs  !=  rhs
+
+ 1194  50% (1/2)         if (en == 1'b0)
+
+            en == 1'b0
+           <1>   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                0 | lhs  !=  rhs
+
+ 1196 100% (2/2)         if (pad == sfr_p3)
+
+            pad == sfr_p3
+           <1->   <---2--->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                1 | lhs  !=  rhs
+
+ 1222   0% (0/2)         if (pad == sfr_p4)
+
+            pad == sfr_p4
+           <1->   <---2--->
+
+              hit | <1>      <2>      
+          == -------------------------
+                0 | lhs  ==  rhs
+                0 | lhs  !=  rhs
+
+
+
+
+<TABLE BORDER=1 ALIGN=CENTER><TR><TD>
+        <B>Module/Entity name:</B> PORTS<BR>
+        <B>File name:</B> /home/student/Val/New_Verification/Port_func.v<BR>
+        <B>Number of covered expressions:</B> 4 of 4<BR>
+        <B>Number of expr items marked COV:</B> 0<BR>
+        <B>Number of expr items marked IGN:</B> 0<BR>
+
+</TD></TR></TABLE>
+Line    Coverage         Expression description
+--------------------------------------------------------------------------------
+   57 100% (2/2)         for (i = 0; i <= 7; i = i + 1)
+
+            i <= 7
+           <1>  <2->
+
+              hit | <1>      <2>      
+          <= -------------------------
+                1 | lhs   >  rhs
+                1 | lhs  <=  rhs
+
+   59 100% (2/2)         if (ports_sfr_PXEN_i[i] == 1'b0) // Pin configurating like input/reading 
+
+            ports_sfr_PXEN_i[i] == 1'b0
+           <--------1--------->   <--2-->
+
+              hit | <1>      <2>      
+          == -------------------------
+                1 | lhs  ==  rhs
+                1 | lhs  !=  rhs
+
+

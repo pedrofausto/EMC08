@@ -1,0 +1,17 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-timescale
+1ns/10ps
+-MESSAGES
+-XLMODE
+./INCA_libs/irun.lnx86.06.11.nc
+-RUNMODE
+-CDSLIB
+./INCA_libs/irun.lnx86.06.11.nc/cds.lib
+-HDLVAR
+./INCA_libs/irun.lnx86.06.11.nc/hdl.var
+-work
+worklib
+-HASXLMODE

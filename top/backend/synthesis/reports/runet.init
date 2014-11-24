@@ -1,0 +1,17 @@
+#!/bin/ksh
+export WORKDIR=/home/student/EMC08/digital_A/top/backend/synthesis/reports/
+build_model \
+    cell=emc_top \
+    defaultinouts=no \
+    allowincomplete=yes blackboxoutputs=z \
+    TEIPERIOD=__rcATdft_ \
+    DESIGNSOURCE=/home/student/EMC08/digital_A/top/backend/synthesis/reports//et_netlist.v \
+    TECHLIB=/ddk/XFABC018/cadence/xc018/verilog/D_CELLS.v,/ddk/XFABC018/cadence/xc018/verilog/VLG_PRIMITIVES.v 
+build_testmode \
+    TESTMODE=SCAN \
+    MODEDEFPATH=/home/student/EMC08/digital_A/top/backend/synthesis/reports/ \
+    MODEDEF=et.modedef \
+    EXCLUDELATCHFILE=/home/student/EMC08/digital_A/top/backend/synthesis/reports//et.exclude \
+    ASSIGNFILE=/home/student/EMC08/digital_A/top/backend/synthesis/reports//et.pinassign
+build_faultmodel \
+    includedynamic=no

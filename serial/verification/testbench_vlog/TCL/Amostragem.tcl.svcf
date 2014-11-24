@@ -1,0 +1,222 @@
+# SimVision Command Script (Thu Oct 21 12:36:38 PM BRT 2010)
+#
+# Version 06.10.p001
+#
+# You can restore this configuration with:
+#
+#     irun -access rwc /home/student/EMC08/digital_A/serial/design/rtl_v/serial_top.v -gui tb_serial_final.v -timescale 1ns/10ps -s -input Amostragem.tcl
+#
+
+
+#
+# preferences
+#
+preferences set txe-locate-add-fibers 1
+preferences set signal-type-colors {assertion #FF0000 output #FFA500 group #0099FF inout #00FFFF input #FFFF00 fiber #FF99FF errorsignal #FF0000 unknown #FFFFFF overlay #0000ff internal #00FF00 reference #FFFFFF}
+preferences set txe-navigate-search-locate 0
+preferences set txe-view-hold 0
+preferences set sb-editor-command {xterm -geometry 85x40 -e kwrite}
+preferences set save-state-on-startup 1
+preferences set restore-state-on-startup 1
+preferences set txe-navigate-waveform-locate 1
+preferences set txe-view-hidden 0
+preferences set waveform-print-paper {A3 (297mm x 420mm)}
+preferences set toolbar-UserTB2-WaveWindow {
+  usual
+  add action_specman_sendto_stripechart
+  add action_specman_sendto_databrowser
+  position -row 0 -pos 5 -anchor e
+  name {Send To Specman}
+}
+preferences set txe-search-show-linenumbers 1
+preferences set schematic-show-rtl 0
+preferences set toolbar-txe_waveform_toggle-WaveWindow {
+  usual
+  position -pos 1
+}
+preferences set print-company CI-BRASIL
+preferences set waveform-print-colors {As shown on screen}
+preferences set toolbar-Windows-WaveWindow {
+  usual
+  position -pos 4
+}
+preferences set txe-navigate-waveform-next-child 1
+preferences set print-designer {Inacio Mendonca Soares Filho}
+preferences set txe-locate-scroll-x 1
+preferences set txe-locate-scroll-y 1
+preferences set txe-locate-pop-waveform 1
+preferences set use-signal-type-colors 1
+
+#
+# Simulator
+#
+
+database require simulator -hints {
+	simulator "irun -access rwc /home/student/EMC08/digital_A/serial/design/rtl_v/serial_top.v -gui tb_serial_final.v -timescale 1ns/10ps -s -input Amostragem.tcl"
+}
+
+#
+# conditions
+#
+set expression tb_serial_final.p3_0_i
+if {[catch {condition new -name  p3_p3_0_i0_i -expr $expression}] != ""} {
+    condition set -using p3_p3_0_i0_i -expr $expression
+}
+
+#
+# groups
+#
+catch {group new -name RX_MODE_2 -overlay 0}
+catch {group new -name TX_MODE_2 -overlay 0}
+
+group using RX_MODE_2
+group set -overlay 0
+group set -comment {}
+group set -parents {}
+group set -groups {}
+group clear 0 end
+
+
+group using TX_MODE_2
+group set -overlay 0
+group set -comment {}
+group set -parents {}
+group set -groups {}
+group clear 0 end
+
+
+#
+# cursors
+#
+set time 23759600000ps
+if {[catch {cursor new -name  TimeA -time $time}] != ""} {
+    cursor set -using TimeA -time $time
+}
+
+#
+# markers
+#
+set time 24149609730ps
+if {[catch {marker new -name  {Marker 3} -time $time}] != ""} {
+    marker set -using {Marker 3} -time $time
+}
+set time 24144811310ps
+if {[catch {marker new -name  {Marker 2} -time $time}] != ""} {
+    marker set -using {Marker 2} -time $time
+}
+set time 24140000000ps
+if {[catch {marker new -name  {Marker 1} -time $time}] != ""} {
+    marker set -using {Marker 1} -time $time
+}
+
+#
+# mmaps
+#
+mmap new -reuse -name {Boolean as Logic} -contents {
+{%c=FALSE -edgepriority 1 -shape low}
+{%c=TRUE -edgepriority 1 -shape high}
+}
+mmap new -reuse -name {Example Map} -contents {
+{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}
+}
+mmap new -reuse -name {New map} -contents {
+{%b=000 -bgcolor #ffff00 -font -*-courier-medium-r-normal--12-* -label TX_MODE_0 -shape bus -textcolor #000000}
+{%b=001 -bgcolor #ff9900 -font -*-courier-medium-r-normal--12-* -label RX_MODE_0 -shape bus}
+{%b=010 -bgcolor #99ff00 -font -*-courier-medium-r-normal--12-* -label TX_MODE_2 -shape bus -textcolor #0000ff}
+{%b=011 -bgcolor #0099ff -font -*-courier-medium-r-normal--12-* -label RX_MODE_2 -shape bus}
+{%b=100 -bgcolor #ff0000 -font -*-courier-medium-r-normal--12-* -label MODE_INACTIVE -shape bus}
+}
+mmap new -reuse -name {New map #2} -contents {
+{%b=0 -bgcolor #ff0000 -font -*-courier-medium-r-normal--12-* -label 0 -shape bus}
+{%b=1 -bgcolor #00ff00 -font -*-courier-medium-r-normal--12-* -label 1 -linecolor #ff0000 -shape bus -textcolor #0000ff}
+}
+mmap new -reuse -name {New map #3} -contents {
+{%d=13 -label 0}
+{%d=14 -label 1}
+{%d=15 -label 2}
+{%d=0 -label 3}
+{%d=1 -label 4}
+{%d=2 -label 5}
+{%d=3 -label 6}
+{%d=4 -label 7}
+{%d=5 -label 8}
+{%d=6 -label 9}
+{%d=7 -label 10}
+{%d=8 -label 11}
+{%d=9 -label 12}
+{%d=10 -label 13}
+{%d=11 -label 14}
+{%d=12 -label 15}
+}
+
+#
+# Design Browser windows
+#
+if {[catch {window new WatchList -name "Design Browser 1" -geometry 1280x946+0+22}] != ""} {
+    window geometry "Design Browser 1" 1280x946+0+22
+}
+window target "Design Browser 1" on
+browser using {Design Browser 1}
+browser timecontrol set -lock 0
+
+#
+# Waveform windows
+#
+if {[catch {window new WaveWindow -name "Waveform 2" -geometry 1280x946+0+0}] != ""} {
+    window geometry "Waveform 2" 1280x946+0+0
+}
+window target "Waveform 2" on
+waveform using {Waveform 2}
+waveform sidebar select designbrowser
+waveform set \
+    -primarycursor TimeA \
+    -signalnames name \
+    -signalwidth 175 \
+    -units ps \
+    -valuewidth 75
+cursor set -using TimeA -time 23,759,600,000ps
+waveform baseline set -time 0
+
+set groupId [waveform add -groups RX_MODE_2]
+set groupId [waveform add -groups TX_MODE_2]
+set groupId [waveform add -groups RX_MODE_2]
+set groupId [waveform add -groups TX_MODE_2]
+
+waveform xview limits 0 1000000000000ps
+
+if {[catch {window new WaveWindow -name "Waveform 3" -geometry 1280x946+0+0}] != ""} {
+    window geometry "Waveform 3" 1280x946+0+0
+}
+waveform using {Waveform 3}
+waveform sidebar visibility partial
+waveform set \
+    -primarycursor TimeA \
+    -signalnames name \
+    -signalwidth 175 \
+    -units ps \
+    -valuewidth 75
+cursor set -using TimeA -time 23,759,600,000ps
+waveform baseline set -time 0
+
+set id [waveform add -signals [list {tb_serial_final.serial_top_tb.serial_rx_block.serial_rx_detector.counter[3:0]} ]]
+waveform format $id -radix %d
+set id [waveform add -signals [list tb_serial_final.serial_top_tb.serial_rx_block.serial_rx_detector.serial_br_trans_i \
+	tb_serial_final.serial_top_tb.serial_rx_block.serial_rx_detector.serial_clock_i \
+	tb_serial_final.serial_top_tb.serial_rx_block.serial_rx_detector.serial_sample_detected_o \
+	tb_serial_final.serial_top_tb.serial_rx_block.serial_rx_detector.serial_shift_o \
+	tb_serial_final.serial_top_tb.serial_rx_block.serial_rx_detector.serial_transition_detected_o \
+	tb_serial_final.serial_top_tb.serial_rx_block.serial_rx_detector.tran_det ]]
+set id [waveform add -signals [list {tb_serial_final.CONTROL_MODE[2:0]} ]]
+waveform format $id -radix {New map}
+set id [waveform add -signals [list tb_serial_final.br \
+	tb_serial_final.serial_top_tb.serial_rx_block.serial_rx_detector.serial_reset_i_b ]]
+set id [waveform add -signals [list tb_serial_final.p3_0_i ]]
+waveform format $id -radix {New map #2}
+set id [waveform add -signals [list {tb_serial_final.PACOTE[10:0]} ]]
+waveform format $id -radix %b
+
+waveform xview limits 23755680800ps 23763872800ps
+

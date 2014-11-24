@@ -1,0 +1,2183 @@
+Path 1: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_
+1_2_reg[4] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[4] /D (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[4] /Q     (^) 
+triggered by  leading edge of 'MEMCLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.534
++ Hold                          0.157
++ Phase Shift                 -25.000
++ Uncertainty                   0.100
+= Required Time                 6.791
+  Arrival Time                  7.303
+  Slack Time                    0.512
+     Clock Rise Edge                      0.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time            5.000
+     Timing Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y ^        |         | 0.000 |       |   5.000 |    4.488 | 
+     | top_clock_mem_i__L1_I8                             | A ^ -> Q ^ | BUCX4   | 0.613 | 0.707 |   5.707 |    5.196 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg | C ^ -> Q ^ | SDFRQX4 | 0.398 | 0.904 |   6.612 |    6.100 | 
+     | [4]                                                |            |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/FE_PHC0_alu_fsm | A ^ -> Q ^ | BUX0    | 0.140 | 0.236 |   6.847 |    6.336 | 
+     | _result_4_                                         |            |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/p15905A56116    | B ^ -> Q ^ | AO22X0  | 0.329 | 0.455 |   7.302 |    6.791 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | D ^        | SDFFQX0 | 0.329 | 0.000 |   7.303 |    6.791 | 
+     | _reg[4]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.512 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.264 | 
+     | top_clock_i__L2_I11                                | A ^ -> Q v | INCX20  | 0.279 | 0.771 |  31.524 |   32.035 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | CN v       | SDFFQX0 | 0.279 | 0.010 |  31.534 |   32.045 | 
+     | _reg[4]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 2: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_
+1_2_reg[1] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[1] /D (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[1] /Q     (^) 
+triggered by  leading edge of 'MEMCLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.551
++ Hold                          0.152
++ Phase Shift                 -25.000
++ Uncertainty                   0.100
+= Required Time                 6.803
+  Arrival Time                  7.357
+  Slack Time                    0.555
+     Clock Rise Edge                      0.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time            5.000
+     Timing Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y ^        |         | 0.000 |       |   5.000 |    4.445 | 
+     | top_clock_mem_i__L1_I8                             | A ^ -> Q ^ | BUCX4   | 0.613 | 0.707 |   5.707 |    5.153 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg | C ^ -> Q ^ | SDFRQX4 | 0.398 | 0.907 |   6.614 |    6.060 | 
+     | [1]                                                |            |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/FE_PHC2_alu_fsm | A ^ -> Q ^ | BUX1    | 0.093 | 0.245 |   6.859 |    6.305 | 
+     | _result_1_                                         |            |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/p15912A         | B ^ -> Q ^ | AO22X0  | 0.408 | 0.498 |   7.357 |    6.802 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | D ^        | SDFFQX0 | 0.408 | 0.000 |   7.357 |    6.803 | 
+     | _reg[1]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.555 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.307 | 
+     | top_clock_i__L2_I2                                 | A ^ -> Q v | INCX20  | 0.303 | 0.789 |  31.541 |   32.096 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | CN v       | SDFFQX0 | 0.304 | 0.009 |  31.551 |   32.106 | 
+     | _reg[1]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 3: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_
+1_2_reg[0] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[0] /D (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[0] /Q     (^) 
+triggered by  leading edge of 'MEMCLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.571
++ Hold                          0.167
++ Phase Shift                 -25.000
++ Uncertainty                   0.100
+= Required Time                 6.838
+  Arrival Time                  7.509
+  Slack Time                    0.671
+     Clock Rise Edge                      0.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time            5.000
+     Timing Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y ^        |         | 0.000 |       |   5.000 |    4.329 | 
+     | top_clock_mem_i__L1_I8                             | A ^ -> Q ^ | BUCX4   | 0.613 | 0.707 |   5.707 |    5.036 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg | C ^ -> Q ^ | SDFRQX4 | 0.427 | 0.926 |   6.633 |    5.962 | 
+     | [0]                                                |            |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/FE_PHC1_alu_fsm | A ^ -> Q ^ | BUCX4   | 0.110 | 0.427 |   7.060 |    6.389 | 
+     | _result_0_                                         |            |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/p15912A56115    | B ^ -> Q ^ | AO22X0  | 0.329 | 0.449 |   7.509 |    6.838 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | D ^        | SDFFQX0 | 0.329 | 0.000 |   7.509 |    6.838 | 
+     | _reg[0]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.671 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.424 | 
+     | top_clock_i__L2_I1                                 | A ^ -> Q v | INCX20  | 0.310 | 0.799 |  31.551 |   32.222 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | CN v       | SDFFQX0 | 0.312 | 0.020 |  31.571 |   32.242 | 
+     | _reg[0]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 4: MET Hold Check with Pin EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\vect_
+register_reg[1] /CN 
+Endpoint:   EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\vect_register_reg[1] /SD (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\vect_register_reg[0] /Q  (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.555
++ Hold                          0.034
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.689
+  Arrival Time                 32.488
+  Slack Time                    0.799
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v         |         | 0.000 |       |  30.000 |   29.201 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.954 | 
+     | top_clock_i__L2_I5                                 | A ^ -> Q v  | INCX20  | 0.297 | 0.775 |  31.528 |   30.729 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\vect_register | CN v -> Q ^ | SDFFQX0 | 0.492 | 0.960 |  32.488 |   31.689 | 
+     | _reg[0]                                            |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\vect_register | SD ^        | SDFFQX0 | 0.492 | 0.000 |  32.488 |   31.689 | 
+     | _reg[1]                                            |             |         |       |       |         |          | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.799 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.752 |   31.551 | 
+     | top_clock_i__L2_I5                                 | A ^ -> Q v | INCX20  | 0.297 | 0.775 |  31.528 |   32.327 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\vect_register | CN v       | SDFFQX0 | 0.299 | 0.027 |  31.555 |   32.353 | 
+     | _reg[1]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 5: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_
+1_2_reg[7] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[7] /D (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[7] /Q     (^) 
+triggered by  leading edge of 'MEMCLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.562
++ Hold                          0.166
++ Phase Shift                 -25.000
++ Uncertainty                   0.100
+= Required Time                 6.827
+  Arrival Time                  7.636
+  Slack Time                    0.808
+     Clock Rise Edge                      0.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time            5.000
+     Timing Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y ^        |         | 0.000 |       |   5.000 |    4.192 | 
+     | top_clock_mem_i__L1_I8                             | A ^ -> Q ^ | BUCX4   | 0.613 | 0.707 |   5.707 |    4.899 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg | C ^ -> Q ^ | SDFRQX1 | 1.199 | 1.354 |   7.062 |    6.254 | 
+     | [7]                                                |            |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/p15903A         | B ^ -> Q ^ | AO22X0  | 0.324 | 0.574 |   7.635 |    6.827 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | D ^        | SDFFQX0 | 0.324 | 0.000 |   7.636 |    6.827 | 
+     | _reg[7]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.808 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.752 |   31.561 | 
+     | top_clock_i__L2_I2                                 | A ^ -> Q v | INCX20  | 0.303 | 0.789 |  31.541 |   32.350 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | CN v       | SDFFQX0 | 0.304 | 0.021 |  31.562 |   32.370 | 
+     | _reg[7]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 6: MET Hold Check with Pin EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\vect_
+register_reg[2] /CN 
+Endpoint:   EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\vect_register_reg[2] /SD (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\vect_register_reg[1] /Q  (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.554
++ Hold                          0.032
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.686
+  Arrival Time                 32.496
+  Slack Time                    0.810
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v         |         | 0.000 |       |  30.000 |   29.190 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.942 | 
+     | top_clock_i__L2_I5                                 | A ^ -> Q v  | INCX20  | 0.297 | 0.775 |  31.528 |   30.718 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\vect_register | CN v -> Q ^ | SDFFQX0 | 0.507 | 0.968 |  32.496 |   31.686 | 
+     | _reg[1]                                            |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\vect_register | SD ^        | SDFFQX0 | 0.507 | 0.000 |  32.496 |   31.686 | 
+     | _reg[2]                                            |             |         |       |       |         |          | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.810 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.752 |   31.563 | 
+     | top_clock_i__L2_I5                                 | A ^ -> Q v | INCX20  | 0.297 | 0.775 |  31.528 |   32.338 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\vect_register | CN v       | SDFFQX0 | 0.299 | 0.026 |  31.554 |   32.364 | 
+     | _reg[2]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 7: MET Hold Check with Pin EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_
+reg[0] /CN 
+Endpoint:   EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[0] /SD (^) checked 
+with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\hi_ok_reg[1][0] /Q (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.545
++ Hold                          0.029
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.673
+  Arrival Time                 32.484
+  Slack Time                    0.811
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v         |         | 0.000 |       |  30.000 |   29.189 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.942 | 
+     | top_clock_i__L2_I6                                 | A ^ -> Q v  | INCX20  | 0.286 | 0.781 |  31.534 |   30.723 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\hi_ok_reg[1][ | CN v -> Q ^ | SDFFQX0 | 0.495 | 0.950 |  32.483 |   31.673 | 
+     | 0]                                                 |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[0 | SD ^        | SDFFQX0 | 0.495 | 0.001 |  32.484 |   31.673 | 
+     | ]                                                  |             |         |       |       |         |          | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.811 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.563 | 
+     | top_clock_i__L2_I9                                 | A ^ -> Q v | INCX20  | 0.282 | 0.778 |  31.531 |   32.341 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[0 | CN v       | SDFFQX0 | 0.283 | 0.014 |  31.545 |   32.355 | 
+     | ]                                                  |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 8: MET Hold Check with Pin EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_
+reg[0][1] /CN 
+Endpoint:   EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_reg[0][1] /SD (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_reg[0][0] /Q  (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.584
++ Hold                          0.033
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.717
+  Arrival Time                 32.546
+  Slack Time                    0.830
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v         |         | 0.000 |       |  30.000 |   29.170 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.923 | 
+     | top_clock_i__L2_I0                                 | A ^ -> Q v  | INCX20  | 0.314 | 0.812 |  31.564 |   30.735 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_reg | CN v -> Q ^ | SDFFQX0 | 0.535 | 0.982 |  32.546 |   31.716 | 
+     | [0][0]                                             |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_reg | SD ^        | SDFFQX0 | 0.535 | 0.000 |  32.546 |   31.717 | 
+     | [0][1]                                             |             |         |       |       |         |          | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.830 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.582 | 
+     | top_clock_i__L2_I0                                 | A ^ -> Q v | INCX20  | 0.314 | 0.812 |  31.564 |   32.394 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_reg | CN v       | SDFFQX0 | 0.316 | 0.020 |  31.584 |   32.414 | 
+     | [0][1]                                             |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 9: MET Hold Check with Pin EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\hi_ok_
+reg[1][0] /CN 
+Endpoint:   EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\hi_ok_reg[1][0] /SD (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\hi_ok_reg[0][0] /Q  (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.553
++ Hold                          0.023
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.676
+  Arrival Time                 32.512
+  Slack Time                    0.837
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v         |         | 0.000 |       |  30.000 |   29.163 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.916 | 
+     | top_clock_i__L2_I6                                 | A ^ -> Q v  | INCX20  | 0.286 | 0.781 |  31.534 |   30.697 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\hi_ok_reg[0][ | CN v -> Q ^ | SDFFQX0 | 0.540 | 0.978 |  32.512 |   31.676 | 
+     | 0]                                                 |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\hi_ok_reg[1][ | SD ^        | SDFFQX0 | 0.540 | 0.000 |  32.512 |   31.676 | 
+     | 0]                                                 |             |         |       |       |         |          | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.836 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.752 |   31.589 | 
+     | top_clock_i__L2_I6                                 | A ^ -> Q v | INCX20  | 0.286 | 0.781 |  31.534 |   32.370 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\hi_ok_reg[1][ | CN v       | SDFFQX0 | 0.287 | 0.019 |  31.553 |   32.389 | 
+     | 0]                                                 |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 10: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_
+1_2_reg[6] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[6] /D (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[6] /Q     (^) 
+triggered by  leading edge of 'MEMCLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.558
++ Hold                          0.167
++ Phase Shift                 -25.000
++ Uncertainty                   0.100
+= Required Time                 6.825
+  Arrival Time                  7.666
+  Slack Time                    0.841
+     Clock Rise Edge                      0.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time            5.000
+     Timing Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y ^        |         | 0.000 |       |   5.000 |    4.159 | 
+     | top_clock_mem_i__L1_I8                             | A ^ -> Q ^ | BUCX4   | 0.613 | 0.707 |   5.707 |    4.867 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg | C ^ -> Q ^ | SDFRQX1 | 1.256 | 1.385 |   7.092 |    6.252 | 
+     | [6]                                                |            |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/p15920A56117    | B ^ -> Q ^ | AO22X0  | 0.316 | 0.573 |   7.666 |    6.825 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | D ^        | SDFFQX0 | 0.316 | 0.000 |   7.666 |    6.825 | 
+     | _reg[6]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.841 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.752 |   31.593 | 
+     | top_clock_i__L2_I2                                 | A ^ -> Q v | INCX20  | 0.303 | 0.789 |  31.541 |   32.382 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | CN v       | SDFFQX0 | 0.304 | 0.017 |  31.558 |   32.399 | 
+     | _reg[6]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 11: MET Hold Check with Pin EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/state_reg/
+CN 
+Endpoint:   EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/state_reg/SD (^) checked with 
+trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/reset_reg/Q  (^) triggered by 
+trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.584
++ Hold                          0.030
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.714
+  Arrival Time                 32.559
+  Slack Time                    0.845
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +------------------------------------------------------------------------------------------------------------+ 
+     |                   Instance                    |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                               |             |         |       |       |  Time   |   Time   | 
+     |-----------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                     | Y v         |         | 0.000 |       |  30.000 |   29.155 | 
+     | top_clock_i__L1_I0                            | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.907 | 
+     | top_clock_i__L2_I0                            | A ^ -> Q v  | INCX20  | 0.314 | 0.812 |  31.564 |   30.719 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/reset_reg | CN v -> Q ^ | SDFFQX0 | 0.555 | 0.994 |  32.559 |   31.713 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/state_reg | SD ^        | SDFFQX0 | 0.555 | 0.000 |  32.559 |   31.714 | 
+     +------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +-----------------------------------------------------------------------------------------------------------+ 
+     |                   Instance                    |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                               |            |         |       |       |  Time   |   Time   | 
+     |-----------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                     | Y v        |         | 0.000 |       |  30.000 |   30.845 | 
+     | top_clock_i__L1_I0                            | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.598 | 
+     | top_clock_i__L2_I0                            | A ^ -> Q v | INCX20  | 0.314 | 0.812 |  31.564 |   32.410 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/state_reg | CN v       | SDFFQX0 | 0.316 | 0.020 |  31.584 |   32.429 | 
+     +-----------------------------------------------------------------------------------------------------------+ 
+Path 12: MET Hold Check with Pin EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_
+reg[6] /CN 
+Endpoint:   EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[6] /SD (^) checked 
+with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[5] /Q  (^) triggered 
+by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.554
++ Hold                          0.018
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.671
+  Arrival Time                 32.538
+  Slack Time                    0.866
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +--------------------------------------------------------------------------------------------------------------+ 
+     |                    Instance                     |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                 |             |         |       |       |  Time   |   Time   | 
+     |-------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                       | Y v         |         | 0.000 |       |  30.000 |   29.134 | 
+     | top_clock_i__L1_I0                              | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.886 | 
+     | top_clock_i__L2_I10                             | A ^ -> Q v  | INCX20  | 0.291 | 0.781 |  31.533 |   30.667 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[5] | CN v -> Q ^ | SDFFQX0 | 0.580 | 1.004 |  32.537 |   31.671 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[6] | SD ^        | SDFFQX0 | 0.580 | 0.001 |  32.538 |   31.671 | 
+     +--------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +-------------------------------------------------------------------------------------------------------------+ 
+     |                    Instance                     |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                 |            |         |       |       |  Time   |   Time   | 
+     |-------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                       | Y v        |         | 0.000 |       |  30.000 |   30.866 | 
+     | top_clock_i__L1_I0                              | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.752 |   31.619 | 
+     | top_clock_i__L2_I10                             | A ^ -> Q v | INCX20  | 0.291 | 0.781 |  31.533 |   32.399 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[6] | CN v       | SDFFQX0 | 0.291 | 0.021 |  31.554 |   32.420 | 
+     +-------------------------------------------------------------------------------------------------------------+ 
+Path 13: MET Hold Check with Pin EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/reset_reg/
+CN 
+Endpoint:   EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/reset_reg/SD        (^) checked 
+with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\lo_ok_reg[1][0] /Q (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.583
++ Hold                          0.016
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.699
+  Arrival Time                 32.570
+  Slack Time                    0.871
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v         |         | 0.000 |       |  30.000 |   29.129 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.882 | 
+     | top_clock_i__L2_I3                                 | A ^ -> Q v  | INCX20  | 0.285 | 0.788 |  31.541 |   30.670 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\lo_ok_reg[1][ | CN v -> Q ^ | SDFFQX0 | 0.641 | 1.029 |  32.570 |   31.699 | 
+     | 0]                                                 |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/reset_reg      | SD ^        | SDFFQX0 | 0.641 | 0.000 |  32.570 |   31.699 | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +-----------------------------------------------------------------------------------------------------------+ 
+     |                   Instance                    |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                               |            |         |       |       |  Time   |   Time   | 
+     |-----------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                     | Y v        |         | 0.000 |       |  30.000 |   30.871 | 
+     | top_clock_i__L1_I0                            | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.623 | 
+     | top_clock_i__L2_I0                            | A ^ -> Q v | INCX20  | 0.314 | 0.812 |  31.564 |   32.435 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/reset_reg | CN v       | SDFFQX0 | 0.316 | 0.019 |  31.583 |   32.454 | 
+     +-----------------------------------------------------------------------------------------------------------+ 
+Path 14: MET Hold Check with Pin EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_
+reg[5] /CN 
+Endpoint:   EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[5] /SD (^) checked 
+with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[4] /Q  (^) triggered 
+by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.555
++ Hold                          0.016
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.671
+  Arrival Time                 32.544
+  Slack Time                    0.874
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +--------------------------------------------------------------------------------------------------------------+ 
+     |                    Instance                     |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                 |             |         |       |       |  Time   |   Time   | 
+     |-------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                       | Y v         |         | 0.000 |       |  30.000 |   29.126 | 
+     | top_clock_i__L1_I0                              | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.879 | 
+     | top_clock_i__L2_I10                             | A ^ -> Q v  | INCX20  | 0.291 | 0.781 |  31.533 |   30.660 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[4] | CN v -> Q ^ | SDFFQX0 | 0.592 | 1.011 |  32.544 |   31.670 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[5] | SD ^        | SDFFQX0 | 0.592 | 0.000 |  32.544 |   31.671 | 
+     +--------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +-------------------------------------------------------------------------------------------------------------+ 
+     |                    Instance                     |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                 |            |         |       |       |  Time   |   Time   | 
+     |-------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                       | Y v        |         | 0.000 |       |  30.000 |   30.874 | 
+     | top_clock_i__L1_I0                              | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.626 | 
+     | top_clock_i__L2_I10                             | A ^ -> Q v | INCX20  | 0.291 | 0.781 |  31.533 |   32.407 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[5] | CN v       | SDFFQX0 | 0.291 | 0.022 |  31.555 |   32.428 | 
+     +-------------------------------------------------------------------------------------------------------------+ 
+Path 15: MET Hold Check with Pin EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_
+reg[2] /CN 
+Endpoint:   EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[2] /SD (^) checked 
+with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[1] /Q  (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.551
++ Hold                          0.014
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.665
+  Arrival Time                 32.548
+  Slack Time                    0.883
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v         |         | 0.000 |       |  30.000 |   29.117 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.869 | 
+     | top_clock_i__L2_I10                                | A ^ -> Q v  | INCX20  | 0.291 | 0.781 |  31.533 |   30.650 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[1 | CN v -> Q ^ | SDFFQX0 | 0.603 | 1.015 |  32.548 |   31.665 | 
+     | ]                                                  |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[2 | SD ^        | SDFFQX0 | 0.603 | 0.000 |  32.548 |   31.665 | 
+     | ]                                                  |             |         |       |       |         |          | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.883 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.636 | 
+     | top_clock_i__L2_I10                                | A ^ -> Q v | INCX20  | 0.291 | 0.781 |  31.533 |   32.416 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[2 | CN v       | SDFFQX0 | 0.291 | 0.018 |  31.551 |   32.434 | 
+     | ]                                                  |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 16: MET Hold Check with Pin EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_
+RS232_width_reg[4] /C 
+Endpoint:   EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_width_reg[4] /
+D (^) checked with  leading edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[17][5] /Q          
+(v) triggered by  leading edge of 'MEMCLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time          6.564
++ Hold                         -0.340
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                 6.324
+  Arrival Time                  7.211
+  Slack Time                    0.886
+     Clock Rise Edge                      0.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time            5.000
+     Timing Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y ^        |         | 0.000 |       |   5.000 |    4.114 | 
+     | top_clock_mem_i__L1_I7                             | A ^ -> Q ^ | BUCX4   | 0.593 | 0.689 |   5.689 |    4.803 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[1 | C ^ -> Q v | SDFRQX2 | 0.513 | 1.062 |   6.751 |    5.865 | 
+     | 7][5]                                              |            |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/p15052A        | B v -> Q ^ | NO2I1X0 | 0.511 | 0.460 |   7.211 |    6.324 | 
+     | EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS2 | D ^        | SDFRX0  | 0.511 | 0.000 |   7.211 |    6.324 | 
+     | 32_width_reg[4]                                    |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+     Clock Rise Edge                      0.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time            5.000
+     Other End Path:
+     +---------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell  |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |        |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+--------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y ^        |        | 0.000 |       |   5.000 |    5.886 | 
+     | top_clock_i__L1_I0                                 | A ^ -> Q v | INCX20 | 0.325 | 0.731 |   5.731 |    6.618 | 
+     | top_clock_i__L2_I8                                 | A v -> Q ^ | INCX20 | 0.282 | 0.810 |   6.541 |    7.428 | 
+     | EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS2 | C ^        | SDFRX0 | 0.283 | 0.023 |   6.564 |    7.450 | 
+     | 32_width_reg[4]                                    |            |        |       |       |         |          | 
+     +---------------------------------------------------------------------------------------------------------------+ 
+Path 17: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_
+reg[1] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[1] /SD (^) 
+checked with trailing edge of 'MEMCLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[2] /Q  (^) 
+triggered by trailing edge of 'MEMCLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         18.180
++ Hold                         -0.155
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                18.126
+  Arrival Time                 19.018
+  Slack Time                    0.892
+     Clock Fall Edge                     12.500
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           17.500
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y v         |         | 0.000 |       |  17.500 |   16.608 | 
+     | top_clock_mem_i__L1_I3                             | A v -> Q v  | BUCX4   | 0.460 | 0.635 |  18.135 |   17.242 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg | CN v -> Q ^ | SDFFQX4 | 0.424 | 0.880 |  19.015 |   18.122 | 
+     | [2]                                                |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg | SD ^        | SDFFQX2 | 0.424 | 0.003 |  19.018 |   18.126 | 
+     | [1]                                                |             |         |       |       |         |          | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     12.500
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           17.500
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y v        |         | 0.000 |       |  17.500 |   18.392 | 
+     | top_clock_mem_i__L1_I3                             | A v -> Q v | BUCX4   | 0.460 | 0.635 |  18.135 |   19.027 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg | CN v       | SDFFQX2 | 0.502 | 0.045 |  18.180 |   19.073 | 
+     | [1]                                                |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 18: MET Hold Check with Pin EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_
+reg[5] /CN 
+Endpoint:   EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[5] /SD (^) checked 
+with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[4] /Q  (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.551
++ Hold                          0.009
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.660
+  Arrival Time                 32.557
+  Slack Time                    0.897
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v         |         | 0.000 |       |  30.000 |   29.103 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.855 | 
+     | top_clock_i__L2_I9                                 | A ^ -> Q v  | INCX20  | 0.282 | 0.778 |  31.531 |   30.633 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[4 | CN v -> Q ^ | SDFFQX0 | 0.634 | 1.026 |  32.557 |   31.659 | 
+     | ]                                                  |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[5 | SD ^        | SDFFQX0 | 0.634 | 0.001 |  32.557 |   31.660 | 
+     | ]                                                  |             |         |       |       |         |          | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.897 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.650 | 
+     | top_clock_i__L2_I10                                | A ^ -> Q v | INCX20  | 0.291 | 0.781 |  31.533 |   32.431 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[5 | CN v       | SDFFQX0 | 0.291 | 0.018 |  31.551 |   32.448 | 
+     | ]                                                  |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 19: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_
+1_2_reg[5] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[5] /D (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[5] /Q     (^) 
+triggered by  leading edge of 'MEMCLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.571
++ Hold                          0.162
++ Phase Shift                 -25.000
++ Uncertainty                   0.100
+= Required Time                 6.833
+  Arrival Time                  7.732
+  Slack Time                    0.899
+     Clock Rise Edge                      0.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time            5.000
+     Timing Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y ^        |         | 0.000 |       |   5.000 |    4.101 | 
+     | top_clock_mem_i__L1_I8                             | A ^ -> Q ^ | BUCX4   | 0.613 | 0.707 |   5.707 |    4.808 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg | C ^ -> Q ^ | SDFRQX1 | 1.321 | 1.421 |   7.128 |    6.229 | 
+     | [5]                                                |            |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/p15920A         | B ^ -> Q ^ | AO22X0  | 0.360 | 0.604 |   7.732 |    6.833 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | D ^        | SDFFQX0 | 0.360 | 0.000 |   7.732 |    6.833 | 
+     | _reg[5]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.899 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.752 |   31.652 | 
+     | top_clock_i__L2_I1                                 | A ^ -> Q v | INCX20  | 0.310 | 0.799 |  31.551 |   32.450 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | CN v       | SDFFQX0 | 0.312 | 0.020 |  31.571 |   32.470 | 
+     | _reg[5]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 20: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_
+reg[7] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[7] /SD (^) 
+checked with trailing edge of 'MEMCLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[6] /Q  (^) 
+triggered by trailing edge of 'MEMCLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         18.180
++ Hold                         -0.157
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                18.124
+  Arrival Time                 19.026
+  Slack Time                    0.902
+     Clock Fall Edge                     12.500
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           17.500
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y v         |         | 0.000 |       |  17.500 |   16.598 | 
+     | top_clock_mem_i__L1_I3                             | A v -> Q v  | BUCX4   | 0.460 | 0.635 |  18.135 |   17.233 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg | CN v -> Q ^ | SDFFQX4 | 0.428 | 0.882 |  19.016 |   18.115 | 
+     | [6]                                                |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg | SD ^        | SDFFQX4 | 0.428 | 0.009 |  19.026 |   18.124 | 
+     | [7]                                                |             |         |       |       |         |          | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     12.500
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           17.500
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y v        |         | 0.000 |       |  17.500 |   18.402 | 
+     | top_clock_mem_i__L1_I3                             | A v -> Q v | BUCX4   | 0.460 | 0.635 |  18.135 |   19.037 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg | CN v       | SDFFQX4 | 0.502 | 0.046 |  18.180 |   19.082 | 
+     | [7]                                                |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 21: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_
+1_reg[4] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_reg[4] /D (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[4] /Q   (^) 
+triggered by  leading edge of 'MEMCLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.566
++ Hold                         -0.108
++ Phase Shift                 -25.000
++ Uncertainty                   0.100
+= Required Time                 6.558
+  Arrival Time                  7.463
+  Slack Time                    0.906
+     Clock Rise Edge                      0.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time            5.000
+     Timing Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y ^        |         | 0.000 |       |   5.000 |    4.094 | 
+     | top_clock_mem_i__L1_I8                             | A ^ -> Q ^ | BUCX4   | 0.613 | 0.707 |   5.707 |    4.802 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg | C ^ -> Q ^ | SDFRQX4 | 0.398 | 0.904 |   6.612 |    5.706 | 
+     | [4]                                                |            |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/p10001A56016    | D ^ -> Q ^ | AO22X0  | 0.299 | 0.425 |   7.036 |    6.131 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/p4984A56007     | E ^ -> Q ^ | AO221X0 | 0.385 | 0.427 |   7.463 |    6.558 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_r | D ^        | SDFFQX2 | 0.385 | 0.000 |   7.463 |    6.558 | 
+     | eg[4]                                              |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.906 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.752 |   31.658 | 
+     | top_clock_i__L2_I2                                 | A ^ -> Q v | INCX20  | 0.303 | 0.789 |  31.541 |   32.447 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_r | CN v       | SDFFQX2 | 0.304 | 0.025 |  31.566 |   32.472 | 
+     | eg[4]                                              |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 22: MET Hold Check with Pin EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/
+\timers_sfr_tl1_o_reg[2] /C 
+Endpoint:   EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tl1_o_
+reg[2] /D (^) checked with  leading edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[11][2] /Q          
+(^) triggered by  leading edge of 'MEMCLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time          6.681
++ Hold                         -0.317
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                 6.464
+  Arrival Time                  7.376
+  Slack Time                    0.911
+     Clock Rise Edge                      0.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time            5.000
+     Timing Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y ^        |         | 0.000 |       |   5.000 |    4.089 | 
+     | top_clock_mem_i__L1_I2                             | A ^ -> Q ^ | BUCX4   | 0.550 | 0.632 |   5.632 |    4.721 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[1 | C ^ -> Q ^ | SDFRQX2 | 0.794 | 1.119 |   6.752 |    5.840 | 
+     | 1][2]                                              |            |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/p14654 | C ^ -> Q ^ | AO222X0 | 0.373 | 0.623 |   7.375 |    6.464 | 
+     | A1854                                              |            |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timer | D ^        | SDFRQX0 | 0.373 | 0.000 |   7.376 |    6.464 | 
+     | s_sfr_tl1_o_reg[2]                                 |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+     Clock Rise Edge                      0.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time            5.000
+     Other End Path:
+     +------------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc      |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |              |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+--------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y ^          |         | 0.000 |       |   5.000 |    5.911 | 
+     | EMC_TOP_INSTANCE/TIMERS_INSTANCE/p214748365A       | IN1 ^ -> Q ^ | MU2X0   | 0.934 | 0.761 |   5.761 |    6.673 | 
+     | EMC_TOP_INSTANCE/TIMERS_INSTANCE/n_85__L1_I0       | A ^ -> Q ^   | BUCX16  | 0.304 | 0.865 |   6.626 |    7.537 | 
+     | EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timer | C ^          | SDFRQX0 | 0.328 | 0.055 |   6.681 |    7.593 | 
+     | s_sfr_tl1_o_reg[2]                                 |              |         |       |       |         |          | 
+     +------------------------------------------------------------------------------------------------------------------+ 
+Path 23: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_
+1_2_reg[3] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[3] /D (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[3] /Q     (^) 
+triggered by  leading edge of 'MEMCLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.558
++ Hold                          0.165
++ Phase Shift                 -25.000
++ Uncertainty                   0.100
+= Required Time                 6.823
+  Arrival Time                  7.738
+  Slack Time                    0.915
+     Clock Rise Edge                      0.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time            5.000
+     Timing Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y ^        |         | 0.000 |       |   5.000 |    4.085 | 
+     | top_clock_mem_i__L1_I8                             | A ^ -> Q ^ | BUCX4   | 0.613 | 0.707 |   5.707 |    4.792 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg | C ^ -> Q ^ | SDFRQX1 | 1.365 | 1.442 |   7.150 |    6.234 | 
+     | [3]                                                |            |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/p15905A         | B ^ -> Q ^ | AO22X0  | 0.327 | 0.588 |   7.738 |    6.823 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | D ^        | SDFFQX0 | 0.327 | 0.000 |   7.738 |    6.823 | 
+     | _reg[3]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.915 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.752 |   31.668 | 
+     | top_clock_i__L2_I2                                 | A ^ -> Q v | INCX20  | 0.303 | 0.789 |  31.541 |   32.457 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | CN v       | SDFFQX0 | 0.304 | 0.016 |  31.558 |   32.473 | 
+     | _reg[3]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 24: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_
+reg[8] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[8] /SD (^) 
+checked with trailing edge of 'MEMCLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[7] /Q  (^) 
+triggered by trailing edge of 'MEMCLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         18.181
++ Hold                         -0.123
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                18.158
+  Arrival Time                 19.075
+  Slack Time                    0.917
+     Clock Fall Edge                     12.500
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           17.500
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y v         |         | 0.000 |       |  17.500 |   16.583 | 
+     | top_clock_mem_i__L1_I3                             | A v -> Q v  | BUCX4   | 0.460 | 0.635 |  18.135 |   17.218 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg | CN v -> Q ^ | SDFFQX4 | 0.513 | 0.936 |  19.070 |   18.154 | 
+     | [7]                                                |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg | SD ^        | SDFFQX1 | 0.513 | 0.004 |  19.075 |   18.158 | 
+     | [8]                                                |             |         |       |       |         |          | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     12.500
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           17.500
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y v        |         | 0.000 |       |  17.500 |   18.417 | 
+     | top_clock_mem_i__L1_I3                             | A v -> Q v | BUCX4   | 0.460 | 0.635 |  18.135 |   19.051 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg | CN v       | SDFFQX1 | 0.503 | 0.046 |  18.181 |   19.097 | 
+     | [8]                                                |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 25: MET Hold Check with Pin EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_
+reg[2] /CN 
+Endpoint:   EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[2] /SD (^) checked 
+with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[1] /Q  (^) triggered 
+by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.559
++ Hold                          0.008
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.667
+  Arrival Time                 32.584
+  Slack Time                    0.917
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +--------------------------------------------------------------------------------------------------------------+ 
+     |                    Instance                     |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                 |             |         |       |       |  Time   |   Time   | 
+     |-------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                       | Y v         |         | 0.000 |       |  30.000 |   29.083 | 
+     | top_clock_i__L1_I0                              | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.836 | 
+     | top_clock_i__L2_I10                             | A ^ -> Q v  | INCX20  | 0.291 | 0.781 |  31.533 |   30.616 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[1] | CN v -> Q ^ | SDFFQX0 | 0.658 | 1.051 |  32.584 |   31.667 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[2] | SD ^        | SDFFQX0 | 0.658 | 0.000 |  32.584 |   31.667 | 
+     +--------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +-------------------------------------------------------------------------------------------------------------+ 
+     |                    Instance                     |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                 |            |         |       |       |  Time   |   Time   | 
+     |-------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                       | Y v        |         | 0.000 |       |  30.000 |   30.917 | 
+     | top_clock_i__L1_I0                              | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.669 | 
+     | top_clock_i__L2_I5                              | A ^ -> Q v | INCX20  | 0.297 | 0.775 |  31.528 |   32.445 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[2] | CN v       | SDFFQX0 | 0.299 | 0.032 |  31.559 |   32.476 | 
+     +-------------------------------------------------------------------------------------------------------------+ 
+Path 26: MET Hold Check with Pin EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_
+reg[1][1] /CN 
+Endpoint:   EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_reg[1][1] /SD (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_reg[1][0] /Q  (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.557
++ Hold                          0.013
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.670
+  Arrival Time                 32.588
+  Slack Time                    0.918
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v         |         | 0.000 |       |  30.000 |   29.082 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.834 | 
+     | top_clock_i__L2_I0                                 | A ^ -> Q v  | INCX20  | 0.314 | 0.812 |  31.564 |   30.646 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_reg | CN v -> Q ^ | SDFFQX0 | 0.603 | 1.023 |  32.587 |   31.669 | 
+     | [1][0]                                             |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_reg | SD ^        | SDFFQX0 | 0.603 | 0.001 |  32.588 |   31.670 | 
+     | [1][1]                                             |             |         |       |       |         |          | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.918 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.752 |   31.671 | 
+     | top_clock_i__L2_I6                                 | A ^ -> Q v | INCX20  | 0.286 | 0.781 |  31.534 |   32.452 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_reg | CN v       | SDFFQX0 | 0.287 | 0.023 |  31.557 |   32.475 | 
+     | [1][1]                                             |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 27: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_
+1_2_reg[0] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[0] /SD (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[7] /QN        (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.571
++ Hold                          0.095
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.766
+  Arrival Time                 32.688
+  Slack Time                    0.921
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +------------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc      |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |              |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+--------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v          |         | 0.000 |       |  30.000 |   29.079 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^   | INCX20  | 0.332 | 0.752 |  30.753 |   29.831 | 
+     | top_clock_i__L2_I1                                 | A ^ -> Q v   | INCX20  | 0.310 | 0.799 |  31.551 |   30.630 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[7] | CN v -> QN ^ | SDFFX4  | 0.138 | 1.135 |  32.686 |   31.765 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | SD ^         | SDFFQX0 | 0.138 | 0.001 |  32.688 |   31.766 | 
+     | _reg[0]                                            |              |         |       |       |         |          | 
+     +------------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.921 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.674 | 
+     | top_clock_i__L2_I1                                 | A ^ -> Q v | INCX20  | 0.310 | 0.799 |  31.551 |   32.473 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | CN v       | SDFFQX0 | 0.312 | 0.020 |  31.571 |   32.492 | 
+     | _reg[0]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 28: MET Hold Check with Pin EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_
+reg[0][1] /CN 
+Endpoint:   EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_reg[0][1] /D (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[21][0] /Q  (v) 
+triggered by  leading edge of 'MEMCLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.584
++ Hold                          0.162
++ Phase Shift                 -25.000
++ Uncertainty                   0.100
+= Required Time                 6.846
+  Arrival Time                  7.774
+  Slack Time                    0.928
+     Clock Rise Edge                      0.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time            5.000
+     Timing Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y ^        |         | 0.000 |       |   5.000 |    4.072 | 
+     | top_clock_mem_i__L1_I5                             | A ^ -> Q ^ | BUCX4   | 0.589 | 0.687 |   5.687 |    4.759 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[2 | C ^ -> Q v | SDFRQX2 | 0.465 | 1.047 |   6.733 |    5.805 | 
+     | 1][0]                                              |            |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/p15333A6201    | B v -> Q ^ | NA2X0   | 0.412 | 0.418 |   7.152 |    6.224 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/p15176A        | D ^ -> Q v | AN32X0  | 0.228 | 0.195 |   7.347 |    6.419 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/p15309A        | A v -> Q ^ | ON21X0  | 0.365 | 0.427 |   7.774 |    6.846 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_reg | D ^        | SDFFQX0 | 0.365 | 0.000 |   7.774 |    6.846 | 
+     | [0][1]                                             |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.928 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.752 |   31.680 | 
+     | top_clock_i__L2_I0                                 | A ^ -> Q v | INCX20  | 0.314 | 0.812 |  31.564 |   32.492 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_reg | CN v       | SDFFQX0 | 0.316 | 0.020 |  31.584 |   32.512 | 
+     | [0][1]                                             |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 29: MET Hold Check with Pin EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_
+reg[1] /CN 
+Endpoint:   EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[1] /SD (^) checked 
+with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[0] /Q  (^) triggered 
+by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.556
++ Hold                          0.005
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.660
+  Arrival Time                 32.592
+  Slack Time                    0.931
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +--------------------------------------------------------------------------------------------------------------+ 
+     |                    Instance                     |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                 |             |         |       |       |  Time   |   Time   | 
+     |-------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                       | Y v         |         | 0.000 |       |  30.000 |   29.069 | 
+     | top_clock_i__L1_I0                              | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.821 | 
+     | top_clock_i__L2_I5                              | A ^ -> Q v  | INCX20  | 0.297 | 0.775 |  31.528 |   30.596 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[0] | CN v -> Q ^ | SDFFQX0 | 0.660 | 1.064 |  32.591 |   31.660 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[1] | SD ^        | SDFFQX0 | 0.660 | 0.000 |  32.592 |   31.660 | 
+     +--------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +-------------------------------------------------------------------------------------------------------------+ 
+     |                    Instance                     |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                 |            |         |       |       |  Time   |   Time   | 
+     |-------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                       | Y v        |         | 0.000 |       |  30.000 |   30.931 | 
+     | top_clock_i__L1_I0                              | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.684 | 
+     | top_clock_i__L2_I10                             | A ^ -> Q v | INCX20  | 0.291 | 0.781 |  31.533 |   32.465 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[1] | CN v       | SDFFQX0 | 0.291 | 0.023 |  31.556 |   32.487 | 
+     +-------------------------------------------------------------------------------------------------------------+ 
+Path 30: MET Hold Check with Pin EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_
+reg[3] /CN 
+Endpoint:   EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[3] /SD (^) checked 
+with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[2] /Q  (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.546
++ Hold                         -0.003
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.644
+  Arrival Time                 32.598
+  Slack Time                    0.955
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v         |         | 0.000 |       |  30.000 |   29.045 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.798 | 
+     | top_clock_i__L2_I10                                | A ^ -> Q v  | INCX20  | 0.291 | 0.781 |  31.533 |   30.579 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[2 | CN v -> Q ^ | SDFFQX0 | 0.689 | 1.065 |  32.598 |   31.643 | 
+     | ]                                                  |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[3 | SD ^        | SDFFQX0 | 0.689 | 0.001 |  32.598 |   31.644 | 
+     | ]                                                  |             |         |       |       |         |          | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.955 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.707 | 
+     | top_clock_i__L2_I9                                 | A ^ -> Q v | INCX20  | 0.282 | 0.778 |  31.531 |   32.485 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[3 | CN v       | SDFFQX0 | 0.283 | 0.015 |  31.546 |   32.501 | 
+     | ]                                                  |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 31: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_
+1_reg[0] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_reg[0] /D (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[0] /Q   (^) 
+triggered by  leading edge of 'MEMCLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.562
++ Hold                         -0.116
++ Phase Shift                 -25.000
++ Uncertainty                   0.100
+= Required Time                 6.546
+  Arrival Time                  7.502
+  Slack Time                    0.955
+     Clock Rise Edge                      0.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time            5.000
+     Timing Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y ^        |         | 0.000 |       |   5.000 |    4.045 | 
+     | top_clock_mem_i__L1_I8                             | A ^ -> Q ^ | BUCX4   | 0.613 | 0.707 |   5.707 |    4.752 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg | C ^ -> Q ^ | SDFRQX4 | 0.427 | 0.926 |   6.633 |    5.678 | 
+     | [0]                                                |            |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/p10001A56020    | D ^ -> Q ^ | AO22X0  | 0.282 | 0.418 |   7.051 |    6.096 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/p4912A56011     | E ^ -> Q ^ | AO221X0 | 0.431 | 0.450 |   7.501 |    6.546 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_r | D ^        | SDFFQX2 | 0.431 | 0.000 |   7.502 |    6.546 | 
+     | eg[0]                                              |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.955 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.708 | 
+     | top_clock_i__L2_I2                                 | A ^ -> Q v | INCX20  | 0.303 | 0.789 |  31.541 |   32.497 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_r | CN v       | SDFFQX2 | 0.304 | 0.021 |  31.562 |   32.518 | 
+     | eg[0]                                              |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 32: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_
+1_2_reg[5] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[5] /SD (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[4] /Q  (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.571
++ Hold                         -0.007
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.665
+  Arrival Time                 32.625
+  Slack Time                    0.960
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v         |         | 0.000 |       |  30.000 |   29.040 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.792 | 
+     | top_clock_i__L2_I11                                | A ^ -> Q v  | INCX20  | 0.279 | 0.771 |  31.524 |   30.564 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | CN v -> Q ^ | SDFFQX0 | 0.773 | 1.100 |  32.624 |   31.664 | 
+     | _reg[4]                                            |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | SD ^        | SDFFQX0 | 0.773 | 0.001 |  32.625 |   31.665 | 
+     | _reg[5]                                            |             |         |       |       |         |          | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.960 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.713 | 
+     | top_clock_i__L2_I1                                 | A ^ -> Q v | INCX20  | 0.310 | 0.799 |  31.551 |   32.512 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | CN v       | SDFFQX0 | 0.312 | 0.020 |  31.571 |   32.532 | 
+     | _reg[5]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 33: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_
+reg[5] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[5] /SD (^) 
+checked with trailing edge of 'MEMCLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[4] /Q  (^) 
+triggered by trailing edge of 'MEMCLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         18.178
++ Hold                         -0.145
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                18.133
+  Arrival Time                 19.098
+  Slack Time                    0.965
+     Clock Fall Edge                     12.500
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           17.500
+     Timing Path:
+     +------------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |   Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |          |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+----------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y v         |          | 0.000 |       |  17.500 |   16.535 | 
+     | top_clock_mem_i__L1_I3                             | A v -> Q v  | BUCX4    | 0.460 | 0.635 |  18.135 |   17.170 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg | CN v -> Q ^ | SDFFSX4  | 0.147 | 0.690 |  18.824 |   17.860 | 
+     | [4]                                                |             |          |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/FE_OFC12_pcau_ | A ^ -> Q ^  | BUX4     | 0.248 | 0.265 |  19.090 |   18.125 | 
+     | fsm_pc_4_                                          |             |          |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg | SD ^        | SDFFSQX2 | 0.248 | 0.008 |  19.098 |   18.133 | 
+     | [5]                                                |             |          |       |       |         |          | 
+     +------------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     12.500
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           17.500
+     Other End Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |   Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |          |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+----------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y v        |          | 0.000 |       |  17.500 |   18.465 | 
+     | top_clock_mem_i__L1_I3                             | A v -> Q v | BUCX4    | 0.460 | 0.635 |  18.135 |   19.099 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg | CN v       | SDFFSQX2 | 0.501 | 0.043 |  18.178 |   19.143 | 
+     | [5]                                                |            |          |       |       |         |          | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+Path 34: MET Hold Check with Pin EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_
+reg[4] /CN 
+Endpoint:   EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[4] /SD (^) checked 
+with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[3] /Q  (^) triggered 
+by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.555
++ Hold                         -0.003
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.651
+  Arrival Time                 32.617
+  Slack Time                    0.965
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +--------------------------------------------------------------------------------------------------------------+ 
+     |                    Instance                     |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                 |             |         |       |       |  Time   |   Time   | 
+     |-------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                       | Y v         |         | 0.000 |       |  30.000 |   29.035 | 
+     | top_clock_i__L1_I0                              | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.787 | 
+     | top_clock_i__L2_I10                             | A ^ -> Q v  | INCX20  | 0.291 | 0.781 |  31.533 |   30.568 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[3] | CN v -> Q ^ | SDFFQX0 | 0.713 | 1.082 |  32.616 |   31.650 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[4] | SD ^        | SDFFQX0 | 0.713 | 0.001 |  32.617 |   31.651 | 
+     +--------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +-------------------------------------------------------------------------------------------------------------+ 
+     |                    Instance                     |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                 |            |         |       |       |  Time   |   Time   | 
+     |-------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                       | Y v        |         | 0.000 |       |  30.000 |   30.965 | 
+     | top_clock_i__L1_I0                              | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.752 |   31.718 | 
+     | top_clock_i__L2_I10                             | A ^ -> Q v | INCX20  | 0.291 | 0.781 |  31.533 |   32.498 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[4] | CN v       | SDFFQX0 | 0.291 | 0.022 |  31.555 |   32.520 | 
+     +-------------------------------------------------------------------------------------------------------------+ 
+Path 35: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_
+1_2_reg[2] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[2] /SD (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[1] /Q  (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.572
++ Hold                         -0.003
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.669
+  Arrival Time                 32.635
+  Slack Time                    0.966
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v         |         | 0.000 |       |  30.000 |   29.034 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.786 | 
+     | top_clock_i__L2_I2                                 | A ^ -> Q v  | INCX20  | 0.303 | 0.789 |  31.541 |   30.575 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | CN v -> Q ^ | SDFFQX0 | 0.748 | 1.094 |  32.635 |   31.668 | 
+     | _reg[1]                                            |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | SD ^        | SDFFQX0 | 0.748 | 0.000 |  32.635 |   31.669 | 
+     | _reg[2]                                            |             |         |       |       |         |          | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.966 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.752 |   31.719 | 
+     | top_clock_i__L2_I1                                 | A ^ -> Q v | INCX20  | 0.310 | 0.799 |  31.551 |   32.518 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | CN v       | SDFFQX0 | 0.312 | 0.020 |  31.572 |   32.538 | 
+     | _reg[2]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 36: MET Hold Check with Pin EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_
+reg[1] /CN 
+Endpoint:   EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[1] /SD (^) checked 
+with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[0] /Q  (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.552
++ Hold                         -0.007
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.646
+  Arrival Time                 32.613
+  Slack Time                    0.968
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v         |         | 0.000 |       |  30.000 |   29.032 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.785 | 
+     | top_clock_i__L2_I9                                 | A ^ -> Q v  | INCX20  | 0.282 | 0.778 |  31.531 |   30.563 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[0 | CN v -> Q ^ | SDFFQX0 | 0.733 | 1.082 |  32.613 |   31.645 | 
+     | ]                                                  |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[1 | SD ^        | SDFFQX0 | 0.733 | 0.001 |  32.613 |   31.646 | 
+     | ]                                                  |             |         |       |       |         |          | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.968 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.720 | 
+     | top_clock_i__L2_I10                                | A ^ -> Q v | INCX20  | 0.291 | 0.781 |  31.533 |   32.501 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[1 | CN v       | SDFFQX0 | 0.291 | 0.019 |  31.552 |   32.520 | 
+     | ]                                                  |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 37: MET Hold Check with Pin EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\lo_ok_
+reg[1][0] /CN 
+Endpoint:   EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\lo_ok_reg[1][0] /SD (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\lo_ok_reg[0][0] /Q  (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.554
++ Hold                          0.002
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.656
+  Arrival Time                 32.624
+  Slack Time                    0.969
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v         |         | 0.000 |       |  30.000 |   29.031 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.784 | 
+     | top_clock_i__L2_I0                                 | A ^ -> Q v  | INCX20  | 0.314 | 0.812 |  31.564 |   30.596 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\lo_ok_reg[0][ | CN v -> Q ^ | SDFFQX0 | 0.664 | 1.060 |  32.624 |   31.655 | 
+     | 0]                                                 |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\lo_ok_reg[1][ | SD ^        | SDFFQX0 | 0.664 | 0.000 |  32.624 |   31.656 | 
+     | 0]                                                 |             |         |       |       |         |          | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.969 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.721 | 
+     | top_clock_i__L2_I3                                 | A ^ -> Q v | INCX20  | 0.285 | 0.788 |  31.541 |   32.509 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\lo_ok_reg[1][ | CN v       | SDFFQX0 | 0.285 | 0.013 |  31.554 |   32.522 | 
+     | 0]                                                 |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 38: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_
+reg[1] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[1] /SD (^) checked 
+with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[0] /Q  (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.581
++ Hold                         -0.168
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.513
+  Arrival Time                 32.493
+  Slack Time                    0.981
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell  |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |        |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+--------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v         |        | 0.000 |       |  30.000 |   29.019 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^  | INCX20 | 0.332 | 0.752 |  30.753 |   29.772 | 
+     | top_clock_i__L2_I8                                 | A ^ -> Q v  | INCX20 | 0.277 | 0.780 |  31.533 |   30.552 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[0] | CN v -> Q ^ | SDFFX4 | 0.252 | 0.718 |  32.250 |   31.270 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/FE_RC_3_0       | A ^ -> Q ^  | BUX16  | 0.159 | 0.228 |  32.478 |   31.498 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[1] | SD ^        | SDFFX4 | 0.185 | 0.015 |  32.493 |   31.513 | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +---------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell  |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |        |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+--------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |        | 0.000 |       |  30.000 |   30.981 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20 | 0.332 | 0.752 |  30.753 |   31.733 | 
+     | top_clock_i__L2_I1                                 | A ^ -> Q v | INCX20 | 0.310 | 0.799 |  31.551 |   32.532 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[1] | CN v       | SDFFX4 | 0.313 | 0.030 |  31.581 |   32.561 | 
+     +---------------------------------------------------------------------------------------------------------------+ 
+Path 39: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_
+reg[2] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[2] /SD (^) checked 
+with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[1] /Q  (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.575
++ Hold                         -0.176
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.500
+  Arrival Time                 32.485
+  Slack Time                    0.986
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell  |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |        |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+--------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v         |        | 0.000 |       |  30.000 |   29.014 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^  | INCX20 | 0.332 | 0.752 |  30.753 |   29.767 | 
+     | top_clock_i__L2_I1                                 | A ^ -> Q v  | INCX20 | 0.310 | 0.799 |  31.551 |   30.566 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[1] | CN v -> Q ^ | SDFFX4 | 0.159 | 0.638 |  32.189 |   31.203 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/FE_OFC104_fsm_o | A ^ -> Q v  | INX3   | 0.122 | 0.123 |  32.312 |   31.326 | 
+     | p1_1_                                              |             |        |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/FE_OFC105_fsm_o | A v -> Q ^  | INX6   | 0.229 | 0.167 |  32.479 |   31.493 | 
+     | p1_1_                                              |             |        |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[2] | SD ^        | SDFFX4 | 0.229 | 0.007 |  32.485 |   31.500 | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +---------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell  |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |        |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+--------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |        | 0.000 |       |  30.000 |   30.986 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20 | 0.332 | 0.752 |  30.752 |   31.738 | 
+     | top_clock_i__L2_I1                                 | A ^ -> Q v | INCX20 | 0.310 | 0.799 |  31.551 |   32.537 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[2] | CN v       | SDFFX4 | 0.312 | 0.024 |  31.575 |   32.561 | 
+     +---------------------------------------------------------------------------------------------------------------+ 
+Path 40: MET Hold Check with Pin EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_
+reg[4] /CN 
+Endpoint:   EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[4] /SD (^) checked 
+with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[3] /Q  (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.546
++ Hold                         -0.012
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.633
+  Arrival Time                 32.625
+  Slack Time                    0.992
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v         |         | 0.000 |       |  30.000 |   29.008 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.761 | 
+     | top_clock_i__L2_I9                                 | A ^ -> Q v  | INCX20  | 0.282 | 0.778 |  31.531 |   30.539 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[3 | CN v -> Q ^ | SDFFQX0 | 0.750 | 1.093 |  32.624 |   31.632 | 
+     | ]                                                  |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[4 | SD ^        | SDFFQX0 | 0.750 | 0.001 |  32.625 |   31.633 | 
+     | ]                                                  |             |         |       |       |         |          | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.992 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.744 | 
+     | top_clock_i__L2_I9                                 | A ^ -> Q v | INCX20  | 0.282 | 0.778 |  31.531 |   32.523 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[4 | CN v       | SDFFQX0 | 0.283 | 0.015 |  31.546 |   32.538 | 
+     | ]                                                  |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 41: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_
+reg[3] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[3] /SD (^) checked 
+with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[2] /Q  (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.575
++ Hold                         -0.176
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.499
+  Arrival Time                 32.494
+  Slack Time                    0.994
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v         |         | 0.000 |       |  30.000 |   29.006 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.758 | 
+     | top_clock_i__L2_I1                                 | A ^ -> Q v  | INCX20  | 0.310 | 0.799 |  31.551 |   30.557 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[2] | CN v -> Q ^ | SDFFX4  | 0.148 | 0.624 |  32.175 |   31.181 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/FE_OFC102_fsm_o | A ^ -> Q v  | INX2    | 0.173 | 0.153 |  32.328 |   31.334 | 
+     | p1_2_                                              |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/FE_OFC103_fsm_o | A v -> Q ^  | INX8    | 0.202 | 0.157 |  32.485 |   31.491 | 
+     | p1_2_                                              |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[3] | SD ^        | SDFFQX2 | 0.209 | 0.009 |  32.494 |   31.499 | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   30.994 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.752 |   31.747 | 
+     | top_clock_i__L2_I1                                 | A ^ -> Q v | INCX20  | 0.310 | 0.799 |  31.551 |   32.546 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[3] | CN v       | SDFFQX2 | 0.312 | 0.024 |  31.575 |   32.569 | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 42: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_
+reg[2] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[2] /SD (^) 
+checked with trailing edge of 'MEMCLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[5] /Q  (^) 
+triggered by trailing edge of 'MEMCLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         18.180
++ Hold                         -0.109
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                18.171
+  Arrival Time                 19.176
+  Slack Time                    1.005
+     Clock Fall Edge                     12.500
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           17.500
+     Timing Path:
+     +------------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |   Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |          |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+----------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y v         |          | 0.000 |       |  17.500 |   16.495 | 
+     | top_clock_mem_i__L1_I3                             | A v -> Q v  | BUCX4    | 0.460 | 0.635 |  18.135 |   17.130 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg | CN v -> Q ^ | SDFFSQX2 | 0.274 | 0.798 |  18.933 |   17.928 | 
+     | [5]                                                |             |          |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/FE_RC_120_0    | A ^ -> Q ^  | BUX8     | 0.147 | 0.234 |  19.167 |   18.162 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg | SD ^        | SDFFQX4  | 0.147 | 0.009 |  19.176 |   18.171 | 
+     | [2]                                                |             |          |       |       |         |          | 
+     +------------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     12.500
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           17.500
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y v        |         | 0.000 |       |  17.500 |   18.505 | 
+     | top_clock_mem_i__L1_I3                             | A v -> Q v | BUCX4   | 0.460 | 0.635 |  18.135 |   19.140 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg | CN v       | SDFFQX4 | 0.502 | 0.045 |  18.180 |   19.185 | 
+     | [2]                                                |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 43: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_
+1_reg[4] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_reg[4] /SD (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_reg[3] /Q  (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.566
++ Hold                         -0.180
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.486
+  Arrival Time                 32.504
+  Slack Time                    1.017
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v         |         | 0.000 |       |  30.000 |   28.983 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.735 | 
+     | top_clock_i__L2_I2                                 | A ^ -> Q v  | INCX20  | 0.303 | 0.789 |  31.541 |   30.524 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_r | CN v -> Q ^ | SDFFQX2 | 0.171 | 0.646 |  32.188 |   31.171 | 
+     | eg[3]                                              |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/FE_OFC80_n_1402 | A ^ -> Q v  | INX1    | 0.139 | 0.141 |  32.328 |   31.311 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/FE_OFC81_n_1402 | A v -> Q ^  | INX1    | 0.219 | 0.174 |  32.502 |   31.485 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_r | SD ^        | SDFFQX2 | 0.219 | 0.001 |  32.504 |   31.486 | 
+     | eg[4]                                              |             |         |       |       |         |          | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   31.017 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.770 | 
+     | top_clock_i__L2_I2                                 | A ^ -> Q v | INCX20  | 0.303 | 0.789 |  31.541 |   32.559 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_r | CN v       | SDFFQX2 | 0.304 | 0.025 |  31.566 |   32.583 | 
+     | eg[4]                                              |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 44: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_
+1_2_reg[7] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[7] /SD (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[6] /Q  (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.562
++ Hold                         -0.013
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.649
+  Arrival Time                 32.672
+  Slack Time                    1.023
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v         |         | 0.000 |       |  30.000 |   28.977 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.729 | 
+     | top_clock_i__L2_I2                                 | A ^ -> Q v  | INCX20  | 0.303 | 0.789 |  31.541 |   30.518 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | CN v -> Q ^ | SDFFQX0 | 0.800 | 1.130 |  32.671 |   31.648 | 
+     | _reg[6]                                            |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | SD ^        | SDFFQX0 | 0.800 | 0.001 |  32.672 |   31.649 | 
+     | _reg[7]                                            |             |         |       |       |         |          | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   31.023 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.776 | 
+     | top_clock_i__L2_I2                                 | A ^ -> Q v | INCX20  | 0.303 | 0.789 |  31.541 |   32.565 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | CN v       | SDFFQX0 | 0.304 | 0.021 |  31.562 |   32.585 | 
+     | _reg[7]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 45: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_
+1_reg[1] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_reg[1] /D   (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\read_data_reg[1] /Q (^) 
+triggered by  leading edge of 'MEMCLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.566
++ Hold                         -0.133
++ Phase Shift                 -25.000
++ Uncertainty                   0.100
+= Required Time                 6.533
+  Arrival Time                  7.562
+  Slack Time                    1.029
+     Clock Rise Edge                      0.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time            5.000
+     Timing Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y ^        |         | 0.000 |       |   5.000 |    3.971 | 
+     | top_clock_mem_i__L1_I6                             | A ^ -> Q ^ | BUCX4   | 0.574 | 0.709 |   5.709 |    4.680 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\read_data | C ^ -> Q ^ | SDFRQX2 | 0.757 | 1.107 |   6.817 |    5.787 | 
+     | _reg[1]                                            |            |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/p4912A56004     | D ^ -> Q ^ | AO221X0 | 0.532 | 0.745 |   7.562 |    6.532 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_r | D ^        | SDFFQX2 | 0.532 | 0.000 |   7.562 |    6.533 | 
+     | eg[1]                                              |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   31.029 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.782 | 
+     | top_clock_i__L2_I2                                 | A ^ -> Q v | INCX20  | 0.303 | 0.789 |  31.541 |   32.571 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_r | CN v       | SDFFQX2 | 0.304 | 0.024 |  31.566 |   32.595 | 
+     | eg[1]                                              |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 46: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_
+1_reg[7] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_reg[7] /D   (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\read_data_reg[7] /Q (^) 
+triggered by  leading edge of 'MEMCLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.568
++ Hold                         -0.100
++ Phase Shift                 -25.000
++ Uncertainty                   0.100
+= Required Time                 6.568
+  Arrival Time                  7.603
+  Slack Time                    1.035
+     Clock Rise Edge                      0.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time            5.000
+     Timing Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y ^        |         | 0.000 |       |   5.000 |    3.965 | 
+     | top_clock_mem_i__L1_I4                             | A ^ -> Q ^ | BUCX4   | 0.562 | 0.704 |   5.704 |    4.670 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\read_data | C ^ -> Q ^ | SDFRQX2 | 0.990 | 1.239 |   6.943 |    5.909 | 
+     | _reg[7]                                            |            |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/p4984A56010     | D ^ -> Q ^ | AO221X0 | 0.337 | 0.659 |   7.603 |    6.568 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_r | D ^        | SDFFQX2 | 0.337 | 0.000 |   7.603 |    6.568 | 
+     | eg[7]                                              |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   31.035 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.752 |   31.787 | 
+     | top_clock_i__L2_I2                                 | A ^ -> Q v | INCX20  | 0.303 | 0.789 |  31.541 |   32.576 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_r | CN v       | SDFFQX2 | 0.305 | 0.026 |  31.568 |   32.603 | 
+     | eg[7]                                              |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 47: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_
+1_2_reg[2] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[2] /D (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[2] /Q     (^) 
+triggered by  leading edge of 'MEMCLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.572
++ Hold                          0.143
++ Phase Shift                 -25.000
++ Uncertainty                   0.100
+= Required Time                 6.815
+  Arrival Time                  7.853
+  Slack Time                    1.038
+     Clock Rise Edge                      0.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time            5.000
+     Timing Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK_MEM                      | Y ^        |         | 0.000 |       |   5.000 |    3.962 | 
+     | top_clock_mem_i__L1_I8                             | A ^ -> Q ^ | BUCX4   | 0.613 | 0.707 |   5.707 |    4.670 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg | C ^ -> Q ^ | SDFRQX1 | 1.403 | 1.464 |   7.171 |    6.134 | 
+     | [2]                                                |            |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/p15904A         | B ^ -> Q ^ | AO22X0  | 0.474 | 0.681 |   7.852 |    6.815 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | D ^        | SDFFQX0 | 0.474 | 0.000 |   7.853 |    6.815 | 
+     | _reg[2]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   31.038 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.752 |   31.790 | 
+     | top_clock_i__L2_I1                                 | A ^ -> Q v | INCX20  | 0.310 | 0.799 |  31.551 |   32.589 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | CN v       | SDFFQX0 | 0.312 | 0.020 |  31.572 |   32.609 | 
+     | _reg[2]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 48: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_
+1_2_reg[4] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[4] /SD (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[3] /Q  (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.534
++ Hold                         -0.018
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.615
+  Arrival Time                 32.661
+  Slack Time                    1.045
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v         |         | 0.000 |       |  30.000 |   28.955 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.707 | 
+     | top_clock_i__L2_I2                                 | A ^ -> Q v  | INCX20  | 0.303 | 0.789 |  31.541 |   30.496 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | CN v -> Q ^ | SDFFQX0 | 0.781 | 1.119 |  32.660 |   31.615 | 
+     | _reg[3]                                            |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | SD ^        | SDFFQX0 | 0.781 | 0.001 |  32.661 |   31.615 | 
+     | _reg[4]                                            |             |         |       |       |         |          | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   31.045 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.752 |   31.798 | 
+     | top_clock_i__L2_I11                                | A ^ -> Q v | INCX20  | 0.279 | 0.771 |  31.524 |   32.569 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | CN v       | SDFFQX0 | 0.279 | 0.010 |  31.534 |   32.579 | 
+     | _reg[4]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+Path 49: MET Hold Check with Pin EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_
+reg[3] /CN 
+Endpoint:   EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[3] /SD (^) checked 
+with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[2] /Q  (^) triggered 
+by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.556
++ Hold                         -0.022
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.634
+  Arrival Time                 32.687
+  Slack Time                    1.053
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +--------------------------------------------------------------------------------------------------------------+ 
+     |                    Instance                     |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                 |             |         |       |       |  Time   |   Time   | 
+     |-------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                       | Y v         |         | 0.000 |       |  30.000 |   28.947 | 
+     | top_clock_i__L1_I0                              | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.700 | 
+     | top_clock_i__L2_I5                              | A ^ -> Q v  | INCX20  | 0.297 | 0.775 |  31.528 |   30.475 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[2] | CN v -> Q ^ | SDFFQX0 | 0.826 | 1.158 |  32.686 |   31.633 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[3] | SD ^        | SDFFQX0 | 0.826 | 0.001 |  32.687 |   31.634 | 
+     +--------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +-------------------------------------------------------------------------------------------------------------+ 
+     |                    Instance                     |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                 |            |         |       |       |  Time   |   Time   | 
+     |-------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                       | Y v        |         | 0.000 |       |  30.000 |   31.053 | 
+     | top_clock_i__L1_I0                              | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.805 | 
+     | top_clock_i__L2_I10                             | A ^ -> Q v | INCX20  | 0.291 | 0.781 |  31.533 |   32.586 | 
+     | EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[3] | CN v       | SDFFQX0 | 0.291 | 0.023 |  31.556 |   32.608 | 
+     +-------------------------------------------------------------------------------------------------------------+ 
+Path 50: MET Hold Check with Pin EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_
+1_2_reg[3] /CN 
+Endpoint:   EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[3] /SD (^) 
+checked with trailing edge of 'CLK'
+Beginpoint: EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[2] /Q  (^) 
+triggered by trailing edge of 'CLK'
+Path Groups:  {reg2reg}
+Other End Arrival Time         31.558
++ Hold                         -0.016
++ Phase Shift                   0.000
++ Uncertainty                   0.100
+= Required Time                31.642
+  Arrival Time                 32.695
+  Slack Time                    1.053
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Timing Path:
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |     Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |             |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+-------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v         |         | 0.000 |       |  30.000 |   28.947 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^  | INCX20  | 0.332 | 0.752 |  30.753 |   29.699 | 
+     | top_clock_i__L2_I1                                 | A ^ -> Q v  | INCX20  | 0.310 | 0.799 |  31.551 |   30.498 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | CN v -> Q ^ | SDFFQX0 | 0.813 | 1.143 |  32.694 |   31.641 | 
+     | _reg[2]                                            |             |         |       |       |         |          | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | SD ^        | SDFFQX0 | 0.813 | 0.001 |  32.695 |   31.642 | 
+     | _reg[3]                                            |             |         |       |       |         |          | 
+     +-----------------------------------------------------------------------------------------------------------------+ 
+     Clock Fall Edge                     25.000
+     + Source Insertion Delay             5.000
+     = Beginpoint Arrival Time           30.000
+     Other End Path:
+     +----------------------------------------------------------------------------------------------------------------+ 
+     |                      Instance                      |    Arc     |  Cell   |  Slew | Delay | Arrival | Required | 
+     |                                                    |            |         |       |       |  Time   |   Time   | 
+     |----------------------------------------------------+------------+---------+-------+-------+---------+----------| 
+     | EMC_PADS_INSTANCE/P_CLOCK                          | Y v        |         | 0.000 |       |  30.000 |   31.053 | 
+     | top_clock_i__L1_I0                                 | A v -> Q ^ | INCX20  | 0.332 | 0.752 |  30.753 |   31.806 | 
+     | top_clock_i__L2_I2                                 | A ^ -> Q v | INCX20  | 0.303 | 0.789 |  31.541 |   32.595 | 
+     | EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2 | CN v       | SDFFQX0 | 0.304 | 0.016 |  31.558 |   32.611 | 
+     | _reg[3]                                            |            |         |       |       |         |          | 
+     +----------------------------------------------------------------------------------------------------------------+ 
+

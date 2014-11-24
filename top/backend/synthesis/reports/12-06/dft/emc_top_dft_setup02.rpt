@@ -1,0 +1,286 @@
+
+Design Name
+===========
+    emc_top
+
+Scan Style
+==========
+    muxed_scan
+Design has a valid DFT rule check status
+
+Global Constraints
+==================
+    Minimum number of scan chains: no_value
+    Maximum length of scan chains: 60
+    Lock-up element type: preferred_edge_sensitive
+    Mix clock edges in scan chain: false
+    Prefix for unnamed scan objects: DFT_
+
+Test signal objects
+===================
+    shift_enable: 
+          object name: top_scan_enable 
+          pin name: top_scan_enable_b_i 
+          hookup_pin: top_scan_enable_b_i 
+          hookup_polarity: non_inverted 
+          active: high 
+          ideal: true 
+          user defined: true
+
+    test_mode: 
+          object name: top_test_mode 
+          pin name: top_test_mode_i 
+          hookup_pin: top_test_mode_i 
+          hookup_polarity: non_inverted 
+          active: high 
+          ideal: true 
+          user defined: true
+
+
+Test clock objects
+==================
+    test_clock:
+          object name: clock_dft 
+          user defined: true 
+          source: top_clock_i  
+          root source: top_clock_i  
+          root source polarity: non_inverting
+          hookup_pin: top_clock_i 
+          period: 50000.0
+
+    test_clock:
+          object name: clock_mem_dft 
+          user defined: true 
+          source: top_clock_mem_i  
+          root source: top_clock_mem_i  
+          root source polarity: non_inverting
+          hookup_pin: top_clock_mem_i 
+          period: 25000.0
+
+
+DFT controllable objects
+========================
+
+DFT don't scan objects
+======================
+    Instance: CORE_INSTANCE/fsm/fsm_reset_core_o_b_reg
+
+DFT abstract don't scan objects
+===============================
+
+DFT scan segment constraints
+============================
+
+DFT scan chain constraints
+==========================
+    User Chain: 
+          object name: emc_chain_01 
+          scan-in: top_p0_y_i[0] 
+          scan-in hookup_pin: top_p0_y_i[0]
+          scan-out: top_p2_a_o[0] 
+          scan-out hookup_pin: top_p2_a_o[0]
+          shared out: true 
+          shift_enable object name:  
+          max length: no_value
+          complete: false
+          test_clock domain: domain_1
+          test_clock edge: any
+
+    User Chain: 
+          object name: emc_chain_02 
+          scan-in: top_p0_y_i[1] 
+          scan-in hookup_pin: top_p0_y_i[1]
+          scan-out: top_p2_a_o[1] 
+          scan-out hookup_pin: top_p2_a_o[1]
+          shared out: true 
+          shift_enable object name:  
+          max length: no_value
+          complete: false
+          test_clock domain: domain_1
+          test_clock edge: any
+
+    User Chain: 
+          object name: emc_chain_03 
+          scan-in: top_p0_y_i[2] 
+          scan-in hookup_pin: top_p0_y_i[2]
+          scan-out: top_p2_a_o[2] 
+          scan-out hookup_pin: top_p2_a_o[2]
+          shared out: true 
+          shift_enable object name:  
+          max length: no_value
+          complete: false
+          test_clock domain: domain_1
+          test_clock edge: any
+
+    User Chain: 
+          object name: emc_chain_04 
+          scan-in: top_p0_y_i[3] 
+          scan-in hookup_pin: top_p0_y_i[3]
+          scan-out: top_p2_a_o[3] 
+          scan-out hookup_pin: top_p2_a_o[3]
+          shared out: true 
+          shift_enable object name:  
+          max length: no_value
+          complete: false
+          test_clock domain: domain_1
+          test_clock edge: any
+
+    User Chain: 
+          object name: emc_chain_05 
+          scan-in: top_p0_y_i[4] 
+          scan-in hookup_pin: top_p0_y_i[4]
+          scan-out: top_p2_a_o[4] 
+          scan-out hookup_pin: top_p2_a_o[4]
+          shared out: true 
+          shift_enable object name:  
+          max length: no_value
+          complete: false
+          test_clock domain: domain_1
+          test_clock edge: any
+
+    User Chain: 
+          object name: emc_chain_06 
+          scan-in: top_p0_y_i[5] 
+          scan-in hookup_pin: top_p0_y_i[5]
+          scan-out: top_p2_a_o[5] 
+          scan-out hookup_pin: top_p2_a_o[5]
+          shared out: true 
+          shift_enable object name:  
+          max length: no_value
+          complete: false
+          test_clock domain: domain_1
+          test_clock edge: any
+
+    User Chain: 
+          object name: emc_chain_07 
+          scan-in: top_p0_y_i[6] 
+          scan-in hookup_pin: top_p0_y_i[6]
+          scan-out: top_p2_a_o[6] 
+          scan-out hookup_pin: top_p2_a_o[6]
+          shared out: true 
+          shift_enable object name:  
+          max length: no_value
+          complete: false
+          test_clock domain: domain_1
+          test_clock edge: any
+
+    User Chain: 
+          object name: emc_chain_08 
+          scan-in: top_p0_y_i[7] 
+          scan-in hookup_pin: top_p0_y_i[7]
+          scan-out: top_p2_a_o[7] 
+          scan-out hookup_pin: top_p2_a_o[7]
+          shared out: true 
+          shift_enable object name:  
+          max length: no_value
+          complete: false
+          test_clock domain: domain_1
+          test_clock edge: any
+
+    User Chain: 
+          object name: emc_chain_09 
+          scan-in: top_p1_y_i[0] 
+          scan-in hookup_pin: top_p1_y_i[0]
+          scan-out: top_p4_a_o[0] 
+          scan-out hookup_pin: top_p4_a_o[0]
+          shared out: true 
+          shift_enable object name:  
+          max length: no_value
+          complete: false
+          test_clock domain: domain_2
+          test_clock edge: any
+
+    User Chain: 
+          object name: emc_chain_10 
+          scan-in: top_p1_y_i[1] 
+          scan-in hookup_pin: top_p1_y_i[1]
+          scan-out: top_p4_a_o[1] 
+          scan-out hookup_pin: top_p4_a_o[1]
+          shared out: true 
+          shift_enable object name:  
+          max length: no_value
+          complete: false
+          test_clock domain: domain_2
+          test_clock edge: any
+
+    User Chain: 
+          object name: emc_chain_11 
+          scan-in: top_p1_y_i[2] 
+          scan-in hookup_pin: top_p1_y_i[2]
+          scan-out: top_p4_a_o[2] 
+          scan-out hookup_pin: top_p4_a_o[2]
+          shared out: true 
+          shift_enable object name:  
+          max length: no_value
+          complete: false
+          test_clock domain: domain_2
+          test_clock edge: any
+
+    User Chain: 
+          object name: emc_chain_12 
+          scan-in: top_p1_y_i[3] 
+          scan-in hookup_pin: top_p1_y_i[3]
+          scan-out: top_p4_a_o[3] 
+          scan-out hookup_pin: top_p4_a_o[3]
+          shared out: true 
+          shift_enable object name:  
+          max length: no_value
+          complete: false
+          test_clock domain: domain_2
+          test_clock edge: any
+
+    User Chain: 
+          object name: emc_chain_13 
+          scan-in: top_p1_y_i[4] 
+          scan-in hookup_pin: top_p1_y_i[4]
+          scan-out: top_p4_a_o[4] 
+          scan-out hookup_pin: top_p4_a_o[4]
+          shared out: true 
+          shift_enable object name:  
+          max length: no_value
+          complete: false
+          test_clock domain: domain_2
+          test_clock edge: any
+
+    User Chain: 
+          object name: emc_chain_14 
+          scan-in: top_p1_y_i[5] 
+          scan-in hookup_pin: top_p1_y_i[5]
+          scan-out: top_p4_a_o[5] 
+          scan-out hookup_pin: top_p4_a_o[5]
+          shared out: true 
+          shift_enable object name:  
+          max length: no_value
+          complete: false
+          test_clock domain: domain_2
+          test_clock edge: any
+
+    User Chain: 
+          object name: emc_chain_15 
+          scan-in: top_p1_y_i[6] 
+          scan-in hookup_pin: top_p1_y_i[6]
+          scan-out: top_p4_a_o[6] 
+          scan-out hookup_pin: top_p4_a_o[6]
+          shared out: true 
+          shift_enable object name:  
+          max length: no_value
+          complete: false
+          test_clock domain: domain_2
+          test_clock edge: any
+
+    User Chain: 
+          object name: emc_chain_16 
+          scan-in: top_p1_y_i[7] 
+          scan-in hookup_pin: top_p1_y_i[7]
+          scan-out: top_p4_a_o[7] 
+          scan-out hookup_pin: top_p4_a_o[7]
+          shared out: true 
+          shift_enable object name:  
+          max length: no_value
+          complete: false
+          test_clock domain: domain_2
+          test_clock edge: any
+
+
+DFT actual scan chains
+======================

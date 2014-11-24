@@ -1,0 +1,14 @@
+Verify Connectivity report created on Thu Dec  9 13:57:49 2010
+
+
+Net VDDR, Pin EMC_PADS_INSTANCE/P_VDD_3_3V.VDDOR: unconnected terminal at (1037000,440170) (1037460,447410)
+Net VDDR, Pin EMC_PADS_INSTANCE/P_VDD_3_3V.VDDOR: unconnected terminal at (1037000,449170) (1037460,456410)
+Net VDDR, Pin EMC_PADS_INSTANCE/P_VDD_3_3V.VDDOR: unconnected terminal at (1037000,458170) (1037460,465410)
+Net VDDR, Pin EMC_PADS_INSTANCE/P_VDD_3_3V.VDDOR: unconnected terminal at (1037000,468590) (1037460,475830)
+Net VDDR, Pin EMC_PADS_INSTANCE/P_VDD_3_3V.VDDOR: unconnected terminal at (1037000,477590) (1037460,484830)
+Net VDDR, Pin EMC_PADS_INSTANCE/P_VDD_3_3V.VDDOR: unconnected terminal at (1037000,486590) (1037460,493830)
+
+Begin Summary
+    6 Problem(s) [ 96]: Terminal(s) are not connected.
+    6 total info(s) created.
+End Summary

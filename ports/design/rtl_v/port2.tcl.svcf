@@ -1,0 +1,103 @@
+# SimVision Command Script (Tue Oct 05 11:45:25 AM BRT 2010)
+#
+# Version 06.10.p001
+#
+# You can restore this configuration with:
+#
+#     ncsim tb_PORTS -gui -input port2.tcl
+#
+
+
+#
+# preferences
+#
+preferences set toolbar-UserTB2-WaveWindow {
+  usual
+  add action_specman_sendto_stripechart
+  add action_specman_sendto_databrowser
+  position -row 0 -pos 3 -anchor e
+  name {Send To Specman}
+}
+preferences set toolbar-txe_waveform_toggle-WaveWindow {
+  usual
+  position -pos 1
+}
+
+#
+# Simulator
+#
+
+database require simulator -hints {
+	simulator "ncsim tb_PORTS -gui -input port2.tcl"
+}
+
+#
+# cursors
+#
+set time 24800ps
+if {[catch {cursor new -name  TimeA -time $time}] != ""} {
+    cursor set -using TimeA -time $time
+}
+
+#
+# mmaps
+#
+mmap new -reuse -name {Boolean as Logic} -contents {
+{%c=FALSE -edgepriority 1 -shape low}
+{%c=TRUE -edgepriority 1 -shape high}
+}
+mmap new -reuse -name {Example Map} -contents {
+{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}
+}
+
+#
+# Design Browser windows
+#
+if {[catch {window new WatchList -name "Design Browser 1" -geometry 1280x945+0+0}] != ""} {
+    window geometry "Design Browser 1" 1280x945+0+0
+}
+window target "Design Browser 1" on
+browser using {Design Browser 1}
+browser set \
+    -scope tb_PORTS
+browser yview see tb_PORTS
+browser timecontrol set -lock 0
+
+#
+# Waveform windows
+#
+if {[catch {window new WaveWindow -name "Waveform 5" -geometry 1280x945+0+0}] != ""} {
+    window geometry "Waveform 5" 1280x945+0+0
+}
+window target "Waveform 5" on
+waveform using {Waveform 5}
+waveform sidebar visibility partial
+waveform set \
+    -primarycursor TimeA \
+    -signalnames name \
+    -signalwidth 175 \
+    -units ps \
+    -valuewidth 75
+cursor set -using TimeA -time 24,800ps
+waveform baseline set -time 0
+
+set id [waveform add -signals [list {tb_PORTS.p2_pin[2:0]} ]]
+waveform format $id -radix %d
+set id [waveform add -signals [list {tb_PORTS.ports_sfr_P2EN_i[7:0]} ]]
+waveform format $id -radix %d
+set id [waveform add -signals [list {tb_PORTS.ports_sfr_P2_i[7:0]} ]]
+waveform format $id -radix %d
+set id [waveform add -signals [list {tb_PORTS.ports_sfr_P2_o[7:0]} ]]
+waveform format $id -radix %d
+set id [waveform add -signals [list {tb_PORTS.en_port2_o[7:0]} ]]
+waveform format $id -radix %d
+set id [waveform add -signals [list {tb_PORTS.a_port2_o[7:0]} ]]
+waveform format $id -radix %d
+set id [waveform add -signals [list {tb_PORTS.y_port2_i[7:0]} ]]
+waveform format $id -radix %d
+
+waveform xview limits 0 256000ps
+

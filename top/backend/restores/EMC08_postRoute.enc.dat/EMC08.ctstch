@@ -1,0 +1,58 @@
+#
+# First Encounter (Version 07.10-p011_1)
+#
+# DESIGN:      EMC08
+# DATE:        Fri Dec  3 14:40:51 2010
+#
+#
+
+
+#
+#Clock Section
+#
+AutoCTSRootPin   EMC_PADS_INSTANCE/P_CLOCK_MEM/Y
+Period	    25000ps
+SrcLatency    5000ps
+MaxDelay         25000ps
+MinDelay         0ps
+MaxSkew          100ps
+SinkMaxTran      1000ps
+BufMaxTran       1000ps
+Obstruction      NO
+DetailReport     YES
+PadBufAfterGate     NO
+LevelBalanced     NO
+RouteClkNet      YES
+PostOpt          YES
+OptAddBuffer     YES
+OptAddBufferLimit  50
+NoGating         NO
+Buffer BUCX12 BUCX16 BUCX20 BUCX4 BUCX6 BUCX8 INCX12 INCX16 INCX20 
+END
+
+
+
+
+AutoCTSRootPin   EMC_PADS_INSTANCE/P_CLOCK/Y
+Period	    50000ps
+SrcLatency    5000ps
+MaxDelay         50000ps
+MinDelay         0ps
+MaxSkew          100ps
+SinkMaxTran      1000ps
+BufMaxTran       1000ps
+Obstruction      NO
+DetailReport     YES
+PadBufAfterGate     NO
+LevelBalanced     NO
+RouteClkNet      YES
+PostOpt          YES
+OptAddBuffer     YES
+OptAddBufferLimit  50
+NoGating         NO
+Buffer BUCX12 BUCX16 BUCX20 BUCX4 BUCX6 BUCX8 INCX12 INCX16 INCX20 
+END
+
+
+
+

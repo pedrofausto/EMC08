@@ -1,0 +1,133 @@
+# SimVision Command Script (Wed Aug 18 05:11:12 PM BRT 2010)
+#
+# Version 06.10.p001
+#
+# You can restore this configuration with:
+#
+#     irun -nbasync -debug -gui -snload rom_test.e rom_memory_top.v ROM4096X8.v +mpssession+SPECMAN16352 -input restore.tcl
+#
+
+
+#
+# preferences
+#
+preferences set txe-locate-add-fibers 1
+preferences set signal-type-colors {assertion #FF0000 output #FFA500 group #0099FF inout #00FFFF input #FFFF00 fiber #FF99FF errorsignal #FF0000 unknown #FFFFFF overlay #0099FF internal #00FF00 reference #FFFFFF}
+preferences set toolbar-UserTB0-Console {
+  usual
+  add action_reload
+  add action_restore
+  add action_show_modules
+  add action_test
+  separator
+  add action_coverage
+  add action_sys_data
+  add action_specman_config
+  position -row 4 -pos 1
+  name Specman
+}
+preferences set txe-navigate-search-locate 0
+preferences set txe-view-hold 0
+preferences set txe-navigate-waveform-locate 1
+preferences set txe-view-hidden 0
+preferences set toolbar-UserTB2-WaveWindow {
+  usual
+  add action_specman_sendto_stripechart
+  add action_specman_sendto_databrowser
+  position -row 0 -pos 3 -anchor e
+  name {Send To Specman}
+}
+preferences set txe-search-show-linenumbers 1
+preferences set schematic-show-rtl 1
+preferences set delete-unused-cursors-on-exit 0
+preferences set toolbar-txe_waveform_toggle-WaveWindow {
+  usual
+  position -pos 1
+}
+preferences set toolbar-UserTB1-WatchList {
+  usual
+  add action_design_browser_sendto_specman_stripechart
+  add action_design_browser_sendto_specman_databrowser
+  add action_design_browser_sendto_specman_visualization
+  position -row 0 -pos 4 -anchor e
+  name {Send To Specman}
+}
+preferences set txe-navigate-waveform-next-child 1
+preferences set delete-unused-groups-on-exit 0
+preferences set txe-locate-scroll-x 1
+preferences set txe-locate-scroll-y 1
+preferences set txe-locate-pop-waveform 1
+preferences set use-signal-type-colors 1
+
+#
+# Simulator
+#
+
+database require simulator -hints {
+	simulator "irun -nbasync -debug -gui -snload rom_test.e rom_memory_top.v ROM4096X8.v +mpssession+SPECMAN16352 -input restore.tcl"
+}
+
+#
+# cursors
+#
+set time 0
+if {[catch {cursor new -name  TimeA -time $time}] != ""} {
+    cursor set -using TimeA -time $time
+}
+cursor set -using TimeA -marching 1
+
+#
+# mmaps
+#
+mmap new -reuse -name {Boolean as Logic} -contents {
+{%c=FALSE -edgepriority 1 -shape low}
+{%c=TRUE -edgepriority 1 -shape high}
+}
+mmap new -reuse -name {Example Map} -contents {
+{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}
+}
+
+#
+# Design Browser windows
+#
+if {[catch {window new WatchList -name "Design Browser 1" -geometry 1280x919+0+0}] != ""} {
+    window geometry "Design Browser 1" 1280x919+0+0
+}
+window target "Design Browser 1" on
+browser using {Design Browser 1}
+browser set \
+    -scope rom_memory_top.MEM_TOP
+browser yview see rom_memory_top.MEM_TOP
+browser timecontrol set -lock 0
+
+#
+# Waveform windows
+#
+if {[catch {window new WaveWindow -name "Waveform 1" -geometry 1010x600+0+22}] != ""} {
+    window geometry "Waveform 1" 1010x600+0+22
+}
+window target "Waveform 1" on
+waveform using {Waveform 1}
+waveform sidebar visibility partial
+waveform set \
+    -primarycursor TimeA \
+    -signalnames name \
+    -signalwidth 175 \
+    -units ps \
+    -valuewidth 75
+cursor set -using TimeA -time 0
+cursor set -using TimeA -marching 1
+waveform baseline set -time 0
+
+set id [waveform add -signals [list rom_memory_top.MEM_TOP.CLK \
+	{rom_memory_top.MEM_TOP.ADR[11:0]} \
+	rom_memory_top.MEM_TOP.ENB \
+	rom_memory_top.MEM_TOP.OEB \
+	{rom_memory_top.MEM_TOP.ROM_matrix[0:4095]} \
+	{rom_memory_top.MEM_TOP.Q[7:0]} ]]
+
+waveform xview limits 0 2000ps
+

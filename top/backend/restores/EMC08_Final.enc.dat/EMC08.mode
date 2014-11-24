@@ -1,0 +1,26 @@
+setAnalysisMode -checkType hold -clkSrcPath false -clockPropagation forcedIdeal -cts preCTS -skew true -usefulSkew false -virtualIPO false
+setTrialRouteMode -autoSkipTracks false -blockageCostMultiple 1 -detour true -floorPlanMode false -handlePartition false -handlePartitionComplex false -handlePreroute true -highEffort false -honorPin false -ignoreAbutted2TermNet false -ignoreDEFTrack false -ignoreObstruct true -keepExistingRoutes false -keepMarkedOptRoutes true -maxDetourRatio 0 -maxRouteLayer 6 -minRouteLayer 1 -pinGuide true -PKS false -printWiresOnRTBlk false -routeGuide {} -routeObs true -selMarkedNet false -selMarkedNetOnly false -selNet {} -selNetOnly {} -updateRemainTrks false -useM1 false -usePagedArray false
+setOptMode -congOpt false -drcMargin 0 -effort high -fixDrc true -holdTargetSlack 0.5 -leakagePowerEffort none -maxDensity 0.95 -route noIncr -setupTargetSlack 0.5 -simplifyNetlist false -usefulSkew true -yieldEffort none
+setExtractRCMode  -engine detail -reduce 0.0 -coupled false -force true -viaCap true
+setDelayCalMode -engine default
+setCTSMode -addClockRootProp false -fixLeafInst true -fixNonLeafInst true -honorFence false -moveGate true -nameSingleDelim false -opt true -optAddBuffer true -reportHTML false -routeBottomPreferredLayer 3 -routeClkNet true -routeGuide true -routePreferredExtraSpace 1 -routeShielding {} -routeTopPreferredLayer 4 -traceDPinAsLeaf false -traceIoPinAsLeaf false -useHVRC true -useLefACLimit false -useLibMaxCap false -useLibMaxFanout false -verbose false
+setStreamOutMode -SEvianames false -specifyViaName default -uniquifyCellNamesPrefix false -virtualConnection true
+setNanoRouteMode -quiet -droutePostRouteWidenWireRule "NA"
+setNanoRouteMode -quiet -drouteStartIteration 0
+setNanoRouteMode -quiet -routeBottomRoutingLayer 1
+setNanoRouteMode -quiet -routeFillerInstPrefix "FILLER"
+setNanoRouteMode -quiet -routeSelectedNetOnly false
+setNanoRouteMode -quiet -routeSiEffort ""
+setNanoRouteMode -quiet -routeTdrEffort 5
+setNanoRouteMode -quiet -routeTopRoutingLayer 6
+setNanoRouteMode -quiet -routeWithEco false
+setNanoRouteMode -quiet -routeWithSiDriven true
+setNanoRouteMode -quiet -routeWithTimingDriven true
+
+setPlaceMode -checkPinLayerForAccess 1 -checkRoute false -clkGateAware false -congEffort high -doCongOpt false -ignoreScan true -ignoreSpare true -moduleAwareSpare false -modulePlan true -placeIoPins true -powerDriven false -preserveRouting false -reorderScan true -rmAffectedRouting false -swapEEQ false -timingDriven false
+setScanReorderMode -allowSwapping false -clkAware false -defInForce false -keepHierPorts false -skipMode skipNone
+setTieHiLoMode -honorDontTouch false
+setFillerMode -corePrefix FILLER -createRows true -deleteFixed true -doDRC true -ecoMode false
+setUsefulSkewMode -ecoRoute true
+setRCFactor -detclockcap 1.000000
+setImportMode -config true -keepEmptyModule true -treatUndefinedCellAsBbox false -useLefDef56 true

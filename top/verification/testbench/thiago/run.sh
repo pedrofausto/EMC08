@@ -1,0 +1,1 @@
+irun -nbasync -gui -snload top_feature_serial_testcase3.e emc_top_tb.v /home/student/EMC08/digital_A/top/design/rtl_v/emc_top.v -access r -timescale 1ns/10ps -snprerun "set check WARNING" -input restore.tcl &

@@ -1,0 +1,13 @@
+# verifyACLimit Report File
+
+# AC Current Scale Factor: 1.000000
+# UNITS: 
+#    Frequency in Megahertz
+#    Rise,Fall Times in Nanoseconds
+#    Capacitance in Picofarads
+#    Current (Irms,Limit) in milliAmps
+
+# Irms = scale * cap * volt * sqrt(effFreq * (1/rise + 1/fall))
+
+
+A total of 0 AC Limit violations.

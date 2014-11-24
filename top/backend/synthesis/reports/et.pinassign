@@ -1,0 +1,4 @@
+assign pin=top_test_mode_i 	test_function= +TI; 	# test_mode
+assign pin=top_scan_enable_b_i 	test_function= +SE; 	# shift_enable
+assign pin=top_clock_i 	test_function= -ES; 	
+assign pin=top_clock_mem_i 	test_function= -ES; 	

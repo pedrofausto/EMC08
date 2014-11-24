@@ -1,0 +1,27 @@
+# SimVision Design Browser (Wed Oct 06 09:19:52 AM BRT 2010)
+
+pattern .watchList0 ::WatchList v1.0 {
+  overall {
+    data geometry 700x500+0+48
+    data windowname {Design Browser 1}
+    data istarget 1
+    data options {-scopesort name -showmodulenames 0 -showtreeview 1}
+    data showscopes {concAssertion 1 concBreak 1 concProcCall 1 concSigAssign 1 agents 1 begins 1 bfms 1 blocks 1 cells 1 clockingblks 1 envs 1 forks 1 functions 1 generalunits 1 generates 1 interfaces 1 loggers 1 monitors 1 processes 1 programs 1 sequencedrivers 1 syscprocesses 1 tasks 1 unnamedprocesses 1 vloggenerates 1}
+    data scopetree {}
+    data scope simulator::serial_rx_tb_mode2.serial_rx_tb_mode2
+    data signallist {
+pattern .watchList0.work.user.sl ::dad::SignalList v1.0 {
+  overall {
+    data filterlist *
+    data options {-filter * -showinputs 1 -showoutputs 1 -showinouts 1 -showinternals 1 -showfibers 1 -showassertions 1 -showerrorsignals 1 -showlive 1}
+    data databasename {}
+    data scopename simulator::serial_rx_tb_mode2.serial_rx_tb_mode2
+    data scopelist {}
+  }
+}}
+    data radix default
+    data showstrength 0
+    data showSignalValues 1
+    data signalnames name
+  }
+}

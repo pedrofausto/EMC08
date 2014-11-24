@@ -1,0 +1,10 @@
+#!/bin/ksh
+export WORKDIR=/home/student/EMC08/digital_A/top/backend/synthesis/reports/
+verify_test_structures \
+  testmode=SCAN \
+  testxsource=yes
+export TFM_numberofjobs=3 TFM_job=1
+create_tests \
+    experiment=expt_atpg \
+    testmode=SCAN \
+    effort=high 

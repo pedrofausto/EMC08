@@ -1,0 +1,21 @@
+read library   -sensitive  -Statetable  -Liberty /home/student/EMC08/common_blocks/ROM/ROM4096X8/ROM4096X8_slow_1_62V_125C.lib   /home/student/EMC08/common_blocks/SRAM/SPRAM128X8/SPRAM128X8_slow_1_62V_125C.lib  /ddk/XFABC018/synopsys/xc018/MOSLP/D_CELLS_MOSLP_slow_1_62V_125C.lib
+add notranslate modules ROM4096X8 -design
+add notranslate modules SPRAM128X8 -design
+read design /home/student/EMC08/digital_A/top/design/rtl_v/emc_top.v -Verilog2K   -sensitive        
+set rule handling HRC1.4 -Ignore
+set rule handling HRC7 -Ignore
+set rule handling DIR6.1 -Ignore
+set rule handling RTL1.6 -Ignore
+set rule handling RTL1.6 -Warning
+set rule handling RTL1.6 -Ignore
+set rule handling RTL8.3 -Ignore
+set rule handling RTL7.3 -Ignore
+set rule handling RTL6.3 -Ignore
+set rule handling RTL1.4 -Ignore
+set rule handling RTL1.5a -Ignore
+set rule handling RTL1.5b -Ignore
+set rule handling RTL1.6 -Ignore
+set rule handling RTL10  -Ignore
+set rule handling RTL12  -Ignore
+set rule handling RTL14  -Ignore
+read sdc -STAGE RTL /home/student/EMC08/digital_A/core/design/constraints/constraints.sdc 

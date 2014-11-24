@@ -1,0 +1,738 @@
+Reporting registers that pass DFT rules
+  BAUD_RATE_INSTANCE/baud_rate_RS232_counter_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_RS232_counter_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_RS232_counter_reg[2] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_RS232_counter_reg[3] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_RS232_counter_reg[4] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_RS232_trans_counter_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_RS232_trans_counter_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_RS232_trans_counter_reg[2] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_RS232_trans_counter_reg[3] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_RS232_trans_counter_reg[4] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_RS232_width_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_RS232_width_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_RS232_width_reg[2] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_RS232_width_reg[3] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_RS232_width_reg[4] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_br_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_br_trans_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_cm_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_counter_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_counter_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_counter_reg[2] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_counter_reg[3] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_counter_reg[4] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_trans_counter_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_trans_counter_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_width_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_width_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_width_reg[2] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_width_reg[3] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_width_reg[4] 	PASS; Test clock: top_clock_i/rise; 
+  BAUD_RATE_INSTANCE/baud_rate_width_reg[5] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/cycle_continue_reg 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_int_na_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_int_rdy_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_op1_reg[0] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op1_reg[1] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op1_reg[2] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op1_reg[3] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op1_reg[4] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op1_reg[5] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op1_reg[6] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op1_reg[7] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op2_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_op2_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_op2_reg[2] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_op2_reg[3] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_op2_reg[4] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_op2_reg[5] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_op2_reg[6] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_op2_reg[7] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[0] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[1] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[2] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[3] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[4] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[5] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[6] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[7] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op_aux_1_reg[0] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op_aux_1_reg[1] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op_aux_1_reg[2] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op_aux_1_reg[3] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op_aux_1_reg[4] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op_aux_1_reg[5] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op_aux_1_reg[6] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op_aux_1_reg[7] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_op_aux_2_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_op_aux_2_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_op_aux_2_reg[2] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_op_aux_2_reg[3] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_op_aux_2_reg[4] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_op_aux_2_reg[5] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_op_aux_2_reg[6] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_op_aux_2_reg[7] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_opcode_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_opcode_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_opcode_reg[2] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_opcode_reg[3] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_opcode_reg[4] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_opcode_reg[5] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_opcode_reg[6] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_opcode_reg[7] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_state_o_reg[0] 	PASS; Test clock: top_clock_i/fall; 
+  CORE_INSTANCE/fsm/fsm_state_o_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/fsm_state_o_reg[2] 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/fsm/lcall_hardware_flag_reg 	PASS; Test clock: top_clock_i/rise; 
+  CORE_INSTANCE/pcau/pcau_pc_o_reg[0] 	PASS; Test clock: top_clock_mem_i/fall; 
+  CORE_INSTANCE/pcau/pcau_pc_o_reg[10] 	PASS; Test clock: top_clock_mem_i/fall; 
+  CORE_INSTANCE/pcau/pcau_pc_o_reg[11] 	PASS; Test clock: top_clock_mem_i/fall; 
+  CORE_INSTANCE/pcau/pcau_pc_o_reg[12] 	PASS; Test clock: top_clock_mem_i/fall; 
+  CORE_INSTANCE/pcau/pcau_pc_o_reg[13] 	PASS; Test clock: top_clock_mem_i/fall; 
+  CORE_INSTANCE/pcau/pcau_pc_o_reg[14] 	PASS; Test clock: top_clock_mem_i/fall; 
+  CORE_INSTANCE/pcau/pcau_pc_o_reg[15] 	PASS; Test clock: top_clock_mem_i/fall; 
+  CORE_INSTANCE/pcau/pcau_pc_o_reg[1] 	PASS; Test clock: top_clock_mem_i/fall; 
+  CORE_INSTANCE/pcau/pcau_pc_o_reg[2] 	PASS; Test clock: top_clock_mem_i/fall; 
+  CORE_INSTANCE/pcau/pcau_pc_o_reg[3] 	PASS; Test clock: top_clock_mem_i/fall; 
+  CORE_INSTANCE/pcau/pcau_pc_o_reg[4] 	PASS; Test clock: top_clock_mem_i/fall; 
+  CORE_INSTANCE/pcau/pcau_pc_o_reg[5] 	PASS; Test clock: top_clock_mem_i/fall; 
+  CORE_INSTANCE/pcau/pcau_pc_o_reg[6] 	PASS; Test clock: top_clock_mem_i/fall; 
+  CORE_INSTANCE/pcau/pcau_pc_o_reg[7] 	PASS; Test clock: top_clock_mem_i/fall; 
+  CORE_INSTANCE/pcau/pcau_pc_o_reg[8] 	PASS; Test clock: top_clock_mem_i/fall; 
+  CORE_INSTANCE/pcau/pcau_pc_o_reg[9] 	PASS; Test clock: top_clock_mem_i/fall; 
+  CORE_INSTANCE/reg_ctrl/load_sbuf_prev_reg 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/read_data_reg[0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/read_data_reg[1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/read_data_reg[2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/read_data_reg[3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/read_data_reg[4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/read_data_reg[5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/read_data_reg[6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/read_data_reg[7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/serial_status_reg 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/serial_tx_tmp_reg 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[0][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[0][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[0][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[0][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[0][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[0][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[0][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[0][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[10][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[10][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[10][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[10][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[10][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[10][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[10][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[10][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[11][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[11][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[11][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[11][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[11][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[11][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[11][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[11][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[12][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[12][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[12][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[12][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[12][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[12][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[12][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[12][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[13][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[13][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[13][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[13][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[13][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[13][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[13][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[13][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[14][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[14][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[14][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[14][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[14][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[14][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[14][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[14][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[15][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[15][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[15][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[15][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[15][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[15][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[15][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[15][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[16][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[16][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[16][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[16][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[16][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[16][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[16][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[16][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[17][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[17][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[17][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[17][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[17][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[17][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[17][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[17][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[18][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[18][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[18][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[18][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[18][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[18][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[18][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[18][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[19][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[19][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[19][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[19][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[19][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[19][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[19][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[19][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[1][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[1][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[1][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[1][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[1][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[1][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[1][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[1][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[20][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[20][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[20][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[20][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[20][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[20][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[20][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[20][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[21][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[21][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[21][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[21][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[21][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[21][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[21][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[21][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[22][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[22][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[22][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[22][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[22][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[22][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[22][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[22][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[23][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[23][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[23][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[23][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[23][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[23][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[23][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[23][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[24][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[24][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[24][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[24][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[24][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[24][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[24][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[24][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[25][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[25][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[25][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[25][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[25][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[25][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[25][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[25][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[26][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[26][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[26][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[26][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[26][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[26][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[26][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[26][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[27][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[27][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[27][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[27][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[27][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[27][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[27][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[27][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[28][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[28][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[28][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[28][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[28][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[28][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[28][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[28][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[29][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[29][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[29][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[29][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[29][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[29][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[29][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[29][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[2][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[2][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[2][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[2][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[2][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[2][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[2][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[2][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[30][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[30][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[30][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[30][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[30][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[30][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[30][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[30][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[31][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[31][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[31][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[31][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[31][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[31][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[31][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[31][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[32][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[32][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[32][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[32][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[32][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[32][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[32][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[32][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[33][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[33][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[33][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[33][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[33][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[33][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[33][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[33][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[34][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[34][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[34][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[34][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[34][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[34][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[34][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[34][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[35][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[35][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[35][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[35][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[35][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[35][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[35][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[35][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[36][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[36][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[36][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[36][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[36][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[36][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[36][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[36][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[37][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[37][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[37][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[37][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[37][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[37][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[37][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[37][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[38][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[38][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[38][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[38][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[38][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[38][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[38][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[38][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[39][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[39][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[39][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[39][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[39][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[39][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[39][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[39][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[3][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[3][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[3][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[3][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[3][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[3][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[3][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[3][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[40][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[40][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[40][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[40][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[40][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[40][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[40][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[40][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[4][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[4][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[4][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[4][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[4][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[4][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[4][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[4][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[5][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[5][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[5][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[5][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[5][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[5][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[5][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[5][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[6][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[6][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[6][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[6][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[6][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[6][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[6][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[6][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[7][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[7][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[7][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[7][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[7][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[7][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[7][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[7][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[8][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[8][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[8][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[8][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[8][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[8][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[8][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[8][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[9][0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[9][1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[9][2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[9][3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[9][4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[9][5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[9][6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/reg_ctrl/sfr_reg[9][7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/alu_fsm_result_reg[0] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/alu_fsm_result_reg[10] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/alu_fsm_result_reg[11] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/alu_fsm_result_reg[12] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/alu_fsm_result_reg[13] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/alu_fsm_result_reg[14] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/alu_fsm_result_reg[15] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/alu_fsm_result_reg[1] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/alu_fsm_result_reg[2] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/alu_fsm_result_reg[3] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/alu_fsm_result_reg[4] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/alu_fsm_result_reg[5] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/alu_fsm_result_reg[6] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/alu_fsm_result_reg[7] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/alu_fsm_result_reg[8] 	PASS; Test clock: top_clock_mem_i/rise; 
+  CORE_INSTANCE/alu_fsm_result_reg[9] 	PASS; Test clock: top_clock_mem_i/rise; 
+  INTERRUPT_INSTANCE/flag_intx_reg[0][0] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/flag_intx_reg[0][1] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/flag_intx_reg[1][0] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/flag_intx_reg[1][1] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/flag_out_reg_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  INTERRUPT_INSTANCE/flag_out_reg_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  INTERRUPT_INSTANCE/hi_ok_reg[0][0] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/hi_ok_reg[1][0] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/ier_ctr_reg[0] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/ier_ctr_reg[1] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/ier_ctr_reg[2] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/ier_ctr_reg[3] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/ier_ctr_reg[4] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/ier_ctr_reg[5] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/ier_ctr_reg[6] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/ier_reg[0] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/ier_reg[1] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/ier_reg[2] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/ier_reg[3] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/ier_reg[4] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/ier_reg[5] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/ier_reg[6] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/lo_ok_reg[0][0] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/lo_ok_reg[1][0] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/reset_reg 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/state_reg 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/vect_register_reg[0] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/vect_register_reg[1] 	PASS; Test clock: top_clock_i/fall; 
+  INTERRUPT_INSTANCE/vect_register_reg[2] 	PASS; Test clock: top_clock_i/fall; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_control/aux2_tran_det_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_control/aux_tran_det_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_control/br_detect_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_clear_count_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_load_sbuf_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_p3en_0_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_p3en_1_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_receive_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_scon0_ri_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_shift_input_shift_reg_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_start_input_shift_reg_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_control/state_rx_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_control/state_rx_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_control/state_rx_reg[2] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_control/state_rx_reg[3] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux2_tran_det_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux_reset1_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux_tran_det_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/clear_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/serial_transition_detected_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[2] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[3] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[4] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[5] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[6] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[7] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[8] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[9] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_end_bit_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[2] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[3] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[4] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[5] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[6] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[7] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_scon2_rb8_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_control/aux2_tran_det_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_control/aux_tran_det_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_control/br_detect1_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_control/br_detect_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_control/do_first_shift_flag_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_data_en_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_p3en_0_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_p3en_1_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_scon1_ti_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_send_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_shift_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_start_idle_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_start_shifter_reg_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_stop_bit_gen_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_control/state_tx_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_control/state_tx_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_control/state_tx_reg[2] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_control/state_tx_reg[3] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[2] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[3] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[4] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[5] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[6] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[7] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[8] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[9] 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/flag_end_bit_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/serial_data_tx_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/serial_end_bit_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/acr_inc_reg 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[10] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[11] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[12] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[13] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[14] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[15] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[16] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[17] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[18] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[19] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[20] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[21] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[22] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[23] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[2] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[3] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[4] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[5] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[6] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[7] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[8] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[9] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[10] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[11] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[12] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[13] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[14] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[15] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[16] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[17] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[18] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[19] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[20] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[21] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[22] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[23] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[2] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[3] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[4] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[5] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[6] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[7] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[8] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[9] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/state_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/state_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[2] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[3] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[4] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[5] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[6] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[7] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[2] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[3] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[4] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[5] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[6] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[7] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[2] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[3] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[4] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[5] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[6] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[7] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_tcon2_tf2_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[2] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[3] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[4] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[5] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[6] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_pdcf/timers_timer2_pdcf_clkdiv_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_pdf/ff_sync_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_pdf/ff_sync_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_pdf/pdf_2sample_reg[0] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_pdf/pdf_2sample_reg[1] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_pdf/pdf_2sample_reg[2] 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_pdf/pdf_out_reg 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_pdf/q_flop_reg 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/dut_timer2/top_pdf/timers_timer2_pdfoutput_o_reg 	PASS; Test clock: top_clock_i/rise; 
+  TIMERS_INSTANCE/reset_aux_reg 	PASS; Test clock: top_clock_i/fall; 
+Reporting registers that fail DFT rules
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux1_bit_det_reg 	FAIL; violations: clock #(0 ) 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux2_bit_det_reg 	FAIL; violations: clock #(0 ) 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux3_bit_det_reg 	FAIL; violations: clock #(0 ) 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux_reset2_reg 	FAIL; violations: clock #(0 ) 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/clear_br_reg 	FAIL; violations: clock #(0 ) 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/counter_reg[0] 	FAIL; violations: clock #(0 ) 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/counter_reg[1] 	FAIL; violations: clock #(0 ) 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/counter_reg[2] 	FAIL; violations: clock #(0 ) 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/counter_reg[3] 	FAIL; violations: clock #(0 ) 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/serial_sample_detected_o_reg 	FAIL; violations: clock #(0 ) 
+  SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/serial_shift_o_reg 	FAIL; violations: clock #(0 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[0] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[1] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[2] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[3] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[4] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[5] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[6] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[7] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[0] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[1] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[2] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[3] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[4] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[5] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[6] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[7] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[0] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[1] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[2] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[3] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[4] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[5] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[6] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[7] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[0] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[1] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[2] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[3] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[4] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[5] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[6] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[7] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[0] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[1] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[2] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[3] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[4] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[5] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[6] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[7] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[0] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[1] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[2] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[3] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[4] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[5] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[6] 	FAIL; violations: clock #(1 ) 
+  TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[7] 	FAIL; violations: clock #(1 ) 
+Reporting registers that are preserved or marked dont-scan
+  CORE_INSTANCE/fsm/fsm_reset_core_o_b_reg 
+Reporting registers that are marked Abstract Segment Dont Scan
+Reporting registers that are part of shift register segments
+Reporting registers that are identified as lockup elements
+Reporting registers that are level-sensitive elements
+  CORE_INSTANCE/fsm/fsm_ram_addr_o_reg[0] 
+  CORE_INSTANCE/fsm/fsm_ram_addr_o_reg[1] 
+  CORE_INSTANCE/fsm/fsm_ram_addr_o_reg[2] 
+  CORE_INSTANCE/fsm/fsm_ram_addr_o_reg[3] 
+  CORE_INSTANCE/fsm/fsm_ram_addr_o_reg[4] 
+  CORE_INSTANCE/fsm/fsm_ram_addr_o_reg[5] 
+  CORE_INSTANCE/fsm/fsm_ram_addr_o_reg[6] 
+  CORE_INSTANCE/fsm/fsm_ram_addr_o_reg[7] 
+Reporting misc. non-scan registers
+  CORE_INSTANCE/mem_ctrl/internal_ram 
+  CORE_INSTANCE/mem_ctrl/internal_rom 
+Summary: 
+Total registers that pass DFT rules: 650
+Total registers that fail DFT rules: 59
+Total registers that are marked preserved or dont-scan: 1
+Total registers that are marked Abstract Segment dont-scan: 0
+Total registers that are part of shift register segments: 0
+Total registers that are lockup elements: 0
+Total registers that are level-sensitive: 8
+Total registers that are misc. non-scan: 2
+

@@ -1,0 +1,824 @@
+Reporting 16 scan chains (muxed_scan)
+ 
+Chain 1: emc_chain_01 
+  scan_in:      top_p0_y_i[0] 
+  scan_out:     top_p2_a_o[0] (shared output) 
+  shift_enable: top_scan_enable_b_i (active high) 
+  clock_domain: domain_1 (edge: rise)
+  length: 41
+    bit 1 	BAUD_RATE_INSTANCE/baud_rate_RS232_counter_reg[0]  <top_clock_i (rise)> 
+    bit 2 	BAUD_RATE_INSTANCE/baud_rate_RS232_counter_reg[1]  <top_clock_i (rise)> 
+    bit 3 	BAUD_RATE_INSTANCE/baud_rate_RS232_counter_reg[2]  <top_clock_i (rise)> 
+    bit 4 	BAUD_RATE_INSTANCE/baud_rate_RS232_counter_reg[3]  <top_clock_i (rise)> 
+    bit 5 	BAUD_RATE_INSTANCE/baud_rate_RS232_counter_reg[4]  <top_clock_i (rise)> 
+    bit 6 	BAUD_RATE_INSTANCE/baud_rate_RS232_trans_counter_reg[0]  <top_clock_i (rise)> 
+    bit 7 	BAUD_RATE_INSTANCE/baud_rate_RS232_trans_counter_reg[1]  <top_clock_i (rise)> 
+    bit 8 	BAUD_RATE_INSTANCE/baud_rate_RS232_trans_counter_reg[2]  <top_clock_i (rise)> 
+    bit 9 	BAUD_RATE_INSTANCE/baud_rate_RS232_trans_counter_reg[3]  <top_clock_i (rise)> 
+    bit 10 	BAUD_RATE_INSTANCE/baud_rate_RS232_trans_counter_reg[4]  <top_clock_i (rise)> 
+    bit 11 	BAUD_RATE_INSTANCE/baud_rate_RS232_width_reg[0]  <top_clock_i (rise)> 
+    bit 12 	BAUD_RATE_INSTANCE/baud_rate_RS232_width_reg[1]  <top_clock_i (rise)> 
+    bit 13 	BAUD_RATE_INSTANCE/baud_rate_RS232_width_reg[2]  <top_clock_i (rise)> 
+    bit 14 	BAUD_RATE_INSTANCE/baud_rate_RS232_width_reg[3]  <top_clock_i (rise)> 
+    bit 15 	BAUD_RATE_INSTANCE/baud_rate_RS232_width_reg[4]  <top_clock_i (rise)> 
+    bit 16 	BAUD_RATE_INSTANCE/baud_rate_br_o_reg  <top_clock_i (rise)> 
+    bit 17 	BAUD_RATE_INSTANCE/baud_rate_br_trans_o_reg  <top_clock_i (rise)> 
+    bit 18 	BAUD_RATE_INSTANCE/baud_rate_cm_o_reg  <top_clock_i (rise)> 
+    bit 19 	BAUD_RATE_INSTANCE/baud_rate_counter_reg[0]  <top_clock_i (rise)> 
+    bit 20 	BAUD_RATE_INSTANCE/baud_rate_counter_reg[1]  <top_clock_i (rise)> 
+    bit 21 	BAUD_RATE_INSTANCE/baud_rate_counter_reg[2]  <top_clock_i (rise)> 
+    bit 22 	BAUD_RATE_INSTANCE/baud_rate_counter_reg[3]  <top_clock_i (rise)> 
+    bit 23 	BAUD_RATE_INSTANCE/baud_rate_counter_reg[4]  <top_clock_i (rise)> 
+    bit 24 	BAUD_RATE_INSTANCE/baud_rate_trans_counter_reg[0]  <top_clock_i (rise)> 
+    bit 25 	BAUD_RATE_INSTANCE/baud_rate_trans_counter_reg[1]  <top_clock_i (rise)> 
+    bit 26 	BAUD_RATE_INSTANCE/baud_rate_width_reg[0]  <top_clock_i (rise)> 
+    bit 27 	BAUD_RATE_INSTANCE/baud_rate_width_reg[1]  <top_clock_i (rise)> 
+    bit 28 	BAUD_RATE_INSTANCE/baud_rate_width_reg[2]  <top_clock_i (rise)> 
+    bit 29 	BAUD_RATE_INSTANCE/baud_rate_width_reg[3]  <top_clock_i (rise)> 
+    bit 30 	BAUD_RATE_INSTANCE/baud_rate_width_reg[4]  <top_clock_i (rise)> 
+    bit 31 	BAUD_RATE_INSTANCE/baud_rate_width_reg[5]  <top_clock_i (rise)> 
+    bit 32 	CORE_INSTANCE/fsm/fsm_int_na_o_reg  <top_clock_i (rise)> 
+    bit 33 	CORE_INSTANCE/fsm/fsm_int_rdy_o_reg  <top_clock_i (rise)> 
+    bit 34 	CORE_INSTANCE/fsm/fsm_op2_reg[0]  <top_clock_i (rise)> 
+    bit 35 	CORE_INSTANCE/fsm/fsm_op2_reg[1]  <top_clock_i (rise)> 
+    bit 36 	CORE_INSTANCE/fsm/fsm_op2_reg[2]  <top_clock_i (rise)> 
+    bit 37 	CORE_INSTANCE/fsm/fsm_op2_reg[3]  <top_clock_i (rise)> 
+    bit 38 	CORE_INSTANCE/fsm/fsm_op2_reg[4]  <top_clock_i (rise)> 
+    bit 39 	CORE_INSTANCE/fsm/fsm_op2_reg[5]  <top_clock_i (rise)> 
+    bit 40 	CORE_INSTANCE/fsm/fsm_op2_reg[6]  <top_clock_i (rise)> 
+    bit 41 	CORE_INSTANCE/fsm/fsm_op2_reg[7]  <top_clock_i (rise)> 
+------------------------
+Chain 2: emc_chain_02 
+  scan_in:      top_p0_y_i[1] 
+  scan_out:     top_p2_a_o[1] (shared output) 
+  shift_enable: top_scan_enable_b_i (active high) 
+  clock_domain: domain_1 (edge: rise)
+  length: 41
+    bit 1 	CORE_INSTANCE/fsm/fsm_op_aux_2_reg[0]  <top_clock_i (rise)> 
+    bit 2 	CORE_INSTANCE/fsm/fsm_op_aux_2_reg[1]  <top_clock_i (rise)> 
+    bit 3 	CORE_INSTANCE/fsm/fsm_op_aux_2_reg[2]  <top_clock_i (rise)> 
+    bit 4 	CORE_INSTANCE/fsm/fsm_op_aux_2_reg[3]  <top_clock_i (rise)> 
+    bit 5 	CORE_INSTANCE/fsm/fsm_op_aux_2_reg[4]  <top_clock_i (rise)> 
+    bit 6 	CORE_INSTANCE/fsm/fsm_op_aux_2_reg[5]  <top_clock_i (rise)> 
+    bit 7 	CORE_INSTANCE/fsm/fsm_op_aux_2_reg[6]  <top_clock_i (rise)> 
+    bit 8 	CORE_INSTANCE/fsm/fsm_op_aux_2_reg[7]  <top_clock_i (rise)> 
+    bit 9 	CORE_INSTANCE/fsm/fsm_opcode_reg[0]  <top_clock_i (rise)> 
+    bit 10 	CORE_INSTANCE/fsm/fsm_opcode_reg[1]  <top_clock_i (rise)> 
+    bit 11 	CORE_INSTANCE/fsm/fsm_opcode_reg[2]  <top_clock_i (rise)> 
+    bit 12 	CORE_INSTANCE/fsm/fsm_opcode_reg[3]  <top_clock_i (rise)> 
+    bit 13 	CORE_INSTANCE/fsm/fsm_opcode_reg[4]  <top_clock_i (rise)> 
+    bit 14 	CORE_INSTANCE/fsm/fsm_opcode_reg[5]  <top_clock_i (rise)> 
+    bit 15 	CORE_INSTANCE/fsm/fsm_opcode_reg[6]  <top_clock_i (rise)> 
+    bit 16 	CORE_INSTANCE/fsm/fsm_opcode_reg[7]  <top_clock_i (rise)> 
+    bit 17 	CORE_INSTANCE/fsm/fsm_state_o_reg[1]  <top_clock_i (rise)> 
+    bit 18 	CORE_INSTANCE/fsm/fsm_state_o_reg[2]  <top_clock_i (rise)> 
+    bit 19 	CORE_INSTANCE/fsm/lcall_hardware_flag_reg  <top_clock_i (rise)> 
+    bit 20 	INTERRUPT_INSTANCE/flag_out_reg_reg[0]  <top_clock_i (rise)> 
+    bit 21 	INTERRUPT_INSTANCE/flag_out_reg_reg[1]  <top_clock_i (rise)> 
+    bit 22 	SERIAL_INSTANCE/serial_rx_block/serial_rx_control/aux2_tran_det_reg  <top_clock_i (rise)> 
+    bit 23 	SERIAL_INSTANCE/serial_rx_block/serial_rx_control/aux_tran_det_reg  <top_clock_i (rise)> 
+    bit 24 	SERIAL_INSTANCE/serial_rx_block/serial_rx_control/br_detect_reg  <top_clock_i (rise)> 
+    bit 25 	SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_clear_count_o_reg  <top_clock_i (rise)> 
+    bit 26 	SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_load_sbuf_o_reg  <top_clock_i (rise)> 
+    bit 27 	SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_p3en_0_o_reg  <top_clock_i (rise)> 
+    bit 28 	SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_p3en_1_o_reg  <top_clock_i (rise)> 
+    bit 29 	SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_receive_o_reg  <top_clock_i (rise)> 
+    bit 30 	SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_scon0_ri_o_reg  <top_clock_i (rise)> 
+    bit 31 	SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_shift_input_shift_reg_o_reg  <top_clock_i (rise)> 
+    bit 32 	SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_start_input_shift_reg_o_reg  <top_clock_i (rise)> 
+    bit 33 	SERIAL_INSTANCE/serial_rx_block/serial_rx_control/state_rx_reg[0]  <top_clock_i (rise)> 
+    bit 34 	SERIAL_INSTANCE/serial_rx_block/serial_rx_control/state_rx_reg[1]  <top_clock_i (rise)> 
+    bit 35 	SERIAL_INSTANCE/serial_rx_block/serial_rx_control/state_rx_reg[2]  <top_clock_i (rise)> 
+    bit 36 	SERIAL_INSTANCE/serial_rx_block/serial_rx_control/state_rx_reg[3]  <top_clock_i (rise)> 
+    bit 37 	SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux1_bit_det_reg  <top_clock_i (rise)> 
+    bit 38 	SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux2_bit_det_reg  <top_clock_i (rise)> 
+    bit 39 	SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux2_tran_det_reg  <top_clock_i (rise)> 
+    bit 40 	SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux3_bit_det_reg  <top_clock_i (rise)> 
+    bit 41 	SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux_reset1_reg  <top_clock_i (rise)> 
+------------------------
+Chain 3: emc_chain_03 
+  scan_in:      top_p0_y_i[2] 
+  scan_out:     top_p2_a_o[2] (shared output) 
+  shift_enable: top_scan_enable_b_i (active high) 
+  clock_domain: domain_1 (edge: rise)
+  length: 41
+    bit 1 	SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux_reset2_reg  <top_clock_i (rise)> 
+    bit 2 	SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux_tran_det_reg  <top_clock_i (rise)> 
+    bit 3 	SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/clear_br_reg  <top_clock_i (rise)> 
+    bit 4 	SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/clear_reg  <top_clock_i (rise)> 
+    bit 5 	SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/counter_reg[0]  <top_clock_i (rise)> 
+    bit 6 	SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/counter_reg[1]  <top_clock_i (rise)> 
+    bit 7 	SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/counter_reg[2]  <top_clock_i (rise)> 
+    bit 8 	SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/counter_reg[3]  <top_clock_i (rise)> 
+    bit 9 	SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/serial_sample_detected_o_reg  <top_clock_i (rise)> 
+    bit 10 	SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/serial_shift_o_reg  <top_clock_i (rise)> 
+    bit 11 	SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/serial_transition_detected_o_reg  <top_clock_i (rise)> 
+    bit 12 	SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[0]  <top_clock_i (rise)> 
+    bit 13 	SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[1]  <top_clock_i (rise)> 
+    bit 14 	SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[2]  <top_clock_i (rise)> 
+    bit 15 	SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[3]  <top_clock_i (rise)> 
+    bit 16 	SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[4]  <top_clock_i (rise)> 
+    bit 17 	SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[5]  <top_clock_i (rise)> 
+    bit 18 	SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[6]  <top_clock_i (rise)> 
+    bit 19 	SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[7]  <top_clock_i (rise)> 
+    bit 20 	SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[8]  <top_clock_i (rise)> 
+    bit 21 	SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[9]  <top_clock_i (rise)> 
+    bit 22 	SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_end_bit_o_reg  <top_clock_i (rise)> 
+    bit 23 	SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[0]  <top_clock_i (rise)> 
+    bit 24 	SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[1]  <top_clock_i (rise)> 
+    bit 25 	SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[2]  <top_clock_i (rise)> 
+    bit 26 	SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[3]  <top_clock_i (rise)> 
+    bit 27 	SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[4]  <top_clock_i (rise)> 
+    bit 28 	SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[5]  <top_clock_i (rise)> 
+    bit 29 	SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[6]  <top_clock_i (rise)> 
+    bit 30 	SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[7]  <top_clock_i (rise)> 
+    bit 31 	SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_scon2_rb8_o_reg  <top_clock_i (rise)> 
+    bit 32 	SERIAL_INSTANCE/serial_tx_block/serial_tx_control/aux2_tran_det_reg  <top_clock_i (rise)> 
+    bit 33 	SERIAL_INSTANCE/serial_tx_block/serial_tx_control/aux_tran_det_reg  <top_clock_i (rise)> 
+    bit 34 	SERIAL_INSTANCE/serial_tx_block/serial_tx_control/br_detect1_reg  <top_clock_i (rise)> 
+    bit 35 	SERIAL_INSTANCE/serial_tx_block/serial_tx_control/br_detect_reg  <top_clock_i (rise)> 
+    bit 36 	SERIAL_INSTANCE/serial_tx_block/serial_tx_control/do_first_shift_flag_reg  <top_clock_i (rise)> 
+    bit 37 	SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_data_en_o_reg  <top_clock_i (rise)> 
+    bit 38 	SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_p3en_0_o_reg  <top_clock_i (rise)> 
+    bit 39 	SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_p3en_1_o_reg  <top_clock_i (rise)> 
+    bit 40 	SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_scon1_ti_o_reg  <top_clock_i (rise)> 
+    bit 41 	SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_send_o_reg  <top_clock_i (rise)> 
+------------------------
+Chain 4: emc_chain_04 
+  scan_in:      top_p0_y_i[3] 
+  scan_out:     top_p2_a_o[3] (shared output) 
+  shift_enable: top_scan_enable_b_i (active high) 
+  clock_domain: domain_1 (edge: rise)
+  length: 41
+    bit 1 	SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_shift_o_reg  <top_clock_i (rise)> 
+    bit 2 	SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_start_idle_o_reg  <top_clock_i (rise)> 
+    bit 3 	SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_start_shifter_reg_o_reg  <top_clock_i (rise)> 
+    bit 4 	SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_stop_bit_gen_o_reg  <top_clock_i (rise)> 
+    bit 5 	SERIAL_INSTANCE/serial_tx_block/serial_tx_control/state_tx_reg[0]  <top_clock_i (rise)> 
+    bit 6 	SERIAL_INSTANCE/serial_tx_block/serial_tx_control/state_tx_reg[1]  <top_clock_i (rise)> 
+    bit 7 	SERIAL_INSTANCE/serial_tx_block/serial_tx_control/state_tx_reg[2]  <top_clock_i (rise)> 
+    bit 8 	SERIAL_INSTANCE/serial_tx_block/serial_tx_control/state_tx_reg[3]  <top_clock_i (rise)> 
+    bit 9 	SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[0]  <top_clock_i (rise)> 
+    bit 10 	SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[1]  <top_clock_i (rise)> 
+    bit 11 	SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[2]  <top_clock_i (rise)> 
+    bit 12 	SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[3]  <top_clock_i (rise)> 
+    bit 13 	SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[4]  <top_clock_i (rise)> 
+    bit 14 	SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[5]  <top_clock_i (rise)> 
+    bit 15 	SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[6]  <top_clock_i (rise)> 
+    bit 16 	SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[7]  <top_clock_i (rise)> 
+    bit 17 	SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[8]  <top_clock_i (rise)> 
+    bit 18 	SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[9]  <top_clock_i (rise)> 
+    bit 19 	SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/flag_end_bit_reg  <top_clock_i (rise)> 
+    bit 20 	SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/serial_data_tx_o_reg  <top_clock_i (rise)> 
+    bit 21 	SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/serial_end_bit_o_reg  <top_clock_i (rise)> 
+    bit 22 	TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[0]  <top_clock_i (rise)> 
+    bit 23 	TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[1]  <top_clock_i (rise)> 
+    bit 24 	TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[2]  <top_clock_i (rise)> 
+    bit 25 	TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[3]  <top_clock_i (rise)> 
+    bit 26 	TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[4]  <top_clock_i (rise)> 
+    bit 27 	TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[5]  <top_clock_i (rise)> 
+    bit 28 	TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[6]  <top_clock_i (rise)> 
+    bit 29 	TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[7]  <top_clock_i (rise)> 
+    bit 30 	TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[0]  <top_clock_i (rise)> 
+    bit 31 	TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[1]  <top_clock_i (rise)> 
+    bit 32 	TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[2]  <top_clock_i (rise)> 
+    bit 33 	TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[3]  <top_clock_i (rise)> 
+    bit 34 	TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[4]  <top_clock_i (rise)> 
+    bit 35 	TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[5]  <top_clock_i (rise)> 
+    bit 36 	TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[6]  <top_clock_i (rise)> 
+    bit 37 	TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[7]  <top_clock_i (rise)> 
+    bit 38 	TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[0]  <top_clock_i (rise)> 
+    bit 39 	TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[1]  <top_clock_i (rise)> 
+    bit 40 	TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[2]  <top_clock_i (rise)> 
+    bit 41 	TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[3]  <top_clock_i (rise)> 
+------------------------
+Chain 5: emc_chain_05 
+  scan_in:      top_p0_y_i[4] 
+  scan_out:     top_p2_a_o[4] (shared output) 
+  shift_enable: top_scan_enable_b_i (active high) 
+  clock_domain: domain_1 (edge: rise)
+  length: 40
+    bit 1 	TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[4]  <top_clock_i (rise)> 
+    bit 2 	TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[5]  <top_clock_i (rise)> 
+    bit 3 	TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[6]  <top_clock_i (rise)> 
+    bit 4 	TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[7]  <top_clock_i (rise)> 
+    bit 5 	TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[0]  <top_clock_i (rise)> 
+    bit 6 	TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[1]  <top_clock_i (rise)> 
+    bit 7 	TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[2]  <top_clock_i (rise)> 
+    bit 8 	TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[3]  <top_clock_i (rise)> 
+    bit 9 	TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[4]  <top_clock_i (rise)> 
+    bit 10 	TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[5]  <top_clock_i (rise)> 
+    bit 11 	TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[6]  <top_clock_i (rise)> 
+    bit 12 	TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[7]  <top_clock_i (rise)> 
+    bit 13 	TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[0]  <top_clock_i (rise)> 
+    bit 14 	TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[1]  <top_clock_i (rise)> 
+    bit 15 	TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[2]  <top_clock_i (rise)> 
+    bit 16 	TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[3]  <top_clock_i (rise)> 
+    bit 17 	TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[4]  <top_clock_i (rise)> 
+    bit 18 	TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[5]  <top_clock_i (rise)> 
+    bit 19 	TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[6]  <top_clock_i (rise)> 
+    bit 20 	TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[7]  <top_clock_i (rise)> 
+    bit 21 	TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[0]  <top_clock_i (rise)> 
+    bit 22 	TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[1]  <top_clock_i (rise)> 
+    bit 23 	TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[2]  <top_clock_i (rise)> 
+    bit 24 	TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[3]  <top_clock_i (rise)> 
+    bit 25 	TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[4]  <top_clock_i (rise)> 
+    bit 26 	TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[5]  <top_clock_i (rise)> 
+    bit 27 	TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[6]  <top_clock_i (rise)> 
+    bit 28 	TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[7]  <top_clock_i (rise)> 
+    bit 29 	TIMERS_INSTANCE/dut_timer2/top_acg/acr_inc_reg  <top_clock_i (rise)> 
+    bit 30 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[0]  <top_clock_i (rise)> 
+    bit 31 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[1]  <top_clock_i (rise)> 
+    bit 32 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[2]  <top_clock_i (rise)> 
+    bit 33 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[3]  <top_clock_i (rise)> 
+    bit 34 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[4]  <top_clock_i (rise)> 
+    bit 35 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[5]  <top_clock_i (rise)> 
+    bit 36 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[6]  <top_clock_i (rise)> 
+    bit 37 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[7]  <top_clock_i (rise)> 
+    bit 38 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[8]  <top_clock_i (rise)> 
+    bit 39 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[9]  <top_clock_i (rise)> 
+    bit 40 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[10]  <top_clock_i (rise)> 
+------------------------
+Chain 6: emc_chain_06 
+  scan_in:      top_p0_y_i[5] 
+  scan_out:     top_p2_a_o[5] (shared output) 
+  shift_enable: top_scan_enable_b_i (active high) 
+  clock_domain: domain_1 (edge: fall)
+  length: 54
+    bit 1 	CORE_INSTANCE/fsm/cycle_continue_reg  <top_clock_i (fall)> 
+    bit 2 	CORE_INSTANCE/fsm/fsm_op1_reg[0]  <top_clock_i (fall)> 
+    bit 3 	CORE_INSTANCE/fsm/fsm_op1_reg[1]  <top_clock_i (fall)> 
+    bit 4 	CORE_INSTANCE/fsm/fsm_op1_reg[2]  <top_clock_i (fall)> 
+    bit 5 	CORE_INSTANCE/fsm/fsm_op1_reg[3]  <top_clock_i (fall)> 
+    bit 6 	CORE_INSTANCE/fsm/fsm_op1_reg[4]  <top_clock_i (fall)> 
+    bit 7 	CORE_INSTANCE/fsm/fsm_op1_reg[5]  <top_clock_i (fall)> 
+    bit 8 	CORE_INSTANCE/fsm/fsm_op1_reg[6]  <top_clock_i (fall)> 
+    bit 9 	CORE_INSTANCE/fsm/fsm_op1_reg[7]  <top_clock_i (fall)> 
+    bit 10 	CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[0]  <top_clock_i (fall)> 
+    bit 11 	CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[1]  <top_clock_i (fall)> 
+    bit 12 	CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[2]  <top_clock_i (fall)> 
+    bit 13 	CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[3]  <top_clock_i (fall)> 
+    bit 14 	CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[4]  <top_clock_i (fall)> 
+    bit 15 	CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[5]  <top_clock_i (fall)> 
+    bit 16 	CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[6]  <top_clock_i (fall)> 
+    bit 17 	CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[7]  <top_clock_i (fall)> 
+    bit 18 	CORE_INSTANCE/fsm/fsm_op_aux_1_reg[0]  <top_clock_i (fall)> 
+    bit 19 	CORE_INSTANCE/fsm/fsm_op_aux_1_reg[1]  <top_clock_i (fall)> 
+    bit 20 	CORE_INSTANCE/fsm/fsm_op_aux_1_reg[2]  <top_clock_i (fall)> 
+    bit 21 	CORE_INSTANCE/fsm/fsm_op_aux_1_reg[3]  <top_clock_i (fall)> 
+    bit 22 	CORE_INSTANCE/fsm/fsm_op_aux_1_reg[4]  <top_clock_i (fall)> 
+    bit 23 	CORE_INSTANCE/fsm/fsm_op_aux_1_reg[5]  <top_clock_i (fall)> 
+    bit 24 	CORE_INSTANCE/fsm/fsm_op_aux_1_reg[6]  <top_clock_i (fall)> 
+    bit 25 	CORE_INSTANCE/fsm/fsm_op_aux_1_reg[7]  <top_clock_i (fall)> 
+    bit 26 	CORE_INSTANCE/fsm/fsm_state_o_reg[0]  <top_clock_i (fall)> 
+    bit 27 	INTERRUPT_INSTANCE/flag_intx_reg[0][0]  <top_clock_i (fall)> 
+    bit 28 	INTERRUPT_INSTANCE/flag_intx_reg[0][1]  <top_clock_i (fall)> 
+    bit 29 	INTERRUPT_INSTANCE/flag_intx_reg[1][0]  <top_clock_i (fall)> 
+    bit 30 	INTERRUPT_INSTANCE/flag_intx_reg[1][1]  <top_clock_i (fall)> 
+    bit 31 	INTERRUPT_INSTANCE/hi_ok_reg[0][0]  <top_clock_i (fall)> 
+    bit 32 	INTERRUPT_INSTANCE/hi_ok_reg[1][0]  <top_clock_i (fall)> 
+    bit 33 	INTERRUPT_INSTANCE/ier_ctr_reg[0]  <top_clock_i (fall)> 
+    bit 34 	INTERRUPT_INSTANCE/ier_ctr_reg[1]  <top_clock_i (fall)> 
+    bit 35 	INTERRUPT_INSTANCE/ier_ctr_reg[2]  <top_clock_i (fall)> 
+    bit 36 	INTERRUPT_INSTANCE/ier_ctr_reg[3]  <top_clock_i (fall)> 
+    bit 37 	INTERRUPT_INSTANCE/ier_ctr_reg[4]  <top_clock_i (fall)> 
+    bit 38 	INTERRUPT_INSTANCE/ier_ctr_reg[5]  <top_clock_i (fall)> 
+    bit 39 	INTERRUPT_INSTANCE/ier_ctr_reg[6]  <top_clock_i (fall)> 
+    bit 40 	INTERRUPT_INSTANCE/ier_reg[0]  <top_clock_i (fall)> 
+    bit 41 	INTERRUPT_INSTANCE/ier_reg[1]  <top_clock_i (fall)> 
+    bit 42 	INTERRUPT_INSTANCE/ier_reg[2]  <top_clock_i (fall)> 
+    bit 43 	INTERRUPT_INSTANCE/ier_reg[3]  <top_clock_i (fall)> 
+    bit 44 	INTERRUPT_INSTANCE/ier_reg[4]  <top_clock_i (fall)> 
+    bit 45 	INTERRUPT_INSTANCE/ier_reg[5]  <top_clock_i (fall)> 
+    bit 46 	INTERRUPT_INSTANCE/ier_reg[6]  <top_clock_i (fall)> 
+    bit 47 	INTERRUPT_INSTANCE/lo_ok_reg[0][0]  <top_clock_i (fall)> 
+    bit 48 	INTERRUPT_INSTANCE/lo_ok_reg[1][0]  <top_clock_i (fall)> 
+    bit 49 	INTERRUPT_INSTANCE/reset_reg  <top_clock_i (fall)> 
+    bit 50 	INTERRUPT_INSTANCE/state_reg  <top_clock_i (fall)> 
+    bit 51 	INTERRUPT_INSTANCE/vect_register_reg[0]  <top_clock_i (fall)> 
+    bit 52 	INTERRUPT_INSTANCE/vect_register_reg[1]  <top_clock_i (fall)> 
+    bit 53 	INTERRUPT_INSTANCE/vect_register_reg[2]  <top_clock_i (fall)> 
+    bit 54 	TIMERS_INSTANCE/reset_aux_reg  <top_clock_i (fall)> 
+------------------------
+Chain 7: emc_chain_07 
+  scan_in:      top_p0_y_i[6] 
+  scan_out:     top_p2_a_o[6] (shared output) 
+  shift_enable: top_scan_enable_b_i (active high) 
+  clock_domain: domain_1 (edge: rise)
+  length: 40
+    bit 1 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[11]  <top_clock_i (rise)> 
+    bit 2 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[12]  <top_clock_i (rise)> 
+    bit 3 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[13]  <top_clock_i (rise)> 
+    bit 4 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[14]  <top_clock_i (rise)> 
+    bit 5 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[15]  <top_clock_i (rise)> 
+    bit 6 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[16]  <top_clock_i (rise)> 
+    bit 7 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[17]  <top_clock_i (rise)> 
+    bit 8 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[18]  <top_clock_i (rise)> 
+    bit 9 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[19]  <top_clock_i (rise)> 
+    bit 10 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[20]  <top_clock_i (rise)> 
+    bit 11 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[21]  <top_clock_i (rise)> 
+    bit 12 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[22]  <top_clock_i (rise)> 
+    bit 13 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[23]  <top_clock_i (rise)> 
+    bit 14 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[0]  <top_clock_i (rise)> 
+    bit 15 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[1]  <top_clock_i (rise)> 
+    bit 16 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[2]  <top_clock_i (rise)> 
+    bit 17 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[3]  <top_clock_i (rise)> 
+    bit 18 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[4]  <top_clock_i (rise)> 
+    bit 19 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[5]  <top_clock_i (rise)> 
+    bit 20 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[6]  <top_clock_i (rise)> 
+    bit 21 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[7]  <top_clock_i (rise)> 
+    bit 22 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[8]  <top_clock_i (rise)> 
+    bit 23 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[9]  <top_clock_i (rise)> 
+    bit 24 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[10]  <top_clock_i (rise)> 
+    bit 25 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[11]  <top_clock_i (rise)> 
+    bit 26 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[12]  <top_clock_i (rise)> 
+    bit 27 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[13]  <top_clock_i (rise)> 
+    bit 28 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[14]  <top_clock_i (rise)> 
+    bit 29 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[15]  <top_clock_i (rise)> 
+    bit 30 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[16]  <top_clock_i (rise)> 
+    bit 31 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[17]  <top_clock_i (rise)> 
+    bit 32 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[18]  <top_clock_i (rise)> 
+    bit 33 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[19]  <top_clock_i (rise)> 
+    bit 34 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[20]  <top_clock_i (rise)> 
+    bit 35 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[21]  <top_clock_i (rise)> 
+    bit 36 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[22]  <top_clock_i (rise)> 
+    bit 37 	TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[23]  <top_clock_i (rise)> 
+    bit 38 	TIMERS_INSTANCE/dut_timer2/top_acg/state_reg[0]  <top_clock_i (rise)> 
+    bit 39 	TIMERS_INSTANCE/dut_timer2/top_acg/state_reg[1]  <top_clock_i (rise)> 
+    bit 40 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[0]  <top_clock_i (rise)> 
+------------------------
+Chain 8: emc_chain_08 
+  scan_in:      top_p0_y_i[7] 
+  scan_out:     top_p2_a_o[7] (shared output) 
+  shift_enable: top_scan_enable_b_i (active high) 
+  clock_domain: domain_1 (edge: rise)
+  length: 40
+    bit 1 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[1]  <top_clock_i (rise)> 
+    bit 2 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[2]  <top_clock_i (rise)> 
+    bit 3 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[3]  <top_clock_i (rise)> 
+    bit 4 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[4]  <top_clock_i (rise)> 
+    bit 5 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[5]  <top_clock_i (rise)> 
+    bit 6 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[6]  <top_clock_i (rise)> 
+    bit 7 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[7]  <top_clock_i (rise)> 
+    bit 8 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[0]  <top_clock_i (rise)> 
+    bit 9 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[1]  <top_clock_i (rise)> 
+    bit 10 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[2]  <top_clock_i (rise)> 
+    bit 11 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[3]  <top_clock_i (rise)> 
+    bit 12 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[4]  <top_clock_i (rise)> 
+    bit 13 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[5]  <top_clock_i (rise)> 
+    bit 14 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[6]  <top_clock_i (rise)> 
+    bit 15 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[7]  <top_clock_i (rise)> 
+    bit 16 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[0]  <top_clock_i (rise)> 
+    bit 17 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[1]  <top_clock_i (rise)> 
+    bit 18 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[2]  <top_clock_i (rise)> 
+    bit 19 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[3]  <top_clock_i (rise)> 
+    bit 20 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[4]  <top_clock_i (rise)> 
+    bit 21 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[5]  <top_clock_i (rise)> 
+    bit 22 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[6]  <top_clock_i (rise)> 
+    bit 23 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[7]  <top_clock_i (rise)> 
+    bit 24 	TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_tcon2_tf2_o_reg  <top_clock_i (rise)> 
+    bit 25 	TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[0]  <top_clock_i (rise)> 
+    bit 26 	TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[1]  <top_clock_i (rise)> 
+    bit 27 	TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[2]  <top_clock_i (rise)> 
+    bit 28 	TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[3]  <top_clock_i (rise)> 
+    bit 29 	TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[4]  <top_clock_i (rise)> 
+    bit 30 	TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[5]  <top_clock_i (rise)> 
+    bit 31 	TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[6]  <top_clock_i (rise)> 
+    bit 32 	TIMERS_INSTANCE/dut_timer2/top_pdcf/timers_timer2_pdcf_clkdiv_o_reg  <top_clock_i (rise)> 
+    bit 33 	TIMERS_INSTANCE/dut_timer2/top_pdf/ff_sync_reg[0]  <top_clock_i (rise)> 
+    bit 34 	TIMERS_INSTANCE/dut_timer2/top_pdf/ff_sync_reg[1]  <top_clock_i (rise)> 
+    bit 35 	TIMERS_INSTANCE/dut_timer2/top_pdf/pdf_2sample_reg[0]  <top_clock_i (rise)> 
+    bit 36 	TIMERS_INSTANCE/dut_timer2/top_pdf/pdf_2sample_reg[1]  <top_clock_i (rise)> 
+    bit 37 	TIMERS_INSTANCE/dut_timer2/top_pdf/pdf_2sample_reg[2]  <top_clock_i (rise)> 
+    bit 38 	TIMERS_INSTANCE/dut_timer2/top_pdf/pdf_out_reg  <top_clock_i (rise)> 
+    bit 39 	TIMERS_INSTANCE/dut_timer2/top_pdf/q_flop_reg  <top_clock_i (rise)> 
+    bit 40 	TIMERS_INSTANCE/dut_timer2/top_pdf/timers_timer2_pdfoutput_o_reg  <top_clock_i (rise)> 
+------------------------
+Chain 9: emc_chain_09 
+  scan_in:      top_p1_y_i[0] 
+  scan_out:     top_p4_a_o[0] (shared output) 
+  shift_enable: top_scan_enable_b_i (active high) 
+  clock_domain: domain_2 (edge: rise)
+  length: 51
+    bit 1 	CORE_INSTANCE/reg_ctrl/load_sbuf_prev_reg  <top_clock_mem_i (rise)> 
+    bit 2 	CORE_INSTANCE/reg_ctrl/read_data_reg[0]  <top_clock_mem_i (rise)> 
+    bit 3 	CORE_INSTANCE/reg_ctrl/read_data_reg[1]  <top_clock_mem_i (rise)> 
+    bit 4 	CORE_INSTANCE/reg_ctrl/read_data_reg[2]  <top_clock_mem_i (rise)> 
+    bit 5 	CORE_INSTANCE/reg_ctrl/read_data_reg[3]  <top_clock_mem_i (rise)> 
+    bit 6 	CORE_INSTANCE/reg_ctrl/read_data_reg[4]  <top_clock_mem_i (rise)> 
+    bit 7 	CORE_INSTANCE/reg_ctrl/read_data_reg[5]  <top_clock_mem_i (rise)> 
+    bit 8 	CORE_INSTANCE/reg_ctrl/read_data_reg[6]  <top_clock_mem_i (rise)> 
+    bit 9 	CORE_INSTANCE/reg_ctrl/read_data_reg[7]  <top_clock_mem_i (rise)> 
+    bit 10 	CORE_INSTANCE/reg_ctrl/serial_status_reg  <top_clock_mem_i (rise)> 
+    bit 11 	CORE_INSTANCE/reg_ctrl/serial_tx_tmp_reg  <top_clock_mem_i (rise)> 
+    bit 12 	CORE_INSTANCE/reg_ctrl/sfr_reg[0][0]  <top_clock_mem_i (rise)> 
+    bit 13 	CORE_INSTANCE/reg_ctrl/sfr_reg[0][1]  <top_clock_mem_i (rise)> 
+    bit 14 	CORE_INSTANCE/reg_ctrl/sfr_reg[0][2]  <top_clock_mem_i (rise)> 
+    bit 15 	CORE_INSTANCE/reg_ctrl/sfr_reg[0][3]  <top_clock_mem_i (rise)> 
+    bit 16 	CORE_INSTANCE/reg_ctrl/sfr_reg[0][4]  <top_clock_mem_i (rise)> 
+    bit 17 	CORE_INSTANCE/reg_ctrl/sfr_reg[0][5]  <top_clock_mem_i (rise)> 
+    bit 18 	CORE_INSTANCE/reg_ctrl/sfr_reg[0][6]  <top_clock_mem_i (rise)> 
+    bit 19 	CORE_INSTANCE/reg_ctrl/sfr_reg[0][7]  <top_clock_mem_i (rise)> 
+    bit 20 	CORE_INSTANCE/reg_ctrl/sfr_reg[1][0]  <top_clock_mem_i (rise)> 
+    bit 21 	CORE_INSTANCE/reg_ctrl/sfr_reg[1][1]  <top_clock_mem_i (rise)> 
+    bit 22 	CORE_INSTANCE/reg_ctrl/sfr_reg[1][2]  <top_clock_mem_i (rise)> 
+    bit 23 	CORE_INSTANCE/reg_ctrl/sfr_reg[1][3]  <top_clock_mem_i (rise)> 
+    bit 24 	CORE_INSTANCE/reg_ctrl/sfr_reg[1][4]  <top_clock_mem_i (rise)> 
+    bit 25 	CORE_INSTANCE/reg_ctrl/sfr_reg[1][5]  <top_clock_mem_i (rise)> 
+    bit 26 	CORE_INSTANCE/reg_ctrl/sfr_reg[1][6]  <top_clock_mem_i (rise)> 
+    bit 27 	CORE_INSTANCE/reg_ctrl/sfr_reg[1][7]  <top_clock_mem_i (rise)> 
+    bit 28 	CORE_INSTANCE/reg_ctrl/sfr_reg[2][0]  <top_clock_mem_i (rise)> 
+    bit 29 	CORE_INSTANCE/reg_ctrl/sfr_reg[2][1]  <top_clock_mem_i (rise)> 
+    bit 30 	CORE_INSTANCE/reg_ctrl/sfr_reg[2][2]  <top_clock_mem_i (rise)> 
+    bit 31 	CORE_INSTANCE/reg_ctrl/sfr_reg[2][3]  <top_clock_mem_i (rise)> 
+    bit 32 	CORE_INSTANCE/reg_ctrl/sfr_reg[2][4]  <top_clock_mem_i (rise)> 
+    bit 33 	CORE_INSTANCE/reg_ctrl/sfr_reg[2][5]  <top_clock_mem_i (rise)> 
+    bit 34 	CORE_INSTANCE/reg_ctrl/sfr_reg[2][6]  <top_clock_mem_i (rise)> 
+    bit 35 	CORE_INSTANCE/reg_ctrl/sfr_reg[2][7]  <top_clock_mem_i (rise)> 
+    bit 36 	CORE_INSTANCE/reg_ctrl/sfr_reg[3][0]  <top_clock_mem_i (rise)> 
+    bit 37 	CORE_INSTANCE/reg_ctrl/sfr_reg[3][1]  <top_clock_mem_i (rise)> 
+    bit 38 	CORE_INSTANCE/reg_ctrl/sfr_reg[3][2]  <top_clock_mem_i (rise)> 
+    bit 39 	CORE_INSTANCE/reg_ctrl/sfr_reg[3][3]  <top_clock_mem_i (rise)> 
+    bit 40 	CORE_INSTANCE/reg_ctrl/sfr_reg[3][4]  <top_clock_mem_i (rise)> 
+    bit 41 	CORE_INSTANCE/reg_ctrl/sfr_reg[3][5]  <top_clock_mem_i (rise)> 
+    bit 42 	CORE_INSTANCE/reg_ctrl/sfr_reg[3][6]  <top_clock_mem_i (rise)> 
+    bit 43 	CORE_INSTANCE/reg_ctrl/sfr_reg[3][7]  <top_clock_mem_i (rise)> 
+    bit 44 	CORE_INSTANCE/reg_ctrl/sfr_reg[4][0]  <top_clock_mem_i (rise)> 
+    bit 45 	CORE_INSTANCE/reg_ctrl/sfr_reg[4][1]  <top_clock_mem_i (rise)> 
+    bit 46 	CORE_INSTANCE/reg_ctrl/sfr_reg[4][2]  <top_clock_mem_i (rise)> 
+    bit 47 	CORE_INSTANCE/reg_ctrl/sfr_reg[4][3]  <top_clock_mem_i (rise)> 
+    bit 48 	CORE_INSTANCE/reg_ctrl/sfr_reg[4][4]  <top_clock_mem_i (rise)> 
+    bit 49 	CORE_INSTANCE/reg_ctrl/sfr_reg[4][5]  <top_clock_mem_i (rise)> 
+    bit 50 	CORE_INSTANCE/reg_ctrl/sfr_reg[4][6]  <top_clock_mem_i (rise)> 
+    bit 51 	CORE_INSTANCE/reg_ctrl/sfr_reg[4][7]  <top_clock_mem_i (rise)> 
+------------------------
+Chain 10: emc_chain_10 
+  scan_in:      top_p1_y_i[1] 
+  scan_out:     top_p4_a_o[1] (shared output) 
+  shift_enable: top_scan_enable_b_i (active high) 
+  clock_domain: domain_2 (edge: rise)
+  length: 51
+    bit 1 	CORE_INSTANCE/reg_ctrl/sfr_reg[5][0]  <top_clock_mem_i (rise)> 
+    bit 2 	CORE_INSTANCE/reg_ctrl/sfr_reg[5][1]  <top_clock_mem_i (rise)> 
+    bit 3 	CORE_INSTANCE/reg_ctrl/sfr_reg[5][2]  <top_clock_mem_i (rise)> 
+    bit 4 	CORE_INSTANCE/reg_ctrl/sfr_reg[5][3]  <top_clock_mem_i (rise)> 
+    bit 5 	CORE_INSTANCE/reg_ctrl/sfr_reg[5][4]  <top_clock_mem_i (rise)> 
+    bit 6 	CORE_INSTANCE/reg_ctrl/sfr_reg[5][5]  <top_clock_mem_i (rise)> 
+    bit 7 	CORE_INSTANCE/reg_ctrl/sfr_reg[5][6]  <top_clock_mem_i (rise)> 
+    bit 8 	CORE_INSTANCE/reg_ctrl/sfr_reg[5][7]  <top_clock_mem_i (rise)> 
+    bit 9 	CORE_INSTANCE/reg_ctrl/sfr_reg[6][0]  <top_clock_mem_i (rise)> 
+    bit 10 	CORE_INSTANCE/reg_ctrl/sfr_reg[6][1]  <top_clock_mem_i (rise)> 
+    bit 11 	CORE_INSTANCE/reg_ctrl/sfr_reg[6][2]  <top_clock_mem_i (rise)> 
+    bit 12 	CORE_INSTANCE/reg_ctrl/sfr_reg[6][3]  <top_clock_mem_i (rise)> 
+    bit 13 	CORE_INSTANCE/reg_ctrl/sfr_reg[6][4]  <top_clock_mem_i (rise)> 
+    bit 14 	CORE_INSTANCE/reg_ctrl/sfr_reg[6][5]  <top_clock_mem_i (rise)> 
+    bit 15 	CORE_INSTANCE/reg_ctrl/sfr_reg[6][6]  <top_clock_mem_i (rise)> 
+    bit 16 	CORE_INSTANCE/reg_ctrl/sfr_reg[6][7]  <top_clock_mem_i (rise)> 
+    bit 17 	CORE_INSTANCE/reg_ctrl/sfr_reg[7][0]  <top_clock_mem_i (rise)> 
+    bit 18 	CORE_INSTANCE/reg_ctrl/sfr_reg[7][1]  <top_clock_mem_i (rise)> 
+    bit 19 	CORE_INSTANCE/reg_ctrl/sfr_reg[7][2]  <top_clock_mem_i (rise)> 
+    bit 20 	CORE_INSTANCE/reg_ctrl/sfr_reg[7][3]  <top_clock_mem_i (rise)> 
+    bit 21 	CORE_INSTANCE/reg_ctrl/sfr_reg[7][4]  <top_clock_mem_i (rise)> 
+    bit 22 	CORE_INSTANCE/reg_ctrl/sfr_reg[7][5]  <top_clock_mem_i (rise)> 
+    bit 23 	CORE_INSTANCE/reg_ctrl/sfr_reg[7][6]  <top_clock_mem_i (rise)> 
+    bit 24 	CORE_INSTANCE/reg_ctrl/sfr_reg[7][7]  <top_clock_mem_i (rise)> 
+    bit 25 	CORE_INSTANCE/reg_ctrl/sfr_reg[8][0]  <top_clock_mem_i (rise)> 
+    bit 26 	CORE_INSTANCE/reg_ctrl/sfr_reg[8][1]  <top_clock_mem_i (rise)> 
+    bit 27 	CORE_INSTANCE/reg_ctrl/sfr_reg[8][2]  <top_clock_mem_i (rise)> 
+    bit 28 	CORE_INSTANCE/reg_ctrl/sfr_reg[8][3]  <top_clock_mem_i (rise)> 
+    bit 29 	CORE_INSTANCE/reg_ctrl/sfr_reg[8][4]  <top_clock_mem_i (rise)> 
+    bit 30 	CORE_INSTANCE/reg_ctrl/sfr_reg[8][5]  <top_clock_mem_i (rise)> 
+    bit 31 	CORE_INSTANCE/reg_ctrl/sfr_reg[8][6]  <top_clock_mem_i (rise)> 
+    bit 32 	CORE_INSTANCE/reg_ctrl/sfr_reg[8][7]  <top_clock_mem_i (rise)> 
+    bit 33 	CORE_INSTANCE/reg_ctrl/sfr_reg[9][0]  <top_clock_mem_i (rise)> 
+    bit 34 	CORE_INSTANCE/reg_ctrl/sfr_reg[9][1]  <top_clock_mem_i (rise)> 
+    bit 35 	CORE_INSTANCE/reg_ctrl/sfr_reg[9][2]  <top_clock_mem_i (rise)> 
+    bit 36 	CORE_INSTANCE/reg_ctrl/sfr_reg[9][3]  <top_clock_mem_i (rise)> 
+    bit 37 	CORE_INSTANCE/reg_ctrl/sfr_reg[9][4]  <top_clock_mem_i (rise)> 
+    bit 38 	CORE_INSTANCE/reg_ctrl/sfr_reg[9][5]  <top_clock_mem_i (rise)> 
+    bit 39 	CORE_INSTANCE/reg_ctrl/sfr_reg[9][6]  <top_clock_mem_i (rise)> 
+    bit 40 	CORE_INSTANCE/reg_ctrl/sfr_reg[9][7]  <top_clock_mem_i (rise)> 
+    bit 41 	CORE_INSTANCE/reg_ctrl/sfr_reg[10][0]  <top_clock_mem_i (rise)> 
+    bit 42 	CORE_INSTANCE/reg_ctrl/sfr_reg[10][1]  <top_clock_mem_i (rise)> 
+    bit 43 	CORE_INSTANCE/reg_ctrl/sfr_reg[10][2]  <top_clock_mem_i (rise)> 
+    bit 44 	CORE_INSTANCE/reg_ctrl/sfr_reg[10][3]  <top_clock_mem_i (rise)> 
+    bit 45 	CORE_INSTANCE/reg_ctrl/sfr_reg[10][4]  <top_clock_mem_i (rise)> 
+    bit 46 	CORE_INSTANCE/reg_ctrl/sfr_reg[10][5]  <top_clock_mem_i (rise)> 
+    bit 47 	CORE_INSTANCE/reg_ctrl/sfr_reg[10][6]  <top_clock_mem_i (rise)> 
+    bit 48 	CORE_INSTANCE/reg_ctrl/sfr_reg[10][7]  <top_clock_mem_i (rise)> 
+    bit 49 	CORE_INSTANCE/reg_ctrl/sfr_reg[11][0]  <top_clock_mem_i (rise)> 
+    bit 50 	CORE_INSTANCE/reg_ctrl/sfr_reg[11][1]  <top_clock_mem_i (rise)> 
+    bit 51 	CORE_INSTANCE/reg_ctrl/sfr_reg[11][2]  <top_clock_mem_i (rise)> 
+------------------------
+Chain 11: emc_chain_11 
+  scan_in:      top_p1_y_i[2] 
+  scan_out:     top_p4_a_o[2] (shared output) 
+  shift_enable: top_scan_enable_b_i (active high) 
+  clock_domain: domain_2 (edge: rise)
+  length: 51
+    bit 1 	CORE_INSTANCE/reg_ctrl/sfr_reg[11][3]  <top_clock_mem_i (rise)> 
+    bit 2 	CORE_INSTANCE/reg_ctrl/sfr_reg[11][4]  <top_clock_mem_i (rise)> 
+    bit 3 	CORE_INSTANCE/reg_ctrl/sfr_reg[11][5]  <top_clock_mem_i (rise)> 
+    bit 4 	CORE_INSTANCE/reg_ctrl/sfr_reg[11][6]  <top_clock_mem_i (rise)> 
+    bit 5 	CORE_INSTANCE/reg_ctrl/sfr_reg[11][7]  <top_clock_mem_i (rise)> 
+    bit 6 	CORE_INSTANCE/reg_ctrl/sfr_reg[12][0]  <top_clock_mem_i (rise)> 
+    bit 7 	CORE_INSTANCE/reg_ctrl/sfr_reg[12][1]  <top_clock_mem_i (rise)> 
+    bit 8 	CORE_INSTANCE/reg_ctrl/sfr_reg[12][2]  <top_clock_mem_i (rise)> 
+    bit 9 	CORE_INSTANCE/reg_ctrl/sfr_reg[12][3]  <top_clock_mem_i (rise)> 
+    bit 10 	CORE_INSTANCE/reg_ctrl/sfr_reg[12][4]  <top_clock_mem_i (rise)> 
+    bit 11 	CORE_INSTANCE/reg_ctrl/sfr_reg[12][5]  <top_clock_mem_i (rise)> 
+    bit 12 	CORE_INSTANCE/reg_ctrl/sfr_reg[12][6]  <top_clock_mem_i (rise)> 
+    bit 13 	CORE_INSTANCE/reg_ctrl/sfr_reg[12][7]  <top_clock_mem_i (rise)> 
+    bit 14 	CORE_INSTANCE/reg_ctrl/sfr_reg[13][0]  <top_clock_mem_i (rise)> 
+    bit 15 	CORE_INSTANCE/reg_ctrl/sfr_reg[13][1]  <top_clock_mem_i (rise)> 
+    bit 16 	CORE_INSTANCE/reg_ctrl/sfr_reg[13][2]  <top_clock_mem_i (rise)> 
+    bit 17 	CORE_INSTANCE/reg_ctrl/sfr_reg[13][3]  <top_clock_mem_i (rise)> 
+    bit 18 	CORE_INSTANCE/reg_ctrl/sfr_reg[13][4]  <top_clock_mem_i (rise)> 
+    bit 19 	CORE_INSTANCE/reg_ctrl/sfr_reg[13][5]  <top_clock_mem_i (rise)> 
+    bit 20 	CORE_INSTANCE/reg_ctrl/sfr_reg[13][6]  <top_clock_mem_i (rise)> 
+    bit 21 	CORE_INSTANCE/reg_ctrl/sfr_reg[13][7]  <top_clock_mem_i (rise)> 
+    bit 22 	CORE_INSTANCE/reg_ctrl/sfr_reg[14][0]  <top_clock_mem_i (rise)> 
+    bit 23 	CORE_INSTANCE/reg_ctrl/sfr_reg[14][1]  <top_clock_mem_i (rise)> 
+    bit 24 	CORE_INSTANCE/reg_ctrl/sfr_reg[14][2]  <top_clock_mem_i (rise)> 
+    bit 25 	CORE_INSTANCE/reg_ctrl/sfr_reg[14][3]  <top_clock_mem_i (rise)> 
+    bit 26 	CORE_INSTANCE/reg_ctrl/sfr_reg[14][4]  <top_clock_mem_i (rise)> 
+    bit 27 	CORE_INSTANCE/reg_ctrl/sfr_reg[14][5]  <top_clock_mem_i (rise)> 
+    bit 28 	CORE_INSTANCE/reg_ctrl/sfr_reg[14][6]  <top_clock_mem_i (rise)> 
+    bit 29 	CORE_INSTANCE/reg_ctrl/sfr_reg[14][7]  <top_clock_mem_i (rise)> 
+    bit 30 	CORE_INSTANCE/reg_ctrl/sfr_reg[15][0]  <top_clock_mem_i (rise)> 
+    bit 31 	CORE_INSTANCE/reg_ctrl/sfr_reg[15][1]  <top_clock_mem_i (rise)> 
+    bit 32 	CORE_INSTANCE/reg_ctrl/sfr_reg[15][2]  <top_clock_mem_i (rise)> 
+    bit 33 	CORE_INSTANCE/reg_ctrl/sfr_reg[15][3]  <top_clock_mem_i (rise)> 
+    bit 34 	CORE_INSTANCE/reg_ctrl/sfr_reg[15][4]  <top_clock_mem_i (rise)> 
+    bit 35 	CORE_INSTANCE/reg_ctrl/sfr_reg[15][5]  <top_clock_mem_i (rise)> 
+    bit 36 	CORE_INSTANCE/reg_ctrl/sfr_reg[15][6]  <top_clock_mem_i (rise)> 
+    bit 37 	CORE_INSTANCE/reg_ctrl/sfr_reg[15][7]  <top_clock_mem_i (rise)> 
+    bit 38 	CORE_INSTANCE/reg_ctrl/sfr_reg[16][0]  <top_clock_mem_i (rise)> 
+    bit 39 	CORE_INSTANCE/reg_ctrl/sfr_reg[16][1]  <top_clock_mem_i (rise)> 
+    bit 40 	CORE_INSTANCE/reg_ctrl/sfr_reg[16][2]  <top_clock_mem_i (rise)> 
+    bit 41 	CORE_INSTANCE/reg_ctrl/sfr_reg[16][3]  <top_clock_mem_i (rise)> 
+    bit 42 	CORE_INSTANCE/reg_ctrl/sfr_reg[16][4]  <top_clock_mem_i (rise)> 
+    bit 43 	CORE_INSTANCE/reg_ctrl/sfr_reg[16][5]  <top_clock_mem_i (rise)> 
+    bit 44 	CORE_INSTANCE/reg_ctrl/sfr_reg[16][6]  <top_clock_mem_i (rise)> 
+    bit 45 	CORE_INSTANCE/reg_ctrl/sfr_reg[16][7]  <top_clock_mem_i (rise)> 
+    bit 46 	CORE_INSTANCE/reg_ctrl/sfr_reg[17][0]  <top_clock_mem_i (rise)> 
+    bit 47 	CORE_INSTANCE/reg_ctrl/sfr_reg[17][1]  <top_clock_mem_i (rise)> 
+    bit 48 	CORE_INSTANCE/reg_ctrl/sfr_reg[17][2]  <top_clock_mem_i (rise)> 
+    bit 49 	CORE_INSTANCE/reg_ctrl/sfr_reg[17][3]  <top_clock_mem_i (rise)> 
+    bit 50 	CORE_INSTANCE/reg_ctrl/sfr_reg[17][4]  <top_clock_mem_i (rise)> 
+    bit 51 	CORE_INSTANCE/reg_ctrl/sfr_reg[17][5]  <top_clock_mem_i (rise)> 
+------------------------
+Chain 12: emc_chain_12 
+  scan_in:      top_p1_y_i[3] 
+  scan_out:     top_p4_a_o[3] (shared output) 
+  shift_enable: top_scan_enable_b_i (active high) 
+  clock_domain: domain_2 (edge: rise)
+  length: 51
+    bit 1 	CORE_INSTANCE/reg_ctrl/sfr_reg[17][6]  <top_clock_mem_i (rise)> 
+    bit 2 	CORE_INSTANCE/reg_ctrl/sfr_reg[17][7]  <top_clock_mem_i (rise)> 
+    bit 3 	CORE_INSTANCE/reg_ctrl/sfr_reg[18][0]  <top_clock_mem_i (rise)> 
+    bit 4 	CORE_INSTANCE/reg_ctrl/sfr_reg[18][1]  <top_clock_mem_i (rise)> 
+    bit 5 	CORE_INSTANCE/reg_ctrl/sfr_reg[18][2]  <top_clock_mem_i (rise)> 
+    bit 6 	CORE_INSTANCE/reg_ctrl/sfr_reg[18][3]  <top_clock_mem_i (rise)> 
+    bit 7 	CORE_INSTANCE/reg_ctrl/sfr_reg[18][4]  <top_clock_mem_i (rise)> 
+    bit 8 	CORE_INSTANCE/reg_ctrl/sfr_reg[18][5]  <top_clock_mem_i (rise)> 
+    bit 9 	CORE_INSTANCE/reg_ctrl/sfr_reg[18][6]  <top_clock_mem_i (rise)> 
+    bit 10 	CORE_INSTANCE/reg_ctrl/sfr_reg[18][7]  <top_clock_mem_i (rise)> 
+    bit 11 	CORE_INSTANCE/reg_ctrl/sfr_reg[19][0]  <top_clock_mem_i (rise)> 
+    bit 12 	CORE_INSTANCE/reg_ctrl/sfr_reg[19][1]  <top_clock_mem_i (rise)> 
+    bit 13 	CORE_INSTANCE/reg_ctrl/sfr_reg[19][2]  <top_clock_mem_i (rise)> 
+    bit 14 	CORE_INSTANCE/reg_ctrl/sfr_reg[19][3]  <top_clock_mem_i (rise)> 
+    bit 15 	CORE_INSTANCE/reg_ctrl/sfr_reg[19][4]  <top_clock_mem_i (rise)> 
+    bit 16 	CORE_INSTANCE/reg_ctrl/sfr_reg[19][5]  <top_clock_mem_i (rise)> 
+    bit 17 	CORE_INSTANCE/reg_ctrl/sfr_reg[19][6]  <top_clock_mem_i (rise)> 
+    bit 18 	CORE_INSTANCE/reg_ctrl/sfr_reg[19][7]  <top_clock_mem_i (rise)> 
+    bit 19 	CORE_INSTANCE/reg_ctrl/sfr_reg[20][0]  <top_clock_mem_i (rise)> 
+    bit 20 	CORE_INSTANCE/reg_ctrl/sfr_reg[20][1]  <top_clock_mem_i (rise)> 
+    bit 21 	CORE_INSTANCE/reg_ctrl/sfr_reg[20][2]  <top_clock_mem_i (rise)> 
+    bit 22 	CORE_INSTANCE/reg_ctrl/sfr_reg[20][3]  <top_clock_mem_i (rise)> 
+    bit 23 	CORE_INSTANCE/reg_ctrl/sfr_reg[20][4]  <top_clock_mem_i (rise)> 
+    bit 24 	CORE_INSTANCE/reg_ctrl/sfr_reg[20][5]  <top_clock_mem_i (rise)> 
+    bit 25 	CORE_INSTANCE/reg_ctrl/sfr_reg[20][6]  <top_clock_mem_i (rise)> 
+    bit 26 	CORE_INSTANCE/reg_ctrl/sfr_reg[20][7]  <top_clock_mem_i (rise)> 
+    bit 27 	CORE_INSTANCE/reg_ctrl/sfr_reg[21][0]  <top_clock_mem_i (rise)> 
+    bit 28 	CORE_INSTANCE/reg_ctrl/sfr_reg[21][1]  <top_clock_mem_i (rise)> 
+    bit 29 	CORE_INSTANCE/reg_ctrl/sfr_reg[21][2]  <top_clock_mem_i (rise)> 
+    bit 30 	CORE_INSTANCE/reg_ctrl/sfr_reg[21][3]  <top_clock_mem_i (rise)> 
+    bit 31 	CORE_INSTANCE/reg_ctrl/sfr_reg[21][4]  <top_clock_mem_i (rise)> 
+    bit 32 	CORE_INSTANCE/reg_ctrl/sfr_reg[21][5]  <top_clock_mem_i (rise)> 
+    bit 33 	CORE_INSTANCE/reg_ctrl/sfr_reg[21][6]  <top_clock_mem_i (rise)> 
+    bit 34 	CORE_INSTANCE/reg_ctrl/sfr_reg[21][7]  <top_clock_mem_i (rise)> 
+    bit 35 	CORE_INSTANCE/reg_ctrl/sfr_reg[22][0]  <top_clock_mem_i (rise)> 
+    bit 36 	CORE_INSTANCE/reg_ctrl/sfr_reg[22][1]  <top_clock_mem_i (rise)> 
+    bit 37 	CORE_INSTANCE/reg_ctrl/sfr_reg[22][2]  <top_clock_mem_i (rise)> 
+    bit 38 	CORE_INSTANCE/reg_ctrl/sfr_reg[22][3]  <top_clock_mem_i (rise)> 
+    bit 39 	CORE_INSTANCE/reg_ctrl/sfr_reg[22][4]  <top_clock_mem_i (rise)> 
+    bit 40 	CORE_INSTANCE/reg_ctrl/sfr_reg[22][5]  <top_clock_mem_i (rise)> 
+    bit 41 	CORE_INSTANCE/reg_ctrl/sfr_reg[22][6]  <top_clock_mem_i (rise)> 
+    bit 42 	CORE_INSTANCE/reg_ctrl/sfr_reg[22][7]  <top_clock_mem_i (rise)> 
+    bit 43 	CORE_INSTANCE/reg_ctrl/sfr_reg[23][0]  <top_clock_mem_i (rise)> 
+    bit 44 	CORE_INSTANCE/reg_ctrl/sfr_reg[23][1]  <top_clock_mem_i (rise)> 
+    bit 45 	CORE_INSTANCE/reg_ctrl/sfr_reg[23][2]  <top_clock_mem_i (rise)> 
+    bit 46 	CORE_INSTANCE/reg_ctrl/sfr_reg[23][3]  <top_clock_mem_i (rise)> 
+    bit 47 	CORE_INSTANCE/reg_ctrl/sfr_reg[23][4]  <top_clock_mem_i (rise)> 
+    bit 48 	CORE_INSTANCE/reg_ctrl/sfr_reg[23][5]  <top_clock_mem_i (rise)> 
+    bit 49 	CORE_INSTANCE/reg_ctrl/sfr_reg[23][6]  <top_clock_mem_i (rise)> 
+    bit 50 	CORE_INSTANCE/reg_ctrl/sfr_reg[23][7]  <top_clock_mem_i (rise)> 
+    bit 51 	CORE_INSTANCE/reg_ctrl/sfr_reg[24][0]  <top_clock_mem_i (rise)> 
+------------------------
+Chain 13: emc_chain_13 
+  scan_in:      top_p1_y_i[4] 
+  scan_out:     top_p4_a_o[4] (shared output) 
+  shift_enable: top_scan_enable_b_i (active high) 
+  clock_domain: domain_2 (edge: rise)
+  length: 51
+    bit 1 	CORE_INSTANCE/reg_ctrl/sfr_reg[24][1]  <top_clock_mem_i (rise)> 
+    bit 2 	CORE_INSTANCE/reg_ctrl/sfr_reg[24][2]  <top_clock_mem_i (rise)> 
+    bit 3 	CORE_INSTANCE/reg_ctrl/sfr_reg[24][3]  <top_clock_mem_i (rise)> 
+    bit 4 	CORE_INSTANCE/reg_ctrl/sfr_reg[24][4]  <top_clock_mem_i (rise)> 
+    bit 5 	CORE_INSTANCE/reg_ctrl/sfr_reg[24][5]  <top_clock_mem_i (rise)> 
+    bit 6 	CORE_INSTANCE/reg_ctrl/sfr_reg[24][6]  <top_clock_mem_i (rise)> 
+    bit 7 	CORE_INSTANCE/reg_ctrl/sfr_reg[24][7]  <top_clock_mem_i (rise)> 
+    bit 8 	CORE_INSTANCE/reg_ctrl/sfr_reg[25][0]  <top_clock_mem_i (rise)> 
+    bit 9 	CORE_INSTANCE/reg_ctrl/sfr_reg[25][1]  <top_clock_mem_i (rise)> 
+    bit 10 	CORE_INSTANCE/reg_ctrl/sfr_reg[25][2]  <top_clock_mem_i (rise)> 
+    bit 11 	CORE_INSTANCE/reg_ctrl/sfr_reg[25][3]  <top_clock_mem_i (rise)> 
+    bit 12 	CORE_INSTANCE/reg_ctrl/sfr_reg[25][4]  <top_clock_mem_i (rise)> 
+    bit 13 	CORE_INSTANCE/reg_ctrl/sfr_reg[25][5]  <top_clock_mem_i (rise)> 
+    bit 14 	CORE_INSTANCE/reg_ctrl/sfr_reg[25][6]  <top_clock_mem_i (rise)> 
+    bit 15 	CORE_INSTANCE/reg_ctrl/sfr_reg[25][7]  <top_clock_mem_i (rise)> 
+    bit 16 	CORE_INSTANCE/reg_ctrl/sfr_reg[26][0]  <top_clock_mem_i (rise)> 
+    bit 17 	CORE_INSTANCE/reg_ctrl/sfr_reg[26][1]  <top_clock_mem_i (rise)> 
+    bit 18 	CORE_INSTANCE/reg_ctrl/sfr_reg[26][2]  <top_clock_mem_i (rise)> 
+    bit 19 	CORE_INSTANCE/reg_ctrl/sfr_reg[26][3]  <top_clock_mem_i (rise)> 
+    bit 20 	CORE_INSTANCE/reg_ctrl/sfr_reg[26][4]  <top_clock_mem_i (rise)> 
+    bit 21 	CORE_INSTANCE/reg_ctrl/sfr_reg[26][5]  <top_clock_mem_i (rise)> 
+    bit 22 	CORE_INSTANCE/reg_ctrl/sfr_reg[26][6]  <top_clock_mem_i (rise)> 
+    bit 23 	CORE_INSTANCE/reg_ctrl/sfr_reg[26][7]  <top_clock_mem_i (rise)> 
+    bit 24 	CORE_INSTANCE/reg_ctrl/sfr_reg[27][0]  <top_clock_mem_i (rise)> 
+    bit 25 	CORE_INSTANCE/reg_ctrl/sfr_reg[27][1]  <top_clock_mem_i (rise)> 
+    bit 26 	CORE_INSTANCE/reg_ctrl/sfr_reg[27][2]  <top_clock_mem_i (rise)> 
+    bit 27 	CORE_INSTANCE/reg_ctrl/sfr_reg[27][3]  <top_clock_mem_i (rise)> 
+    bit 28 	CORE_INSTANCE/reg_ctrl/sfr_reg[27][4]  <top_clock_mem_i (rise)> 
+    bit 29 	CORE_INSTANCE/reg_ctrl/sfr_reg[27][5]  <top_clock_mem_i (rise)> 
+    bit 30 	CORE_INSTANCE/reg_ctrl/sfr_reg[27][6]  <top_clock_mem_i (rise)> 
+    bit 31 	CORE_INSTANCE/reg_ctrl/sfr_reg[27][7]  <top_clock_mem_i (rise)> 
+    bit 32 	CORE_INSTANCE/reg_ctrl/sfr_reg[28][0]  <top_clock_mem_i (rise)> 
+    bit 33 	CORE_INSTANCE/reg_ctrl/sfr_reg[28][1]  <top_clock_mem_i (rise)> 
+    bit 34 	CORE_INSTANCE/reg_ctrl/sfr_reg[28][2]  <top_clock_mem_i (rise)> 
+    bit 35 	CORE_INSTANCE/reg_ctrl/sfr_reg[28][3]  <top_clock_mem_i (rise)> 
+    bit 36 	CORE_INSTANCE/reg_ctrl/sfr_reg[28][4]  <top_clock_mem_i (rise)> 
+    bit 37 	CORE_INSTANCE/reg_ctrl/sfr_reg[28][5]  <top_clock_mem_i (rise)> 
+    bit 38 	CORE_INSTANCE/reg_ctrl/sfr_reg[28][6]  <top_clock_mem_i (rise)> 
+    bit 39 	CORE_INSTANCE/reg_ctrl/sfr_reg[28][7]  <top_clock_mem_i (rise)> 
+    bit 40 	CORE_INSTANCE/reg_ctrl/sfr_reg[29][0]  <top_clock_mem_i (rise)> 
+    bit 41 	CORE_INSTANCE/reg_ctrl/sfr_reg[29][1]  <top_clock_mem_i (rise)> 
+    bit 42 	CORE_INSTANCE/reg_ctrl/sfr_reg[29][2]  <top_clock_mem_i (rise)> 
+    bit 43 	CORE_INSTANCE/reg_ctrl/sfr_reg[29][3]  <top_clock_mem_i (rise)> 
+    bit 44 	CORE_INSTANCE/reg_ctrl/sfr_reg[29][4]  <top_clock_mem_i (rise)> 
+    bit 45 	CORE_INSTANCE/reg_ctrl/sfr_reg[29][5]  <top_clock_mem_i (rise)> 
+    bit 46 	CORE_INSTANCE/reg_ctrl/sfr_reg[29][6]  <top_clock_mem_i (rise)> 
+    bit 47 	CORE_INSTANCE/reg_ctrl/sfr_reg[29][7]  <top_clock_mem_i (rise)> 
+    bit 48 	CORE_INSTANCE/reg_ctrl/sfr_reg[30][0]  <top_clock_mem_i (rise)> 
+    bit 49 	CORE_INSTANCE/reg_ctrl/sfr_reg[30][1]  <top_clock_mem_i (rise)> 
+    bit 50 	CORE_INSTANCE/reg_ctrl/sfr_reg[30][2]  <top_clock_mem_i (rise)> 
+    bit 51 	CORE_INSTANCE/reg_ctrl/sfr_reg[30][3]  <top_clock_mem_i (rise)> 
+------------------------
+Chain 14: emc_chain_14 
+  scan_in:      top_p1_y_i[5] 
+  scan_out:     top_p4_a_o[5] (shared output) 
+  shift_enable: top_scan_enable_b_i (active high) 
+  clock_domain: domain_2 (edge: rise)
+  length: 50
+    bit 1 	CORE_INSTANCE/reg_ctrl/sfr_reg[30][4]  <top_clock_mem_i (rise)> 
+    bit 2 	CORE_INSTANCE/reg_ctrl/sfr_reg[30][5]  <top_clock_mem_i (rise)> 
+    bit 3 	CORE_INSTANCE/reg_ctrl/sfr_reg[30][6]  <top_clock_mem_i (rise)> 
+    bit 4 	CORE_INSTANCE/reg_ctrl/sfr_reg[30][7]  <top_clock_mem_i (rise)> 
+    bit 5 	CORE_INSTANCE/reg_ctrl/sfr_reg[31][0]  <top_clock_mem_i (rise)> 
+    bit 6 	CORE_INSTANCE/reg_ctrl/sfr_reg[31][1]  <top_clock_mem_i (rise)> 
+    bit 7 	CORE_INSTANCE/reg_ctrl/sfr_reg[31][2]  <top_clock_mem_i (rise)> 
+    bit 8 	CORE_INSTANCE/reg_ctrl/sfr_reg[31][3]  <top_clock_mem_i (rise)> 
+    bit 9 	CORE_INSTANCE/reg_ctrl/sfr_reg[31][4]  <top_clock_mem_i (rise)> 
+    bit 10 	CORE_INSTANCE/reg_ctrl/sfr_reg[31][5]  <top_clock_mem_i (rise)> 
+    bit 11 	CORE_INSTANCE/reg_ctrl/sfr_reg[31][6]  <top_clock_mem_i (rise)> 
+    bit 12 	CORE_INSTANCE/reg_ctrl/sfr_reg[31][7]  <top_clock_mem_i (rise)> 
+    bit 13 	CORE_INSTANCE/reg_ctrl/sfr_reg[32][0]  <top_clock_mem_i (rise)> 
+    bit 14 	CORE_INSTANCE/reg_ctrl/sfr_reg[32][1]  <top_clock_mem_i (rise)> 
+    bit 15 	CORE_INSTANCE/reg_ctrl/sfr_reg[32][2]  <top_clock_mem_i (rise)> 
+    bit 16 	CORE_INSTANCE/reg_ctrl/sfr_reg[32][3]  <top_clock_mem_i (rise)> 
+    bit 17 	CORE_INSTANCE/reg_ctrl/sfr_reg[32][4]  <top_clock_mem_i (rise)> 
+    bit 18 	CORE_INSTANCE/reg_ctrl/sfr_reg[32][5]  <top_clock_mem_i (rise)> 
+    bit 19 	CORE_INSTANCE/reg_ctrl/sfr_reg[32][6]  <top_clock_mem_i (rise)> 
+    bit 20 	CORE_INSTANCE/reg_ctrl/sfr_reg[32][7]  <top_clock_mem_i (rise)> 
+    bit 21 	CORE_INSTANCE/reg_ctrl/sfr_reg[33][0]  <top_clock_mem_i (rise)> 
+    bit 22 	CORE_INSTANCE/reg_ctrl/sfr_reg[33][1]  <top_clock_mem_i (rise)> 
+    bit 23 	CORE_INSTANCE/reg_ctrl/sfr_reg[33][2]  <top_clock_mem_i (rise)> 
+    bit 24 	CORE_INSTANCE/reg_ctrl/sfr_reg[33][3]  <top_clock_mem_i (rise)> 
+    bit 25 	CORE_INSTANCE/reg_ctrl/sfr_reg[33][4]  <top_clock_mem_i (rise)> 
+    bit 26 	CORE_INSTANCE/reg_ctrl/sfr_reg[33][5]  <top_clock_mem_i (rise)> 
+    bit 27 	CORE_INSTANCE/reg_ctrl/sfr_reg[33][6]  <top_clock_mem_i (rise)> 
+    bit 28 	CORE_INSTANCE/reg_ctrl/sfr_reg[33][7]  <top_clock_mem_i (rise)> 
+    bit 29 	CORE_INSTANCE/reg_ctrl/sfr_reg[34][0]  <top_clock_mem_i (rise)> 
+    bit 30 	CORE_INSTANCE/reg_ctrl/sfr_reg[34][1]  <top_clock_mem_i (rise)> 
+    bit 31 	CORE_INSTANCE/reg_ctrl/sfr_reg[34][2]  <top_clock_mem_i (rise)> 
+    bit 32 	CORE_INSTANCE/reg_ctrl/sfr_reg[34][3]  <top_clock_mem_i (rise)> 
+    bit 33 	CORE_INSTANCE/reg_ctrl/sfr_reg[34][4]  <top_clock_mem_i (rise)> 
+    bit 34 	CORE_INSTANCE/reg_ctrl/sfr_reg[34][5]  <top_clock_mem_i (rise)> 
+    bit 35 	CORE_INSTANCE/reg_ctrl/sfr_reg[34][6]  <top_clock_mem_i (rise)> 
+    bit 36 	CORE_INSTANCE/reg_ctrl/sfr_reg[34][7]  <top_clock_mem_i (rise)> 
+    bit 37 	CORE_INSTANCE/reg_ctrl/sfr_reg[35][0]  <top_clock_mem_i (rise)> 
+    bit 38 	CORE_INSTANCE/reg_ctrl/sfr_reg[35][1]  <top_clock_mem_i (rise)> 
+    bit 39 	CORE_INSTANCE/reg_ctrl/sfr_reg[35][2]  <top_clock_mem_i (rise)> 
+    bit 40 	CORE_INSTANCE/reg_ctrl/sfr_reg[35][3]  <top_clock_mem_i (rise)> 
+    bit 41 	CORE_INSTANCE/reg_ctrl/sfr_reg[35][4]  <top_clock_mem_i (rise)> 
+    bit 42 	CORE_INSTANCE/reg_ctrl/sfr_reg[35][5]  <top_clock_mem_i (rise)> 
+    bit 43 	CORE_INSTANCE/reg_ctrl/sfr_reg[35][6]  <top_clock_mem_i (rise)> 
+    bit 44 	CORE_INSTANCE/reg_ctrl/sfr_reg[35][7]  <top_clock_mem_i (rise)> 
+    bit 45 	CORE_INSTANCE/reg_ctrl/sfr_reg[36][0]  <top_clock_mem_i (rise)> 
+    bit 46 	CORE_INSTANCE/reg_ctrl/sfr_reg[36][1]  <top_clock_mem_i (rise)> 
+    bit 47 	CORE_INSTANCE/reg_ctrl/sfr_reg[36][2]  <top_clock_mem_i (rise)> 
+    bit 48 	CORE_INSTANCE/reg_ctrl/sfr_reg[36][3]  <top_clock_mem_i (rise)> 
+    bit 49 	CORE_INSTANCE/reg_ctrl/sfr_reg[36][4]  <top_clock_mem_i (rise)> 
+    bit 50 	CORE_INSTANCE/reg_ctrl/sfr_reg[36][5]  <top_clock_mem_i (rise)> 
+------------------------
+Chain 15: emc_chain_15 
+  scan_in:      top_p1_y_i[6] 
+  scan_out:     top_p4_a_o[6] (shared output) 
+  shift_enable: top_scan_enable_b_i (active high) 
+  clock_domain: domain_2 (edge: fall)
+  length: 16
+    bit 1 	CORE_INSTANCE/pcau/pcau_pc_o_reg[0]  <top_clock_mem_i (fall)> 
+    bit 2 	CORE_INSTANCE/pcau/pcau_pc_o_reg[1]  <top_clock_mem_i (fall)> 
+    bit 3 	CORE_INSTANCE/pcau/pcau_pc_o_reg[2]  <top_clock_mem_i (fall)> 
+    bit 4 	CORE_INSTANCE/pcau/pcau_pc_o_reg[3]  <top_clock_mem_i (fall)> 
+    bit 5 	CORE_INSTANCE/pcau/pcau_pc_o_reg[4]  <top_clock_mem_i (fall)> 
+    bit 6 	CORE_INSTANCE/pcau/pcau_pc_o_reg[5]  <top_clock_mem_i (fall)> 
+    bit 7 	CORE_INSTANCE/pcau/pcau_pc_o_reg[6]  <top_clock_mem_i (fall)> 
+    bit 8 	CORE_INSTANCE/pcau/pcau_pc_o_reg[7]  <top_clock_mem_i (fall)> 
+    bit 9 	CORE_INSTANCE/pcau/pcau_pc_o_reg[8]  <top_clock_mem_i (fall)> 
+    bit 10 	CORE_INSTANCE/pcau/pcau_pc_o_reg[9]  <top_clock_mem_i (fall)> 
+    bit 11 	CORE_INSTANCE/pcau/pcau_pc_o_reg[10]  <top_clock_mem_i (fall)> 
+    bit 12 	CORE_INSTANCE/pcau/pcau_pc_o_reg[11]  <top_clock_mem_i (fall)> 
+    bit 13 	CORE_INSTANCE/pcau/pcau_pc_o_reg[12]  <top_clock_mem_i (fall)> 
+    bit 14 	CORE_INSTANCE/pcau/pcau_pc_o_reg[13]  <top_clock_mem_i (fall)> 
+    bit 15 	CORE_INSTANCE/pcau/pcau_pc_o_reg[14]  <top_clock_mem_i (fall)> 
+    bit 16 	CORE_INSTANCE/pcau/pcau_pc_o_reg[15]  <top_clock_mem_i (fall)> 
+------------------------
+Chain 16: emc_chain_16 
+  scan_in:      top_p1_y_i[7] 
+  scan_out:     top_p4_a_o[7] (shared output) 
+  shift_enable: top_scan_enable_b_i (active high) 
+  clock_domain: domain_2 (edge: rise)
+  length: 50
+    bit 1 	CORE_INSTANCE/reg_ctrl/sfr_reg[36][6]  <top_clock_mem_i (rise)> 
+    bit 2 	CORE_INSTANCE/reg_ctrl/sfr_reg[36][7]  <top_clock_mem_i (rise)> 
+    bit 3 	CORE_INSTANCE/reg_ctrl/sfr_reg[37][0]  <top_clock_mem_i (rise)> 
+    bit 4 	CORE_INSTANCE/reg_ctrl/sfr_reg[37][1]  <top_clock_mem_i (rise)> 
+    bit 5 	CORE_INSTANCE/reg_ctrl/sfr_reg[37][2]  <top_clock_mem_i (rise)> 
+    bit 6 	CORE_INSTANCE/reg_ctrl/sfr_reg[37][3]  <top_clock_mem_i (rise)> 
+    bit 7 	CORE_INSTANCE/reg_ctrl/sfr_reg[37][4]  <top_clock_mem_i (rise)> 
+    bit 8 	CORE_INSTANCE/reg_ctrl/sfr_reg[37][5]  <top_clock_mem_i (rise)> 
+    bit 9 	CORE_INSTANCE/reg_ctrl/sfr_reg[37][6]  <top_clock_mem_i (rise)> 
+    bit 10 	CORE_INSTANCE/reg_ctrl/sfr_reg[37][7]  <top_clock_mem_i (rise)> 
+    bit 11 	CORE_INSTANCE/reg_ctrl/sfr_reg[38][0]  <top_clock_mem_i (rise)> 
+    bit 12 	CORE_INSTANCE/reg_ctrl/sfr_reg[38][1]  <top_clock_mem_i (rise)> 
+    bit 13 	CORE_INSTANCE/reg_ctrl/sfr_reg[38][2]  <top_clock_mem_i (rise)> 
+    bit 14 	CORE_INSTANCE/reg_ctrl/sfr_reg[38][3]  <top_clock_mem_i (rise)> 
+    bit 15 	CORE_INSTANCE/reg_ctrl/sfr_reg[38][4]  <top_clock_mem_i (rise)> 
+    bit 16 	CORE_INSTANCE/reg_ctrl/sfr_reg[38][5]  <top_clock_mem_i (rise)> 
+    bit 17 	CORE_INSTANCE/reg_ctrl/sfr_reg[38][6]  <top_clock_mem_i (rise)> 
+    bit 18 	CORE_INSTANCE/reg_ctrl/sfr_reg[38][7]  <top_clock_mem_i (rise)> 
+    bit 19 	CORE_INSTANCE/reg_ctrl/sfr_reg[39][0]  <top_clock_mem_i (rise)> 
+    bit 20 	CORE_INSTANCE/reg_ctrl/sfr_reg[39][1]  <top_clock_mem_i (rise)> 
+    bit 21 	CORE_INSTANCE/reg_ctrl/sfr_reg[39][2]  <top_clock_mem_i (rise)> 
+    bit 22 	CORE_INSTANCE/reg_ctrl/sfr_reg[39][3]  <top_clock_mem_i (rise)> 
+    bit 23 	CORE_INSTANCE/reg_ctrl/sfr_reg[39][4]  <top_clock_mem_i (rise)> 
+    bit 24 	CORE_INSTANCE/reg_ctrl/sfr_reg[39][5]  <top_clock_mem_i (rise)> 
+    bit 25 	CORE_INSTANCE/reg_ctrl/sfr_reg[39][6]  <top_clock_mem_i (rise)> 
+    bit 26 	CORE_INSTANCE/reg_ctrl/sfr_reg[39][7]  <top_clock_mem_i (rise)> 
+    bit 27 	CORE_INSTANCE/reg_ctrl/sfr_reg[40][0]  <top_clock_mem_i (rise)> 
+    bit 28 	CORE_INSTANCE/reg_ctrl/sfr_reg[40][1]  <top_clock_mem_i (rise)> 
+    bit 29 	CORE_INSTANCE/reg_ctrl/sfr_reg[40][2]  <top_clock_mem_i (rise)> 
+    bit 30 	CORE_INSTANCE/reg_ctrl/sfr_reg[40][3]  <top_clock_mem_i (rise)> 
+    bit 31 	CORE_INSTANCE/reg_ctrl/sfr_reg[40][4]  <top_clock_mem_i (rise)> 
+    bit 32 	CORE_INSTANCE/reg_ctrl/sfr_reg[40][5]  <top_clock_mem_i (rise)> 
+    bit 33 	CORE_INSTANCE/reg_ctrl/sfr_reg[40][6]  <top_clock_mem_i (rise)> 
+    bit 34 	CORE_INSTANCE/reg_ctrl/sfr_reg[40][7]  <top_clock_mem_i (rise)> 
+    bit 35 	CORE_INSTANCE/alu_fsm_result_reg[0]  <top_clock_mem_i (rise)> 
+    bit 36 	CORE_INSTANCE/alu_fsm_result_reg[1]  <top_clock_mem_i (rise)> 
+    bit 37 	CORE_INSTANCE/alu_fsm_result_reg[2]  <top_clock_mem_i (rise)> 
+    bit 38 	CORE_INSTANCE/alu_fsm_result_reg[3]  <top_clock_mem_i (rise)> 
+    bit 39 	CORE_INSTANCE/alu_fsm_result_reg[4]  <top_clock_mem_i (rise)> 
+    bit 40 	CORE_INSTANCE/alu_fsm_result_reg[5]  <top_clock_mem_i (rise)> 
+    bit 41 	CORE_INSTANCE/alu_fsm_result_reg[6]  <top_clock_mem_i (rise)> 
+    bit 42 	CORE_INSTANCE/alu_fsm_result_reg[7]  <top_clock_mem_i (rise)> 
+    bit 43 	CORE_INSTANCE/alu_fsm_result_reg[8]  <top_clock_mem_i (rise)> 
+    bit 44 	CORE_INSTANCE/alu_fsm_result_reg[9]  <top_clock_mem_i (rise)> 
+    bit 45 	CORE_INSTANCE/alu_fsm_result_reg[10]  <top_clock_mem_i (rise)> 
+    bit 46 	CORE_INSTANCE/alu_fsm_result_reg[11]  <top_clock_mem_i (rise)> 
+    bit 47 	CORE_INSTANCE/alu_fsm_result_reg[12]  <top_clock_mem_i (rise)> 
+    bit 48 	CORE_INSTANCE/alu_fsm_result_reg[13]  <top_clock_mem_i (rise)> 
+    bit 49 	CORE_INSTANCE/alu_fsm_result_reg[14]  <top_clock_mem_i (rise)> 
+    bit 50 	CORE_INSTANCE/alu_fsm_result_reg[15]  <top_clock_mem_i (rise)> 
+------------------------
+

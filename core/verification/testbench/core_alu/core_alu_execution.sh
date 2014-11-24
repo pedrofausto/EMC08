@@ -1,0 +1,1 @@
+irun -nbasync -gui -sntimescale 1ns/1ns -access r -snload core_alu_test.e /home/student/EMC08/digital_A/core/design/rtl_v/core_alu.v core_alu_tb.v

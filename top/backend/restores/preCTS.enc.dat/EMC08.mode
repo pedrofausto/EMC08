@@ -1,0 +1,17 @@
+setAnalysisMode -checkType hold -clkSrcPath false -clockPropagation forcedIdeal -cts preCTS -virtualIPO false
+setTrialRouteMode -autoSkipTracks false -blockageCostMultiple 1 -detour true -floorPlanMode false -handlePartition false -handlePartitionComplex false -handlePreroute false -highEffort false -honorPin false -ignoreAbutted2TermNet false -ignoreDEFTrack false -ignoreObstruct true -keepExistingRoutes false -maxDetourRatio 0 -maxRouteLayer 6 -minRouteLayer 1 -pinGuide true -PKS false -printWiresOnRTBlk false -routeGuide {} -routeObs true -selMarkedNet false -selMarkedNetOnly false -selNet {} -selNetOnly {} -updateRemainTrks false -useM1 false -usePagedArray false
+setOptMode -drcMargin 0 -effort high -holdTargetSlack 0 -leakagePowerEffort none -maxDensity 0.95 -setupTargetSlack 0 -simplifyNetlist false -usefulSkew false -yieldEffort none
+setExtractRCMode  -engine default
+setDelayCalMode -engine default
+setCTSMode -addClockRootProp false -fixLeafInst true -fixNonLeafInst true -honorFence false -moveGate true -nameSingleDelim false -opt true -optAddBuffer false -reportHTML false -routeBottomPreferredLayer 3 -routeClkNet false -routeGuide true -routePreferredExtraSpace 1 -routeTopPreferredLayer 4 -traceDPinAsLeaf false -traceIoPinAsLeaf false -useHVRC true -useLefACLimit false -useLibMaxCap false -useLibMaxFanout false -verbose false
+setStreamOutMode -SEvianames false -specifyViaName default -uniquifyCellNamesPrefix false -virtualConnection true
+setNanoRouteMode -quiet -droutePostRouteWidenWireRule "NA"
+setNanoRouteMode -quiet -routeBottomRoutingLayer 1
+setNanoRouteMode -quiet -routeTopRoutingLayer 6
+
+setPlaceMode -checkPinLayerForAccess 1 -checkRoute false -clkGateAware false -congEffort high -doCongOpt false -ignoreScan true -ignoreSpare true -moduleAwareSpare false -modulePlan true -placeIoPins true -powerDriven false -preserveRouting false -reorderScan true -rmAffectedRouting false -swapEEQ false -timingDriven true
+setScanReorderMode -allowSwapping false -clkAware false -defInForce false -keepHierPorts false -skipMode skipNone
+setTieHiLoMode -honorDontTouch false
+setFillerMode -corePrefix FILLER -createRows true -deleteFixed true -doDRC true -ecoMode false
+setRCFactor -detclockcap 1.000000
+setImportMode -config true -keepEmptyModule true -treatUndefinedCellAsBbox false -useLefDef56 true

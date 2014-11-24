@@ -1,0 +1,774 @@
+# SimVision Design (Fri Sep 17 07:57:25 AM BRT 2010)
+
+pattern design design v1.0 {
+  overall {
+    data databases {{/home/student/EMC08/digital_A/core/design/rtl_v/waves.shm/waves.trn waves}}
+    data markers {
+pattern ::Markers ::Markers v1.0 {
+  overall {
+  }
+}}
+    data cursors {
+pattern ::Cursors ::Cursors v1.0 {
+  overall {
+  }
+  item {
+    data itemoptions {-label TimeA -time 610040ps}
+    data databasehandle @public@5c
+    data databasename simulator
+    data markid cursor0
+    data position end
+  }
+}}
+    data groups {
+pattern group0 ::Group v1.0 {
+  overall {
+    data options {-name ROM -overlay 0 -source {} -corspondgroup {} -parents {} -groups {} -comment {}}
+    data position end
+    data isopen 1
+  }
+  item {
+    object SV_SIGNAL @public@cf {} 2720 {
+pattern @public@cf SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_pc_i[15:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@cf
+    data pid 2720
+  }
+}}
+  }
+  item {
+    object SV_SIGNAL @public@d1 {} 2720 {
+pattern @public@d1 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_rom_data_i[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d1
+    data pid 2720
+  }
+}}
+  }
+  item {
+    object SV_SIGNAL @public@d2 {} 2720 {
+pattern @public@d2 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_rom_addr_o[15:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d2
+    data pid 2720
+  }
+}}
+  }
+  item {
+    object SV_SIGNAL @public@d3 {} 2720 {
+pattern @public@d3 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_rom_rd_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d3
+    data pid 2720
+  }
+}}
+  }
+}
+pattern group1 ::Group v1.0 {
+  overall {
+    data options {-name RAM -overlay 0 -source {} -corspondgroup {} -parents {} -groups {} -comment {}}
+    data position end
+    data isopen 1
+  }
+  item {
+    object SV_SIGNAL @public@db {} 2720 {
+pattern @public@db SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_ram_addr_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@db
+    data pid 2720
+  }
+}}
+  }
+  item {
+    object SV_SIGNAL @public@e7 {} 2720 {
+pattern @public@e7 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_ram_data_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e7
+    data pid 2720
+  }
+}}
+  }
+  item {
+    object SV_SIGNAL @public@e6 {} 2720 {
+pattern @public@e6 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_ram_data_i[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e6
+    data pid 2720
+  }
+}}
+  }
+  item {
+    object SV_SIGNAL @public@dc {} 2720 {
+pattern @public@dc SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_ram_rd_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@dc
+    data pid 2720
+  }
+}}
+  }
+  item {
+    object SV_SIGNAL @public@de {} 2720 {
+pattern @public@de SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_ram_wr_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@de
+    data pid 2720
+  }
+}}
+  }
+}
+pattern group2 ::Group v1.0 {
+  overall {
+    data options {-name SFR -overlay 0 -source {} -corspondgroup {} -parents {} -groups {} -comment {}}
+    data position end
+    data isopen 1
+  }
+  item {
+    object SV_SIGNAL @public@d9 {} 2720 {
+pattern @public@d9 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_sfr_addr_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d9
+    data pid 2720
+  }
+}}
+  }
+  item {
+    object SV_SIGNAL @public@e5 {} 2720 {
+pattern @public@e5 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_sfr_data_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e5
+    data pid 2720
+  }
+}}
+  }
+  item {
+    object SV_SIGNAL @public@e4 {} 2720 {
+pattern @public@e4 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_sfr_data_i[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e4
+    data pid 2720
+  }
+}}
+  }
+  item {
+    object SV_SIGNAL @public@dd {} 2720 {
+pattern @public@dd SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_sfr_rd_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@dd
+    data pid 2720
+  }
+}}
+  }
+  item {
+    object SV_SIGNAL @public@df {} 2720 {
+pattern @public@df SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_sfr_wr_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@df
+    data pid 2720
+  }
+}}
+  }
+}
+pattern group3 ::Group v1.0 {
+  overall {
+    data options {-name ALU -overlay 0 -source {} -corspondgroup {} -parents {} -groups {} -comment {}}
+    data position end
+    data isopen 1
+  }
+  item {
+    object SV_SIGNAL @public@e2 {} 2720 {
+pattern @public@e2 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_alu_opcode_o[4:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e2
+    data pid 2720
+  }
+}}
+  }
+  item {
+    object SV_SIGNAL @public@e0 {} 2720 {
+pattern @public@e0 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_alu_op1_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e0
+    data pid 2720
+  }
+}}
+  }
+  item {
+    object SV_SIGNAL @public@e1 {} 2720 {
+pattern @public@e1 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_alu_op2_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e1
+    data pid 2720
+  }
+}}
+  }
+  item {
+    object SV_SIGNAL @public@f4 {} 2720 {
+pattern @public@f4 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.ALU.alu_cy_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@f4
+    data pid 2720
+  }
+}}
+  }
+  item {
+    object SV_SIGNAL @public@d8 {} 2720 {
+pattern @public@d8 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_alu_result_i[15:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d8
+    data pid 2720
+  }
+}}
+  }
+  item {
+    object SV_SIGNAL @public@f6 {} 2720 {
+pattern @public@f6 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.fsm_alu_en_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@f6
+    data pid 2720
+  }
+}}
+  }
+}
+pattern group4 ::Group v1.0 {
+  overall {
+    data options {-name PCAU -overlay 0 -source {} -corspondgroup {} -parents {} -groups {} -comment {}}
+    data position end
+    data isopen 0
+  }
+  item {
+    object SV_SIGNAL @public@ea {} 2720 {
+pattern @public@ea SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_pcau_en_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@ea
+    data pid 2720
+  }
+}}
+  }
+  item {
+    object SV_SIGNAL @public@e9 {} 2720 {
+pattern @public@e9 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_pcau_offset_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e9
+    data pid 2720
+  }
+}}
+  }
+}
+pattern group5 ::Group v1.0 {
+  overall {
+    data options {-name INT -overlay 0 -source {} -corspondgroup {} -parents {} -groups {} -comment {}}
+    data position end
+    data isopen 0
+  }
+  item {
+    object SV_SIGNAL @public@ed {} 2720 {
+pattern @public@ed SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_int_vect_i[2:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@ed
+    data pid 2720
+  }
+}}
+  }
+  item {
+    object SV_SIGNAL @public@ef {} 2720 {
+pattern @public@ef SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_int_rdy_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@ef
+    data pid 2720
+  }
+}}
+  }
+  item {
+    object SV_SIGNAL @public@ee {} 2720 {
+pattern @public@ee SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_int_na_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@ee
+    data pid 2720
+  }
+}}
+  }
+  item {
+    object SV_SIGNAL @public@104 {} 2720 {
+pattern @public@104 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.interrupt_flag
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@104
+    data pid 2720
+  }
+}}
+  }
+}}
+    data conditions {}
+    data mnemonicmaps {
+pattern ::defBooleanAsLogic stylemap v1.0 {
+  overall {
+    data options {-name {Boolean as Logic} -radix %x}
+  }
+  item {
+    data pattern %c=FALSE
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority 1 -font {} -interpolation {} -label {} -linecolor {} -linedimcolor {} -linewidth {} -shape low -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+  item {
+    data pattern %c=TRUE
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority 1 -font {} -interpolation {} -label {} -linecolor {} -linedimcolor {} -linewidth {} -shape high -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+}
+pattern ::stylemap0 stylemap v1.0 {
+  overall {
+    data options {-name {Example Map} -radix %x}
+  }
+  item {
+    data pattern %b=11????
+    data options {-bgcolor orange -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label REG:%x -linecolor yellow -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+  item {
+    data pattern 1F
+    data options {-bgcolor red -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label ERROR -linecolor white -linedimcolor {} -linewidth {} -shape EVENT -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+  item {
+    data pattern 2C
+    data options {-bgcolor red -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label ERROR -linecolor white -linedimcolor {} -linewidth {} -shape EVENT -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+  item {
+    data pattern *
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label %x -linecolor gray -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+}
+pattern ::stylemap1 stylemap v1.0 {
+  overall {
+    data options {-name rd_wr_o_b -radix %x}
+  }
+  item {
+    data pattern 1
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label OFF -linecolor {} -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+  item {
+    data pattern 0
+    data options {-bgcolor white -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-medium-r-normal--12-* -interpolation {} -label ON -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+}
+pattern ::stylemap2 stylemap v1.0 {
+  overall {
+    data options {-name {fsm states} -radix %x}
+  }
+  item {
+    data pattern 0
+    data options {-bgcolor #ff0000 -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-medium-r-normal--12-* -interpolation {} -label DC1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+  item {
+    data pattern 1
+    data options {-bgcolor #ff9900 -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-medium-r-normal--12-* -interpolation {} -label DC2 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+  item {
+    data pattern 3
+    data options {-bgcolor #ffff00 -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-medium-r-normal--12-* -interpolation {} -label EXE -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 2
+    data options {-bgcolor #00ffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-medium-r-normal--12-* -interpolation {} -label WBK -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 4
+    data options {-bgcolor #9900ff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-medium-r-normal--12-* -interpolation {} -label RST -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+}
+pattern ::stylemap3 stylemap v1.0 {
+  overall {
+    data options {-name opcode -radix %x}
+  }
+  item {
+    data pattern 80
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label SJMP -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 11
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ACALL -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 12
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label LCALL -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 32
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label RETI -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 75
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOD_D_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern %b=***00001
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label AJMP -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 02
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label LJMP -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 03
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label RR_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 13
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label RRC_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 04
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label INC_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 05
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label INC_B -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 06
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label INC_ATR0 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 07
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label INC_ATR1 -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 10
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label JBC -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 20
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label JNB -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 00
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label NOP -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 22
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label RET -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 23
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label RL_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 24
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADD_A_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 25
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADD_A_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 33
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label RLC_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 34
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADDC_A_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 35
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADDC_A_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 42
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_D_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 43
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_D_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 44
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_A_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 45
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_A_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 52
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ANL_D_A -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 53
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ANL_D_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 54
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ANL_A_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 55
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ANL_A_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 72
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_C_BIT -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 74
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_A_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 75
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_D_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 85
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_D_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 94
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label SUBB_A_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern 95
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label SUBB_A_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern %b=1001011*
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label SUBB_A_ATRn -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern %b=10011***
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label SUBB_A_Rn -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern %b=1000011*
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_D_ATRn -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern %b=10001***
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_D_Rn -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern %b=01001***
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_A_Rn -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern %b=01011***
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ANL_A_Rn -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern %b=0100011*
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ORL_A_ATRn -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern %b=1010011*
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_ATRn_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern %b=0011011*
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADDC_A_ATRn -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern %b=00111***
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADDC_A_Rn -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern %b=0010011*
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADD_A_ATRn -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern %b=00101***
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label ADD_A_Rn -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern D2
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label SETB_BIT -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern %b=10101***
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_Rn_D -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern %b=0111011*
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_@Rn_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern %b=01111***
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label MOV_Rn_DATA -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern %b=00001***
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label INC_Rn -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+  item {
+    data pattern *
+    data options {-bgcolor #ffffff -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-bold-r-normal--12-* -interpolation {} -label %x -linecolor gray -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+}
+pattern ::stylemap4 stylemap v1.0 {
+  overall {
+    data options {-name flags -radix %x}
+  }
+  item {
+    data pattern %b=0
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label DIS -linecolor {} -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+  item {
+    data pattern %b=1
+    data options {-bgcolor white -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font -*-courier-medium-r-normal--12-* -interpolation {} -label EN -linecolor {} -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor #000000 -textdimcolor {}}
+  }
+}
+pattern ::stylemap5 stylemap v1.0 {
+  overall {
+    data options {-name {New map} -radix %x}
+  }
+  item {
+    data pattern %b=11????
+    data options {-bgcolor orange -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label REG:%x -linecolor yellow -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+  item {
+    data pattern 1F
+    data options {-bgcolor red -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label ERROR -linecolor white -linedimcolor {} -linewidth {} -shape EVENT -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+  item {
+    data pattern 2C
+    data options {-bgcolor red -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label ERROR -linecolor white -linedimcolor {} -linewidth {} -shape EVENT -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+  item {
+    data pattern *
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label %x -linecolor gray -linedimcolor {} -linewidth {} -shape bus -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+}}
+    data timeranges {
+pattern ::TimeRange ::TimeRange v1.0 {
+  overall {
+  }
+}}
+    data utilgeometry {}
+    data utilismapped 0
+    data utilselecttab {}
+    data consolegeometry 700x250+0+584
+    data consoleismapped 1
+  }
+}

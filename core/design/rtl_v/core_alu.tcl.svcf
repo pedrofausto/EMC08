@@ -1,0 +1,139 @@
+# SimVision Command Script (Wed Sep 01 10:38:26 AM BRT 2010)
+#
+# Version 06.20.s002
+#
+# You can restore this configuration with:
+#
+#     irun -gui -debug -top alu_tb alu_tb.v core_alu.v -s -input core_alu.tcl
+#
+
+
+#
+# preferences
+#
+preferences set txe-locate-add-fibers 1
+preferences set signal-type-colors {assertion #FF0000 output #FFA500 group #0099FF inout #00FFFF input #FFFF00 fiber #FF99FF errorsignal #FF0000 unknown #FFFFFF overlay #0099FF internal #00FF00 reference #FFFFFF}
+preferences set txe-navigate-search-locate 0
+preferences set txe-view-hold 0
+preferences set save-state-on-startup 1
+preferences set restore-state-on-startup 1
+preferences set txe-navigate-waveform-locate 1
+preferences set txe-view-hidden 0
+preferences set txe-search-show-linenumbers 1
+preferences set toolbar-txe_waveform_toggle-WaveWindow {
+  usual
+  position -pos 1
+}
+preferences set txe-navigate-waveform-next-child 1
+preferences set txe-locate-scroll-x 1
+preferences set txe-locate-scroll-y 1
+preferences set txe-locate-pop-waveform 1
+preferences set use-signal-type-colors 1
+
+#
+# Simulator
+#
+
+database require simulator -hints {
+	simulator "irun -gui -debug -top alu_tb alu_tb.v core_alu.v -s -input core_alu.tcl"
+}
+
+#
+# cursors
+#
+set time 77060ps
+if {[catch {cursor new -name  TimeA -time $time}] != ""} {
+    cursor set -using TimeA -time $time
+}
+
+#
+# mmaps
+#
+mmap new -reuse -name {Boolean as Logic} -contents {
+{%c=FALSE -edgepriority 1 -shape low}
+{%c=TRUE -edgepriority 1 -shape high}
+}
+mmap new -reuse -name {Example Map} -contents {
+{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}
+}
+mmap new -reuse -name CORE_ALU -contents {
+{%d=01 -bgcolor #ff0000 -font -*-courier-bold-r-normal--12-* -label ALU_ADD -shape bus -textcolor #000000}
+{%d=02 -bgcolor #ff9900 -font -*-courier-bold-r-normal--12-* -label ALU_INC -shape bus -textcolor #000000}
+{%d=03 -bgcolor #ffff00 -font -*-courier-bold-r-normal--12-* -label ALU_ADDC -shape bus -textcolor #000000}
+{%d=04 -bgcolor #99ff00 -font -*-courier-bold-r-normal--12-* -label ALU_SUB -shape bus -textcolor #000000}
+{%d=05 -bgcolor #0099ff -font -*-courier-bold-r-normal--12-* -label ALU_DEC -shape bus -textcolor #000000}
+{%d=06 -bgcolor #00ffff -font -*-courier-bold-r-normal--12-* -label ALU_MUL -shape bus -textcolor #000000}
+{%d=07 -bgcolor #00ff99 -font -*-courier-bold-r-normal--12-* -label ALU_DIV -shape bus -textcolor #000000}
+{%d=08 -bgcolor #00ff00 -font -*-courier-bold-r-normal--12-* -label ALU_DA -shape bus -textcolor #000000}
+{%d=09 -bgcolor #0000ff -font -*-courier-bold-r-normal--12-* -label ALU_AND -shape bus -textcolor #ffffff}
+{%d=10 -bgcolor #9900ff -font -*-courier-bold-r-normal--12-* -label ALU_XOR -shape bus -textcolor #000000}
+{%d=11 -bgcolor #ff00ff -font -*-courier-bold-r-normal--12-* -label ALU_OR -shape bus -textcolor #000000}
+{%d=12 -bgcolor #ff0099 -font -*-courier-bold-r-normal--12-* -label ALU_RL -shape bus -textcolor #000000}
+{%d=13 -bgcolor #ff0000 -font -*-courier-bold-r-normal--12-* -label ALU_RLC -shape bus -textcolor #000000}
+{%d=14 -bgcolor #ff9900 -font -*-courier-bold-r-normal--12-* -label ALU_RR -shape bus -textcolor #000000}
+{%d=15 -bgcolor #ffff00 -font -*-courier-bold-r-normal--12-* -label ALU_RRC -shape bus -textcolor #000000}
+{%d=16 -bgcolor #99ff00 -font -*-courier-bold-r-normal--12-* -label ALU_CPL -shape bus -textcolor #000000}
+{%d=17 -bgcolor #0099ff -font -*-courier-bold-r-normal--12-* -label ALU_COMP -shape bus -textcolor #000000}
+{%d=18 -bgcolor #00ffff -font -*-courier-bold-r-normal--12-* -label ALU_SWAP -shape bus -textcolor #000000}
+}
+
+#
+# Design Browser windows
+#
+if {[catch {window new WatchList -name "Design Browser 1" -geometry 700x500+0+22}] != ""} {
+    window geometry "Design Browser 1" 700x500+0+22
+}
+window target "Design Browser 1" on
+browser using {Design Browser 1}
+browser set \
+    -scope simulator::alu_tb.DUT
+browser yview see simulator::alu_tb.DUT
+browser timecontrol set -lock 0
+
+#
+# Waveform windows
+#
+if {[catch {window new WaveWindow -name "Waveform 1" -geometry 1280x919+0+0}] != ""} {
+    window geometry "Waveform 1" 1280x919+0+0
+}
+window target "Waveform 1" on
+waveform using {Waveform 1}
+waveform sidebar visibility partial
+waveform set \
+    -primarycursor TimeA \
+    -signalnames name \
+    -signalwidth 175 \
+    -units ps \
+    -valuewidth 75
+cursor set -using TimeA -time 77,060ps
+waveform baseline set -time 0
+
+set id [waveform add -signals [list simulator::alu_tb.DUT.alu_c6 \
+	simulator::alu_tb.DUT.alu_cin ]]
+set id [waveform add -signals [list simulator::alu_tb.DUT.alu_en_i ]]
+waveform format $id -color #9900ff
+set id [waveform add -signals [list simulator::alu_tb.DUT.alu_ac_i ]]
+waveform format $id -color #ffffff -namecolor #ffffff
+set id [waveform add -signals [list simulator::alu_tb.DUT.alu_cy_i ]]
+waveform format $id -color #ffffff -namecolor #ffffff
+set id [waveform add -signals [list {simulator::alu_tb.DUT.alu_opcode_i[4:0]} ]]
+waveform format $id -radix CORE_ALU -color #00ff00
+set id [waveform add -signals [list {simulator::alu_tb.alu_operand1_i[7:0]} ]]
+waveform format $id -color #0000ff -namecolor #0000ff
+set id [waveform add -signals [list {simulator::alu_tb.alu_operand2_i[7:0]} ]]
+waveform format $id -color #0000ff -namecolor #0000ff
+set id [waveform add -signals [list {simulator::alu_tb.DUT.alu_result_o[15:0]} ]]
+waveform format $id -color #ff0099 -namecolor #ff0099
+set id [waveform add -signals [list simulator::alu_tb.DUT.alu_ac_o \
+	simulator::alu_tb.DUT.alu_cy_o \
+	simulator::alu_tb.DUT.alu_ov_o ]]
+
+waveform xview limits 69740ps 93000ps
+
+#
+# Console window
+#
+console set -windowname Console

@@ -1,0 +1,10 @@
+# Centro de Tecnologia da Informacao Renato Archer
+# Centro de Treinamento 2
+# Digital A
+# Project: EMC08
+# Module: Baud Rate
+# Script version: 0.1
+# Script owner: Pedro Fausto R. Leite Jr.
+# Description: Defines cds.lib to map directories that can be found by Cadence tools.
+
+Define baud_rate ${HOME}/EMC08/digital_A/baud_rate/design/libs

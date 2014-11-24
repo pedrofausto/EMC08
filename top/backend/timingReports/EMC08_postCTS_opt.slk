@@ -1,0 +1,1431 @@
+# Format: clock  timeReq  slackR/slackF  setupR/setupF  instName/pinName   # cycle(s)
+MEMCLK(F)->MEMCLK(R)	30.060   */0.493         */0.573         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[2] /D    1
+CLK(F)->MEMCLK(F)	41.740   */0.498         */1.344         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[0] /SD    1
+CLK(R)->MEMCLK(F)	17.412   */0.500         */0.668         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[13] /D    1
+CLK(R)->MEMCLK(F)	17.438   */0.511         */0.648         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[15] /D    1
+MEMCLK(F)->MEMCLK(R)	30.007   */0.514         */0.573         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[14] /D    1
+MEMCLK(F)->MEMCLK(R)	30.095   */0.515         */0.541         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[0] /D    1
+CLK(R)->MEMCLK(F)	17.404   */0.525         */0.677         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[14] /D    1
+MEMCLK(F)->MEMCLK(R)	30.125   */0.534         */0.509         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[6] /D    1
+MEMCLK(F)->MEMCLK(R)	29.869   */0.576         */0.712         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[15] /D    1
+MEMCLK(F)->MEMCLK(R)	30.075   */0.610         */0.557         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[4] /D    1
+CLK(R)->MEMCLK(F)	17.450   */0.630         */0.636         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[12] /D    1
+CLK(F)->MEMCLK(R)	55.021   */0.632         */0.602         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\read_data_reg[5] /D    1
+MEMCLK(F)->MEMCLK(R)	30.101   */0.639         */0.531         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[3] /D    1
+MEMCLK(F)->MEMCLK(R)	30.086   */0.645         */0.548         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[1] /D    1
+MEMCLK(F)->MEMCLK(R)	30.109   */0.658         */0.524         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[5] /D    1
+CLK(F)->MEMCLK(R)	55.073   */0.708         */0.544         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\read_data_reg[6] /D    1
+MEMCLK(F)->MEMCLK(R)	30.122   */0.714         */0.511         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[8] /D    1
+MEMCLK(F)->MEMCLK(R)	29.866   */0.727         */0.714         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[13] /D    1
+CLK(R)->MEMCLK(F)	17.437   */0.774         */0.648         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[10] /D    1
+MEMCLK(F)->MEMCLK(R)	29.951   */0.780         */0.682         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[9] /D    1
+CLK(R)->MEMCLK(F)	17.440   */0.824         */0.645         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[11] /D    1
+CLK(R)->MEMCLK(F)	17.362   */0.848         */0.722         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[0] /D    1
+CLK(R)->MEMCLK(F)	17.363   */0.884         */0.714         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[3] /D    1
+CLK(R)->MEMCLK(F)	17.321   */0.908         */0.757         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[5] /D    1
+CLK(R)->MEMCLK(F)	17.327   */0.921         */0.751         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[4] /D    1
+CLK(R)->MEMCLK(F)	17.376   */0.937         */0.704         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[1] /D    1
+MEMCLK(F)->MEMCLK(R)	29.941   */0.946         */0.689         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[34][2] /D    1
+CLK(R)->MEMCLK(F)	17.401   */0.950         */0.680         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[8] /D    1
+MEMCLK(F)->MEMCLK(R)	30.069   */0.968         */0.564         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[7] /D    1
+CLK(R)->MEMCLK(F)	17.387   */0.980         */0.694         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[7] /D    1
+CLK(R)->MEMCLK(F)	17.389   */0.998         */0.690         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[6] /D    1
+CLK(R)->MEMCLK(F)	17.391   */1.004         */0.689         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[2] /D    1
+MEMCLK(F)->MEMCLK(R)	30.076   */1.340         */0.556         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[34][7] /D    1
+CLK(F)->MEMCLK(R)	55.058   */1.356         */0.563         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\read_data_reg[1] /D    1
+CLK(R)->MEMCLK(F)	17.403   */1.361         */0.683         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[9] /D    1
+CLK(F)->MEMCLK(R)	55.048   */1.363         */0.568         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\read_data_reg[3] /D    1
+MEMCLK(F)->MEMCLK(R)	29.936   */1.425         */0.701         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[11] /D    1
+MEMCLK(F)->MEMCLK(R)	29.936   */1.602         */0.700         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[12] /D    1
+CLK(F)->MEMCLK(R)	55.044   */1.799         */0.571         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\read_data_reg[7] /D    1
+MEMCLK(F)->MEMCLK(R)	29.940   */1.847         */0.696         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[10] /D    1
+CLK(F)->MEMCLK(R)	54.927   */2.227         */0.699         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[30][2] /D    1
+CLK(F)->MEMCLK(R)	54.946   */2.227         */0.692         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[30][4] /D    1
+CLK(F)->MEMCLK(R)	54.929   */2.234         */0.697         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[30][0] /D    1
+CLK(F)->MEMCLK(R)	54.928   */2.235         */0.688         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[27][1] /D    1
+CLK(F)->MEMCLK(R)	54.919   */2.243         */0.684         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[27][0] /D    1
+CLK(F)->MEMCLK(R)	54.932   */2.244         */0.687         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[27][2] /D    1
+CLK(F)->MEMCLK(R)	54.929   */2.249         */0.686         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[27][3] /D    1
+CLK(F)->MEMCLK(R)	54.929   */2.253         */0.681         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[27][4] /D    1
+CLK(F)->MEMCLK(R)	54.920   */2.253         */0.679         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[27][5] /D    1
+CLK(F)->MEMCLK(R)	54.934   */2.268         */0.691         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[30][3] /D    1
+CLK(F)->MEMCLK(R)	54.942   */2.269         */0.680         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[27][7] /D    1
+CLK(F)->MEMCLK(R)	54.945   */2.277         */0.679         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[27][6] /D    1
+CLK(F)->MEMCLK(R)	54.955   */2.284         */0.684         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[30][1] /D    1
+CLK(F)->MEMCLK(R)	54.958   */2.287         */0.681         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[30][7] /D    1
+CLK(F)->MEMCLK(R)	54.960   */2.293         */0.679         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[30][6] /D    1
+CLK(F)->MEMCLK(R)	54.962   */2.305         */0.677         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[30][5] /D    1
+CLK(F)->MEMCLK(R)	54.843   */2.358         */0.705         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[11][3] /D    1
+CLK(F)->MEMCLK(R)	54.848   */2.370         */0.699         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[11][7] /D    1
+CLK(F)->MEMCLK(R)	54.850   */2.399         */0.696         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[11][0] /D    1
+CLK(F)->MEMCLK(R)	54.855   */2.403         */0.693         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[11][6] /D    1
+CLK(F)->MEMCLK(R)	54.934   */2.417         */0.697         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[6][0] /D    1
+CLK(F)->MEMCLK(R)	54.848   */2.417         */0.692         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[11][1] /D    1
+CLK(F)->MEMCLK(R)	54.935   */2.422         */0.696         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[6][1] /D    1
+CLK(F)->MEMCLK(R)	54.859   */2.424         */0.689         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[11][5] /D    1
+CLK(F)->MEMCLK(R)	54.902   */2.425         */0.686         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[14][3] /D    1
+CLK(F)->MEMCLK(R)	54.933   */2.427         */0.690         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[6][6] /D    1
+CLK(F)->MEMCLK(R)	54.906   */2.427         */0.682         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[14][4] /D    1
+CLK(F)->MEMCLK(R)	54.939   */2.430         */0.692         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[6][7] /D    1
+CLK(F)->MEMCLK(R)	54.862   */2.442         */0.686         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[11][4] /D    1
+CLK(F)->MEMCLK(R)	54.918   */2.446         */0.680         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[14][5] /D    1
+CLK(F)->MEMCLK(R)	54.915   */2.447         */0.679         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[14][7] /D    1
+CLK(F)->MEMCLK(R)	54.940   */2.450         */0.691         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[6][2] /D    1
+CLK(F)->MEMCLK(R)	54.904   */2.451         */0.680         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[14][0] /D    1
+CLK(F)->MEMCLK(R)	54.905   */2.453         */0.680         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[14][2] /D    1
+CLK(F)->MEMCLK(R)	54.941   */2.459         */0.690         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[6][3] /D    1
+CLK(F)->MEMCLK(R)	54.910   */2.464         */0.679         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[14][1] /D    1
+CLK(F)->MEMCLK(R)	54.940   */2.465         */0.683         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[6][5] /D    1
+CLK(F)->MEMCLK(R)	54.922   */2.469         */0.676         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[14][6] /D    1
+CLK(F)->MEMCLK(R)	54.946   */2.494         */0.678         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[6][4] /D    1
+CLK(F)->MEMCLK(R)	55.036   */2.495         */0.590         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\read_data_reg[4] /D    1
+CLK(F)->MEMCLK(R)	54.927   */2.505         */0.699         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[3][0] /D    1
+CLK(F)->MEMCLK(R)	54.962   */2.517         */0.578         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[11][2] /D    1
+CLK(F)->MEMCLK(R)	54.937   */2.541         */0.690         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[3][7] /D    1
+CLK(F)->MEMCLK(R)	54.939   */2.552         */0.688         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[3][6] /D    1
+CLK(F)->MEMCLK(R)	54.936   */2.568         */0.687         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[3][2] /D    1
+CLK(F)->MEMCLK(R)	54.939   */2.570         */0.688         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[3][3] /D    1
+CLK(F)->MEMCLK(R)	54.942   */2.572         */0.684         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[3][4] /D    1
+CLK(F)->MEMCLK(R)	54.940   */2.578         */0.686         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[3][1] /D    1
+CLK(F)->MEMCLK(R)	54.944   */2.583         */0.682         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[3][5] /D    1
+CLK(F)->MEMCLK(R)	55.054   */2.730         */0.573         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\read_data_reg[0] /D    1
+MEMCLK(R)->CLK(R)	30.750   */2.734         */0.732         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op2_reg[5] /D    1
+MEMCLK(R)->CLK(R)	30.717   */2.761         */0.727         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op2_reg[3] /D    1
+MEMCLK(R)->CLK(R)	30.762   */2.806         */0.720         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op2_reg[4] /D    1
+CLK(F)->MEMCLK(R)	55.038   */2.810         */0.578         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\read_data_reg[2] /D    1
+CLK(F)->MEMCLK(R)	54.912   */2.812         */0.688         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[26][0] /D    1
+CLK(F)->MEMCLK(R)	54.934   */2.836         */0.687         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[26][2] /D    1
+CLK(F)->MEMCLK(R)	54.942   */2.846         */0.684         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[26][5] /D    1
+CLK(F)->MEMCLK(R)	54.939   */2.849         */0.683         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[26][7] /D    1
+CLK(F)->MEMCLK(R)	54.948   */2.863         */0.681         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[26][6] /D    1
+CLK(F)->MEMCLK(R)	54.943   */2.868         */0.684         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[26][3] /D    1
+CLK(F)->MEMCLK(R)	54.948   */2.869         */0.680         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[26][4] /D    1
+CLK(F)->MEMCLK(R)	54.944   */2.870         */0.683         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[26][1] /D    1
+MEMCLK(R)->CLK(R)	30.848   2.951/*         0.626/*         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op2_reg[0] /D    1
+CLK(F)->MEMCLK(R)	54.906   */2.964         */0.692         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[10][1] /D    1
+CLK(F)->MEMCLK(R)	54.907   */2.983         */0.687         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[10][0] /D    1
+CLK(F)->MEMCLK(R)	54.914   */3.016         */0.683         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[10][3] /D    1
+CLK(F)->MEMCLK(R)	54.919   */3.032         */0.679         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[10][2] /D    1
+CLK(F)->MEMCLK(R)	54.922   */3.038         */0.675         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[10][6] /D    1
+CLK(F)->MEMCLK(R)	54.923   */3.043         */0.674         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[10][7] /D    1
+CLK(F)->MEMCLK(R)	54.923   */3.043         */0.674         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[10][5] /D    1
+CLK(F)->MEMCLK(R)	54.924   */3.047         */0.674         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[10][4] /D    1
+CLK(F)->MEMCLK(R)	54.945   */3.050         */0.694         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[40][0] /D    1
+CLK(F)->MEMCLK(R)	54.918   */3.088         */0.680         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[40][7] /D    1
+CLK(F)->MEMCLK(R)	54.931   */3.095         */0.694         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[2][4] /D    1
+CLK(F)->MEMCLK(R)	54.922   */3.099         */0.678         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[40][4] /D    1
+CLK(F)->MEMCLK(R)	54.944   */3.100         */0.687         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[40][1] /D    1
+CLK(F)->MEMCLK(R)	54.944   */3.108         */0.686         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[40][3] /D    1
+MEMCLK(R)->CLK(R)	30.907   3.110/*         0.575/*         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op2_reg[6] /D    1
+CLK(F)->MEMCLK(R)	54.946   */3.115         */0.684         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[40][2] /D    1
+CLK(F)->MEMCLK(R)	54.935   */3.125         */0.689         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[2][1] /D    1
+CLK(F)->MEMCLK(R)	54.949   */3.127         */0.678         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[40][5] /D    1
+CLK(F)->MEMCLK(R)	54.952   */3.127         */0.678         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[40][6] /D    1
+CLK(F)->MEMCLK(R)	54.936   */3.128         */0.689         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[2][2] /D    1
+CLK(F)->MEMCLK(R)	54.937   */3.130         */0.685         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[2][7] /D    1
+CLK(F)->MEMCLK(R)	54.934   */3.131         */0.688         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[2][0] /D    1
+CLK(F)->MEMCLK(R)	54.937   */3.132         */0.689         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[2][3] /D    1
+CLK(F)->MEMCLK(R)	54.939   */3.138         */0.685         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[2][5] /D    1
+CLK(F)->MEMCLK(R)	54.943   */3.143         */0.684         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[2][6] /D    1
+MEMCLK(R)->CLK(R)	30.911   3.207/*         0.560/*         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op2_reg[7] /D    1
+MEMCLK(R)->CLK(R)	30.986   3.279/*         0.496/*         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op2_reg[2] /D    1
+MEMCLK(F)->MEMCLK(R)	30.217   3.299/*         0.415/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[0][1] /D    1
+CLK(R)->MEMCLK(R)	29.914   */3.348         */0.710         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[0][7] /D    1
+CLK(F)->MEMCLK(R)	54.934   */3.368         */0.703         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[22][0] /D    1
+CLK(R)->MEMCLK(R)	29.883   */3.369         */0.716         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[0][4] /D    1
+CLK(F)->MEMCLK(R)	54.937   */3.384         */0.699         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[22][7] /D    1
+CLK(F)->MEMCLK(R)	54.939   */3.398         */0.697         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[22][6] /D    1
+CLK(F)->MEMCLK(R)	54.939   */3.410         */0.695         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[22][3] /D    1
+CLK(F)->MEMCLK(R)	54.942   */3.416         */0.694         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[22][5] /D    1
+CLK(F)->MEMCLK(R)	54.940   */3.417         */0.693         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[22][2] /D    1
+MEMCLK(F)->CLK(R)	30.968   3.423/*         0.476/*         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_2_reg[4] /D    1
+CLK(F)->MEMCLK(R)	54.942   */3.425         */0.692         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[22][1] /D    1
+CLK(R)->MEMCLK(R)	29.908   */3.427         */0.708         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[0][6] /D    1
+CLK(F)->MEMCLK(R)	54.945   */3.428         */0.692         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[22][4] /D    1
+MEMCLK(F)->MEMCLK(R)	30.013   */3.431         */0.579         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[32][6] /D    1
+MEMCLK(F)->MEMCLK(R)	30.008   */3.432         */0.578         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[32][3] /D    1
+MEMCLK(F)->MEMCLK(R)	30.017   */3.438         */0.578         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[32][7] /D    1
+MEMCLK(F)->MEMCLK(R)	30.007   */3.440         */0.576         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[32][4] /D    1
+MEMCLK(F)->MEMCLK(R)	30.016   */3.443         */0.577         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[32][5] /D    1
+MEMCLK(F)->MEMCLK(R)	30.010   */3.447         */0.576         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[32][2] /D    1
+MEMCLK(F)->MEMCLK(R)	30.020   */3.454         */0.576         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[32][0] /D    1
+CLK(R)->MEMCLK(R)	29.902   */3.459         */0.711         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[0][5] /D    1
+MEMCLK(F)->MEMCLK(R)	30.022   */3.459         */0.575         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[32][1] /D    1
+MEMCLK(F)->CLK(R)	30.986   3.492/*         0.498/*         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op2_reg[1] /D    1
+CLK(R)->MEMCLK(R)	29.897   */3.523         */0.702         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[0][2] /D    1
+CLK(F)->MEMCLK(R)	55.019   */3.532         */0.605         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[23][2] /D    1
+CLK(F)->MEMCLK(R)	55.024   */3.554         */0.600         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[23][3] /D    1
+CLK(R)->MEMCLK(R)	29.902   */3.561         */0.697         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[0][3] /D    1
+CLK(R)->MEMCLK(R)	29.921   */3.569         */0.709         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[0][0] /D    1
+CLK(F)->MEMCLK(R)	54.968   */3.622         */0.613         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[23][5] /D    1
+CLK(F)->MEMCLK(R)	54.848   */3.651         */0.702         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[15][2] /D    1
+CLK(F)->MEMCLK(R)	54.851   */3.676         */0.698         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[15][3] /D    1
+CLK(F)->MEMCLK(R)	54.907   */3.691         */0.674         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[23][0] /D    1
+CLK(F)->MEMCLK(R)	54.857   */3.694         */0.690         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[15][4] /D    1
+CLK(F)->MEMCLK(R)	54.856   */3.697         */0.693         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[15][0] /D    1
+CLK(F)->MEMCLK(R)	54.857   */3.698         */0.690         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[15][6] /D    1
+CLK(F)->MEMCLK(R)	55.044   */3.701         */0.593         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[23][4] /D    1
+CLK(F)->MEMCLK(R)	54.858   */3.711         */0.687         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[15][7] /D    1
+CLK(F)->MEMCLK(R)	54.909   */3.713         */0.720         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[4][0] /D    1
+CLK(F)->MEMCLK(R)	54.859   */3.714         */0.690         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[15][1] /D    1
+CLK(F)->MEMCLK(R)	54.861   */3.717         */0.686         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[15][5] /D    1
+CLK(F)->MEMCLK(R)	54.882   */3.760         */0.731         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[5][0] /D    1
+CLK(F)->MEMCLK(R)	54.912   */3.774         */0.684         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[19][2] /D    1
+CLK(F)->MEMCLK(R)	54.913   */3.780         */0.682         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[19][7] /D    1
+CLK(F)->MEMCLK(R)	54.913   */3.783         */0.684         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[19][3] /D    1
+CLK(F)->MEMCLK(R)	54.913   */3.783         */0.681         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[19][6] /D    1
+CLK(F)->MEMCLK(R)	54.917   */3.795         */0.679         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[19][5] /D    1
+CLK(F)->MEMCLK(R)	54.918   */3.800         */0.678         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[19][4] /D    1
+CLK(F)->MEMCLK(R)	54.923   */3.805         */0.700         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[4][1] /D    1
+CLK(F)->MEMCLK(R)	54.913   */3.805         */0.678         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[19][0] /D    1
+CLK(F)->MEMCLK(R)	54.918   */3.810         */0.678         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[19][1] /D    1
+MEMCLK(F)->CLK(R)	31.020   3.832/*         0.500/*         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_2_reg[5] /D    1
+CLK(F)->MEMCLK(R)	54.937   */3.861         */0.687         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[4][5] /D    1
+CLK(F)->MEMCLK(R)	54.937   */3.863         */0.687         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[4][7] /D    1
+CLK(F)->MEMCLK(R)	54.936   */3.880         */0.687         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[4][3] /D    1
+CLK(F)->MEMCLK(R)	54.941   */3.883         */0.683         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[4][4] /D    1
+CLK(F)->MEMCLK(R)	54.938   */3.888         */0.685         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[4][2] /D    1
+CLK(F)->MEMCLK(R)	54.944   */3.898         */0.680         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[4][6] /D    1
+CLK(F)->MEMCLK(R)	54.931   */3.916         */0.694         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[28][7] /D    1
+MEMCLK(F)->MEMCLK(R)	30.010   3.920/*         0.590/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[20][5] /D    1
+CLK(F)->MEMCLK(R)	54.928   */3.930         */0.700         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[31][5] /D    1
+CLK(F)->MEMCLK(R)	54.932   */3.933         */0.691         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[7][1] /D    1
+CLK(F)->MEMCLK(R)	54.931   */3.934         */0.693         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[28][1] /D    1
+CLK(F)->MEMCLK(R)	54.935   */3.938         */0.690         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[28][6] /D    1
+CLK(F)->MEMCLK(R)	54.905   */3.940         */0.706         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[23][1] /D    1
+CLK(F)->MEMCLK(R)	54.933   */3.945         */0.691         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[28][2] /D    1
+CLK(F)->MEMCLK(R)	54.926   */3.948         */0.693         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[5][1] /D    1
+CLK(F)->MEMCLK(R)	54.940   */3.950         */0.690         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[7][3] /D    1
+CLK(F)->MEMCLK(R)	54.934   */3.951         */0.690         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[28][0] /D    1
+CLK(F)->MEMCLK(R)	54.847   */3.957         */0.702         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[12][3] /D    1
+CLK(F)->MEMCLK(R)	54.938   */3.958         */0.686         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[28][4] /D    1
+CLK(F)->MEMCLK(R)	54.940   */3.965         */0.685         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[28][5] /D    1
+CLK(F)->MEMCLK(R)	54.936   */3.965         */0.688         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[28][3] /D    1
+CLK(F)->MEMCLK(R)	54.936   */3.966         */0.687         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[5][4] /D    1
+CLK(F)->MEMCLK(R)	54.909   */3.982         */0.688         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[31][6] /D    1
+CLK(F)->MEMCLK(R)	54.853   */3.983         */0.696         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[12][0] /D    1
+CLK(F)->MEMCLK(R)	54.936   */3.987         */0.692         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[31][0] /D    1
+CLK(F)->MEMCLK(R)	54.932   */3.987         */0.686         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[5][2] /D    1
+CLK(F)->MEMCLK(R)	54.856   */3.996         */0.691         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[12][6] /D    1
+CLK(F)->MEMCLK(R)	54.940   */4.002         */0.685         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[31][4] /D    1
+CLK(F)->MEMCLK(R)	54.941   */4.003         */0.681         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[5][7] /D    1
+CLK(F)->MEMCLK(R)	54.943   */4.005         */0.680         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[5][5] /D    1
+CLK(F)->MEMCLK(R)	54.860   */4.009         */0.689         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[12][4] /D    1
+CLK(F)->MEMCLK(R)	54.937   */4.009         */0.688         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[31][3] /D    1
+CLK(F)->MEMCLK(R)	54.937   */4.010         */0.682         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[5][3] /D    1
+CLK(F)->MEMCLK(R)	54.857   */4.010         */0.692         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[12][1] /D    1
+CLK(F)->MEMCLK(R)	54.942   */4.012         */0.683         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[31][7] /D    1
+CLK(F)->MEMCLK(R)	54.858   */4.014         */0.691         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[12][2] /D    1
+CLK(F)->MEMCLK(R)	54.940   */4.015         */0.686         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[31][2] /D    1
+CLK(F)->MEMCLK(R)	54.944   */4.017         */0.678         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[5][6] /D    1
+CLK(F)->MEMCLK(R)	54.860   */4.018         */0.687         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[12][5] /D    1
+CLK(F)->MEMCLK(R)	54.941   */4.020         */0.686         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[31][1] /D    1
+CLK(F)->MEMCLK(R)	55.054   */4.023         */0.577         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[7][7] /D    1
+CLK(F)->MEMCLK(R)	54.861   */4.024         */0.686         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[12][7] /D    1
+CLK(F)->MEMCLK(R)	55.054   */4.037         */0.577         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[7][2] /D    1
+MEMCLK(F)->CLK(R)	30.987   4.058/*         0.518/*         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_2_reg[1] /D    1
+MEMCLK(F)->MEMCLK(R)	29.865   */4.085         */0.725         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[23][6] /D    1
+CLK(F)->MEMCLK(R)	54.933   */4.089         */0.692         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[29][4] /D    1
+CLK(F)->MEMCLK(R)	54.905   */4.095         */0.709         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[25][0] /D    1
+CLK(F)->MEMCLK(R)	54.861   */4.099         */0.694         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[9][3] /D    1
+CLK(F)->MEMCLK(R)	54.865   */4.101         */0.690         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[9][5] /D    1
+CLK(F)->MEMCLK(R)	54.933   */4.104         */0.692         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[29][2] /D    1
+CLK(F)->MEMCLK(R)	54.863   */4.105         */0.692         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[9][0] /D    1
+CLK(F)->MEMCLK(R)	54.925   */4.109         */0.688         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[29][7] /D    1
+CLK(F)->MEMCLK(R)	54.932   */4.109         */0.692         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[29][0] /D    1
+CLK(F)->MEMCLK(R)	54.864   */4.111         */0.692         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[9][1] /D    1
+CLK(F)->MEMCLK(R)	54.934   */4.114         */0.691         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[29][3] /D    1
+CLK(F)->MEMCLK(R)	54.865   */4.114         */0.687         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[9][4] /D    1
+CLK(F)->MEMCLK(R)	54.933   */4.120         */0.691         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[29][1] /D    1
+CLK(F)->MEMCLK(R)	54.927   */4.122         */0.685         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[29][6] /D    1
+CLK(F)->MEMCLK(R)	54.928   */4.122         */0.685         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[29][5] /D    1
+MEMCLK(F)->MEMCLK(R)	30.032   4.131/*         0.567/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[20][4] /D    1
+MEMCLK(F)->CLK(R)	30.849   */4.149         */0.635         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_2_reg[6] /D    1
+MEMCLK(F)->MEMCLK(R)	30.040   4.168/*         0.560/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[20][7] /D    1
+CLK(F)->MEMCLK(R)	54.931   */4.175         */0.693         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[25][4] /D    1
+CLK(F)->MEMCLK(R)	54.940   */4.182         */0.687         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[9][7] /D    1
+CLK(F)->MEMCLK(R)	54.927   */4.185         */0.694         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[25][3] /D    1
+MEMCLK(F)->MEMCLK(R)	30.045   4.194/*         0.555/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[20][0] /D    1
+CLK(F)->MEMCLK(R)	54.935   */4.196         */0.689         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[25][5] /D    1
+CLK(F)->MEMCLK(R)	54.936   */4.201         */0.688         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[25][6] /D    1
+CLK(F)->MEMCLK(R)	54.925   */4.209         */0.688         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[25][1] /D    1
+CLK(F)->MEMCLK(R)	54.844   */4.212         */0.703         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[13][0] /D    1
+CLK(F)->MEMCLK(R)	54.934   */4.213         */0.685         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[25][7] /D    1
+CLK(F)->MEMCLK(R)	54.931   */4.215         */0.687         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[25][2] /D    1
+MEMCLK(F)->CLK(R)	30.799   */4.220         */0.646         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_2_reg[3] /D    1
+MEMCLK(F)->CLK(R)	30.660   */4.231         */0.822         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_2_reg[0] /D    1
+CLK(F)->MEMCLK(R)	54.854   */4.250         */0.693         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[13][7] /D    1
+MEMCLK(F)->MEMCLK(R)	30.067   4.253/*         0.546/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[20][1] /D    1
+MEMCLK(F)->MEMCLK(R)	30.065   4.253/*         0.545/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[20][2] /D    1
+CLK(F)->MEMCLK(R)	54.859   */4.262         */0.692         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[13][5] /D    1
+CLK(F)->MEMCLK(R)	54.947   */4.265         */0.677         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[7][0] /D    1
+MEMCLK(F)->MEMCLK(R)	30.067   4.265/*         0.542/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[20][3] /D    1
+MEMCLK(F)->MEMCLK(R)	30.068   4.271/*         0.542/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[20][6] /D    1
+CLK(F)->MEMCLK(R)	54.857   */4.275         */0.693         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[13][2] /D    1
+CLK(F)->MEMCLK(R)	54.953   */4.277         */0.676         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[7][5] /D    1
+CLK(F)->MEMCLK(R)	54.859   */4.281         */0.692         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[13][1] /D    1
+CLK(F)->MEMCLK(R)	54.855   */4.284         */0.686         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[13][6] /D    1
+CLK(F)->MEMCLK(R)	54.861   */4.284         */0.692         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[13][3] /D    1
+CLK(F)->MEMCLK(R)	54.956   */4.296         */0.672         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[7][6] /D    1
+CLK(F)->MEMCLK(R)	54.958   */4.297         */0.672         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[7][4] /D    1
+CLK(F)->MEMCLK(R)	54.870   */4.301         */0.686         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[13][4] /D    1
+CLK(R)->MEMCLK(R)	30.003   */4.349         */0.583         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[39][6] /D    1
+CLK(R)->MEMCLK(R)	29.896   */4.351         */0.703         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[37][1] /D    1
+MEMCLK(F)->CLK(R)	30.827   */4.357         */0.642         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_2_reg[2] /D    1
+MEMCLK(F)->CLK(R)	30.838   */4.360         */0.646         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_2_reg[7] /D    1
+CLK(R)->MEMCLK(R)	29.900   */4.376         */0.698         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[37][4] /D    1
+CLK(R)->MEMCLK(R)	29.936   */4.382         */0.700         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[37][5] /D    1
+CLK(F)->MEMCLK(R)	54.867   */4.387         */0.688         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[9][2] /D    1
+CLK(R)->MEMCLK(R)	30.063   */4.408         */0.569         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[39][7] /D    1
+CLK(F)->MEMCLK(R)	54.872   */4.411         */0.683         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[9][6] /D    1
+CLK(R)->MEMCLK(R)	29.943   */4.419         */0.693         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[37][7] /D    1
+CLK(R)->MEMCLK(R)	30.010   */4.435         */0.591         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[37][6] /D    1
+MEMCLK(F)->CLK(R)	30.978   4.439/*         0.480/*         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_opcode_reg[4] /D    1
+CLK(R)->MEMCLK(R)	30.017   */4.479         */0.583         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[37][2] /D    1
+CLK(R)->MEMCLK(R)	30.017   */4.479         */0.584         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[37][3] /D    1
+CLK(F)->MEMCLK(R)	54.927   */4.493         */0.689         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[1][6] /D    1
+CLK(R)->MEMCLK(R)	30.058   */4.511         */0.579         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[37][0] /D    1
+CLK(R)->MEMCLK(R)	29.959   */4.513         */0.668         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[39][3] /D    1
+CLK(F)->MEMCLK(R)	54.930   */4.514         */0.685         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[1][7] /D    1
+CLK(F)->MEMCLK(R)	54.930   */4.514         */0.685         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[1][5] /D    1
+CLK(F)->MEMCLK(R)	54.925   */4.514         */0.689         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[1][3] /D    1
+CLK(F)->MEMCLK(R)	54.931   */4.520         */0.683         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[1][4] /D    1
+MEMCLK(F)->MEMCLK(R)	29.955   */4.580         */0.675         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[34][6] /D    1
+MEMCLK(F)->CLK(F)	31.275   4.627/*         0.206/*         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[4] /D    1
+MEMCLK(F)->CLK(R)	31.003   4.673/*         0.477/*         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_opcode_reg[6] /D    1
+MEMCLK(F)->CLK(F)	30.701   */4.674         */0.734         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_reg[6] /D    1
+MEMCLK(F)->CLK(F)	30.715   */4.677         */0.751         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_reg[5] /D    1
+MEMCLK(F)->CLK(F)	30.735   */4.682         */0.740         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[3] /D    1
+MEMCLK(F)->CLK(F)	30.690   */4.688         */0.785         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[6] /D    1
+MEMCLK(F)->CLK(F)	30.729   */4.691         */0.737         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_reg[3] /D    1
+CLK(F)->MEMCLK(R)	54.874   */4.691         */0.716         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[23][7] /D    1
+MEMCLK(F)->CLK(F)	30.682   */4.721         */0.792         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[5] /D    1
+MEMCLK(F)->CLK(F)	31.246   4.726/*         0.220/*         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_reg[4] /D    1
+MEMCLK(F)->CLK(F)	30.733   */4.737         */0.742         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[2] /D    1
+MEMCLK(F)->CLK(R)	31.002   4.744/*         0.478/*         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_opcode_reg[5] /D    1
+MEMCLK(F)->CLK(R)	31.014   4.758/*         0.466/*         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_opcode_reg[3] /D    1
+CLK(F)->MEMCLK(R)	54.952   */4.774         */0.605         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[16][2] /D    1
+CLK(F)->MEMCLK(R)	54.946   */4.787         */0.611         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[16][1] /D    1
+MEMCLK(F)->CLK(F)	30.736   */4.812         */0.728         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_reg[2] /D    1
+CLK(F)->MEMCLK(R)	55.017   */4.838         */0.609         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[16][4] /D    1
+CLK(F)->MEMCLK(R)	54.955   */4.849         */0.600         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[16][0] /D    1
+CLK(F)->MEMCLK(R)	55.014   */4.850         */0.598         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[16][7] /D    1
+MEMCLK(F)->CLK(R)	31.004   4.856/*         0.474/*         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_opcode_reg[2] /D    1
+CLK(F)->MEMCLK(R)	54.948   */4.880         */0.609         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[16][3] /D    1
+CLK(R)->MEMCLK(R)	29.910   */4.919         */0.721         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[39][0] /D    1
+MEMCLK(F)->CLK(F)	30.726   */4.927         */0.736         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_reg[0] /D    1
+CLK(F)->MEMCLK(R)	55.012   */4.960         */0.599         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[16][6] /D    1
+MEMCLK(F)->CLK(F)	30.745   */4.969         */0.733         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[0] /D    1
+CLK(F)->MEMCLK(R)	55.012   */4.989         */0.599         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[16][5] /D    1
+CLK(F)->MEMCLK(R)	55.147   4.998/*         0.450/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/serial_status_reg/D    1
+CLK(R)->MEMCLK(R)	29.942   */5.014         */0.683         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[39][4] /D    1
+CLK(R)->MEMCLK(R)	30.018   */5.015         */0.614         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[39][1] /D    1
+CLK(R)->MEMCLK(R)	30.047   */5.027         */0.592         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[39][2] /D    1
+CLK(R)->MEMCLK(R)	29.998   */5.032         */0.582         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[39][5] /D    1
+MEMCLK(F)->CLK(R)	30.035   */5.039         */1.428         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_cm_o_reg/SD    1
+MEMCLK(F)->CLK(R)	30.996   5.084/*         0.489/*         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_opcode_reg[0] /D    1
+CLK(R)->MEMCLK(R)	29.915   */5.094         */0.700         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[35][5] /D    1
+CLK(R)->MEMCLK(R)	29.896   */5.146         */0.696         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[35][1] /D    1
+CLK(R)->MEMCLK(R)	29.899   */5.151         */0.696         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[35][3] /D    1
+CLK(R)->MEMCLK(R)	29.910   */5.165         */0.691         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[35][4] /D    1
+CLK(R)->MEMCLK(R)	29.941   */5.189         */0.690         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[35][0] /D    1
+CLK(R)->MEMCLK(R)	29.935   */5.200         */0.679         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[35][7] /D    1
+CLK(R)->MEMCLK(R)	29.936   */5.205         */0.678         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[35][6] /D    1
+CLK(R)->MEMCLK(R)	29.861   */5.217         */0.696         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[33][1] /D    1
+CLK(R)->MEMCLK(R)	29.921   */5.224         */0.704         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[33][6] /D    1
+CLK(R)->MEMCLK(R)	30.010   */5.224         */0.588         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[35][2] /D    1
+CLK(R)->MEMCLK(R)	29.865   */5.241         */0.692         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[33][2] /D    1
+MEMCLK(F)->CLK(F)	30.742   */5.246         */0.739         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[1] /D    1
+CLK(R)->MEMCLK(R)	29.865   */5.251         */0.690         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[33][3] /D    1
+CLK(R)->MEMCLK(R)	29.932   */5.285         */0.694         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[33][0] /D    1
+CLK(F)->MEMCLK(R)	54.907   */5.300         */0.687         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[8][7] /D    1
+CLK(R)->MEMCLK(R)	29.939   */5.308         */0.688         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[33][5] /D    1
+CLK(R)->MEMCLK(R)	29.940   */5.318         */0.686         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[33][4] /D    1
+CLK(F)->MEMCLK(R)	54.913   */5.325         */0.683         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[8][5] /D    1
+CLK(F)->MEMCLK(R)	54.915   */5.329         */0.682         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[8][1] /D    1
+CLK(F)->MEMCLK(R)	54.918   */5.349         */0.678         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[8][3] /D    1
+MEMCLK(F)->CLK(F)	30.720   */5.378         */0.746         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_reg[1] /D    1
+CLK(R)->MEMCLK(R)	30.051   */5.397         */0.576         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[33][7] /D    1
+MEMCLK(F)->CLK(F)	30.747   */5.404         */0.725         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[7] /D    1
+MEMCLK(F)->MEMCLK(R)	29.216   5.447/*         1.415/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_rom/ADR[0]    1
+MEMCLK(F)->MEMCLK(R)	29.803   */5.455         */0.829         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[35][0] /SD    1
+MEMCLK(F)->CLK(F)	30.742   */5.456         */0.726         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_reg[7] /D    1
+MEMCLK(F)->MEMCLK(R)	29.215   5.459/*         1.415/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_rom/ADR[1]    1
+MEMCLK(F)->MEMCLK(R)	29.221   5.490/*         1.410/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_rom/ADR[3]    1
+MEMCLK(F)->MEMCLK(R)	29.223   5.495/*         1.408/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_rom/ADR[2]    1
+MEMCLK(F)->MEMCLK(R)	29.223   5.505/*         1.407/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_rom/ADR[10]    1
+MEMCLK(F)->MEMCLK(R)	29.223   5.505/*         1.407/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_rom/ADR[11]    1
+MEMCLK(F)->MEMCLK(R)	29.226   5.518/*         1.405/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_rom/ADR[9]    1
+CLK(F)->MEMCLK(R)	54.914   */5.524         */0.717         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[24][0] /D    1
+MEMCLK(F)->MEMCLK(R)	29.230   5.545/*         1.400/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_rom/ADR[8]    1
+MEMCLK(F)->MEMCLK(R)	29.233   5.553/*         1.398/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_rom/ADR[5]    1
+MEMCLK(F)->MEMCLK(R)	29.239   5.590/*         1.392/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_rom/ADR[4]    1
+MEMCLK(F)->CLK(R)	30.857   */5.607         */0.622         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_opcode_reg[1] /D    1
+MEMCLK(F)->MEMCLK(R)	29.243   5.611/*         1.388/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_rom/ADR[7]    1
+MEMCLK(F)->CLK(R)	30.567   */5.614         */0.889         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\data_received_reg[1] /SD    1
+CLK(F)->MEMCLK(R)	54.920   */5.617         */0.695         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[24][1] /D    1
+MEMCLK(F)->MEMCLK(R)	29.246   5.623/*         1.385/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_rom/ADR[6]    1
+CLK(F)->MEMCLK(R)	54.855   */5.634         */0.758         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[1][2] /D    1
+CLK(F)->MEMCLK(R)	54.849   */5.640         */0.764         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[1][0] /D    1
+CLK(F)->MEMCLK(R)	54.920   */5.659         */0.677         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[24][4] /D    1
+CLK(F)->MEMCLK(R)	54.930   */5.666         */0.682         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[24][5] /D    1
+CLK(F)->MEMCLK(R)	54.927   */5.671         */0.684         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[24][2] /D    1
+CLK(F)->MEMCLK(R)	54.929   */5.674         */0.685         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[24][3] /D    1
+CLK(F)->MEMCLK(R)	54.933   */5.686         */0.678         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[24][6] /D    1
+CLK(F)->MEMCLK(R)	54.859   */5.691         */0.754         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[1][1] /D    1
+MEMCLK(F)->MEMCLK(R)	28.240   5.726/*         2.391/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_rom/ENB    1
+CLK(F)->MEMCLK(R)	54.926   */5.766         */0.688         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[21][2] /D    1
+CLK(F)->MEMCLK(R)	54.926   */5.769         */0.687         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[21][1] /D    1
+CLK(F)->MEMCLK(R)	54.937   */5.775         */0.685         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[21][5] /D    1
+CLK(F)->MEMCLK(R)	54.937   */5.786         */0.682         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[21][4] /D    1
+CLK(F)->MEMCLK(R)	54.933   */5.787         */0.686         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[21][3] /D    1
+CLK(F)->MEMCLK(R)	54.939   */5.803         */0.679         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[21][6] /D    1
+CLK(F)->MEMCLK(R)	55.044   */5.815         */0.586         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[21][0] /D    1
+MEMCLK(F)->CLK(R)	30.872   */5.868         */0.607         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_opcode_reg[7] /D    1
+CLK(F)->MEMCLK(R)	55.052   */5.898         */0.564         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[21][7] /D    1
+CLK(F)->MEMCLK(R)	54.925   */5.960         */0.676         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[24][7] /D    1
+CLK(F)->MEMCLK(R)	54.911   */6.063         */0.686         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[8][0] /D    1
+CLK(F)->MEMCLK(R)	54.915   */6.064         */0.682         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[17][4] /D    1
+CLK(F)->MEMCLK(R)	54.912   */6.067         */0.686         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[17][3] /D    1
+CLK(F)->MEMCLK(R)	54.915   */6.074         */0.681         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[8][6] /D    1
+CLK(F)->MEMCLK(R)	55.028   */6.075         */0.588         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[17][6] /D    1
+CLK(F)->MEMCLK(R)	54.929   */6.105         */0.685         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[8][2] /D    1
+CLK(F)->MEMCLK(R)	54.922   */6.105         */0.675         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[8][4] /D    1
+CLK(R)->MEMCLK(R)	29.892   */6.124         */0.698         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[38][1] /D    1
+CLK(R)->MEMCLK(R)	29.899   */6.141         */0.691         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[38][6] /D    1
+CLK(R)->MEMCLK(R)	29.896   */6.144         */0.694         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[38][3] /D    1
+CLK(R)->MEMCLK(R)	29.900   */6.146         */0.690         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[38][4] /D    1
+CLK(R)->MEMCLK(R)	29.898   */6.154         */0.692         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[38][0] /D    1
+CLK(R)->MEMCLK(R)	29.902   */6.155         */0.688         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[38][5] /D    1
+CLK(F)->MEMCLK(R)	55.040   */6.167         */0.568         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[17][5] /D    1
+CLK(R)->MEMCLK(R)	29.945   */6.179         */0.687         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[38][7] /D    1
+CLK(R)->MEMCLK(R)	29.943   */6.192         */0.687         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[38][2] /D    1
+CLK(F)->MEMCLK(R)	55.043   */6.201         */0.561         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[17][7] /D    1
+CLK(F)->MEMCLK(R)	54.872   */6.236         */0.759         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[17][0] /D    1
+CLK(F)->MEMCLK(R)	54.871   */6.238         */0.760         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[17][1] /D    1
+CLK(R)->MEMCLK(R)	29.957   */6.313         */0.675         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[34][5] /D    1
+CLK(R)->MEMCLK(R)	29.954   */6.320         */0.678         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[34][3] /D    1
+CLK(R)->MEMCLK(R)	29.959   */6.325         */0.673         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[34][4] /D    1
+CLK(R)->MEMCLK(R)	29.950   */6.590         */0.687         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[36][6] /D    1
+CLK(R)->MEMCLK(R)	29.940   */6.599         */0.690         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[36][0] /D    1
+CLK(R)->MEMCLK(R)	29.953   */6.614         */0.671         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[34][1] /D    1
+CLK(R)->MEMCLK(R)	29.955   */6.618         */0.681         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[36][4] /D    1
+CLK(R)->MEMCLK(R)	29.943   */6.622         */0.687         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[36][3] /D    1
+CLK(R)->MEMCLK(R)	29.946   */6.634         */0.685         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[36][1] /D    1
+CLK(R)->MEMCLK(R)	29.948   */6.642         */0.683         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[36][2] /D    1
+MEMCLK(F)->CLK(R)	30.540   */6.658         */0.939         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrh_o_reg[1] /SD    1
+CLK(R)->MEMCLK(R)	29.963   */6.660         */0.673         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[36][7] /D    1
+CLK(R)->MEMCLK(R)	29.965   */6.665         */0.672         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[36][5] /D    1
+CLK(F)->MEMCLK(R)	55.189   6.737/*         0.410/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/serial_tx_tmp_reg/D    1
+MEMCLK(F)->MEMCLK(R)	30.171   6.776/*         0.461/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_ram/D[0]    1
+MEMCLK(F)->MEMCLK(R)	30.170   6.989/*         0.462/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_ram/D[1]    1
+MEMCLK(F)->MEMCLK(R)	30.140   7.187/*         0.492/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_ram/D[4]    1
+MEMCLK(F)->MEMCLK(R)	30.078   7.224/*         0.553/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_ram/D[6]    1
+MEMCLK(R)->CLK(R)	30.832   */7.274         */0.644         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/lcall_hardware_flag_reg/D    1
+MEMCLK(F)->MEMCLK(R)	30.199   7.338/*         0.433/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_ram/D[3]    1
+MEMCLK(F)->MEMCLK(R)	30.058   7.384/*         0.574/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_ram/D[5]    1
+MEMCLK(F)->MEMCLK(R)	30.072   7.425/*         0.560/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_ram/D[7]    1
+MEMCLK(F)->MEMCLK(R)	30.172   7.587/*         0.460/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_ram/D[2]    1
+MEMCLK(R)->CLK(R)	30.819   */7.690         */0.745         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_th0_o_reg[7] /D    1
+MEMCLK(R)->CLK(R)	30.839   */8.168         */0.747         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_th1_o_reg[7] /D    1
+MEMCLK(R)->CLK(R)	30.823   */8.222         */0.748         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_th0_o_reg[6] /D    1
+MEMCLK(R)->CLK(R)	30.803   8.378/*         0.660/*         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_int_na_o_reg/D    1
+MEMCLK(R)->CLK(R)	30.837   */8.698         */0.749         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_th1_o_reg[6] /D    1
+MEMCLK(R)->CLK(R)	30.826   */8.920         */0.745         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_th0_o_reg[5] /D    1
+MEMCLK(R)->CLK(R)	30.844   */9.486         */0.742         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_th1_o_reg[5] /D    1
+MEMCLK(R)->CLK(R)	30.811   */9.534         */0.755         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_th0_o_reg[4] /D    1
+MEMCLK(R)->CLK(R)	30.846   */10.142        */0.740         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_th1_o_reg[4] /D    1
+MEMCLK(R)->CLK(R)	30.821   */10.277        */0.745         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_th0_o_reg[3] /D    1
+MEMCLK(R)->CLK(R)	30.841   */10.769        */0.744         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_th1_o_reg[3] /D    1
+MEMCLK(R)->CLK(R)	30.813   */11.044        */0.753         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_th0_o_reg[2] /D    1
+MEMCLK(R)->CLK(R)	30.839   */11.277        */0.746         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_th1_o_reg[2] /D    1
+CLK(R)->MEMCLK(R)	29.706   */11.642        */0.926         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_ram/ADR[3]    1
+CLK(R)->MEMCLK(R)	29.708   */11.657        */0.924         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_ram/ADR[1]    1
+MEMCLK(R)->CLK(R)	30.821   */11.689        */0.742         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_th0_o_reg[1] /D    1
+CLK(R)->MEMCLK(R)	29.709   */11.714        */0.923         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_ram/ADR[0]    1
+CLK(R)->MEMCLK(R)	29.717   */11.905        */0.915         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_ram/ADR[4]    1
+MEMCLK(R)->CLK(R)	30.841   */12.021        */0.744         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_th1_o_reg[1] /D    1
+CLK(R)->MEMCLK(R)	29.703   */12.120        */0.929         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_ram/ADR[2]    1
+MEMCLK(R)->CLK(F)	30.488   */12.134        */0.966         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\vect_register_reg[2] /D    1
+CLK(R)->MEMCLK(R)	29.709   */12.154        */0.923         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_ram/ADR[5]    1
+MEMCLK(R)->CLK(F)	30.484   */12.219        */0.971         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\vect_register_reg[0] /D    1
+MEMCLK(R)->CLK(R)	30.818   */12.324        */0.745         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_th0_o_reg[0] /D    1
+MEMCLK(R)->CLK(R)	30.838   */12.641        */0.745         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_th1_o_reg[0] /D    1
+CLK(R)->MEMCLK(R)	29.578   12.814/*        1.053/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_ram/ADR[6]    1
+MEMCLK(R)->CLK(R)	30.822   */12.954        */0.741         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tm0_o_reg[7] /D    1
+MEMCLK(R)->CLK(F)	30.492   */13.022        */0.962         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\vect_register_reg[1] /D    1
+MEMCLK(R)->CLK(R)	30.837   */13.339        */0.747         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tm1_o_reg[7] /D    1
+MEMCLK(R)->CLK(R)	30.806   */13.624        */0.757         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tm0_o_reg[6] /D    1
+MEMCLK(R)->CLK(R)	30.825   */13.925        */0.752         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tm1_o_reg[6] /D    1
+CLK(R)->MEMCLK(R)	29.014   14.203/*        1.618/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_ram/ENB    1
+MEMCLK(R)->CLK(R)	30.793   */14.271        */0.753         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tm0_o_reg[5] /D    1
+MEMCLK(R)->CLK(R)	30.820   */14.480        */0.755         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tm1_o_reg[5] /D    1
+MEMCLK(R)->CLK(R)	30.803   */14.875        */0.743         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tm0_o_reg[4] /D    1
+MEMCLK(R)->CLK(F)	30.481   */15.056        */0.974         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[5] /D    1
+MEMCLK(R)->CLK(R)	30.814   */15.091        */0.759         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tm1_o_reg[4] /D    1
+MEMCLK(R)->CLK(F)	30.499   */15.135        */0.954         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[6] /D    1
+MEMCLK(R)->CLK(R)	30.799   */15.509        */0.747         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tm0_o_reg[3] /D    1
+CLK(R)->CLK(F)	30.663   */15.621        */0.811         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/cycle_continue_reg/D    1
+MEMCLK(R)->CLK(R)	30.821   */15.744        */0.754         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tm1_o_reg[3] /D    1
+MEMCLK(R)->CLK(F)	30.546   */15.858        */0.909         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[4] /D    1
+MEMCLK(R)->CLK(F)	30.500   */15.952        */0.955         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[3] /D    1
+CLK(R)->MEMCLK(R)	29.390   16.078/*        1.242/*         EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_ram/WEB    1
+MEMCLK(R)->CLK(R)	30.797   */16.149        */0.745         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tm0_o_reg[2] /D    1
+MEMCLK(R)->CLK(R)	30.809   */16.287        */0.767         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tm1_o_reg[2] /D    1
+MEMCLK(R)->CLK(F)	30.555   */16.709        */0.904         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[2] /D    1
+MEMCLK(R)->CLK(F)	30.498   */16.710        */0.958         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[1] /D    1
+MEMCLK(R)->CLK(R)	30.809   */16.863        */0.741         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tm0_o_reg[1] /D    1
+MEMCLK(R)->CLK(R)	30.822   */16.983        */0.754         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tm1_o_reg[1] /D    1
+CLK(R)->CLK(F)	30.555   */17.149        */0.917         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[2] /D    1
+CLK(R)->CLK(F)	30.538   */17.154        */0.913         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[1] /D    1
+CLK(F)->CLK(R)	55.960   17.168/*        0.509/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[19] /D    1
+CLK(F)->CLK(R)	55.978   17.170/*        0.496/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[21] /D    1
+CLK(R)->CLK(F)	30.523   */17.172        */0.910         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[4] /D    1
+CLK(F)->CLK(R)	55.957   17.195/*        0.492/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[9] /D    1
+CLK(F)->CLK(R)	55.968   17.199/*        0.490/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[22] /D    1
+CLK(R)->CLK(F)	30.553   */17.202        */0.905         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[3] /D    1
+CLK(R)->CLK(F)	30.565   */17.202        */0.907         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[5] /D    1
+CLK(R)->CLK(F)	30.557   */17.208        */0.905         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[7] /D    1
+CLK(R)->CLK(F)	30.554   */17.208        */0.904         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[6] /D    1
+CLK(R)->CLK(F)	30.568   */17.217        */0.903         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[0] /D    1
+CLK(F)->CLK(R)	55.975   17.218/*        0.497/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[7] /D    1
+CLK(F)->CLK(R)	55.986   17.222/*        0.476/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[14] /D    1
+MEMCLK(R)->CLK(F)	30.486   */17.226        */0.962         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[6] /D    1
+CLK(F)->CLK(R)	55.981   17.233/*        0.492/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[20] /D    1
+CLK(F)->CLK(R)	55.993   17.236/*        0.468/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[6] /D    1
+CLK(F)->CLK(R)	55.969   17.242/*        0.488/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[3] /D    1
+CLK(F)->CLK(R)	55.967   17.250/*        0.492/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[23] /D    1
+CLK(F)->CLK(R)	55.991   17.255/*        0.471/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[15] /D    1
+CLK(F)->CLK(R)	56.016   17.279/*        0.478/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[13] /D    1
+CLK(F)->CLK(R)	55.993   17.281/*        0.471/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[2] /D    1
+CLK(F)->CLK(R)	55.988   17.284/*        0.475/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[4] /D    1
+CLK(F)->CLK(R)	55.978   17.285/*        0.478/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[1] /D    1
+CLK(F)->CLK(R)	55.991   17.289/*        0.475/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[11] /D    1
+CLK(F)->CLK(R)	55.993   17.298/*        0.473/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[12] /D    1
+CLK(F)->CLK(R)	55.985   17.298/*        0.485/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[18] /D    1
+CLK(F)->CLK(R)	55.989   17.301/*        0.481/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[16] /D    1
+CLK(F)->CLK(R)	56.008   17.306/*        0.463/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[5] /D    1
+CLK(F)->CLK(R)	55.977   17.309/*        0.468/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[17] /D    1
+CLK(F)->CLK(R)	56.026   17.323/*        0.468/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[0] /D    1
+CLK(F)->CLK(R)	56.019   17.341/*        0.469/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[8] /D    1
+CLK(F)->CLK(R)	56.004   17.347/*        0.468/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[10] /D    1
+MEMCLK(R)->CLK(R)	30.805   */17.407        */0.745         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tm0_o_reg[0] /D    1
+MEMCLK(R)->CLK(R)	30.818   */17.632        */0.758         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tm1_o_reg[0] /D    1
+MEMCLK(R)->CLK(F)	30.554   */17.810        */0.905         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[0] /D    1
+CLK(F)->CLK(R)	55.736   */17.817        */0.727         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_br_trans_o_reg/D    1
+MEMCLK(R)->CLK(F)	30.484   */17.823        */0.967         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[5] /D    1
+CLK(F)->CLK(R)	55.672   */17.872        */0.799         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_counter_reg[2] /D    1
+CLK(F)->CLK(R)	55.667   */17.914        */0.804         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_counter_reg[3] /D    1
+CLK(F)->CLK(R)	55.713   */17.933        */0.782         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_counter_reg[1] /D    1
+MEMCLK(R)->CLK(R)	30.803   */17.995        */0.751         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tl0_o_reg[7] /D    1
+CLK(F)->CLK(R)	55.872   18.014/*        0.569/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_width_reg[2] /D    1
+CLK(F)->CLK(R)	55.686   */18.015        */0.785         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_counter_reg[4] /D    1
+CLK(F)->CLK(R)	55.710   */18.042        */0.783         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[4] /D    1
+CLK(F)->CLK(R)	55.928   18.070/*        0.568/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_width_reg[0] /D    1
+CLK(F)->CLK(R)	56.004   18.077/*        0.488/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[6] /D    1
+CLK(F)->CLK(R)	56.008   18.094/*        0.466/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[20] /D    1
+CLK(F)->CLK(R)	55.978   18.147/*        0.479/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[11] /D    1
+CLK(F)->CLK(R)	55.989   18.151/*        0.470/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[18] /D    1
+CLK(F)->CLK(R)	56.016   18.155/*        0.477/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[17] /D    1
+CLK(F)->CLK(R)	56.002   18.162/*        0.473/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[21] /D    1
+CLK(F)->CLK(R)	55.995   18.163/*        0.461/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[19] /D    1
+CLK(F)->CLK(R)	56.051   18.170/*        0.460/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[8] /D    1
+CLK(F)->CLK(R)	55.994   18.171/*        0.465/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[14] /D    1
+CLK(F)->CLK(R)	55.997   18.177/*        0.470/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[1] /D    1
+CLK(F)->CLK(R)	55.994   18.179/*        0.463/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[7] /D    1
+MEMCLK(R)->CLK(F)	30.536   */18.182        */0.910         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[4] /D    1
+CLK(F)->CLK(R)	56.004   18.183/*        0.458/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[23] /D    1
+CLK(F)->CLK(R)	55.979   18.189/*        0.476/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[16] /D    1
+CLK(F)->CLK(R)	55.998   18.189/*        0.463/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[5] /D    1
+CLK(F)->CLK(R)	55.999   18.204/*        0.464/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[15] /D    1
+CLK(F)->CLK(R)	56.006   18.218/*        0.457/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[22] /D    1
+CLK(F)->CLK(R)	55.991   18.218/*        0.466/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[12] /D    1
+CLK(F)->CLK(R)	55.985   18.219/*        0.472/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[13] /D    1
+CLK(F)->CLK(R)	56.031   18.223/*        0.462/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[2] /D    1
+CLK(F)->CLK(R)	56.030   18.226/*        0.460/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[9] /D    1
+CLK(F)->CLK(R)	56.005   18.233/*        0.459/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[3] /D    1
+MEMCLK(R)->CLK(F)	30.491   */18.237        */0.956         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[3] /D    1
+CLK(F)->CLK(R)	56.001   18.260/*        0.457/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[10] /D    1
+MEMCLK(R)->CLK(R)	30.829   */18.285        */0.747         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tl1_o_reg[7] /D    1
+CLK(F)->CLK(R)	55.956   18.328/*        0.485/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_width_reg[1] /D    1
+CLK(F)->CLK(R)	55.775   */18.382        */0.720         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_counter_reg[0] /D    1
+CLK(F)->CLK(R)	56.044   18.404/*        0.420/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_counter_reg[3] /D    1
+CLK(F)->CLK(R)	56.038   18.440/*        0.420/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_counter_reg[1] /D    1
+CLK(F)->CLK(R)	56.041   18.456/*        0.423/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_counter_reg[4] /D    1
+CLK(F)->CLK(R)	56.039   18.459/*        0.419/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_counter_reg[2] /D    1
+MEMCLK(R)->CLK(R)	30.805   */18.524        */0.753         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tl0_o_reg[6] /D    1
+CLK(F)->CLK(R)	55.738   */18.539        */0.727         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_br_o_reg/D    1
+CLK(F)->CLK(R)	56.087   18.541/*        0.417/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/\state_tx_reg[2] /D    1
+CLK(F)->CLK(R)	55.961   18.547/*        0.502/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[0] /D    1
+CLK(F)->CLK(R)	56.023   18.583/*        0.441/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_width_reg[4] /D    1
+CLK(F)->CLK(R)	56.067   18.593/*        0.437/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/\state_tx_reg[1] /D    1
+CLK(F)->CLK(R)	55.922   18.681/*        0.559/*         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_int_rdy_o_reg/D    1
+CLK(F)->CLK(R)	55.990   18.730/*        0.509/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/\state_rx_reg[0] /D    1
+CLK(F)->CLK(R)	56.085   18.748/*        0.418/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/\state_rx_reg[2] /D    1
+CLK(F)->CLK(R)	55.969   18.772/*        0.499/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/\state_tx_reg[0] /D    1
+CLK(F)->CLK(R)	56.027   18.816/*        0.455/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_trans_counter_reg[4] /D    1
+CLK(F)->CLK(R)	56.054   18.829/*        0.426/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/\data_to_transmit_reg[3] /D    1
+CLK(F)->CLK(R)	56.047   18.841/*        0.417/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/\state_rx_reg[1] /D    1
+CLK(F)->CLK(R)	56.000   18.845/*        0.441/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_trans_counter_reg[0] /D    1
+CLK(F)->CLK(R)	56.074   18.847/*        0.422/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_trans_counter_reg[0] /D    1
+CLK(F)->CLK(R)	56.046   18.853/*        0.450/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_trans_counter_reg[3] /D    1
+CLK(F)->CLK(R)	56.048   18.863/*        0.448/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_trans_counter_reg[2] /D    1
+CLK(F)->CLK(R)	55.981   18.933/*        0.477/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_counter_reg[0] /D    1
+MEMCLK(R)->CLK(R)	30.823   */18.936        */0.754         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tl1_o_reg[6] /D    1
+CLK(F)->CLK(R)	56.073   18.936/*        0.435/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_trans_counter_reg[1] /D    1
+MEMCLK(R)->CLK(R)	30.728   */18.943        */0.753         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/\data_to_transmit_reg[4] /D    1
+MEMCLK(R)->CLK(R)	30.722   */18.956        */0.746         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/\data_to_transmit_reg[1] /D    1
+CLK(F)->CLK(R)	55.906   18.980/*        0.558/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_width_reg[3] /D    1
+MEMCLK(R)->CLK(R)	30.713   */18.982        */0.755         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/\data_to_transmit_reg[2] /D    1
+MEMCLK(R)->CLK(R)	30.733   */18.994        */0.747         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/\data_to_transmit_reg[6] /D    1
+MEMCLK(R)->CLK(R)	30.733   */18.996        */0.744         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/\data_to_transmit_reg[7] /D    1
+MEMCLK(R)->CLK(R)	30.816   */19.014        */0.742         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tl0_o_reg[5] /D    1
+MEMCLK(R)->CLK(R)	30.737   */19.071        */0.743         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/\data_to_transmit_reg[5] /D    1
+CLK(F)->CLK(R)	56.053   19.089/*        0.427/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/\data_to_transmit_reg[8] /D    1
+CLK(F)->CLK(R)	56.026   19.192/*        0.432/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/flag_end_bit_reg/D    1
+CLK(F)->CLK(R)	56.075   19.206/*        0.429/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/\state_tx_reg[3] /D    1
+MEMCLK(R)->CLK(R)	30.742   */19.208        */0.753         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrm_o_reg[3] /D    1
+MEMCLK(R)->CLK(F)	30.493   */19.212        */0.960         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[1] /D    1
+MEMCLK(R)->CLK(R)	30.717   */19.222        */0.753         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrh_o_reg[4] /D    1
+CLK(F)->CLK(R)	56.063   19.235/*        0.416/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/\data_to_transmit_reg[9] /D    1
+CLK(F)->CLK(R)	55.897   19.239/*        0.597/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/acr_inc_reg/D    1
+MEMCLK(R)->CLK(R)	30.718   */19.249        */0.749         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrl_o_reg[4] /D    1
+MEMCLK(R)->CLK(R)	30.709   */19.267        */0.755         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrm_o_reg[4] /D    1
+MEMCLK(R)->CLK(R)	30.719   */19.282        */0.747         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrm_o_reg[6] /D    1
+MEMCLK(R)->CLK(R)	30.719   */19.288        */0.736         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/\contador_reg[2] /D    1
+MEMCLK(R)->CLK(R)	30.721   */19.291        */0.749         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrh_o_reg[0] /D    1
+MEMCLK(R)->CLK(R)	30.710   */19.297        */0.753         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrm_o_reg[7] /D    1
+MEMCLK(R)->CLK(R)	30.725   */19.321        */0.746         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrl_o_reg[7] /D    1
+MEMCLK(R)->CLK(R)	30.701   */19.321        */0.751         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrl_o_reg[2] /D    1
+MEMCLK(R)->CLK(R)	30.726   */19.335        */0.753         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrh_o_reg[1] /D    1
+MEMCLK(R)->CLK(R)	30.723   */19.341        */0.752         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrh_o_reg[6] /D    1
+MEMCLK(R)->CLK(R)	30.752   */19.342        */0.751         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrl_o_reg[1] /D    1
+CLK(F)->CLK(R)	55.711   */19.342        */0.758         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/\state_rx_reg[3] /D    1
+MEMCLK(R)->CLK(R)	30.819   */19.347        */0.743         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tl0_o_reg[4] /D    1
+MEMCLK(R)->CLK(R)	30.713   */19.348        */0.749         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrm_o_reg[2] /D    1
+MEMCLK(R)->CLK(R)	30.751   */19.349        */0.745         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrl_o_reg[5] /D    1
+MEMCLK(R)->CLK(R)	30.722   */19.350        */0.747         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrl_o_reg[3] /D    1
+CLK(R)->MEMCLK(R)	30.169   19.356/*        0.417/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[18][2] /D    1
+MEMCLK(R)->CLK(R)	30.818   */19.361        */0.653         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrh_o_reg[5] /D    1
+MEMCLK(R)->CLK(R)	30.762   */19.368        */0.743         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrh_o_reg[3] /D    1
+CLK(R)->MEMCLK(R)	30.171   19.375/*        0.413/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[18][0] /D    1
+MEMCLK(R)->CLK(R)	30.717   */19.381        */0.748         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrm_o_reg[1] /D    1
+CLK(R)->MEMCLK(R)	30.173   19.387/*        0.411/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[18][3] /D    1
+CLK(R)->MEMCLK(R)	30.178   19.388/*        0.411/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[18][4] /D    1
+CLK(R)->MEMCLK(R)	30.175   19.389/*        0.411/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[18][1] /D    1
+MEMCLK(R)->CLK(R)	30.714   */19.393        */0.748         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrm_o_reg[5] /D    1
+MEMCLK(R)->CLK(R)	30.749   */19.396        */0.748         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrh_o_reg[7] /D    1
+MEMCLK(R)->CLK(R)	30.754   */19.400        */0.750         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrh_o_reg[2] /D    1
+MEMCLK(R)->CLK(R)	30.728   */19.403        */0.746         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrl_o_reg[6] /D    1
+MEMCLK(R)->CLK(R)	30.835   */19.412        */0.747         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tl1_o_reg[2] /D    1
+MEMCLK(R)->CLK(R)	30.836   */19.412        */0.746         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tl1_o_reg[1] /D    1
+MEMCLK(R)->CLK(R)	30.750   */19.414        */0.746         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrm_o_reg[0] /D    1
+MEMCLK(R)->CLK(R)	30.835   */19.416        */0.746         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tl1_o_reg[3] /D    1
+CLK(F)->CLK(R)	56.034   19.421/*        0.434/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\data_received_reg[7] /D    1
+CLK(R)->MEMCLK(R)	30.181   19.422/*        0.405/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[18][7] /D    1
+MEMCLK(R)->CLK(R)	30.715   */19.423        */0.734         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/\contador_reg[4] /D    1
+CLK(R)->MEMCLK(R)	30.182   19.425/*        0.404/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[18][6] /D    1
+CLK(R)->MEMCLK(R)	30.180   19.427/*        0.403/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[17][2] /D    1
+MEMCLK(R)->CLK(R)	30.809   */19.430        */0.754         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tl0_o_reg[2] /D    1
+MEMCLK(R)->CLK(R)	30.731   */19.436        */0.738         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/\contador_reg[1] /D    1
+CLK(R)->MEMCLK(R)	30.189   19.438/*        0.403/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[18][5] /D    1
+MEMCLK(R)->CLK(R)	30.735   */19.442        */0.733         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/\contador_reg[5] /D    1
+MEMCLK(R)->CLK(R)	30.812   */19.448        */0.750         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tl0_o_reg[3] /D    1
+MEMCLK(R)->CLK(R)	30.768   */19.462        */0.730         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/\contador_reg[6] /D    1
+MEMCLK(R)->CLK(F)	30.544   */19.469        */0.907         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[2] /D    1
+CLK(F)->CLK(R)	56.042   19.471/*        0.424/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\data_received_reg[4] /D    1
+CLK(F)->CLK(R)	56.043   19.483/*        0.422/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\data_received_reg[9] /D    1
+CLK(F)->CLK(R)	56.046   19.491/*        0.421/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\data_received_reg[5] /D    1
+MEMCLK(R)->CLK(R)	30.771   */19.492        */0.728         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/\contador_reg[3] /D    1
+CLK(F)->CLK(R)	56.047   19.492/*        0.421/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\data_received_reg[6] /D    1
+CLK(F)->CLK(R)	56.039   19.498/*        0.418/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\data_received_reg[8] /D    1
+MEMCLK(R)->CLK(R)	30.822   */19.499        */0.741         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tl0_o_reg[1] /D    1
+CLK(F)->CLK(R)	56.048   19.500/*        0.419/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\data_received_reg[3] /D    1
+CLK(F)->CLK(R)	56.040   19.502/*        0.418/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\data_received_reg[2] /D    1
+MEMCLK(R)->CLK(R)	30.840   */19.529        */0.738         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tl1_o_reg[5] /D    1
+CLK(F)->CLK(R)	56.040   19.584/*        0.417/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\data_received_reg[1] /D    1
+MEMCLK(R)->CLK(R)	30.836   */19.667        */0.743         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tl1_o_reg[4] /D    1
+MEMCLK(R)->MEMCLK(R)	29.961   */19.706        */0.676         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[34][0] /D    1
+CLK(F)->CLK(R)	55.728   */19.707        */0.733         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\state_reg[0] /D    1
+MEMCLK(R)->CLK(R)	30.710   */19.721        */0.748         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/serial_data_tx_o_reg/D    1
+CLK(F)->CLK(R)	55.738   */19.737        */0.726         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\state_reg[1] /D    1
+MEMCLK(R)->CLK(R)	30.713   */19.750        */0.737         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/\contador_reg[0] /D    1
+CLK(R)->CLK(F)	30.497   */19.770        */0.960         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_reg[1][1] /D    1
+CLK(F)->CLK(R)	55.883   19.793/*        0.585/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_p3en_1_o_reg/D    1
+CLK(F)->CLK(R)	56.030   19.800/*        0.435/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\serial_sbuf_rx_o_reg[0] /D    1
+CLK(F)->CLK(R)	55.736   */19.806        */0.733         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/br_detect1_reg/D    1
+CLK(F)->CLK(R)	56.055   19.820/*        0.419/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_scon2_rb8_o_reg/D    1
+CLK(F)->CLK(R)	56.045   19.839/*        0.429/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\serial_sbuf_rx_o_reg[5] /D    1
+CLK(R)->CLK(F)	30.530   */19.845        */0.954         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_reg[0][1] /D    1
+CLK(F)->CLK(R)	55.999   19.851/*        0.469/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\data_received_reg[0] /D    1
+MEMCLK(R)->CLK(R)	31.143   19.854/*        0.441/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tl1_o_reg[0] /D    1
+CLK(F)->CLK(R)	56.045   19.856/*        0.424/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\serial_sbuf_rx_o_reg[2] /D    1
+CLK(F)->CLK(R)	56.049   19.864/*        0.424/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\serial_sbuf_rx_o_reg[3] /D    1
+CLK(F)->CLK(R)	56.051   19.867/*        0.423/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\serial_sbuf_rx_o_reg[4] /D    1
+MEMCLK(R)->CLK(R)	30.837   */19.868        */0.726         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tl0_o_reg[0] /D    1
+CLK(F)->CLK(R)	56.076   19.875/*        0.427/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\serial_sbuf_rx_o_reg[7] /D    1
+CLK(F)->CLK(R)	56.055   19.893/*        0.418/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\serial_sbuf_rx_o_reg[6] /D    1
+CLK(F)->CLK(R)	56.054   19.901/*        0.416/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\serial_sbuf_rx_o_reg[1] /D    1
+MEMCLK(R)->CLK(F)	30.463   */19.965        */0.991         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\lo_ok_reg[1][0] /D    1
+CLK(F)->CLK(R)	55.580   */20.017        */0.881         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_width_reg[4] /D    1
+CLK(F)->CLK(R)	55.923   20.018/*        0.538/*         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_out_reg_reg[0] /D    1
+CLK(F)->CLK(R)	55.595   */20.032        */0.877         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_width_reg[3] /D    1
+MEMCLK(R)->CLK(R)	30.722   */20.042        */0.735         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_p3en_0_o_reg/D    1
+CLK(F)->CLK(R)	55.618   */20.054        */0.877         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_width_reg[2] /D    1
+CLK(F)->CLK(R)	55.638   */20.075        */0.872         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_width_reg[1] /D    1
+MEMCLK(R)->CLK(F)	30.530   */20.184        */0.915         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[0] /D    1
+CLK(F)->CLK(R)	55.959   20.206/*        0.510/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/br_detect_reg/D    1
+CLK(F)->CLK(R)	55.951   20.209/*        0.507/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_start_idle_o_reg/D    1
+MEMCLK(R)->CLK(F)	30.469   */20.230        */0.986         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\hi_ok_reg[0][0] /D    1
+MEMCLK(R)->CLK(F)	30.468   */20.232        */0.985         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\hi_ok_reg[1][0] /D    1
+MEMCLK(R)->CLK(R)	30.717   */20.238        */0.731         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/timers_timer2_pdcf_clkdiv_o_reg/D    1
+CLK(F)->CLK(R)	55.887   20.254/*        0.573/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_width_reg[5] /D    1
+CLK(F)->CLK(R)	55.973   20.270/*        0.489/*         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_out_reg_reg[1] /D    1
+MEMCLK(R)->CLK(F)	30.506   */20.273        */0.978         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\lo_ok_reg[0][0] /D    1
+CLK(F)->CLK(R)	55.986   20.301/*        0.482/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_shift_o_reg/D    1
+MEMCLK(R)->CLK(F)	30.523   */20.303        */0.961         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_reg[1][0] /D    1
+CLK(F)->CLK(R)	56.005   20.432/*        0.464/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/aux2_tran_det_reg/D    1
+CLK(F)->CLK(R)	56.003   20.460/*        0.466/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/aux_tran_det_reg/D    1
+CLK(F)->CLK(R)	55.996   20.472/*        0.461/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_start_shifter_reg_o_reg/D    1
+MEMCLK(R)->CLK(F)	30.530   */20.480        */0.953         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_reg[0][0] /D    1
+CLK(F)->CLK(R)	56.003   20.510/*        0.455/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_stop_bit_gen_o_reg/D    1
+CLK(F)->CLK(R)	56.004   20.515/*        0.454/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_data_en_o_reg/D    1
+CLK(F)->CLK(R)	55.742   */20.536        */0.726         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_tcon2_tf2_o_reg/D    1
+MEMCLK(R)->CLK(R)	30.727   */20.603        */0.748         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrl_o_reg[0] /D    1
+CLK(F)->CLK(R)	55.728   */20.830        */0.729         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux_reset1_reg/D    1
+CLK(F)->CLK(R)	55.721   */20.871        */0.736         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_scon1_ti_o_reg/D    1
+CLK(R)->MEMCLK(R)	30.085   20.937/*        0.509/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/load_sbuf_prev_reg/D    1
+CLK(F)->CLK(R)	55.969   20.999/*        0.494/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_cm_o_reg/D    1
+CLK(F)->CLK(R)	55.746   */21.071        */0.721         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_scon0_ri_o_reg/D    1
+CLK(F)->CLK(R)	55.935   21.083/*        0.523/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/serial_end_bit_o_reg/D    1
+CLK(F)->CLK(R)	55.988   21.216/*        0.481/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/serial_transition_detected_o_reg/D    1
+MEMCLK(R)->MEMCLK(R)	29.836   21.237/*        0.802/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[39][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.813   21.248/*        0.802/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[21][7] /SD    1
+CLK(F)->CLK(R)	55.762   */21.251        */0.735         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/pdf_out_reg/D    1
+CLK(F)->CLK(R)	55.972   21.257/*        0.495/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/do_first_shift_flag_reg/D    1
+MEMCLK(R)->CLK(R)	30.712   */21.330        */0.746         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/\data_to_transmit_reg[0] /D    1
+MEMCLK(R)->MEMCLK(R)	29.840   21.356/*        0.792/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[34][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.809   21.364/*        0.748/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[33][2] /SD    1
+CLK(F)->CLK(R)	55.767   */21.368        */0.696         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_state_o_reg[2] /D    1
+MEMCLK(R)->MEMCLK(R)	29.814   21.394/*        0.742/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[33][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.897   21.426/*        0.741/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[30][7] /SD    1
+CLK(F)->CLK(R)	56.032   21.446/*        0.436/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux2_tran_det_reg/D    1
+MEMCLK(R)->MEMCLK(R)	29.885   21.482/*        0.741/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[33][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.902   21.512/*        0.735/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[36][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.821   21.578/*        0.780/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[37][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.898   21.591/*        0.733/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[17][0] /SD    1
+CLK(F)->CLK(R)	56.027   21.636/*        0.430/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/clear_reg/D    1
+MEMCLK(R)->MEMCLK(R)	29.908   21.652/*        0.730/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[30][1] /SD    1
+CLK(F)->CLK(R)	55.981   21.654/*        0.477/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/br_detect_reg/D    1
+CLK(F)->CLK(R)	56.038   21.654/*        0.429/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_receive_o_reg/D    1
+MEMCLK(R)->MEMCLK(R)	29.869   21.661/*        0.727/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[8][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.854   21.673/*        0.773/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[39][3] /SD    1
+CLK(F)->CLK(R)	55.778   */21.674        */0.719         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_shift_input_shift_reg_o_reg/D    1
+CLK(F)->CLK(R)	56.034   21.677/*        0.423/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_send_o_reg/D    1
+CLK(F)->CLK(R)	55.972   21.677/*        0.526/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/timers_timer2_pdfoutput_o_reg/D    1
+CLK(R)->CLK(F)	30.727   */21.689        */0.726         EMC_TOP_INSTANCE/TIMERS_INSTANCE/reset_aux_reg/D    1
+CLK(F)->CLK(R)	56.003   21.700/*        0.465/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_load_sbuf_o_reg/D    1
+CLK(F)->CLK(R)	55.730   */21.710        */0.727         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/aux_tran_det_reg/D    1
+CLK(F)->CLK(R)	55.732   */21.712        */0.725         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux_tran_det_reg/D    1
+MEMCLK(R)->MEMCLK(R)	29.863   21.717/*        0.730/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[35][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.899   21.722/*        0.728/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[33][0] /SD    1
+CLK(F)->CLK(R)	55.743   */21.730        */0.722         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_end_bit_o_reg/D    1
+MEMCLK(R)->MEMCLK(R)	29.904   21.733/*        0.725/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[26][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.821   21.742/*        0.727/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[12][0] /SD    1
+CLK(F)->CLK(R)	55.780   */21.743        */0.723         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_clear_count_o_reg/D    1
+CLK(F)->CLK(R)	56.085   21.756/*        0.415/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_start_input_shift_reg_o_reg/D    1
+CLK(F)->CLK(R)	55.746   */21.759        */0.721         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/aux2_tran_det_reg/D    1
+MEMCLK(R)->MEMCLK(R)	29.910   21.766/*        0.722/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[34][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.822   21.772/*        0.723/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[15][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.859   21.778/*        0.769/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[33][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.876   21.806/*        0.721/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[17][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.840   21.812/*        0.760/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[37][2] /SD    1
+CLK(F)->CLK(R)	56.000   21.825/*        0.448/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/q_flop_reg/D    1
+MEMCLK(R)->MEMCLK(R)	29.912   21.845/*        0.718/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[34][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.909   21.845/*        0.722/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[24][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.844   21.859/*        0.760/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[17][7] /SD    1
+MEMCLK(F)->MEMCLK(F)	41.725   */21.869        */1.356         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[13] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.868   21.881/*        0.716/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[18][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.905   21.898/*        0.716/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[26][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.888   21.899/*        0.716/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[27][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.882   21.901/*        0.715/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[17][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.829   21.905/*        0.719/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[12][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.869   21.906/*        0.715/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[18][3] /SD    1
+MEMCLK(F)->MEMCLK(F)	41.700   */21.906        */1.386         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[12] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.831   21.909/*        0.715/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[11][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.870   21.911/*        0.714/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[17][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.884   21.926/*        0.713/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[8][1] /SD    1
+MEMCLK(F)->MEMCLK(F)	41.752   */21.937        */1.328         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[14] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.832   21.945/*        0.717/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[12][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.878   21.946/*        0.713/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[19][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.924   21.946/*        0.712/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[34][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.885   21.949/*        0.714/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[40][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.884   21.951/*        0.753/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[37][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.874   21.958/*        0.712/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[18][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.832   21.963/*        0.716/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[11][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.903   21.979/*        0.712/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[35][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.835   21.991/*        0.714/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[15][2] /SD    1
+MEMCLK(F)->MEMCLK(F)	41.723   */21.992        */1.363         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[10] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.835   21.996/*        0.714/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[12][2] /SD    1
+MEMCLK(F)->MEMCLK(F)	41.773   */21.999        */1.313         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[15] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.910   22.001/*        0.717/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[33][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.835   22.001/*        0.714/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[12][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.888   22.007/*        0.711/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[0][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.913   22.014/*        0.712/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[27][6] /SD    1
+CLK(F)->CLK(R)	55.709   */22.022        */0.738         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/\pdf_2sample_reg[2] /D    1
+MEMCLK(F)->MEMCLK(F)	41.731   */22.023        */1.355         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[11] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.877   22.024/*        0.708/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[18][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.837   22.037/*        0.712/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[15][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.836   22.047/*        0.711/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[15][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.843   22.061/*        0.711/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[13][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.893   22.065/*        0.706/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[26][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.883   22.067/*        0.753/*         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.888   22.070/*        0.706/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[14][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.839   22.076/*        0.710/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[12][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.929   22.077/*        0.707/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[22][0] /SD    1
+CLK(F)->CLK(R)	55.745   */22.084        */0.733         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/\pdf_2sample_reg[1] /D    1
+MEMCLK(R)->MEMCLK(R)	29.880   22.085/*        0.710/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[23][7] /SD    1
+CLK(F)->CLK(R)	55.749   */22.089        */0.721         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/\ff_sync_reg[1] /D    1
+MEMCLK(R)->MEMCLK(R)	29.920   22.091/*        0.706/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[40][5] /SD    1
+CLK(F)->CLK(R)	55.766   */22.095        */0.733         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/\pdf_2sample_reg[0] /D    1
+MEMCLK(R)->MEMCLK(R)	29.884   22.095/*        0.705/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[18][4] /SD    1
+MEMCLK(F)->MEMCLK(F)	41.750   */22.098        */1.335         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[9] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.905   22.102/*        0.705/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[27][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.893   22.103/*        0.704/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[10][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.885   22.106/*        0.704/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[14][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.934   22.110/*        0.704/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[30][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.891   22.110/*        0.704/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[8][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.909   22.123/*        0.705/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[8][2] /SD    1
+CLK(F)->CLK(R)	55.817   22.123/*        0.646/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_p3en_1_o_reg/D    1
+MEMCLK(R)->MEMCLK(R)	29.892   22.127/*        0.703/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[10][0] /SD    1
+CLK(F)->CLK(R)	55.772   */22.128        */0.715         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/\ff_sync_reg[0] /D    1
+MEMCLK(R)->MEMCLK(R)	29.917   22.130/*        0.705/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[27][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.841   22.133/*        0.707/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[13][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.896   22.141/*        0.702/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[10][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.850   22.142/*        0.706/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[9][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.891   22.146/*        0.741/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[39][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.835   22.148/*        0.705/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[13][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.884   22.148/*        0.702/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[18][6] /SD    1
+CLK(F)->CLK(R)	55.864   22.150/*        0.645/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_width_reg[0] /D    1
+MEMCLK(R)->MEMCLK(R)	29.896   22.150/*        0.701/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[10][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.910   22.157/*        0.705/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[1][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.885   22.166/*        0.700/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[14][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.843   22.176/*        0.704/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[11][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.883   22.176/*        0.700/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[14][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.851   22.179/*        0.704/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[13][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.923   22.181/*        0.702/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[7][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.924   22.186/*        0.702/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[26][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.837   22.187/*        0.703/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[11][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.898   22.196/*        0.699/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[10][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.899   22.204/*        0.698/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[14][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.899   22.205/*        0.698/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[10][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.844   22.206/*        0.703/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[15][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.931   22.216/*        0.699/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[40][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.846   22.221/*        0.702/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[15][3] /SD    1
+MEMCLK(F)->MEMCLK(F)	41.701   */22.222        */1.377         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.848   22.223/*        0.702/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[15][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.874   22.223/*        0.734/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[17][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.890   22.224/*        0.698/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[14][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.846   22.230/*        0.701/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[12][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.847   22.230/*        0.701/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[11][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.896   22.234/*        0.700/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[8][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.898   22.235/*        0.700/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[14][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.850   22.241/*        0.701/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[13][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.902   22.244/*        0.696/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[10][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.849   22.247/*        0.700/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[13][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.929   22.270/*        0.698/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[9][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.848   22.271/*        0.699/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[15][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.905   22.280/*        0.695/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[40][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.919   22.280/*        0.698/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[0][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.850   22.283/*        0.730/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[23][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.903   22.286/*        0.696/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[0][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.287   */22.290        */1.325         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[23][1] /SD    1
+CLK(F)->CLK(R)	55.999   22.310/*        0.497/*         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_state_o_reg[1] /D    1
+MEMCLK(R)->MEMCLK(R)	29.905   22.313/*        0.694/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[20][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.944   22.315/*        0.693/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[22][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.896   22.315/*        0.693/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[14][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.921   22.316/*        0.694/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[35][6] /SD    1
+MEMCLK(F)->MEMCLK(F)	41.721   */22.316        */1.358         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.856   22.318/*        0.696/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[9][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.851   22.320/*        0.696/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[12][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.933   22.321/*        0.694/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[26][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.851   22.325/*        0.696/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[11][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.859   22.329/*        0.696/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[33][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.826   22.330/*        0.730/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[16][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.901   22.341/*        0.696/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[31][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.812   22.342/*        0.729/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[11][2] /SD    1
+MEMCLK(F)->MEMCLK(F)	41.735   */22.355        */1.343         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.344   */22.363        */1.293         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[23][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.932   22.369/*        0.692/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[31][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.943   22.370/*        0.690/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[22][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.335   */22.379        */1.296         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.921   22.382/*        0.692/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[0][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.931   22.383/*        0.691/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[26][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.908   22.384/*        0.691/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[37][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.925   22.386/*        0.690/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[27][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.947   22.387/*        0.689/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[22][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.854   22.388/*        0.693/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[13][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.909   22.399/*        0.721/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[21][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.927   22.403/*        0.689/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[27][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.941   22.403/*        0.689/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[40][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.867   22.405/*        0.688/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[9][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.910   22.407/*        0.689/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[27][5] /SD    1
+MEMCLK(F)->MEMCLK(F)	41.812   */22.413        */1.268         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.311   */22.414        */1.269         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[23][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.949   22.419/*        0.687/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[22][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.342   */22.424        */1.282         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[23][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.948   22.427/*        0.686/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[22][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.860   22.431/*        0.691/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[13][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.931   22.436/*        0.688/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[27][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.948   22.439/*        0.686/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[22][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.418   */22.447        */1.214         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.348   */22.449        */1.277         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[23][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.913   22.450/*        0.687/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[20][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.931   22.450/*        0.687/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[21][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.322   */22.458        */1.264         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[39][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.929   22.462/*        0.686/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[24][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.897   22.466/*        0.720/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\read_data_reg[6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.951   22.466/*        0.684/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[22][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.944   22.475/*        0.686/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[40][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.428   */22.481        */1.205         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.942   22.488/*        0.685/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[26][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.939   22.488/*        0.686/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[33][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.868   22.489/*        0.687/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[9][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.435   */22.506        */1.198         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[8] /SD    1
+MEMCLK(F)->MEMCLK(F)	41.767   */22.507        */1.314         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.944   22.508/*        0.684/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[31][5] /SD    1
+MEMCLK(R)->CLK(R)	30.673   */22.510        */0.786         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux3_bit_det_reg/D    1
+MEMCLK(R)->MEMCLK(R)	29.945   22.512/*        0.684/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[26][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.929   22.513/*        0.684/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[20][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.322   */22.515        */1.275         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[35][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.441   */22.528        */1.192         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.919   22.543/*        0.681/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[20][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.916   22.544/*        0.680/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[8][0] /SD    1
+MEMCLK(F)->MEMCLK(F)	41.803   */22.547        */1.278         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.376   */22.549        */1.246         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\read_data_reg[1] /SD    1
+MEMCLK(R)->CLK(R)	30.676   */22.555        */0.783         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux2_bit_det_reg/D    1
+MEMCLK(R)->MEMCLK(R)	29.369   */22.559        */1.243         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[16][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.329   */22.562        */1.251         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[39][5] /SD    1
+MEMCLK(F)->MEMCLK(F)	41.859   */22.564        */1.221         EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/\pcau_pc_o_reg[8] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.941   22.568/*        0.680/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[21][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.933   22.576/*        0.679/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[24][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.367   */22.578        */1.259         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[16][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.313   */22.581        */1.244         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[16][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.919   22.581/*        0.677/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[8][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.920   22.583/*        0.676/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[8][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.377   */22.589        */1.239         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\read_data_reg[2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.316   */22.598        */1.240         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[16][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.388   */22.601        */1.228         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\read_data_reg[3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.937   22.604/*        0.674/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[24][6] /SD    1
+MEMCLK(R)->CLK(R)	30.687   */22.605        */0.771         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux1_bit_det_reg/D    1
+MEMCLK(R)->MEMCLK(R)	29.937   22.608/*        0.676/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[5][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.377   */22.625        */1.219         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[32][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.324   */22.627        */1.233         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[16][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.381   */22.629        */1.231         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[16][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.945   22.632/*        0.668/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[21][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.930   22.636/*        0.667/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/serial_status_reg/SD    1
+MEMCLK(R)->MEMCLK(R)	29.369   */22.641        */1.214         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[32][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.406   */22.643        */1.225         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[7][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.944   22.645/*        0.665/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[20][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.383   */22.658        */1.217         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[37][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.389   */22.664        */1.222         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[16][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.385   */22.666        */1.212         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[32][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.949   22.672/*        0.661/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[20][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.392   */22.675        */1.203         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[32][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.386   */22.676        */1.207         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[32][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.939   22.681/*        0.658/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[19][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.402   */22.695        */1.225         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\read_data_reg[0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.401   */22.695        */1.225         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\read_data_reg[4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.391   */22.706        */1.200         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[32][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.386   */22.710        */1.200         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[32][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.386   */22.713        */1.200         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[32][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.900   22.715/*        0.655/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[9][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.952   22.728/*        0.645/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[24][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.984   22.731/*        0.648/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[34][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.431   */22.749        */1.201         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[39][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.972   22.762/*        0.643/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[1][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.404   */22.768        */1.211         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\read_data_reg[7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.912   22.773/*        0.643/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[9][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.983   22.779/*        0.641/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[2][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.420   */22.796        */1.203         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\read_data_reg[5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.699   */22.800        */0.915         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[21][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.999   22.803/*        0.632/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[36][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.969   22.805/*        0.632/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[24][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.443   */22.816        */1.192         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.993   22.824/*        0.632/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[2][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.982   22.828/*        0.631/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[24][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.991   22.831/*        0.633/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[0][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.995   22.846/*        0.630/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[2][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.438   */22.849        */1.194         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[7][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.726   */22.853        */0.905         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[17][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.010   22.853/*        0.622/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[34][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.000   22.859/*        0.624/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[2][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.706   */22.866        */0.893         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[0][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.008   22.867/*        0.621/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[0][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.003   22.868/*        0.624/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[2][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.018   22.870/*        0.619/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[36][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.686   */22.891        */0.904         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[23][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.979   22.893/*        0.611/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[38][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.440   */22.894        */1.140         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[14] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.722   */22.900        */0.894         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[1][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.025   22.903/*        0.612/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[36][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.006   22.909/*        0.613/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[21][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.987   22.916/*        0.612/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/serial_tx_tmp_reg/SD    1
+MEMCLK(R)->MEMCLK(R)	30.018   22.916/*        0.613/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[39][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.531   */22.916        */1.103         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.531   */22.916        */1.103         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[2] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.030   22.917/*        0.609/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[30][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.013   22.923/*        0.612/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[3][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.987   22.934/*        0.606/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[18][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.740   */22.937        */0.887         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[3][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.000   22.939/*        0.609/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[20][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.019   22.944/*        0.608/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[3][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.744   */22.949        */0.882         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[3][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.020   22.950/*        0.611/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[0][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.007   22.951/*        0.607/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[25][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.982   22.954/*        0.608/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[38][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.026   22.960/*        0.603/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[4][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.017   22.961/*        0.614/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[38][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.746   */22.965        */0.873         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[21][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.023   22.965/*        0.603/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[3][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.030   22.966/*        0.602/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[36][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.040   22.968/*        0.599/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[30][5] /SD    1
+CLK(R)->CLK(F)	30.520   */22.975        */0.964         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/state_reg/D    1
+MEMCLK(R)->MEMCLK(R)	29.999   22.975/*        0.596/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[35][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.770   */22.975        */0.866         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[37][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.000   22.982/*        0.596/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[19][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.026   22.982/*        0.600/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[2][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.000   22.983/*        0.596/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[19][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.016   22.987/*        0.597/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[29][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.034   22.988/*        0.597/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[36][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.776   */22.989        */0.863         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[40][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.041   22.989/*        0.595/*         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[10] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.040   22.990/*        0.597/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[36][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.027   22.992/*        0.598/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[29][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.029   22.997/*        0.597/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[3][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.747   */23.000        */0.867         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[35][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.742   */23.002        */0.858         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[20][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.028   23.003/*        0.597/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[28][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.004   23.004/*        0.592/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[19][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.762   */23.004        */0.869         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[7][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.032   23.011/*        0.594/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[31][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.036   23.011/*        0.587/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[34][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.020   23.012/*        0.592/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[24][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.032   23.018/*        0.593/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[29][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.029   23.021/*        0.592/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[25][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.776   */23.024        */0.854         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[34][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.769   */23.025        */0.861         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[40][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.759   */23.027        */0.863         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[2][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.040   23.028/*        0.586/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[30][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.035   23.032/*        0.588/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[6][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.023   23.034/*        0.590/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[1][0] /SD    1
+CLK(R)->CLK(F)	30.782   */23.035        */0.692         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_state_o_reg[0] /D    1
+MEMCLK(R)->MEMCLK(R)	29.999   23.035/*        0.592/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[38][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.999   23.038/*        0.591/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[38][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.044   23.038/*        0.587/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[36][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.023   23.038/*        0.589/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[25][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.740   */23.039        */0.845         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[18][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.033   23.044/*        0.597/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[38][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.969   23.055/*        0.587/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[9][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.747   */23.058        */0.853         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[37][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.003   23.063/*        0.586/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[38][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.035   23.064/*        0.590/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[31][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.041   23.067/*        0.582/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[5][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.042   23.073/*        0.582/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[28][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.039   23.074/*        0.580/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[5][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.033   23.076/*        0.582/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[1][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.761   */23.077        */0.864         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[39][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.784   */23.077        */0.852         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[37][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.043   23.077/*        0.582/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[28][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.045   23.078/*        0.581/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[30][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.031   23.079/*        0.581/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[29][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.039   23.079/*        0.578/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[5][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.044   23.082/*        0.581/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[28][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.044   23.083/*        0.579/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[3][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.045   23.083/*        0.580/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[30][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.045   23.083/*        0.580/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[31][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.051   23.087/*        0.579/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[7][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.053   23.091/*        0.578/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[6][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.050   23.093/*        0.578/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[31][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.050   23.098/*        0.577/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[3][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.022   23.100/*        0.573/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[19][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.050   23.104/*        0.574/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[4][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.058   23.106/*        0.574/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[6][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.050   23.106/*        0.573/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[4][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.049   23.111/*        0.575/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[25][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.050   23.115/*        0.574/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[28][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.049   23.119/*        0.570/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[5][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.055   23.121/*        0.572/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[31][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.026   23.122/*        0.568/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[19][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.051   23.126/*        0.571/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[5][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.053   23.127/*        0.569/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[5][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.043   23.129/*        0.571/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[1][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.056   23.130/*        0.567/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[4][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.054   23.139/*        0.568/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[2][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.071   23.139/*        0.565/*         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[11] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.738   */23.140        */0.843         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[13] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.050   23.141/*        0.568/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[25][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.057   23.149/*        0.567/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[25][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.060   23.153/*        0.564/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[4][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.060   23.155/*        0.564/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[6][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.057   23.155/*        0.567/*         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[28][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.783   */23.159        */0.846         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[7][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.776   */23.161        */0.848         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[29][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.765   */23.165        */0.847         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[1][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	30.077   23.166/*        0.560/*         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[12] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.790   */23.168        */0.841         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[6][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.762   */23.176        */0.835         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[19][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.775   */23.183        */0.844         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[25][7] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.769   */23.184        */0.843         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[29][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.787   */23.188        */0.836         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[6][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.782   */23.191        */0.842         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[25][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.771   */23.191        */0.842         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[1][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.788   */23.195        */0.835         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[5][5] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.813   */23.196        */0.820         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[9] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.786   */23.200        */0.839         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[29][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.791   */23.205        */0.837         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[7][6] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.791   */23.206        */0.833         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[4][4] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.786   */23.213        */0.838         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[28][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.788   */23.222        */0.836         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[29][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.794   */23.224        */0.829         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[4][3] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.792   */23.236        */0.831         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[7][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.804   */23.241        */0.827         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[6][0] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.799   */23.251        */0.824         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[4][2] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.809   */23.263        */0.822         EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/\sfr_reg[6][1] /SD    1
+MEMCLK(R)->MEMCLK(R)	29.758   */23.271        */0.822         EMC_TOP_INSTANCE/CORE_INSTANCE/\alu_fsm_result_reg[15] /SD    1
+CLK(R)->CLK(R)	56.008   46.057/*        0.449/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/\counter_reg[2] /D    1
+CLK(R)->CLK(R)	55.696   */46.063        */0.762         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/\counter_reg[3] /D    1
+CLK(R)->CLK(R)	55.721   */46.152        */0.739         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/serial_shift_o_reg/D    1
+CLK(R)->CLK(R)	55.981   46.213/*        0.479/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/clear_br_reg/D    1
+CLK(R)->CLK(R)	55.689   */46.468        */0.769         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/\counter_reg[0] /D    1
+CLK(R)->CLK(R)	55.696   */46.500        */0.762         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/\counter_reg[1] /D    1
+CLK(F)->CLK(F)	79.981   */46.908        */1.492         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[5] /SD    1
+CLK(F)->CLK(F)	79.957   */46.916        */1.518         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[6] /SD    1
+CLK(R)->CLK(R)	55.094   */46.920        */1.388         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op2_reg[6] /SD    1
+CLK(R)->CLK(R)	55.772   46.992/*        0.722/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/acr_inc_reg/SD    1
+CLK(F)->CLK(F)	80.050   */47.009        */1.414         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_reg[2] /SD    1
+CLK(R)->CLK(R)	55.778   47.010/*        0.726/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/\state_tx_reg[1] /SD    1
+CLK(F)->CLK(F)	80.317   */47.046        */1.166         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/reset_reg/D    1
+CLK(F)->CLK(F)	80.041   */47.048        */1.434         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_state_o_reg[0] /SD    1
+CLK(F)->CLK(F)	80.023   */47.052        */1.449         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[7] /SD    1
+CLK(R)->CLK(R)	55.778   47.052/*        0.726/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/\state_tx_reg[3] /SD    1
+CLK(F)->CLK(F)	80.276   */47.062        */1.178         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\vect_register_reg[0] /SD    1
+CLK(R)->CLK(R)	55.147   */47.102        */1.324         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op2_reg[7] /SD    1
+CLK(R)->CLK(R)	55.732   47.108/*        0.726/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux1_bit_det_reg/SD    1
+CLK(R)->CLK(R)	55.736   47.119/*        0.722/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_counter_reg[2] /SD    1
+CLK(R)->CLK(R)	55.131   */47.128        */1.313         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op2_reg[3] /SD    1
+CLK(R)->CLK(R)	55.741   47.158/*        0.717/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_start_shifter_reg_o_reg/SD    1
+CLK(R)->CLK(R)	55.113   */47.169        */1.371         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_2_reg[6] /SD    1
+CLK(F)->CLK(F)	80.100   */47.174        */1.366         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_reg[1] /SD    1
+CLK(F)->CLK(F)	80.090   */47.179        */1.363         EMC_TOP_INSTANCE/TIMERS_INSTANCE/reset_aux_reg/SD    1
+CLK(R)->CLK(R)	55.165   */47.188        */1.318         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op2_reg[2] /SD    1
+CLK(R)->CLK(R)	55.174   */47.191        */1.309         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op2_reg[4] /SD    1
+CLK(R)->CLK(R)	55.753   47.192/*        0.715/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/\state_rx_reg[3] /SD    1
+CLK(F)->CLK(F)	80.086   */47.213        */1.349         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_reg[6] /SD    1
+CLK(R)->CLK(R)	55.199   */47.284        */1.306         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_2_reg[1] /SD    1
+CLK(F)->CLK(F)	80.133   */47.286        */1.333         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_reg[5] /SD    1
+CLK(F)->CLK(F)	80.124   */47.297        */1.344         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_reg[7] /SD    1
+CLK(R)->CLK(R)	55.755   47.299/*        0.709/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/\state_rx_reg[1] /SD    1
+CLK(F)->CLK(F)	80.131   */47.313        */1.331         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_reg[0] /SD    1
+CLK(R)->CLK(R)	55.745   47.321/*        0.710/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_p3en_0_o_reg/SD    1
+CLK(R)->CLK(R)	55.219   */47.323        */1.262         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op2_reg[5] /SD    1
+CLK(F)->CLK(F)	80.140   */47.323        */1.326         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_reg[3] /SD    1
+CLK(R)->CLK(R)	55.757   47.329/*        0.710/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/aux2_tran_det_reg/SD    1
+CLK(R)->CLK(R)	55.215   */47.329        */1.268         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op2_reg[1] /SD    1
+CLK(R)->CLK(R)	55.783   47.340/*        0.710/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[4] /SD    1
+CLK(R)->CLK(R)	55.676   */47.341        */0.784         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/serial_sample_detected_o_reg/D    1
+CLK(R)->CLK(R)	55.797   47.345/*        0.707/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/\state_tx_reg[2] /SD    1
+CLK(R)->CLK(R)	55.754   47.420/*        0.703/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[10] /SD    1
+CLK(F)->CLK(F)	80.190   */47.426        */1.291         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[4] /SD    1
+CLK(F)->CLK(F)	80.360   */47.433        */1.091         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[1] /SD    1
+CLK(F)->CLK(F)	80.177   */47.435        */1.304         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[1] /SD    1
+CLK(F)->CLK(F)	80.383   */47.436        */1.100         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\lo_ok_reg[0][0] /SD    1
+CLK(F)->CLK(F)	80.158   */47.437        */1.318         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[2] /SD    1
+CLK(R)->CLK(R)	55.132   */47.445        */1.339         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrh_o_reg[5] /SD    1
+CLK(F)->CLK(F)	80.202   */47.454        */1.273         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[3] /SD    1
+CLK(F)->CLK(F)	80.194   */47.456        */1.272         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_reg[4] /SD    1
+CLK(F)->CLK(F)	80.364   */47.458        */1.095         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[0] /SD    1
+CLK(R)->CLK(R)	55.189   */47.477        */1.296         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_opcode_reg[0] /SD    1
+CLK(R)->CLK(R)	55.168   */47.482        */1.276         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_2_reg[3] /SD    1
+CLK(F)->CLK(F)	80.401   */47.482        */1.082         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_reg[1][0] /SD    1
+CLK(R)->CLK(R)	55.772   47.490/*        0.699/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrh_o_reg[4] /SD    1
+CLK(R)->CLK(R)	55.763   47.492/*        0.701/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\state_reg[1] /SD    1
+CLK(R)->CLK(R)	55.769   47.501/*        0.699/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrl_o_reg[4] /SD    1
+CLK(R)->CLK(R)	55.775   47.506/*        0.700/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrl_o_reg[6] /SD    1
+CLK(F)->CLK(F)	80.365   */47.509        */1.084         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[6] /SD    1
+CLK(F)->CLK(F)	80.372   */47.509        */1.083         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\hi_ok_reg[0][0] /SD    1
+CLK(F)->CLK(F)	80.382   */47.511        */1.076         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[6] /SD    1
+CLK(R)->CLK(R)	55.803   47.513/*        0.700/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/\state_rx_reg[2] /SD    1
+CLK(F)->CLK(F)	80.357   */47.516        */1.077         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[4] /SD    1
+CLK(R)->CLK(R)	55.757   47.517/*        0.700/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[11] /SD    1
+CLK(F)->CLK(F)	80.383   */47.517        */1.074         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[3] /SD    1
+CLK(R)->CLK(R)	55.797   47.520/*        0.701/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/\contador_reg[6] /SD    1
+CLK(F)->CLK(F)	80.378   */47.524        */1.078         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[3] /SD    1
+CLK(R)->CLK(R)	55.769   47.536/*        0.698/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrm_o_reg[6] /SD    1
+CLK(R)->CLK(R)	55.248   */47.537        */1.232         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_opcode_reg[6] /SD    1
+CLK(R)->CLK(R)	55.755   47.539/*        0.698/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrl_o_reg[2] /SD    1
+CLK(F)->CLK(F)	80.389   */47.542        */1.073         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[7] /SD    1
+CLK(R)->CLK(R)	55.224   */47.545        */1.245         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_2_reg[2] /SD    1
+CLK(R)->CLK(R)	55.771   47.551/*        0.698/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/aux2_tran_det_reg/SD    1
+CLK(R)->CLK(R)	55.795   47.551/*        0.699/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[2] /SD    1
+CLK(F)->CLK(F)	80.387   */47.553        */1.066         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\lo_ok_reg[1][0] /SD    1
+CLK(F)->CLK(F)	80.372   */47.558        */1.074         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[4] /SD    1
+CLK(R)->CLK(R)	55.768   47.564/*        0.697/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrm_o_reg[4] /SD    1
+CLK(R)->CLK(R)	55.761   47.569/*        0.697/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[14] /SD    1
+CLK(R)->CLK(R)	55.810   47.569/*        0.695/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrh_o_reg[3] /SD    1
+CLK(F)->CLK(F)	80.386   */47.571        */1.069         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[4] /SD    1
+CLK(R)->CLK(R)	55.766   47.572/*        0.697/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[15] /SD    1
+CLK(F)->CLK(F)	80.377   */47.574        */1.069         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[3] /SD    1
+CLK(F)->CLK(F)	80.382   */47.575        */1.071         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[1] /SD    1
+CLK(R)->CLK(R)	55.248   */47.577        */1.237         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_2_reg[7] /SD    1
+CLK(F)->CLK(F)	80.404   */47.580        */1.068         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[2] /SD    1
+CLK(F)->CLK(F)	80.397   */47.586        */1.060         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_reg[1][1] /SD    1
+CLK(F)->CLK(F)	80.391   */47.588        */1.065         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[1] /SD    1
+CLK(F)->CLK(F)	80.402   */47.595        */1.069         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[5] /SD    1
+CLK(R)->CLK(R)	55.204   */47.598        */1.275         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_opcode_reg[1] /SD    1
+CLK(R)->CLK(R)	55.811   47.601/*        0.693/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrh_o_reg[2] /SD    1
+CLK(F)->CLK(F)	80.397   */47.601        */1.063         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[2] /SD    1
+CLK(R)->CLK(R)	55.758   47.605/*        0.686/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[17] /SD    1
+CLK(F)->CLK(F)	80.389   */47.615        */1.062         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[5] /SD    1
+CLK(R)->CLK(R)	55.257   */47.617        */1.263         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_2_reg[5] /SD    1
+CLK(R)->CLK(R)	55.770   47.618/*        0.692/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrm_o_reg[5] /SD    1
+CLK(F)->CLK(F)	80.392   */47.621        */1.059         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[2] /SD    1
+CLK(R)->CLK(R)	55.774   47.624/*        0.693/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[1] /SD    1
+CLK(F)->CLK(F)	80.397   */47.627        */1.058         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[5] /SD    1
+CLK(F)->CLK(F)	80.397   */47.631        */1.057         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_reg[6] /SD    1
+CLK(R)->CLK(R)	55.809   47.632/*        0.694/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_clear_count_o_reg/SD    1
+CLK(R)->CLK(R)	55.246   */47.633        */1.217         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_state_o_reg[2] /SD    1
+CLK(R)->CLK(R)	55.253   */47.639        */1.224         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/lcall_hardware_flag_reg/SD    1
+CLK(R)->CLK(R)	55.772   47.640/*        0.690/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[15] /SD    1
+CLK(F)->CLK(F)	80.426   */47.641        */1.057         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/reset_reg/SD    1
+CLK(R)->CLK(R)	55.769   47.642/*        0.689/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_counter_reg[1] /SD    1
+CLK(R)->CLK(R)	55.798   47.642/*        0.694/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[6] /SD    1
+CLK(F)->CLK(F)	80.435   */47.643        */1.049         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/state_reg/SD    1
+CLK(R)->CLK(R)	55.228   */47.644        */1.252         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_opcode_reg[7] /SD    1
+CLK(R)->CLK(R)	55.779   47.649/*        0.689/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_p3en_1_o_reg/SD    1
+CLK(F)->CLK(F)	80.399   */47.651        */1.054         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\hi_ok_reg[1][0] /SD    1
+CLK(F)->CLK(F)	80.436   */47.653        */1.048         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_reg[0][1] /SD    1
+CLK(R)->CLK(R)	55.809   47.653/*        0.693/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrl_o_reg[1] /SD    1
+CLK(R)->CLK(R)	55.778   47.655/*        0.684/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[22] /SD    1
+CLK(R)->CLK(R)	55.779   47.657/*        0.678/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[7] /SD    1
+CLK(R)->CLK(R)	55.187   */47.657        */1.276         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_int_na_o_reg/SD    1
+CLK(R)->CLK(R)	55.227   */47.658        */1.253         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_opcode_reg[3] /SD    1
+CLK(R)->CLK(R)	55.785   47.663/*        0.689/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[20] /SD    1
+CLK(R)->CLK(R)	55.780   47.664/*        0.685/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrm_o_reg[1] /SD    1
+CLK(F)->CLK(F)	80.394   */47.665        */1.051         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\ier_ctr_reg[0] /SD    1
+CLK(R)->CLK(R)	55.218   */47.665        */1.280         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/timers_timer2_pdfoutput_o_reg/SD    1
+CLK(F)->CLK(F)	80.405   */47.667        */1.049         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\vect_register_reg[2] /SD    1
+CLK(F)->CLK(F)	80.407   */47.674        */1.047         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\vect_register_reg[1] /SD    1
+CLK(R)->CLK(R)	55.819   47.675/*        0.678/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrh_o_reg[7] /SD    1
+CLK(R)->CLK(R)	55.238   */47.689        */1.240         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_opcode_reg[2] /SD    1
+CLK(R)->CLK(R)	55.792   47.690/*        0.672/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[3] /SD    1
+CLK(R)->CLK(R)	55.783   47.690/*        0.679/*         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_out_reg_reg[1] /SD    1
+CLK(R)->CLK(R)	55.211   */47.690        */1.270         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_int_rdy_o_reg/SD    1
+CLK(R)->CLK(R)	55.820   47.701/*        0.670/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[9] /SD    1
+CLK(R)->CLK(R)	55.285   */47.702        */1.211         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_state_o_reg[1] /SD    1
+CLK(R)->CLK(R)	55.792   47.708/*        0.668/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[5] /SD    1
+CLK(R)->CLK(R)	55.795   47.709/*        0.667/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrm_o_reg[2] /SD    1
+CLK(R)->CLK(R)	55.264   */47.713        */1.211         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op2_reg[0] /SD    1
+CLK(R)->CLK(R)	55.793   47.721/*        0.672/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\data_received_reg[9] /SD    1
+CLK(R)->CLK(R)	55.799   47.730/*        0.671/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrl_o_reg[3] /SD    1
+CLK(R)->CLK(R)	55.792   47.737/*        0.670/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\state_reg[0] /SD    1
+CLK(R)->CLK(R)	55.808   47.740/*        0.667/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrh_o_reg[6] /SD    1
+CLK(R)->CLK(R)	55.244   */47.743        */1.200         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_2_reg[4] /SD    1
+CLK(R)->CLK(R)	55.790   47.743/*        0.668/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/flag_end_bit_reg/SD    1
+CLK(R)->CLK(R)	55.831   47.743/*        0.665/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrm_o_reg[0] /SD    1
+CLK(R)->CLK(R)	55.804   47.758/*        0.665/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_tcon2_tf2_o_reg/SD    1
+CLK(R)->CLK(R)	55.279   */47.758        */1.201         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_opcode_reg[5] /SD    1
+CLK(R)->CLK(R)	55.827   47.763/*        0.669/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrl_o_reg[5] /SD    1
+CLK(R)->CLK(R)	55.782   47.766/*        0.659/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_trans_counter_reg[0] /SD    1
+CLK(R)->CLK(R)	55.910   47.767/*        0.663/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tm1_o_reg[4] /SD    1
+CLK(R)->CLK(R)	55.788   47.768/*        0.661/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/\contador_reg[0] /SD    1
+CLK(R)->CLK(R)	55.838   47.768/*        0.673/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[8] /SD    1
+CLK(R)->CLK(R)	55.797   47.768/*        0.651/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/timers_timer2_pdcf_clkdiv_o_reg/SD    1
+CLK(R)->CLK(R)	55.815   47.778/*        0.660/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrl_o_reg[0] /SD    1
+CLK(R)->CLK(R)	55.803   47.778/*        0.653/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[1] /SD    1
+CLK(F)->CLK(F)	80.186   */47.781        */1.292         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op1_reg[0] /SD    1
+CLK(R)->CLK(R)	55.805   47.795/*        0.659/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_counter_reg[4] /SD    1
+CLK(R)->CLK(R)	55.880   47.796/*        0.579/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux_reset2_reg/D    1
+CLK(R)->CLK(R)	55.801   47.798/*        0.657/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[23] /SD    1
+CLK(R)->CLK(R)	55.806   47.799/*        0.656/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrm_o_reg[7] /SD    1
+CLK(R)->CLK(R)	55.802   47.799/*        0.654/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[16] /SD    1
+CLK(R)->CLK(R)	55.830   47.799/*        0.664/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[0] /SD    1
+CLK(R)->CLK(R)	55.837   47.813/*        0.658/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrm_o_reg[3] /SD    1
+CLK(R)->CLK(R)	55.821   47.814/*        0.654/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[21] /SD    1
+CLK(R)->CLK(R)	55.838   47.818/*        0.657/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_trans_counter_reg[2] /SD    1
+CLK(R)->CLK(R)	55.803   47.818/*        0.639/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_width_reg[2] /SD    1
+CLK(R)->CLK(R)	55.816   47.829/*        0.650/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[11] /SD    1
+CLK(R)->CLK(R)	55.818   47.830/*        0.650/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/do_first_shift_flag_reg/SD    1
+CLK(R)->CLK(R)	55.847   47.834/*        0.649/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_trans_counter_reg[3] /SD    1
+CLK(R)->CLK(R)	55.832   47.835/*        0.648/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/\data_to_transmit_reg[8] /SD    1
+CLK(R)->CLK(R)	55.217   */47.835        */1.243         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_width_reg[5] /SD    1
+CLK(R)->CLK(R)	55.830   47.838/*        0.647/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/\data_to_transmit_reg[7] /SD    1
+CLK(R)->CLK(R)	55.813   47.840/*        0.649/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[23] /SD    1
+CLK(R)->CLK(R)	55.821   47.843/*        0.648/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/serial_transition_detected_o_reg/SD    1
+CLK(R)->CLK(R)	55.810   47.843/*        0.648/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\data_received_reg[2] /SD    1
+CLK(R)->CLK(R)	55.805   47.845/*        0.644/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/\contador_reg[4] /SD    1
+CLK(R)->CLK(R)	55.815   47.845/*        0.648/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[4] /SD    1
+CLK(R)->CLK(R)	55.813   47.847/*        0.648/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[6] /SD    1
+CLK(R)->CLK(R)	55.840   47.850/*        0.642/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_trans_counter_reg[4] /SD    1
+CLK(R)->CLK(R)	55.821   47.850/*        0.646/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\data_received_reg[4] /SD    1
+CLK(R)->CLK(R)	55.827   47.855/*        0.644/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrl_o_reg[7] /SD    1
+CLK(R)->CLK(R)	55.853   47.859/*        0.643/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_width_reg[0] /SD    1
+CLK(R)->CLK(R)	55.826   47.859/*        0.637/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[0] /SD    1
+CLK(R)->CLK(R)	55.820   47.860/*        0.637/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[12] /SD    1
+CLK(R)->CLK(R)	55.817   47.860/*        0.646/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[14] /SD    1
+CLK(R)->CLK(R)	55.865   47.863/*        0.645/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_width_reg[1] /SD    1
+CLK(R)->CLK(R)	55.814   47.865/*        0.635/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[9] /SD    1
+CLK(R)->CLK(R)	55.841   47.868/*        0.637/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/\pdf_2sample_reg[1] /SD    1
+CLK(R)->CLK(R)	55.901   47.868/*        0.657/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tl0_o_reg[5] /SD    1
+CLK(R)->CLK(R)	55.847   47.869/*        0.646/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[17] /SD    1
+CLK(R)->CLK(R)	55.215   */47.871        */1.244         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_opcode_reg[4] /SD    1
+CLK(R)->CLK(R)	55.521   */47.876        */0.939         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_out_reg_reg[0] /SD    1
+CLK(R)->CLK(R)	55.818   47.885/*        0.640/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_counter_reg[0] /SD    1
+CLK(R)->CLK(R)	55.820   47.886/*        0.637/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[3] /SD    1
+CLK(R)->CLK(R)	55.820   47.887/*        0.639/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/\data_to_transmit_reg[0] /SD    1
+CLK(R)->CLK(R)	55.826   47.891/*        0.638/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_counter_reg[3] /SD    1
+CLK(R)->CLK(R)	55.845   47.897/*        0.635/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/\data_to_transmit_reg[4] /SD    1
+CLK(R)->CLK(R)	55.827   47.898/*        0.638/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_end_bit_o_reg/SD    1
+CLK(R)->CLK(R)	55.816   47.900/*        0.642/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/\counter_reg[3] /SD    1
+CLK(R)->CLK(R)	55.824   47.900/*        0.633/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\data_received_reg[8] /SD    1
+CLK(R)->CLK(R)	55.831   47.905/*        0.640/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/\ff_sync_reg[1] /SD    1
+CLK(R)->CLK(R)	55.836   47.913/*        0.634/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[5] /SD    1
+CLK(R)->CLK(R)	55.822   47.922/*        0.634/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[19] /SD    1
+CLK(R)->CLK(R)	55.837   47.925/*        0.632/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\timers_sfr_acrh_o_reg[0] /SD    1
+CLK(R)->CLK(R)	55.835   47.934/*        0.634/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/\contador_reg[1] /SD    1
+CLK(R)->CLK(R)	55.864   47.937/*        0.633/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_shift_input_shift_reg_o_reg/SD    1
+CLK(F)->CLK(F)	80.465   */47.939        */1.018         EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/\flag_intx_reg[0][0] /SD    1
+CLK(R)->CLK(R)	55.865   47.940/*        0.633/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/\contador_reg[3] /SD    1
+CLK(R)->CLK(R)	55.834   47.943/*        0.625/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_period_reg[18] /SD    1
+CLK(R)->CLK(R)	55.830   47.943/*        0.627/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_send_o_reg/SD    1
+CLK(R)->CLK(R)	55.840   47.946/*        0.627/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_scon0_ri_o_reg/SD    1
+CLK(R)->CLK(R)	55.825   47.949/*        0.632/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/\counter_reg[2] /SD    1
+CLK(R)->CLK(R)	55.828   47.951/*        0.619/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/\pdf_2sample_reg[2] /SD    1
+CLK(R)->CLK(R)	55.840   47.953/*        0.625/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\serial_sbuf_rx_o_reg[0] /SD    1
+CLK(R)->CLK(R)	55.832   47.954/*        0.626/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux_tran_det_reg/SD    1
+CLK(R)->CLK(R)	55.833   47.956/*        0.625/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_start_idle_o_reg/SD    1
+CLK(R)->CLK(R)	55.839   47.957/*        0.625/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[2] /SD    1
+CLK(R)->CLK(R)	55.857   47.959/*        0.624/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/\data_to_transmit_reg[5] /SD    1
+CLK(R)->CLK(R)	55.845   47.964/*        0.623/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\data_received_reg[6] /SD    1
+CLK(R)->CLK(R)	55.846   47.966/*        0.622/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/\data_to_transmit_reg[2] /SD    1
+CLK(R)->CLK(R)	55.842   47.970/*        0.622/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_width_reg[3] /SD    1
+CLK(R)->CLK(R)	55.849   47.976/*        0.618/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\data_received_reg[3] /SD    1
+CLK(R)->CLK(R)	55.881   47.978/*        0.618/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_start_input_shift_reg_o_reg/SD    1
+CLK(R)->CLK(R)	55.829   47.984/*        0.619/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/q_flop_reg/SD    1
+CLK(R)->CLK(R)	55.847   47.985/*        0.621/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/\state_tx_reg[0] /SD    1
+CLK(R)->CLK(R)	55.847   47.989/*        0.618/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[12] /SD    1
+CLK(R)->CLK(R)	55.836   47.991/*        0.621/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/clear_reg/SD    1
+CLK(R)->CLK(R)	55.863   47.993/*        0.616/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/\data_to_transmit_reg[9] /SD    1
+CLK(R)->CLK(R)	55.824   48.000/*        0.617/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_width_reg[1] /SD    1
+CLK(R)->CLK(R)	55.853   48.002/*        0.615/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/\data_to_transmit_reg[1] /SD    1
+CLK(R)->CLK(R)	55.853   48.006/*        0.614/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\data_received_reg[0] /SD    1
+CLK(R)->CLK(R)	55.545   */48.006        */0.919         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_br_trans_o_reg/SD    1
+CLK(R)->CLK(R)	55.857   48.006/*        0.615/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[10] /SD    1
+CLK(R)->CLK(R)	55.854   48.008/*        0.614/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\data_received_reg[7] /SD    1
+CLK(R)->CLK(R)	55.857   48.008/*        0.614/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_trans_counter_reg[1] /SD    1
+CLK(R)->CLK(R)	55.855   48.009/*        0.614/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[19] /SD    1
+CLK(R)->CLK(R)	55.838   48.012/*        0.620/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/\counter_reg[1] /SD    1
+CLK(R)->CLK(R)	55.846   48.012/*        0.611/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_data_en_o_reg/SD    1
+CLK(R)->CLK(R)	55.862   48.018/*        0.605/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/\contador_reg[5] /SD    1
+CLK(R)->CLK(R)	55.952   48.018/*        0.611/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tl0_o_reg[1] /SD    1
+CLK(R)->CLK(R)	55.846   48.022/*        0.612/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[22] /SD    1
+CLK(R)->CLK(R)	55.876   48.032/*        0.612/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[8] /SD    1
+CLK(R)->CLK(R)	55.864   48.035/*        0.609/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[20] /SD    1
+CLK(R)->CLK(R)	55.860   48.036/*        0.610/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[16] /SD    1
+CLK(R)->CLK(R)	55.868   48.039/*        0.602/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_counter_reg[3] /SD    1
+CLK(R)->CLK(R)	55.882   48.051/*        0.611/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[13] /SD    1
+CLK(F)->CLK(F)	80.480   */48.055        */0.991         EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/\fsm_op_aux_1_2_reg[0] /SD    1
+CLK(R)->CLK(R)	55.879   48.074/*        0.592/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_counter_reg[4] /SD    1
+CLK(R)->CLK(R)	55.895   48.081/*        0.612/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_trans_counter_reg[1] /SD    1
+CLK(R)->CLK(R)	55.882   48.083/*        0.598/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/\data_to_transmit_reg[6] /SD    1
+CLK(R)->CLK(R)	55.885   48.083/*        0.610/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_counter_reg[0] /SD    1
+CLK(R)->CLK(R)	55.865   48.087/*        0.596/*         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_width_reg[4] /SD    1
+CLK(R)->CLK(R)	55.542   */48.094        */0.917         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/serial_shift_o_reg/SD    1
+CLK(R)->CLK(R)	55.570   */48.096        */0.897         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_load_sbuf_o_reg/SD    1
+CLK(R)->CLK(R)	55.883   48.099/*        0.597/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/\data_to_transmit_reg[3] /SD    1
+CLK(R)->CLK(R)	55.860   48.105/*        0.598/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux_reset1_reg/SD    1
+CLK(R)->CLK(R)	55.876   48.111/*        0.597/*         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[21] /SD    1
+CLK(R)->CLK(R)	55.546   */48.121        */0.914         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/clear_br_reg/SD    1
+CLK(R)->CLK(R)	55.542   */48.123        */0.916         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/\counter_reg[0] /SD    1
+CLK(R)->CLK(R)	55.880   48.128/*        0.590/*         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\serial_sbuf_rx_o_reg[1] /SD    1
+CLK(R)->CLK(R)	55.685   */48.129        */0.892         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tm1_o_reg[6] /SD    1
+CLK(R)->CLK(R)	55.694   */48.132        */0.892         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_th1_o_reg[6] /SD    1
+CLK(R)->CLK(R)	55.573   */48.143        */0.899         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[7] /SD    1
+CLK(R)->CLK(R)	55.670   */48.145        */0.893         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_th0_o_reg[1] /SD    1
+CLK(R)->CLK(R)	55.657   */48.147        */0.893         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tm0_o_reg[1] /SD    1
+CLK(R)->CLK(R)	55.567   */48.150        */0.900         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux2_tran_det_reg/SD    1
+CLK(R)->CLK(R)	55.610   */48.151        */0.889         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/\state_rx_reg[0] /SD    1
+CLK(R)->CLK(R)	55.562   */48.153        */0.895         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_scon1_ti_o_reg/SD    1
+CLK(R)->CLK(R)	55.578   */48.157        */0.891         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\serial_sbuf_rx_o_reg[2] /SD    1
+CLK(R)->CLK(R)	55.677   */48.159        */0.889         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_th0_o_reg[3] /SD    1
+CLK(R)->CLK(R)	55.576   */48.165        */0.891         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\data_received_reg[5] /SD    1
+CLK(R)->CLK(R)	55.699   */48.167        */0.885         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tl1_o_reg[0] /SD    1
+CLK(R)->CLK(R)	55.600   */48.168        */0.895         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_counter_reg[1] /SD    1
+CLK(R)->CLK(R)	55.676   */48.171        */0.888         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tl0_o_reg[2] /SD    1
+CLK(R)->CLK(R)	55.573   */48.171        */0.897         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/\angle_clk_reg[18] /SD    1
+CLK(R)->CLK(R)	55.567   */48.173        */0.891         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_stop_bit_gen_o_reg/SD    1
+CLK(R)->CLK(R)	55.576   */48.174        */0.891         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_receive_o_reg/SD    1
+CLK(R)->CLK(R)	55.674   */48.181        */0.889         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tm0_o_reg[6] /SD    1
+CLK(R)->CLK(R)	55.674   */48.183        */0.884         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tl0_o_reg[6] /SD    1
+CLK(R)->CLK(R)	55.686   */48.183        */0.885         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_th0_o_reg[5] /SD    1
+CLK(R)->CLK(R)	55.661   */48.185        */0.885         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tm0_o_reg[4] /SD    1
+CLK(R)->CLK(R)	55.681   */48.187        */0.882         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_th0_o_reg[7] /SD    1
+CLK(R)->CLK(R)	55.581   */48.187        */0.887         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/br_detect1_reg/SD    1
+CLK(R)->CLK(R)	55.699   */48.194        */0.880         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tl1_o_reg[4] /SD    1
+CLK(R)->CLK(R)	55.557   */48.194        */0.902         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux2_bit_det_reg/SD    1
+CLK(R)->CLK(R)	55.702   */48.195        */0.881         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_th1_o_reg[0] /SD    1
+CLK(R)->CLK(R)	55.681   */48.195        */0.883         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tl0_o_reg[0] /SD    1
+CLK(R)->CLK(R)	55.684   */48.197        */0.882         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_th0_o_reg[4] /SD    1
+CLK(R)->CLK(R)	55.615   */48.201        */0.880         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_width_reg[2] /SD    1
+CLK(R)->CLK(R)	55.697   */48.202        */0.879         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tl1_o_reg[7] /SD    1
+CLK(R)->CLK(R)	55.681   */48.203        */0.881         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tl0_o_reg[3] /SD    1
+CLK(R)->CLK(R)	55.709   */48.206        */0.877         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_th1_o_reg[7] /SD    1
+CLK(R)->CLK(R)	55.598   */48.207        */0.875         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\serial_sbuf_rx_o_reg[3] /SD    1
+CLK(R)->CLK(R)	55.574   */48.211        */0.883         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_p3en_0_o_reg/SD    1
+CLK(R)->CLK(R)	55.699   */48.211        */0.877         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tm1_o_reg[5] /SD    1
+CLK(R)->CLK(R)	55.705   */48.215        */0.876         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tl1_o_reg[3] /SD    1
+CLK(R)->CLK(R)	55.685   */48.216        */0.878         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tm0_o_reg[7] /SD    1
+CLK(R)->CLK(R)	55.563   */48.218        */0.897         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/serial_sample_detected_o_reg/SD    1
+CLK(R)->CLK(R)	55.700   */48.218        */0.876         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tm1_o_reg[1] /SD    1
+CLK(R)->CLK(R)	55.702   */48.219        */0.876         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tl1_o_reg[6] /SD    1
+CLK(R)->CLK(R)	55.711   */48.220        */0.875         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_th1_o_reg[2] /SD    1
+CLK(R)->CLK(R)	55.568   */48.220        */0.892         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux3_bit_det_reg/SD    1
+CLK(R)->CLK(R)	55.700   */48.220        */0.876         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tm1_o_reg[3] /SD    1
+CLK(R)->CLK(R)	55.712   */48.222        */0.874         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_th1_o_reg[4] /SD    1
+CLK(R)->CLK(R)	55.701   */48.223        */0.875         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tm1_o_reg[0] /SD    1
+CLK(R)->CLK(R)	55.596   */48.223        */0.878         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\serial_sbuf_rx_o_reg[5] /SD    1
+CLK(R)->CLK(R)	55.668   */48.228        */0.878         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tm0_o_reg[3] /SD    1
+CLK(R)->CLK(R)	55.713   */48.230        */0.873         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_th1_o_reg[5] /SD    1
+CLK(R)->CLK(R)	55.711   */48.230        */0.873         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tm1_o_reg[7] /SD    1
+CLK(R)->CLK(R)	55.578   */48.231        */0.879         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/aux_tran_det_reg/SD    1
+CLK(R)->CLK(R)	55.668   */48.232        */0.874         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tm0_o_reg[2] /SD    1
+CLK(R)->CLK(R)	55.688   */48.237        */0.875         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_th0_o_reg[0] /SD    1
+CLK(R)->CLK(R)	55.614   */48.237        */0.881         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_trans_counter_reg[0] /SD    1
+CLK(R)->CLK(R)	55.580   */48.239        */0.878         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/serial_data_tx_o_reg/SD    1
+CLK(R)->CLK(R)	55.599   */48.239        */0.875         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\serial_sbuf_rx_o_reg[4] /SD    1
+CLK(R)->CLK(R)	55.599   */48.240        */0.875         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\serial_sbuf_rx_o_reg[6] /SD    1
+CLK(R)->CLK(R)	55.704   */48.241        */0.871         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tm1_o_reg[2] /SD    1
+CLK(R)->CLK(R)	55.591   */48.245        */0.877         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_shift_o_reg/SD    1
+CLK(R)->CLK(R)	55.625   */48.245        */0.878         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/\serial_sbuf_rx_o_reg[7] /SD    1
+CLK(R)->CLK(R)	55.716   */48.249        */0.869         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_th1_o_reg[3] /SD    1
+CLK(R)->CLK(R)	55.717   */48.253        */0.868         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_th1_o_reg[1] /SD    1
+CLK(R)->CLK(R)	55.603   */48.257        */0.871         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_scon2_rb8_o_reg/SD    1
+CLK(R)->CLK(R)	55.711   */48.260        */0.868         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tl1_o_reg[5] /SD    1
+CLK(R)->CLK(R)	55.715   */48.262        */0.867         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tl1_o_reg[2] /SD    1
+CLK(R)->CLK(R)	55.686   */48.263        */0.869         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tl0_o_reg[7] /SD    1
+CLK(R)->CLK(R)	55.683   */48.273        */0.867         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tm0_o_reg[0] /SD    1
+CLK(R)->CLK(R)	55.694   */48.274        */0.868         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_tl0_o_reg[4] /SD    1
+CLK(R)->CLK(R)	55.614   */48.275        */0.872         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/\ff_sync_reg[0] /SD    1
+CLK(R)->CLK(R)	55.592   */48.276        */0.871         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_p3en_1_o_reg/SD    1
+CLK(R)->CLK(R)	55.630   */48.276        */0.868         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/\pdf_2sample_reg[0] /SD    1
+CLK(R)->CLK(R)	55.720   */48.283        */0.862         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/\timers_sfr_tl1_o_reg[1] /SD    1
+CLK(R)->CLK(R)	55.576   */48.287        */0.883         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux_reset2_reg/SD    1
+CLK(R)->CLK(R)	55.603   */48.292        */0.866         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/br_detect_reg/SD    1
+CLK(R)->CLK(R)	55.705   */48.297        */0.862         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_th0_o_reg[2] /SD    1
+CLK(R)->CLK(R)	55.713   */48.312        */0.858         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/\timers_sfr_th0_o_reg[6] /SD    1
+CLK(R)->CLK(R)	55.619   */48.329        */0.853         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_width_reg[3] /SD    1
+CLK(R)->CLK(R)	55.644   */48.331        */0.865         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_width_reg[0] /SD    1
+CLK(R)->CLK(R)	55.607   */48.338        */0.858         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_br_o_reg/SD    1
+CLK(R)->CLK(R)	55.602   */48.354        */0.855         EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/br_detect_reg/SD    1
+CLK(R)->CLK(R)	55.610   */48.358        */0.854         EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/\baud_rate_RS232_width_reg[4] /SD    1
+CLK(R)->CLK(R)	55.649   */48.408        */0.849         EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/pdf_out_reg/SD    1

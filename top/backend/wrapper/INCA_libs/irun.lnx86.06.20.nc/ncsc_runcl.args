@@ -1,0 +1,27 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-RUNMODE
+-q
+-stop
+link
+-NOSYSTEMCLINK
+-novic
+-noscv
+-noedg
+-asext
+.s
+-ccext
+.c
+-objext
+.o
+-cxxext
+.cpp
+-cxxext
+.cc
+-ncscrc
+/home/student/EMC08/digital_A/top/backend/wrapper/INCA_libs/irun.lnx86.06.20.nc/ncsc_run
+-log
+/home/student/EMC08/digital_A/top/backend/wrapper/INCA_libs/irun.lnx86.06.20.nc/ncsc_run.log
+-debug

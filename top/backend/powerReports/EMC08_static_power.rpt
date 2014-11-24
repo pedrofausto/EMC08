@@ -1,0 +1,125 @@
+*----------------------------------------------------------------------------------------
+*	 -  - Version  32-bit 
+*	
+*
+* 	Date & Time:	2010-Dec-09 15:10:44 (2010-Dec-09 18:10:44 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*	Design: EMC08
+*
+*	Liberty Libraries used: 
+*	        /home/student/EMC08/common_blocks/SRAM/SPRAM128X8/SPRAM128X8_slow_1_62V_125C.lib
+*	        /home/student/EMC08/common_blocks/ROM/ROM4096X8/ROM4096X8_slow_1_62V_125C.lib
+*	        /ddk/XFABC018/synopsys/xc018/MOSLP/D_CELLS_MOSLP_slow_1_62V_125C.lib
+*
+*	Power Domain used: 
+*		Rail:       VDDR 	Voltage:        3.3 
+*		Rail:        VDD 	Voltage:       1.62 
+*
+*	Switching Activity File used: 
+*	        synthesis/structural_v/emc_top_netlist.vcd
+*
+*	Power Units = 1mW
+*
+*	Time Units = 1e-09 secs 
+*
+*       reportPower -outfile powerReports/EMC08_static_power.rpt -sort total -clockNetwork all
+*
+-----------------------------------------------------------------------------------------
+
+
+Clock                           Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+MEMCLK                           0.04722           0   3.573e-06     0.04722      0.9117 
+CLK                                0.161           0   2.489e-05       0.161       3.108 
+-----------------------------------------------------------------------------------------
+Total                             0.2082           0   2.846e-05      0.2082        4.02 
+-----------------------------------------------------------------------------------------
+
+ 
+ 
+Instance Power Report for MEMCLK clock network
+
+Instance                          Toggle   Internal   Switching     Leakage       Total  Percentage    Cell
+                                           Power      Power         Power         Power  (%)           Name
+-----------------------------------------------------------------------------------------------------------
+top_clock_mem_i__L1_I0             8e+07   0.004722           0   3.573e-07    0.004722     0.09117    BUCX4
+top_clock_mem_i__L1_I1             8e+07   0.004722           0   3.573e-07    0.004722     0.09117    BUCX4
+top_clock_mem_i__L1_I2             8e+07   0.004722           0   3.573e-07    0.004722     0.09117    BUCX4
+top_clock_mem_i__L1_I3             8e+07   0.004722           0   3.573e-07    0.004722     0.09117    BUCX4
+top_clock_mem_i__L1_I4             8e+07   0.004722           0   3.573e-07    0.004722     0.09117    BUCX4
+top_clock_mem_i__L1_I5             8e+07   0.004722           0   3.573e-07    0.004722     0.09117    BUCX4
+top_clock_mem_i__L1_I6             8e+07   0.004722           0   3.573e-07    0.004722     0.09117    BUCX4
+top_clock_mem_i__L1_I7             8e+07   0.004722           0   3.573e-07    0.004722     0.09117    BUCX4
+top_clock_mem_i__L1_I8             8e+07   0.004722           0   3.573e-07    0.004722     0.09117    BUCX4
+top_clock_mem_i__L1_I9             8e+07   0.004722           0   3.573e-07    0.004722     0.09117    BUCX4
+-----------------------------------------------------------------------------------------------------------
+Total                                       0.04722           0   3.573e-06     0.04722      0.9117    
+
+ 
+ 
+Instance Power Report for CLK clock network
+
+Instance                          Toggle   Internal   Switching     Leakage       Total  Percentage    Cell
+                                           Power      Power         Power         Power  (%)           Name
+-----------------------------------------------------------------------------------------------------------
+top_clock_i__L2_I2                 4e+07    0.01056           0   1.569e-06     0.01057       0.204    INCX20
+top_clock_i__L2_I3                 4e+07    0.01056           0   1.569e-06     0.01057       0.204    INCX20
+top_clock_i__L2_I4                 4e+07    0.01056           0   1.569e-06     0.01057       0.204    INCX20
+top_clock_i__L2_I5                 4e+07    0.01056           0   1.569e-06     0.01057       0.204    INCX20
+top_clock_i__L2_I6                 4e+07    0.01056           0   1.569e-06     0.01057       0.204    INCX20
+top_clock_i__L2_I7                 4e+07    0.01056           0   1.569e-06     0.01057       0.204    INCX20
+top_clock_i__L2_I8                 4e+07    0.01056           0   1.569e-06     0.01057       0.204    INCX20
+top_clock_i__L2_I1                 4e+07    0.01056           0   1.569e-06     0.01057       0.204    INCX20
+top_clock_i__L2_I0                 4e+07    0.01056           0   1.569e-06     0.01057       0.204    INCX20
+top_clock_i__L1_I0                 4e+07    0.01056           0   1.569e-06     0.01057       0.204    INCX20
+top_clock_i__L2_I9                 4e+07    0.01056           0   1.569e-06     0.01057       0.204    INCX20
+top_clock_i__L2_I10                4e+07    0.01056           0   1.569e-06     0.01057       0.204    INCX20
+top_clock_i__L2_I11                4e+07    0.01056           0   1.569e-06     0.01057       0.204    INCX20
+top_clock_i__L2_I12                4e+07    0.01056           0   1.569e-06     0.01057       0.204    INCX20
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/n_85__L1_I0
+                               3.345e+07   0.006382           0   1.148e-06    0.006383      0.1232    BUCX16
+EMC_TOP_INSTANCE/n_145__L1_I0
+                               3.035e+07    0.00579           0   1.148e-06    0.005791      0.1118    BUCX16
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/p214748365A
+                               3.345e+07  0.0004641           0   3.121e-07   0.0004644    0.008966    MU2X0
+EMC_TOP_INSTANCE/p214748365A174
+                               3.035e+07  0.0004244           0   3.121e-07   0.0004247      0.0082    MU2X0
+-----------------------------------------------------------------------------------------------------------
+Total                                         0.161           0   2.489e-05       0.161       3.108    
+
+ 
+ 
+Master Clock Power including generated clocks
+--------------------------------------------------------------------------------
+CLK has total 18 instances
+generated clocks: 
+                       0.000161           0   2.489e-08   0.000161      3.108%
+--------------------------------------------------------------------------------
+Clock network has total 18 instances
+                       0.000161           0   2.489e-08   0.000161      3.108%
+
+ 
+ 
+Master Clock Power including generated clocks
+--------------------------------------------------------------------------------
+MEMCLK has total 10 instances
+generated clocks: 
+                      4.722e-05           0   3.573e-09  4.722e-05     0.9117%
+--------------------------------------------------------------------------------
+Clock network has total 10 instances
+                      4.722e-05           0   3.573e-09  4.722e-05     0.9117%
+
+
+-----------------------------------------------------------------------------------------
+*	Power Distribution Summary: 
+* 		Highest Average Power: EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_rom (ROM4096X8): 	    0.4554 
+* 		Highest Leakage Power: EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_rom (ROM4096X8): 	 0.0008896 
+* 		Total Cap: 	1.50873e-10 F
+* 		Total instances in design:  6943
+* 		Total instances in design with no power:    20
+* 		Total Fillers and Decap:     0
+-----------------------------------------------------------------------------------------
+

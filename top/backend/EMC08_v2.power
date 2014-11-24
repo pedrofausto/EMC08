@@ -1,0 +1,40 @@
+##############################################
+# The Power Analysis Report for VDD net      #
+##############################################
+power supply: 1.62 V
+average power(default): 1.0744e+01 mW
+    average switching power(default): 6.2369e-01 mW
+    average internal power(default): 1.0117e+01 mW
+    average leakage power(default): 2.6476e-03 mW
+    average user specified power(default): 0.0000e+00 mW
+average power by clock domain category: 
+    clock domain(MEMCLK) : 1.0066e+01 mW
+       clock tree power : 9.9550e+00 mW
+       non clock tree power : 1.1058e-01 mW
+          combinational instance power : 1.0925e-01 mW
+          sequential instance power : 1.3239e-03 mW
+    clock domain(CLK) : 6.7690e-01 mW
+       clock tree power : 6.0732e-01 mW
+       non clock tree power : 6.9578e-02 mW
+          combinational instance power : 6.9321e-02 mW
+          sequential instance power : 2.5682e-04 mW
+    unclock domain : 1.0806e-03 mW
+average power by cell category:
+    core:  1.7558e+00 mW
+    block: 8.9477e+00 mW
+    io:    4.0104e-02 mW
+average power(considered in rail analysis): 1.0678e+01 mW
+worst IR drop average analysis: 8.8961e-03 V
+  number of nodes in rail network: 93227 nodes
+worst EM:
+    "M1"  1.6166e-01 mA/u
+    "M2"  4.0625e-01 mA/u
+    "M3"  1.7561e-05 mA/u
+    "M4"  2.3934e-05 mA/u
+    "M5"  1.7205e-01 mA/u
+    "M6"  1.0505e+00 mA/u
+    "V12" 9.5570e-03 mA/cut
+    "V23" 6.8850e-03 mA/cut
+    "V34" 6.8850e-03 mA/cut
+    "V45" 6.8850e-03 mA/cut
+    "V56" 1.0286e-02 mA/cut

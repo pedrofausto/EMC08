@@ -1,0 +1,1 @@
+irun -access rwc /home/student/EMC08/digital_A/serial/design/rtl_v/serial_top.v -gui tb_serial_final.v -timescale 1ns/10ps &

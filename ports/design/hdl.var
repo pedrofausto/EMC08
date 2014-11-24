@@ -1,0 +1,14 @@
+# Centro de Tecnologia da Informacao Renato Archer
+# Centro de Treinamento 2
+# Digital A
+# Project: EMC08
+# Module: Ports
+# Script version: 0.1
+# Script owner: Pedro Fausto R. Leite Jr.
+# Description: Defines hdl.var to map work directories, library map names, default command line options that can be found by Cadence tools.
+
+Define WORK ports
+Define NCELABOPTS -messages
+Define NCVLOGOPTS -messages 
+
+

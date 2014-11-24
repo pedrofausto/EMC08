@@ -1,0 +1,25 @@
+setAnalysisMode -checkType setup -clkSrcPath true -clockPropagation sdcControl -cts postCTS -skew true -virtualIPO false
+setTrialRouteMode -autoSkipTracks false -blockageCostMultiple 1 -detour true -floorPlanMode false -handlePartition false -handlePartitionComplex false -handlePreroute true -highEffort false -honorPin false -ignoreAbutted2TermNet false -ignoreDEFTrack false -ignoreObstruct true -keepExistingRoutes false -keepMarkedOptRoutes true -maxDetourRatio 0 -maxRouteLayer 6 -minRouteLayer 1 -pinGuide true -PKS false -printWiresOnRTBlk false -routeGuide {} -routeObs true -selMarkedNet false -selMarkedNetOnly false -selNet {} -selNetOnly {} -updateRemainTrks false -useM1 false -usePagedArray false
+setOptMode -drcMargin 0 -effort high -fixDrc true -holdTargetSlack 0 -leakagePowerEffort none -maxDensity 0.95 -optimizeFF false -route noIncr -rPlace true -setupTargetSlack 0 -simplifyNetlist false -usefulSkew true -yieldEffort none
+setExtractRCMode  -engine detail -rcdb EMC08.rcdb_11871.rcdb.d -reduce 0.0 -coupled false -viaCap true
+setDelayCalMode -engine default
+setCTSMode -addClockRootProp false -fixLeafInst true -fixNonLeafInst true -honorFence false -moveGate true -nameSingleDelim false -opt true -optAddBuffer false -reportHTML false -routeBottomPreferredLayer 3 -routeClkNet false -routeGuide true -routePreferredExtraSpace 1 -routeTopPreferredLayer 4 -traceDPinAsLeaf false -traceIoPinAsLeaf false -useHVRC true -useLefACLimit false -useLibMaxCap false -useLibMaxFanout false -verbose false
+setStreamOutMode -SEvianames false -specifyViaName default -uniquifyCellNamesPrefix false -virtualConnection true
+setNanoRouteMode -quiet -droutePostRouteWidenWireRule "NA"
+setNanoRouteMode -quiet -routeBottomRoutingLayer 1
+setNanoRouteMode -quiet -routeFillerInstPrefix "FILLER"
+setNanoRouteMode -quiet -routeSelectedNetOnly false
+setNanoRouteMode -quiet -routeSiEffort "low"
+setNanoRouteMode -quiet -routeTdrEffort 4
+setNanoRouteMode -quiet -routeTopRoutingLayer 6
+setNanoRouteMode -quiet -routeWithEco true
+setNanoRouteMode -quiet -routeWithSiDriven false
+setNanoRouteMode -quiet -routeWithTimingDriven false
+
+setPlaceMode -checkPinLayerForAccess 1 -checkRoute false -clkGateAware false -congEffort high -doCongOpt false -ignoreScan true -ignoreSpare true -moduleAwareSpare false -modulePlan true -placeIoPins true -powerDriven false -preserveRouting false -reorderScan true -rmAffectedRouting false -swapEEQ false -timingDriven false
+setScanReorderMode -allowSwapping false -clkAware false -defInForce false -keepHierPorts false -skipMode skipNone
+setTieHiLoMode -honorDontTouch false
+setFillerMode -corePrefix FILLER -createRows true -deleteFixed true -doDRC true -ecoMode false
+setUsefulSkewMode -maxAllowedDelay 2.14748e+09 -maxSkew true -noBoundary false -useCells {BUCX12 BUCX16 BUCX20 BUCX4 BUCX6 BUCX8 BUX0 BUX1 BUX12 BUX16 BUX2 BUX20 BUX3 BUX4 BUX6 BUX8 DLY1X0 DLY1X1 DLY2X0 DLY2X1 DLY4X0 DLY4X1 DLY8X0 DLY8X1 INCX12 INCX16 INCX20 INX0 INX1 INX12 INX16 INX2 INX20 INX3 INX4 INX6 INX8}
+setRCFactor -detclockcap 1.000000
+setImportMode -config true -keepEmptyModule true -treatUndefinedCellAsBbox false -useLefDef56 true

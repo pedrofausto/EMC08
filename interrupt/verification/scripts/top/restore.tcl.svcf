@@ -1,0 +1,310 @@
+# SimVision Command Script (Wed Oct 06 01:42:07 PM BRT 2010)
+#
+# Version 06.20.s002
+#
+# You can restore this configuration with:
+#
+#     irun -nbasync -gui -access +rwc -input {@source /home/student/EMC08/digital_A/core/verification/scripts/top/restore.tcl} -snprerun {set check WARNING; test -seed=3} -sntimescale 1ns/10ps testbench/top_verification/core_tb.v -snload testbench/top_verification/core_top_test_f1.e -run +mpssession+SPECMAN13751 -input /home/student/EMC08/digital_A/core/verification/scripts/top/restore.tcl
+#
+
+
+#
+# preferences
+#
+preferences set waveform-print-variables selected
+preferences set txe-locate-add-fibers 1
+preferences set signal-type-colors {assertion #FF0000 output #FFA500 group #0099FF inout #00FFFF input #FFFF00 fiber #FF99FF errorsignal #FF0000 unknown #FFFFFF overlay #0099FF internal #00FF00 reference #FFFFFF}
+preferences set toolbar-UserTB0-Console {
+  usual
+  add action_reload
+  add action_restore
+  add action_show_modules
+  add action_test
+  separator
+  add action_coverage
+  add action_sys_data
+  add action_specman_config
+  position -row 4 -pos 1
+  name Specman
+}
+preferences set waveform-print-time range
+preferences set txe-navigate-search-locate 0
+preferences set txe-view-hold 0
+preferences set toolbar-SimControl-WaveWindow {
+  usual
+  position -anchor e
+}
+preferences set sb-editor-command kate
+preferences set verilog-colors {Su #ff0099 0 {} 1 {} HiZ #ff9900 We #00ffff Pu #9900ff Sm #00ff99 X #ff0000 StrX #ff0000 other #ffff00 Z #ff9900 Me #0000ff La #ff00ff St {}}
+preferences set save-state-on-startup 1
+preferences set restore-state-on-startup 1
+preferences set txe-navigate-waveform-locate 1
+preferences set txe-view-hidden 0
+preferences set txe-search-show-linenumbers 1
+preferences set toolbar-txe_waveform_toggle-WaveWindow {
+  usual
+  position -pos 1
+}
+preferences set toolbar-Windows-SrcBrowser {
+  usual
+  position -pos 1
+}
+preferences set print-company {CI Brasil - CT2}
+preferences set key-bindings {Edit>FillModules Alt+w Edit>CollapseModules Alt+q}
+preferences set toolbar-UserTB5-WaveWindow {
+  usual
+  add action_specman_sendto_stripechart
+  add action_specman_sendto_databrowser
+  position -row 0 -pos 3 -anchor e
+  name {Send To Specman}
+}
+preferences set waveform-print-colors {As shown on screen}
+preferences set toolbar-UserTB1-WatchList {
+  usual
+  add action_design_browser_sendto_specman_stripechart
+  add action_design_browser_sendto_specman_databrowser
+  add action_design_browser_sendto_specman_visualization
+  position -row 0 -pos 4 -anchor e
+  name {Send To Specman}
+}
+preferences set txe-navigate-waveform-next-child 1
+preferences set print-designer {Pedro Fausto}
+preferences set vhdl-colors {H #00ffff L #00ffff 0 {} X #ff0000 - {} 1 {} U #9900ff Z #ff9900 W #ff0000}
+preferences set txe-locate-scroll-x 1
+preferences set txe-locate-scroll-y 1
+preferences set txe-locate-pop-waveform 1
+preferences set use-signal-type-colors 1
+
+#
+# Simulator
+#
+
+database require simulator -hints {
+	simulator "irun -nbasync -gui -access +rwc -input {@source /home/student/EMC08/digital_A/core/verification/scripts/top/restore.tcl} -snprerun {set check WARNING; test -seed=3} -sntimescale 1ns/10ps testbench/top_verification/core_tb.v -snload testbench/top_verification/core_top_test_f1.e -run +mpssession+SPECMAN13751 -input restore.tcl"
+}
+
+#
+# groups
+#
+catch {group new -name {ROM Internal} -overlay 0}
+catch {group new -name INPUTS -overlay 0}
+catch {group new -name OUTPUTS -overlay 0}
+
+group using {ROM Internal}
+group set -overlay 0
+group set -comment {}
+group set -parents {}
+group set -groups {}
+group clear 0 end
+
+group insert \
+    {core_tb.CORE.mem_ctrl.internal_rom.Q[7:0]} \
+    core_tb.CORE.mem_ctrl.internal_rom.OEB \
+    {core_tb.CORE.mem_ctrl.internal_rom.ADR[11:0]}
+
+group using INPUTS
+group set -overlay 0
+group set -comment {}
+group set -parents {}
+group set -groups {}
+group clear 0 end
+
+group insert \
+    core_tb.CORE.core_interrupt_clear_i \
+    {core_tb.CORE.core_interrupt_vect_i[2:0]} \
+    {core_tb.CORE.core_interrupt_tcon_i[3:0]} \
+    {core_tb.CORE.core_interrupt_tcon2_i[1:0]} \
+    {core_tb.CORE.core_bus_ctrl_data_i[7:0]} \
+    core_tb.CORE.core_bus_ctrl_ea_b_i \
+    {core_tb.CORE.core_bus_ctrl_p0_i[7:0]} \
+    {core_tb.CORE.core_bus_ctrl_p0en_i[7:0]} \
+    {core_tb.CORE.core_bus_ctrl_p4_i[7:0]} \
+    core_tb.CORE.core_bus_ctrl_p3en_7_i \
+    core_tb.CORE.core_bus_ctrl_p3en_6_i \
+    core_tb.CORE.core_bus_ctrl_p3_7_i \
+    core_tb.CORE.core_bus_ctrl_p3_6_i \
+    {core_tb.CORE.core_bus_ctrl_p2en_i[7:0]} \
+    {core_tb.CORE.core_bus_ctrl_p2_i[7:0]} \
+    {core_tb.CORE.core_ports_p0_i[7:0]} \
+    {core_tb.CORE.core_ports_p1_i[7:0]} \
+    {core_tb.CORE.core_ports_p2_i[7:0]} \
+    {core_tb.CORE.core_ports_p3_i[7:0]} \
+    core_tb.CORE.core_serial_p3_0_i \
+    core_tb.CORE.core_serial_p3_1_i \
+    core_tb.CORE.core_serial_p3en_0_i \
+    core_tb.CORE.core_serial_p3en_1_i \
+    core_tb.CORE.core_serial_rb8_i \
+    core_tb.CORE.core_serial_ri_i \
+    {core_tb.CORE.core_serial_sbuf_rx_i[7:0]} \
+    core_tb.CORE.core_serial_ti_i \
+    {core_tb.CORE.core_timers_acrh_i[7:0]} \
+    {core_tb.CORE.core_timers_acrl_i[7:0]} \
+    {core_tb.CORE.core_timers_acrm_i[7:0]} \
+    {core_tb.CORE.core_timers_tacph_i[1:0]} \
+    {core_tb.CORE.core_timers_tacpl_i[7:0]} \
+    core_tb.CORE.core_timers_tf0_i \
+    core_tb.CORE.core_timers_tf1_i \
+    core_tb.CORE.core_timers_tf2_i \
+    {core_tb.CORE.core_timers_th0_i[7:0]} \
+    {core_tb.CORE.core_timers_th1_i[7:0]} \
+    {core_tb.CORE.core_timers_tl0_i[7:0]} \
+    {core_tb.CORE.core_timers_tl1_i[7:0]} \
+    {core_tb.CORE.core_timers_tm0_i[7:0]} \
+    {core_tb.CORE.core_timers_tm1_i[7:0]}
+
+group using OUTPUTS
+group set -overlay 0
+group set -comment {}
+group set -parents {}
+group set -groups {}
+group clear 0 end
+
+group insert \
+    {core_tb.CORE.core_bus_ctrl_data_o[7:0]} \
+    core_tb.CORE.core_baudrate_rs232_o \
+    core_tb.CORE.core_baudrate_sm0_o \
+    core_tb.CORE.core_baudrate_sm1_o \
+    core_tb.CORE.core_baudrate_sm2_o \
+    core_tb.CORE.core_baudrate_smod_o \
+    {core_tb.CORE.core_bus_ctrl_addr_o[15:0]} \
+    core_tb.CORE.core_bus_ctrl_ext_ram_rd_b_o \
+    core_tb.CORE.core_bus_ctrl_ext_ram_wr_b_o \
+    core_tb.CORE.core_bus_ctrl_ext_rom_rd_b_o \
+    {core_tb.CORE.core_bus_ctrl_p0_o[7:0]} \
+    {core_tb.CORE.core_interrupt_ie_o[7:0]} \
+    {core_tb.CORE.core_interrupt_intx_o[1:0]} \
+    {core_tb.CORE.core_interrupt_ip_o[6:0]} \
+    core_tb.CORE.core_interrupt_na_o \
+    core_tb.CORE.core_interrupt_rdy_o \
+    {core_tb.CORE.core_interrupt_scon_o[1:0]} \
+    {core_tb.CORE.core_interrupt_tcon2_o[1:0]} \
+    {core_tb.CORE.core_interrupt_tcon_o[5:0]} \
+    {core_tb.CORE.core_ports_p0_o[7:0]} \
+    {core_tb.CORE.core_ports_p0en_o[7:0]} \
+    {core_tb.CORE.core_ports_p1_o[7:0]} \
+    {core_tb.CORE.core_ports_p1en_o[7:0]} \
+    {core_tb.CORE.core_ports_p2_o[7:0]} \
+    {core_tb.CORE.core_ports_p2en_o[7:0]} \
+    {core_tb.CORE.core_ports_p3_o[7:0]} \
+    {core_tb.CORE.core_ports_p3en_o[7:0]} \
+    {core_tb.CORE.core_ports_p4_o[7:0]} \
+    core_tb.CORE.core_serial_p3_0_o \
+    core_tb.CORE.core_serial_ren_o \
+    core_tb.CORE.core_serial_ri_o \
+    {core_tb.CORE.core_serial_sbuf_tx_o[7:0]} \
+    core_tb.CORE.core_serial_sm0_o \
+    core_tb.CORE.core_serial_tb8_o \
+    core_tb.CORE.core_serial_ti_o \
+    core_tb.CORE.core_serial_tx_o \
+    {core_tb.CORE.core_timers_dfp_o[2:0]} \
+    core_tb.CORE.core_timers_dfsel_o \
+    core_tb.CORE.core_timers_edgsel_o \
+    core_tb.CORE.core_timers_gate_t0_o \
+    core_tb.CORE.core_timers_gate_t1_o \
+    core_tb.CORE.core_timers_int0_o \
+    core_tb.CORE.core_timers_int1_o \
+    core_tb.CORE.core_timers_m0_t0_o \
+    core_tb.CORE.core_timers_m0_t1_o \
+    core_tb.CORE.core_timers_m1_t0_o \
+    core_tb.CORE.core_timers_m1_t1_o \
+    {core_tb.CORE.core_timers_tacph_o[1:0]} \
+    {core_tb.CORE.core_timers_tacpl_o[7:0]} \
+    core_tb.CORE.core_timers_tf0_o \
+    core_tb.CORE.core_timers_tf1_o \
+    core_tb.CORE.core_timers_tf2_o \
+    {core_tb.CORE.core_timers_th0_o[7:0]} \
+    {core_tb.CORE.core_timers_th1_o[7:0]} \
+    {core_tb.CORE.core_timers_tl0_o[7:0]} \
+    {core_tb.CORE.core_timers_tl1_o[7:0]} \
+    {core_tb.CORE.core_timers_tm0_o[7:0]} \
+    {core_tb.CORE.core_timers_tm1_o[7:0]} \
+    core_tb.CORE.core_timers_tr0_o \
+    core_tb.CORE.core_timers_tr1_o \
+    core_tb.CORE.core_timers_tr2_o
+
+#
+# cursors
+#
+set time 725000ps
+if {[catch {cursor new -name  TimeA -time $time}] != ""} {
+    cursor set -using TimeA -time $time
+}
+
+#
+# mmaps
+#
+mmap new -reuse -name {Boolean as Logic} -contents {
+{%c=FALSE -edgepriority 1 -shape low}
+{%c=TRUE -edgepriority 1 -shape high}
+}
+mmap new -reuse -name {Example Map} -contents {
+{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}
+}
+mmap new -reuse -name opcodes -contents {
+{%x=* -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -linecolor #000000 -shape bus -textcolor #000000}
+}
+
+#
+# Design Browser windows
+#
+if {[catch {window new WatchList -name "Design Browser 1" -geometry 750x500+0+22}] != ""} {
+    window geometry "Design Browser 1" 750x500+0+22
+}
+window target "Design Browser 1" on
+browser using {Design Browser 1}
+browser timecontrol set -lock 0
+
+#
+# Waveform windows
+#
+if {[catch {window new WaveWindow -name "Waveform 4" -geometry 1280x911+0+0}] != ""} {
+    window geometry "Waveform 4" 1280x911+0+0
+}
+window target "Waveform 4" on
+waveform using {Waveform 4}
+waveform sidebar visibility partial
+waveform set \
+    -primarycursor TimeA \
+    -signalnames name \
+    -signalwidth 175 \
+    -units ps \
+    -valuewidth 75
+cursor set -using TimeA -time 725,000ps
+waveform baseline set -time 0
+
+set id [waveform add -signals [list simulator::core_tb.CORE.core_mem_clk_i \
+	simulator::core_tb.CORE.core_clk_i \
+	simulator::core_tb.CORE.core_reset_i \
+	simulator::core_tb.CORE.core_reset_o ]]
+set id [waveform add -signals [list {simulator::core_tb.CORE.fsm.fsm_opcode[7:0]} ]]
+waveform format $id -radix opcodes
+set id [waveform add -signals [list {simulator::core_tb.CORE.pcau.pcau_pc_o[15:0]} ]]
+waveform format $id -color #00ffff
+set groupId [waveform add -groups {{ROM Internal}}]
+
+set groupId [waveform add -groups INPUTS]
+waveform hierarchy collapse $groupId
+
+set groupId [waveform add -groups OUTPUTS]
+waveform hierarchy collapse $groupId
+
+set id [waveform add -signals [list {simulator::core_tb.CORE.fsm.fsm_state_o[2:0]} \
+	simulator::core_tb.CORE.mem_ctrl.rom_location \
+	{simulator::core_tb.CORE.fsm.fsm_sfr_addr_o[7:0]} \
+	{simulator::core_tb.CORE.fsm.fsm_sfr_data_i[7:0]} \
+	{simulator::core_tb.CORE.fsm.fsm_sfr_data_o[7:0]} \
+	{simulator::core_tb.CORE.mem_ctrl.internal_rom.ROM_matrix[0:4095]} \
+	{simulator::core_tb.CORE.fsm.fsm_ram_addr_o[7:0]} \
+	{simulator::core_tb.CORE.fsm.fsm_ram_data_i[7:0]} \
+	{simulator::core_tb.CORE.fsm.fsm_ram_data_o[7:0]} ]]
+
+waveform xview limits 0 2000ps
+
+#
+# Console window
+#
+console set -windowname Console
+

@@ -1,0 +1,4013 @@
+Verify Geometry report created on Thu Dec  9 13:57:41 2010
+ 
+NOGRID: Special Wire of Net VDDR  ( M3 )
+Bounds : ( 496.860, 157.765 ) ( 497.140, 187.245 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M4 )
+Bounds : ( 496.860, 155.605 ) ( 497.140, 188.405 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M5 )
+Bounds : ( 496.860, 155.605 ) ( 497.140, 188.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_3  ( M6 )
+Bounds : ( 496.500, 155.605 ) ( 497.500, 188.405 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M3 )
+Bounds : ( 316.860, 157.765 ) ( 317.140, 187.245 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M4 )
+Bounds : ( 316.860, 155.605 ) ( 317.140, 188.405 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M5 )
+Bounds : ( 316.860, 155.605 ) ( 317.140, 188.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M6 )
+Bounds : ( 376.500, 155.605 ) ( 377.500, 188.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M6 )
+Bounds : ( 316.500, 155.605 ) ( 317.500, 188.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M5 )
+Bounds : ( 376.500, 155.605 ) ( 377.500, 188.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M4 )
+Bounds : ( 376.500, 155.605 ) ( 377.500, 188.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M3 )
+Bounds : ( 376.500, 157.765 ) ( 377.500, 187.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_2  ( M6 )
+Bounds : ( 436.500, 155.605 ) ( 437.500, 188.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M5 )
+Bounds : ( 437.000, 155.605 ) ( 437.500, 188.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M4 )
+Bounds : ( 437.000, 155.605 ) ( 437.500, 188.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M3 )
+Bounds : ( 437.000, 157.765 ) ( 437.500, 187.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_CORNER_SW  ( M6 )
+Bounds : ( 256.500, 155.605 ) ( 257.000, 188.405 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M5 )
+Bounds : ( 736.860, 155.605 ) ( 737.140, 188.405 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M4 )
+Bounds : ( 736.860, 155.605 ) ( 737.140, 188.405 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M3 )
+Bounds : ( 736.860, 157.765 ) ( 737.140, 187.245 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M5 )
+Bounds : ( 556.860, 155.605 ) ( 557.140, 188.405 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M4 )
+Bounds : ( 556.860, 155.605 ) ( 557.140, 188.405 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M3 )
+Bounds : ( 556.860, 157.765 ) ( 557.140, 187.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_GND_1  ( M6 )
+Bounds : ( 616.500, 155.605 ) ( 617.500, 188.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_3  ( M6 )
+Bounds : ( 556.500, 155.605 ) ( 557.500, 188.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M5 )
+Bounds : ( 616.500, 155.605 ) ( 617.000, 188.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M4 )
+Bounds : ( 616.500, 155.605 ) ( 617.000, 188.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M3 )
+Bounds : ( 616.500, 157.765 ) ( 617.000, 187.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M6 )
+Bounds : ( 736.500, 155.605 ) ( 737.500, 188.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M6 )
+Bounds : ( 677.000, 155.605 ) ( 677.500, 188.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M5 )
+Bounds : ( 677.000, 155.605 ) ( 677.500, 188.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M4 )
+Bounds : ( 677.000, 155.605 ) ( 677.500, 188.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M3 )
+Bounds : ( 677.000, 157.765 ) ( 677.500, 187.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M6 )
+Bounds : ( 376.500, 143.805 ) ( 377.500, 148.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M5 )
+Bounds : ( 376.500, 143.805 ) ( 377.500, 148.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M4 )
+Bounds : ( 376.500, 143.805 ) ( 377.500, 148.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M6 )
+Bounds : ( 376.500, 75.005 ) ( 377.500, 107.805 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M6 )
+Bounds : ( 376.500, 109.805 ) ( 377.500, 142.605 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M6 )
+Bounds : ( 376.500, 149.805 ) ( 377.500, 154.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M5 )
+Bounds : ( 376.500, 75.005 ) ( 377.500, 107.805 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M5 )
+Bounds : ( 376.500, 109.805 ) ( 377.500, 142.605 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M5 )
+Bounds : ( 376.500, 149.805 ) ( 377.500, 154.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M4 )
+Bounds : ( 376.500, 75.005 ) ( 377.500, 107.805 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M4 )
+Bounds : ( 376.500, 109.805 ) ( 377.500, 142.605 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M4 )
+Bounds : ( 376.500, 149.805 ) ( 377.500, 154.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M3 )
+Bounds : ( 376.500, 77.165 ) ( 377.500, 106.645 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M3 )
+Bounds : ( 376.500, 110.965 ) ( 377.500, 140.445 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M4 )
+Bounds : ( 316.860, 143.805 ) ( 317.140, 148.405 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M5 )
+Bounds : ( 316.860, 143.805 ) ( 317.140, 148.405 )
+
+
+NOGRID: Special Wire of Net GND  ( M4 )
+Bounds : ( 316.860, 75.005 ) ( 317.140, 107.805 )
+
+
+NOGRID: Special Wire of Net GND  ( M5 )
+Bounds : ( 316.860, 75.005 ) ( 317.140, 107.805 )
+
+
+NOGRID: Special Wire of Net GND  ( M3 )
+Bounds : ( 316.860, 77.165 ) ( 317.140, 106.645 )
+
+
+NOGRID: Special Wire of Net GND  ( M4 )
+Bounds : ( 316.860, 109.805 ) ( 317.140, 142.605 )
+
+
+NOGRID: Special Wire of Net GND  ( M5 )
+Bounds : ( 316.860, 109.805 ) ( 317.140, 142.605 )
+
+
+NOGRID: Special Wire of Net GND  ( M3 )
+Bounds : ( 316.860, 110.965 ) ( 317.140, 140.445 )
+
+
+NOGRID: Special Wire of Net GND  ( M4 )
+Bounds : ( 316.860, 149.805 ) ( 317.140, 154.405 )
+
+
+NOGRID: Special Wire of Net GND  ( M5 )
+Bounds : ( 316.860, 149.805 ) ( 317.140, 154.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M6 )
+Bounds : ( 316.500, 143.805 ) ( 317.500, 148.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M6 )
+Bounds : ( 316.500, 75.005 ) ( 317.500, 107.805 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M6 )
+Bounds : ( 316.500, 109.805 ) ( 317.500, 142.605 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M6 )
+Bounds : ( 316.500, 149.805 ) ( 317.500, 154.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_CORNER_SW  ( M6 )
+Bounds : ( 256.500, 143.805 ) ( 257.000, 148.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_CORNER_SW  ( M6 )
+Bounds : ( 256.500, 75.005 ) ( 257.000, 107.805 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_CORNER_SW  ( M6 )
+Bounds : ( 256.500, 109.805 ) ( 257.000, 142.605 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_CORNER_SW  ( M6 )
+Bounds : ( 256.500, 149.805 ) ( 257.000, 154.405 )
+
+
+NOGRID: Special Wire of Net GND  ( M5 )
+Bounds : ( 736.860, 109.805 ) ( 737.140, 142.605 )
+
+
+NOGRID: Special Wire of Net GND  ( M4 )
+Bounds : ( 736.860, 109.805 ) ( 737.140, 142.605 )
+
+
+NOGRID: Special Wire of Net GND  ( M3 )
+Bounds : ( 736.860, 110.965 ) ( 737.140, 140.445 )
+
+
+NOGRID: Special Wire of Net GND  ( M5 )
+Bounds : ( 556.860, 109.805 ) ( 557.140, 142.605 )
+
+
+NOGRID: Special Wire of Net GND  ( M4 )
+Bounds : ( 556.860, 109.805 ) ( 557.140, 142.605 )
+
+
+NOGRID: Special Wire of Net GND  ( M3 )
+Bounds : ( 556.860, 110.965 ) ( 557.140, 140.445 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_GND_1  ( M6 )
+Bounds : ( 616.500, 109.805 ) ( 617.500, 142.605 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_3  ( M6 )
+Bounds : ( 556.500, 109.805 ) ( 557.500, 142.605 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M5 )
+Bounds : ( 616.500, 109.805 ) ( 617.000, 142.605 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M4 )
+Bounds : ( 616.500, 109.805 ) ( 617.000, 142.605 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M3 )
+Bounds : ( 616.500, 110.965 ) ( 617.000, 140.445 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M6 )
+Bounds : ( 736.500, 109.805 ) ( 737.500, 142.605 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M6 )
+Bounds : ( 677.000, 109.805 ) ( 677.500, 142.605 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M5 )
+Bounds : ( 677.000, 109.805 ) ( 677.500, 142.605 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M4 )
+Bounds : ( 677.000, 109.805 ) ( 677.500, 142.605 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M3 )
+Bounds : ( 677.000, 110.965 ) ( 677.500, 140.445 )
+
+
+NOGRID: Special Wire of Net GND  ( M4 )
+Bounds : ( 496.860, 109.805 ) ( 497.140, 142.605 )
+
+
+NOGRID: Special Wire of Net GND  ( M5 )
+Bounds : ( 496.860, 109.805 ) ( 497.140, 142.605 )
+
+
+NOGRID: Special Wire of Net GND  ( M3 )
+Bounds : ( 496.860, 110.965 ) ( 497.140, 140.445 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_2  ( M6 )
+Bounds : ( 436.500, 109.805 ) ( 437.500, 142.605 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_3  ( M6 )
+Bounds : ( 496.500, 109.805 ) ( 497.500, 142.605 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M5 )
+Bounds : ( 437.000, 109.805 ) ( 437.500, 142.605 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M4 )
+Bounds : ( 437.000, 109.805 ) ( 437.500, 142.605 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M3 )
+Bounds : ( 437.000, 110.965 ) ( 437.500, 140.445 )
+
+
+NOGRID: Special Wire of Net GND  ( M5 )
+Bounds : ( 736.860, 75.005 ) ( 737.140, 107.805 )
+
+
+NOGRID: Special Wire of Net GND  ( M4 )
+Bounds : ( 736.860, 75.005 ) ( 737.140, 107.805 )
+
+
+NOGRID: Special Wire of Net GND  ( M3 )
+Bounds : ( 736.860, 77.165 ) ( 737.140, 106.645 )
+
+
+NOGRID: Special Wire of Net GND  ( M5 )
+Bounds : ( 556.860, 75.005 ) ( 557.140, 107.805 )
+
+
+NOGRID: Special Wire of Net GND  ( M4 )
+Bounds : ( 556.860, 75.005 ) ( 557.140, 107.805 )
+
+
+NOGRID: Special Wire of Net GND  ( M3 )
+Bounds : ( 556.860, 77.165 ) ( 557.140, 106.645 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_GND_1  ( M6 )
+Bounds : ( 616.500, 75.005 ) ( 617.500, 107.805 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_3  ( M6 )
+Bounds : ( 556.500, 75.005 ) ( 557.500, 107.805 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M5 )
+Bounds : ( 616.500, 75.005 ) ( 617.000, 107.805 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M4 )
+Bounds : ( 616.500, 75.005 ) ( 617.000, 107.805 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M3 )
+Bounds : ( 616.500, 77.165 ) ( 617.000, 106.645 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M6 )
+Bounds : ( 736.500, 75.005 ) ( 737.500, 107.805 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M6 )
+Bounds : ( 677.000, 75.005 ) ( 677.500, 107.805 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M5 )
+Bounds : ( 677.000, 75.005 ) ( 677.500, 107.805 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M4 )
+Bounds : ( 677.000, 75.005 ) ( 677.500, 107.805 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M3 )
+Bounds : ( 677.000, 77.165 ) ( 677.500, 106.645 )
+
+
+NOGRID: Special Wire of Net GND  ( M4 )
+Bounds : ( 496.860, 75.005 ) ( 497.140, 107.805 )
+
+
+NOGRID: Special Wire of Net GND  ( M5 )
+Bounds : ( 496.860, 75.005 ) ( 497.140, 107.805 )
+
+
+NOGRID: Special Wire of Net GND  ( M3 )
+Bounds : ( 496.860, 77.165 ) ( 497.140, 106.645 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_2  ( M6 )
+Bounds : ( 436.500, 75.005 ) ( 437.500, 107.805 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_3  ( M6 )
+Bounds : ( 496.500, 75.005 ) ( 497.500, 107.805 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M5 )
+Bounds : ( 437.000, 75.005 ) ( 437.500, 107.805 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M4 )
+Bounds : ( 437.000, 75.005 ) ( 437.500, 107.805 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M3 )
+Bounds : ( 437.000, 77.165 ) ( 437.500, 106.645 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M5 )
+Bounds : ( 556.860, 143.805 ) ( 557.140, 148.405 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M4 )
+Bounds : ( 556.860, 143.805 ) ( 557.140, 148.405 )
+
+
+NOGRID: Special Wire of Net GND  ( M5 )
+Bounds : ( 556.860, 149.805 ) ( 557.140, 154.405 )
+
+
+NOGRID: Special Wire of Net GND  ( M4 )
+Bounds : ( 556.860, 149.805 ) ( 557.140, 154.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_3  ( M6 )
+Bounds : ( 556.500, 143.805 ) ( 557.500, 148.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_3  ( M6 )
+Bounds : ( 556.500, 149.805 ) ( 557.500, 154.405 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M4 )
+Bounds : ( 496.860, 143.805 ) ( 497.140, 148.405 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M5 )
+Bounds : ( 496.860, 143.805 ) ( 497.140, 148.405 )
+
+
+NOGRID: Special Wire of Net GND  ( M4 )
+Bounds : ( 496.860, 149.805 ) ( 497.140, 154.405 )
+
+
+NOGRID: Special Wire of Net GND  ( M5 )
+Bounds : ( 496.860, 149.805 ) ( 497.140, 154.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_2  ( M6 )
+Bounds : ( 436.500, 143.805 ) ( 437.500, 148.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_2  ( M6 )
+Bounds : ( 436.500, 149.805 ) ( 437.500, 154.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_3  ( M6 )
+Bounds : ( 496.500, 143.805 ) ( 497.500, 148.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_3  ( M6 )
+Bounds : ( 496.500, 149.805 ) ( 497.500, 154.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M5 )
+Bounds : ( 437.000, 143.805 ) ( 437.500, 148.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M4 )
+Bounds : ( 437.000, 143.805 ) ( 437.500, 148.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M5 )
+Bounds : ( 437.000, 149.805 ) ( 437.500, 154.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M4 )
+Bounds : ( 437.000, 149.805 ) ( 437.500, 154.405 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M5 )
+Bounds : ( 736.860, 143.805 ) ( 737.140, 148.405 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M4 )
+Bounds : ( 736.860, 143.805 ) ( 737.140, 148.405 )
+
+
+NOGRID: Special Wire of Net GND  ( M5 )
+Bounds : ( 736.860, 149.805 ) ( 737.140, 154.405 )
+
+
+NOGRID: Special Wire of Net GND  ( M4 )
+Bounds : ( 736.860, 149.805 ) ( 737.140, 154.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_GND_1  ( M6 )
+Bounds : ( 616.500, 143.805 ) ( 617.500, 148.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_GND_1  ( M6 )
+Bounds : ( 616.500, 149.805 ) ( 617.500, 154.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M5 )
+Bounds : ( 616.500, 143.805 ) ( 617.000, 148.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M4 )
+Bounds : ( 616.500, 143.805 ) ( 617.000, 148.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M5 )
+Bounds : ( 616.500, 149.805 ) ( 617.000, 154.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M4 )
+Bounds : ( 616.500, 149.805 ) ( 617.000, 154.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M6 )
+Bounds : ( 736.500, 143.805 ) ( 737.500, 148.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M6 )
+Bounds : ( 677.000, 143.805 ) ( 677.500, 148.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M5 )
+Bounds : ( 677.000, 143.805 ) ( 677.500, 148.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M4 )
+Bounds : ( 677.000, 143.805 ) ( 677.500, 148.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M6 )
+Bounds : ( 736.500, 149.805 ) ( 737.500, 154.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M6 )
+Bounds : ( 677.000, 149.805 ) ( 677.500, 154.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M5 )
+Bounds : ( 677.000, 149.805 ) ( 677.500, 154.405 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M4 )
+Bounds : ( 677.000, 149.805 ) ( 677.500, 154.405 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M4 )
+Bounds : ( 316.860, 224.205 ) ( 317.140, 229.285 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M5 )
+Bounds : ( 316.860, 224.205 ) ( 317.140, 229.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M6 )
+Bounds : ( 316.500, 224.205 ) ( 317.500, 229.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_CORNER_SW  ( M6 )
+Bounds : ( 256.500, 224.205 ) ( 257.000, 229.285 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M4 )
+Bounds : ( 316.860, 190.405 ) ( 317.140, 223.205 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M5 )
+Bounds : ( 316.860, 190.405 ) ( 317.140, 223.205 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M3 )
+Bounds : ( 316.860, 191.565 ) ( 317.140, 221.045 )
+
+
+NOGRID: Special Wire of Net GND  ( M3 )
+Bounds : ( 316.860, 223.315 ) ( 317.140, 224.855 )
+
+
+NOGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 316.860, 223.815 ) ( 317.140, 224.855 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M6 )
+Bounds : ( 316.500, 190.405 ) ( 317.500, 223.205 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_CORNER_SW  ( M6 )
+Bounds : ( 256.500, 190.405 ) ( 257.000, 223.205 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_CORNER_SW  ( M6 )
+Bounds : ( 256.500, 243.985 ) ( 257.000, 249.735 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_CORNER_SW  ( M6 )
+Bounds : ( 256.500, 238.885 ) ( 257.000, 243.385 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_CORNER_SW  ( M6 )
+Bounds : ( 256.500, 229.885 ) ( 257.000, 238.285 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 269.330, 259.330 ) ( 269.870, 259.870 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 267.860, 261.760 ) ( 268.140, 262.040 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 267.860, 261.760 ) ( 268.140, 262.040 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 265.060, 259.460 ) ( 265.340, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 265.060, 259.460 ) ( 265.340, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 266.530, 259.330 ) ( 267.070, 259.870 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 266.995, 259.460 ) ( 267.275, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 266.995, 259.460 ) ( 267.275, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 264.195, 259.460 ) ( 264.475, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 264.195, 259.460 ) ( 264.475, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 262.260, 259.460 ) ( 262.540, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 262.260, 259.460 ) ( 262.540, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 263.730, 259.330 ) ( 264.270, 259.870 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 263.810, 259.330 ) ( 264.190, 259.870 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 259.460, 259.460 ) ( 259.740, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 259.460, 259.460 ) ( 259.740, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 259.330, 259.330 ) ( 259.870, 259.870 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 259.410, 259.330 ) ( 259.790, 259.870 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 260.680, 259.460 ) ( 260.960, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 260.680, 259.460 ) ( 260.960, 259.740 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_CORNER_SW  ( M6 )
+Bounds : ( 256.500, 250.335 ) ( 257.000, 256.245 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 285.470, 259.330 ) ( 286.010, 259.870 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 278.485, 259.460 ) ( 278.765, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 278.485, 259.460 ) ( 278.765, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 277.530, 259.330 ) ( 278.070, 259.870 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 277.610, 259.330 ) ( 277.990, 259.870 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 278.055, 259.460 ) ( 278.335, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 278.055, 259.460 ) ( 278.335, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 278.195, 259.710 ) ( 278.475, 259.990 )
+
+
+NOGRID: Special Via of Net VDD  ( M1 )
+Bounds : ( 278.195, 259.660 ) ( 278.475, 260.040 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 276.260, 259.460 ) ( 276.540, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 276.260, 259.460 ) ( 276.540, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 276.260, 259.460 ) ( 276.540, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 275.010, 259.330 ) ( 275.390, 259.870 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 275.395, 259.460 ) ( 275.675, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 275.395, 259.460 ) ( 275.675, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 273.460, 259.460 ) ( 273.740, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 273.460, 259.460 ) ( 273.740, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 272.595, 259.460 ) ( 272.875, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 272.595, 259.460 ) ( 272.875, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 269.855, 259.460 ) ( 270.135, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 269.855, 259.460 ) ( 270.135, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 269.410, 259.330 ) ( 269.790, 259.870 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 281.860, 259.460 ) ( 282.140, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 281.860, 259.460 ) ( 282.140, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 281.860, 259.460 ) ( 282.140, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 281.925, 259.975 ) ( 282.205, 260.255 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 281.925, 259.975 ) ( 282.205, 260.255 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 285.390, 261.760 ) ( 285.670, 262.040 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 285.390, 261.760 ) ( 285.670, 262.040 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 285.550, 261.405 ) ( 285.830, 261.685 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 285.550, 261.405 ) ( 285.830, 261.685 )
+
+
+OFFMANUGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 316.860, 244.085 ) ( 317.140, 249.079 )
+
+
+NOGRID: Special Wire of Net GND  ( M4 )
+Bounds : ( 316.860, 243.985 ) ( 317.140, 249.735 )
+
+
+NOGRID: Special Wire of Net GND  ( M5 )
+Bounds : ( 316.860, 243.985 ) ( 317.140, 249.735 )
+
+
+NOGRID: Special Wire of Net GND  ( M3 )
+Bounds : ( 316.860, 243.985 ) ( 317.140, 249.735 )
+
+
+NOGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 316.860, 244.085 ) ( 317.140, 249.079 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M6 )
+Bounds : ( 316.500, 243.985 ) ( 317.500, 249.735 )
+
+
+OFFMANUGRID: Special Wire of Net VDDR  ( M2 )
+Bounds : ( 316.860, 233.845 ) ( 317.140, 234.479 )
+
+
+OFFMANUGRID: Special Wire of Net VDDR  ( M3 )
+Bounds : ( 316.860, 225.470 ) ( 317.140, 229.284 )
+
+
+OFFMANUGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 316.860, 240.480 ) ( 317.140, 242.544 )
+
+
+OFFMANUGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 316.860, 230.870 ) ( 317.140, 231.584 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M2 )
+Bounds : ( 316.860, 233.845 ) ( 317.140, 234.479 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M2 )
+Bounds : ( 316.860, 225.470 ) ( 317.140, 230.470 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M3 )
+Bounds : ( 316.860, 225.470 ) ( 317.140, 229.284 )
+
+
+NOGRID: Special Wire of Net GND  ( M4 )
+Bounds : ( 316.860, 229.885 ) ( 317.140, 238.285 )
+
+
+NOGRID: Special Wire of Net GND  ( M5 )
+Bounds : ( 316.860, 229.885 ) ( 317.140, 238.285 )
+
+
+NOGRID: Special Wire of Net GND  ( M3 )
+Bounds : ( 316.860, 229.885 ) ( 317.140, 238.285 )
+
+
+NOGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 316.860, 240.480 ) ( 317.140, 242.544 )
+
+
+NOGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 316.860, 234.880 ) ( 317.140, 239.880 )
+
+
+NOGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 316.860, 230.870 ) ( 317.140, 231.584 )
+
+
+NOGRID: Special Wire of Net GND  ( M4 )
+Bounds : ( 316.860, 238.885 ) ( 317.140, 243.385 )
+
+
+NOGRID: Special Wire of Net GND  ( M5 )
+Bounds : ( 316.860, 238.885 ) ( 317.140, 243.385 )
+
+
+NOGRID: Special Wire of Net GND  ( M3 )
+Bounds : ( 316.860, 238.885 ) ( 317.140, 243.385 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M6 )
+Bounds : ( 316.500, 238.885 ) ( 317.500, 243.385 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M6 )
+Bounds : ( 316.500, 229.885 ) ( 317.500, 238.285 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 301.560, 261.335 ) ( 301.840, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 301.560, 261.460 ) ( 301.840, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 301.560, 261.335 ) ( 301.840, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 298.925, 259.460 ) ( 299.205, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 298.925, 259.460 ) ( 299.205, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 296.670, 259.330 ) ( 297.210, 259.870 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 295.860, 259.460 ) ( 296.140, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 295.860, 259.460 ) ( 296.140, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 296.185, 259.460 ) ( 296.465, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 290.585, 261.405 ) ( 290.865, 261.685 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 290.585, 261.405 ) ( 290.865, 261.685 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 290.260, 261.760 ) ( 290.540, 262.040 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 290.260, 261.760 ) ( 290.540, 262.040 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 287.785, 261.405 ) ( 288.065, 261.685 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 287.785, 261.405 ) ( 288.065, 261.685 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 293.060, 259.460 ) ( 293.340, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 293.060, 259.460 ) ( 293.340, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 293.060, 259.460 ) ( 293.340, 259.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 293.385, 261.405 ) ( 293.665, 261.685 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 293.385, 261.405 ) ( 293.665, 261.685 )
+
+
+NOGRID: Special Wire of Net VDD  ( M3 )
+Bounds : ( 316.860, 250.335 ) ( 317.140, 256.245 )
+
+
+NOGRID: Special Wire of Net VDD  ( M4 )
+Bounds : ( 316.860, 250.335 ) ( 317.140, 256.245 )
+
+
+NOGRID: Special Wire of Net VDD  ( M5 )
+Bounds : ( 316.860, 250.335 ) ( 317.140, 256.245 )
+
+
+NOGRID: Special Wire of Net VDD  ( M2 )
+Bounds : ( 316.860, 251.245 ) ( 317.140, 256.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M6 )
+Bounds : ( 316.500, 250.335 ) ( 317.500, 256.245 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 318.260, 258.660 ) ( 318.540, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 318.260, 258.660 ) ( 318.540, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 318.260, 258.660 ) ( 318.540, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 315.260, 261.360 ) ( 315.540, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 315.260, 261.360 ) ( 315.540, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 309.860, 261.360 ) ( 310.140, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 309.860, 261.360 ) ( 310.140, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 312.660, 261.335 ) ( 312.940, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 312.660, 261.335 ) ( 312.940, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 307.060, 258.660 ) ( 307.340, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 307.060, 258.660 ) ( 307.340, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 307.060, 258.660 ) ( 307.340, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 304.260, 258.660 ) ( 304.540, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 304.260, 258.660 ) ( 304.540, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 343.855, 261.360 ) ( 344.135, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 343.855, 261.360 ) ( 344.135, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 346.655, 261.335 ) ( 346.935, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 346.655, 261.335 ) ( 346.935, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 346.655, 258.660 ) ( 346.935, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 346.655, 258.660 ) ( 346.935, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 346.655, 258.660 ) ( 346.935, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 341.055, 258.660 ) ( 341.335, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 341.055, 258.660 ) ( 341.335, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 341.055, 258.660 ) ( 341.335, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 335.060, 261.335 ) ( 335.340, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 335.060, 261.460 ) ( 335.340, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 326.260, 261.360 ) ( 326.540, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 326.260, 261.360 ) ( 326.540, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 337.260, 261.360 ) ( 337.540, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 337.260, 261.360 ) ( 337.540, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 332.260, 261.360 ) ( 332.540, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 332.260, 261.360 ) ( 332.540, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 323.860, 261.335 ) ( 324.140, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 323.860, 261.335 ) ( 324.140, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 335.060, 261.335 ) ( 335.340, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 329.460, 258.660 ) ( 329.740, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 329.460, 258.660 ) ( 329.740, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 329.460, 258.660 ) ( 329.740, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 325.930, 258.530 ) ( 326.470, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 321.060, 261.360 ) ( 321.340, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 321.060, 261.360 ) ( 321.340, 261.640 )
+
+
+NOGRID: Special Wire of Net GND  ( M3 )
+Bounds : ( 736.860, 223.315 ) ( 737.140, 224.855 )
+
+
+NOGRID: Special Wire of Net GND  ( M3 )
+Bounds : ( 556.860, 223.315 ) ( 557.140, 224.855 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M3 )
+Bounds : ( 616.500, 223.315 ) ( 617.000, 224.855 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M3 )
+Bounds : ( 677.000, 223.315 ) ( 677.500, 224.855 )
+
+
+NOGRID: Special Wire of Net GND  ( M3 )
+Bounds : ( 496.860, 223.315 ) ( 497.140, 224.855 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M3 )
+Bounds : ( 376.500, 223.315 ) ( 377.500, 224.855 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M3 )
+Bounds : ( 437.000, 223.315 ) ( 437.500, 224.855 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M5 )
+Bounds : ( 556.860, 190.405 ) ( 557.140, 223.205 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M4 )
+Bounds : ( 556.860, 190.405 ) ( 557.140, 223.205 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M3 )
+Bounds : ( 556.860, 191.565 ) ( 557.140, 221.045 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_GND_1  ( M6 )
+Bounds : ( 616.500, 190.405 ) ( 617.500, 223.205 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_3  ( M6 )
+Bounds : ( 556.500, 190.405 ) ( 557.500, 223.205 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M5 )
+Bounds : ( 616.500, 190.405 ) ( 617.000, 223.205 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M4 )
+Bounds : ( 616.500, 190.405 ) ( 617.000, 223.205 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M3 )
+Bounds : ( 616.500, 191.565 ) ( 617.000, 221.045 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M6 )
+Bounds : ( 736.500, 190.405 ) ( 737.500, 223.205 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M6 )
+Bounds : ( 677.000, 190.405 ) ( 677.500, 223.205 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M5 )
+Bounds : ( 677.000, 190.405 ) ( 677.500, 223.205 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M4 )
+Bounds : ( 677.000, 190.405 ) ( 677.500, 223.205 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M3 )
+Bounds : ( 677.000, 191.565 ) ( 677.500, 221.045 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M4 )
+Bounds : ( 496.860, 190.405 ) ( 497.140, 223.205 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M5 )
+Bounds : ( 496.860, 190.405 ) ( 497.140, 223.205 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M3 )
+Bounds : ( 496.860, 191.565 ) ( 497.140, 221.045 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M6 )
+Bounds : ( 376.500, 190.405 ) ( 377.500, 223.205 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M5 )
+Bounds : ( 376.500, 190.405 ) ( 377.500, 223.205 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M4 )
+Bounds : ( 376.500, 190.405 ) ( 377.500, 223.205 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M3 )
+Bounds : ( 376.500, 191.565 ) ( 377.500, 221.045 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_2  ( M6 )
+Bounds : ( 436.500, 190.405 ) ( 437.500, 223.205 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_3  ( M6 )
+Bounds : ( 496.500, 190.405 ) ( 497.500, 223.205 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M5 )
+Bounds : ( 437.000, 190.405 ) ( 437.500, 223.205 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M4 )
+Bounds : ( 437.000, 190.405 ) ( 437.500, 223.205 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M3 )
+Bounds : ( 437.000, 191.565 ) ( 437.500, 221.045 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M6 )
+Bounds : ( 376.500, 238.885 ) ( 377.500, 243.385 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M5 )
+Bounds : ( 376.500, 238.885 ) ( 377.500, 243.385 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M4 )
+Bounds : ( 376.500, 238.885 ) ( 377.500, 243.385 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M3 )
+Bounds : ( 376.500, 238.885 ) ( 377.500, 243.385 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_2  ( M6 )
+Bounds : ( 436.500, 238.885 ) ( 437.500, 243.385 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M5 )
+Bounds : ( 437.000, 238.885 ) ( 437.500, 243.385 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M4 )
+Bounds : ( 437.000, 238.885 ) ( 437.500, 243.385 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M3 )
+Bounds : ( 437.000, 238.885 ) ( 437.500, 243.385 )
+
+
+OFFMANUGRID: Special Wire of Net VDDR  ( M2 )
+Bounds : ( 376.860, 233.845 ) ( 377.140, 234.479 )
+
+
+OFFMANUGRID: Special Wire of Net VDDR  ( M3 )
+Bounds : ( 376.860, 225.470 ) ( 377.140, 229.284 )
+
+
+OFFMANUGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 376.860, 230.870 ) ( 377.140, 231.584 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M6 )
+Bounds : ( 376.500, 224.205 ) ( 377.500, 229.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M5 )
+Bounds : ( 376.500, 224.205 ) ( 377.500, 229.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M4 )
+Bounds : ( 376.500, 224.205 ) ( 377.500, 229.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M3 )
+Bounds : ( 376.500, 225.470 ) ( 377.500, 229.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M2 )
+Bounds : ( 376.500, 225.470 ) ( 377.500, 230.470 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M2 )
+Bounds : ( 376.500, 233.845 ) ( 377.500, 234.480 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M6 )
+Bounds : ( 376.500, 229.885 ) ( 377.500, 238.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M5 )
+Bounds : ( 376.500, 229.885 ) ( 377.500, 238.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M4 )
+Bounds : ( 376.500, 229.885 ) ( 377.500, 238.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M3 )
+Bounds : ( 376.500, 229.885 ) ( 377.500, 238.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M2 )
+Bounds : ( 376.500, 223.815 ) ( 377.500, 224.855 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M2 )
+Bounds : ( 376.500, 230.870 ) ( 377.500, 231.585 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M2 )
+Bounds : ( 376.500, 234.880 ) ( 377.500, 239.880 )
+
+
+OFFMANUGRID: Special Wire of Net VDDR  ( M2 )
+Bounds : ( 436.860, 233.845 ) ( 437.140, 234.479 )
+
+
+OFFMANUGRID: Special Wire of Net VDDR  ( M3 )
+Bounds : ( 436.860, 225.470 ) ( 437.140, 229.284 )
+
+
+OFFMANUGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 436.860, 230.870 ) ( 437.140, 231.584 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_2  ( M6 )
+Bounds : ( 436.500, 224.205 ) ( 437.500, 229.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_2  ( M6 )
+Bounds : ( 436.500, 229.885 ) ( 437.500, 238.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M5 )
+Bounds : ( 437.000, 224.205 ) ( 437.500, 229.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M4 )
+Bounds : ( 437.000, 224.205 ) ( 437.500, 229.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M3 )
+Bounds : ( 437.000, 225.470 ) ( 437.500, 229.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M2 )
+Bounds : ( 437.000, 225.470 ) ( 437.500, 230.470 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M2 )
+Bounds : ( 437.000, 233.845 ) ( 437.500, 234.480 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M5 )
+Bounds : ( 437.000, 229.885 ) ( 437.500, 238.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M4 )
+Bounds : ( 437.000, 229.885 ) ( 437.500, 238.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M3 )
+Bounds : ( 437.000, 229.885 ) ( 437.500, 238.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M2 )
+Bounds : ( 437.000, 223.815 ) ( 437.500, 224.855 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M2 )
+Bounds : ( 437.000, 230.870 ) ( 437.500, 231.585 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M2 )
+Bounds : ( 437.000, 234.880 ) ( 437.500, 239.880 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M6 )
+Bounds : ( 376.500, 250.335 ) ( 377.500, 256.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M5 )
+Bounds : ( 376.500, 250.335 ) ( 377.500, 256.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M4 )
+Bounds : ( 376.500, 250.335 ) ( 377.500, 256.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M3 )
+Bounds : ( 376.500, 250.335 ) ( 377.500, 256.245 )
+
+
+OFFMANUGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 376.860, 244.085 ) ( 377.140, 249.079 )
+
+
+OFFMANUGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 376.860, 240.480 ) ( 377.140, 242.544 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M2 )
+Bounds : ( 376.500, 240.480 ) ( 377.500, 242.545 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M6 )
+Bounds : ( 376.500, 243.985 ) ( 377.500, 249.735 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M5 )
+Bounds : ( 376.500, 243.985 ) ( 377.500, 249.735 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M4 )
+Bounds : ( 376.500, 243.985 ) ( 377.500, 249.735 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M3 )
+Bounds : ( 376.500, 243.985 ) ( 377.500, 249.735 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M2 )
+Bounds : ( 376.500, 244.085 ) ( 377.500, 249.080 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 371.465, 258.660 ) ( 371.745, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 371.465, 258.660 ) ( 371.745, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 371.465, 258.660 ) ( 371.745, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 365.865, 261.335 ) ( 366.145, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 365.865, 261.460 ) ( 366.145, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 368.665, 261.360 ) ( 368.945, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 368.665, 261.360 ) ( 368.945, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 365.865, 261.335 ) ( 366.145, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 360.730, 261.360 ) ( 361.010, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 360.730, 261.360 ) ( 361.010, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 357.605, 261.335 ) ( 357.885, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 357.605, 261.460 ) ( 357.885, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 354.805, 261.360 ) ( 355.085, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 354.805, 261.360 ) ( 355.085, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 357.605, 261.335 ) ( 357.885, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 357.605, 258.660 ) ( 357.885, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 357.605, 258.660 ) ( 357.885, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 357.605, 258.660 ) ( 357.885, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 393.865, 258.660 ) ( 394.145, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 393.865, 261.335 ) ( 394.145, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 393.865, 261.335 ) ( 394.145, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 393.865, 258.660 ) ( 394.145, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 393.865, 258.660 ) ( 394.145, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 390.865, 261.360 ) ( 391.145, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 390.865, 261.360 ) ( 391.145, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 385.465, 261.360 ) ( 385.745, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 385.465, 261.360 ) ( 385.745, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 388.265, 261.335 ) ( 388.545, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 388.265, 261.335 ) ( 388.545, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 387.795, 258.530 ) ( 388.335, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 387.875, 258.530 ) ( 388.255, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 382.665, 258.660 ) ( 382.945, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 382.665, 258.660 ) ( 382.945, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 382.665, 258.660 ) ( 382.945, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 379.865, 261.360 ) ( 380.145, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 379.865, 261.360 ) ( 380.145, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 377.065, 261.335 ) ( 377.345, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 377.065, 261.460 ) ( 377.345, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 377.065, 261.335 ) ( 377.345, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 374.265, 261.360 ) ( 374.545, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 374.265, 261.360 ) ( 374.545, 261.640 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_1  ( M2 )
+Bounds : ( 376.500, 251.245 ) ( 377.500, 256.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_2  ( M6 )
+Bounds : ( 436.500, 250.335 ) ( 437.500, 256.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M5 )
+Bounds : ( 437.000, 250.335 ) ( 437.500, 256.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M4 )
+Bounds : ( 437.000, 250.335 ) ( 437.500, 256.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M3 )
+Bounds : ( 437.000, 250.335 ) ( 437.500, 256.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M2 )
+Bounds : ( 437.000, 251.245 ) ( 437.500, 256.245 )
+
+
+OFFMANUGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 436.860, 244.085 ) ( 437.140, 249.079 )
+
+
+OFFMANUGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 436.860, 240.480 ) ( 437.140, 242.544 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_2  ( M6 )
+Bounds : ( 436.500, 243.985 ) ( 437.500, 249.735 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M2 )
+Bounds : ( 437.000, 240.480 ) ( 437.500, 242.545 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M5 )
+Bounds : ( 437.000, 243.985 ) ( 437.500, 249.735 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M4 )
+Bounds : ( 437.000, 243.985 ) ( 437.500, 249.735 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M3 )
+Bounds : ( 437.000, 243.985 ) ( 437.500, 249.735 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_TEST_MODE  ( M2 )
+Bounds : ( 437.000, 244.085 ) ( 437.500, 249.080 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 425.695, 259.855 ) ( 425.975, 260.135 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 425.695, 259.855 ) ( 425.975, 260.135 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 420.175, 259.830 ) ( 420.455, 260.110 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 420.175, 259.830 ) ( 420.455, 260.110 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 419.995, 259.855 ) ( 420.275, 260.135 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 419.995, 259.855 ) ( 420.275, 260.135 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 417.660, 259.830 ) ( 417.940, 260.110 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 417.660, 259.830 ) ( 417.940, 260.110 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 414.860, 259.830 ) ( 415.140, 260.110 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 414.860, 259.830 ) ( 415.140, 260.110 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 403.660, 259.830 ) ( 403.940, 260.110 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 403.660, 259.830 ) ( 403.940, 260.110 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 425.520, 258.530 ) ( 426.060, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 425.600, 258.530 ) ( 425.980, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 419.930, 258.530 ) ( 420.470, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 420.010, 258.530 ) ( 420.390, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 417.660, 258.660 ) ( 417.940, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 417.660, 258.660 ) ( 417.940, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 406.460, 258.660 ) ( 406.740, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 406.460, 258.660 ) ( 406.740, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 408.930, 258.530 ) ( 409.470, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 409.830, 258.970 ) ( 410.110, 259.250 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 409.830, 258.970 ) ( 410.110, 259.250 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 404.965, 258.970 ) ( 405.245, 259.250 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 404.965, 258.970 ) ( 405.245, 259.250 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 403.530, 258.530 ) ( 404.070, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 403.610, 258.530 ) ( 403.990, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 396.365, 258.660 ) ( 396.645, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 396.365, 258.660 ) ( 396.645, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 423.260, 261.335 ) ( 423.540, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 423.260, 261.335 ) ( 423.540, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 412.060, 261.335 ) ( 412.340, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 412.060, 261.335 ) ( 412.340, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 400.860, 261.335 ) ( 401.140, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 400.860, 261.335 ) ( 401.140, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 462.460, 258.660 ) ( 462.740, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 462.460, 258.660 ) ( 462.740, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 465.655, 258.530 ) ( 466.195, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 451.260, 258.660 ) ( 451.540, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 451.260, 258.660 ) ( 451.540, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 454.590, 258.530 ) ( 455.130, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 454.670, 258.530 ) ( 455.050, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 448.935, 258.530 ) ( 449.315, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 440.060, 259.830 ) ( 440.340, 260.110 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 440.060, 259.830 ) ( 440.340, 260.110 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 440.060, 258.660 ) ( 440.340, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 440.060, 258.660 ) ( 440.340, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 437.655, 258.530 ) ( 438.195, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 437.735, 258.530 ) ( 438.115, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 428.860, 259.830 ) ( 429.140, 260.110 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 428.860, 259.830 ) ( 429.140, 260.110 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 432.590, 258.530 ) ( 433.130, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 432.670, 258.530 ) ( 433.050, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 428.860, 258.660 ) ( 429.140, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 428.860, 258.660 ) ( 429.140, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 465.260, 261.945 ) ( 465.540, 262.225 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 465.260, 261.945 ) ( 465.540, 262.225 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 456.860, 261.335 ) ( 457.140, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 456.860, 261.335 ) ( 457.140, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 440.060, 261.335 ) ( 440.340, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 440.060, 261.335 ) ( 440.340, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 434.460, 261.335 ) ( 434.740, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 434.460, 261.335 ) ( 434.740, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 454.060, 261.945 ) ( 454.340, 262.225 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 454.060, 261.945 ) ( 454.340, 262.225 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 449.080, 261.945 ) ( 449.360, 262.225 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 449.080, 261.945 ) ( 449.360, 262.225 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 442.860, 261.945 ) ( 443.140, 262.225 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 442.860, 261.945 ) ( 443.140, 262.225 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 438.080, 261.945 ) ( 438.360, 262.225 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 438.080, 261.945 ) ( 438.360, 262.225 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 431.660, 261.945 ) ( 431.940, 262.225 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 431.660, 261.945 ) ( 431.940, 262.225 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 460.080, 261.945 ) ( 460.360, 262.225 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 460.080, 261.945 ) ( 460.360, 262.225 )
+
+
+NOGRID: Special Wire of Net GND  ( M5 )
+Bounds : ( 736.860, 238.885 ) ( 737.140, 243.385 )
+
+
+NOGRID: Special Wire of Net GND  ( M4 )
+Bounds : ( 736.860, 238.885 ) ( 737.140, 243.385 )
+
+
+NOGRID: Special Wire of Net GND  ( M3 )
+Bounds : ( 736.860, 238.885 ) ( 737.140, 243.385 )
+
+
+NOGRID: Special Wire of Net GND  ( M5 )
+Bounds : ( 556.860, 238.885 ) ( 557.140, 243.385 )
+
+
+NOGRID: Special Wire of Net GND  ( M4 )
+Bounds : ( 556.860, 238.885 ) ( 557.140, 243.385 )
+
+
+NOGRID: Special Wire of Net GND  ( M3 )
+Bounds : ( 556.860, 238.885 ) ( 557.140, 243.385 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_GND_1  ( M6 )
+Bounds : ( 616.500, 238.885 ) ( 617.500, 243.385 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_3  ( M6 )
+Bounds : ( 556.500, 238.885 ) ( 557.500, 243.385 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M5 )
+Bounds : ( 616.500, 238.885 ) ( 617.000, 243.385 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M4 )
+Bounds : ( 616.500, 238.885 ) ( 617.000, 243.385 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M3 )
+Bounds : ( 616.500, 238.885 ) ( 617.000, 243.385 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M6 )
+Bounds : ( 736.500, 238.885 ) ( 737.500, 243.385 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M6 )
+Bounds : ( 677.000, 238.885 ) ( 677.500, 243.385 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M5 )
+Bounds : ( 677.000, 238.885 ) ( 677.500, 243.385 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M4 )
+Bounds : ( 677.000, 238.885 ) ( 677.500, 243.385 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M3 )
+Bounds : ( 677.000, 238.885 ) ( 677.500, 243.385 )
+
+
+NOGRID: Special Wire of Net GND  ( M4 )
+Bounds : ( 496.860, 238.885 ) ( 497.140, 243.385 )
+
+
+NOGRID: Special Wire of Net GND  ( M5 )
+Bounds : ( 496.860, 238.885 ) ( 497.140, 243.385 )
+
+
+NOGRID: Special Wire of Net GND  ( M3 )
+Bounds : ( 496.860, 238.885 ) ( 497.140, 243.385 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_3  ( M6 )
+Bounds : ( 496.500, 238.885 ) ( 497.500, 243.385 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_GND_1  ( M6 )
+Bounds : ( 616.500, 224.205 ) ( 617.500, 229.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_GND_1  ( M6 )
+Bounds : ( 616.500, 229.885 ) ( 617.500, 238.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M5 )
+Bounds : ( 616.500, 224.205 ) ( 617.000, 229.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M4 )
+Bounds : ( 616.500, 224.205 ) ( 617.000, 229.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M3 )
+Bounds : ( 616.500, 225.470 ) ( 617.000, 229.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M2 )
+Bounds : ( 616.500, 225.470 ) ( 617.000, 230.470 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M2 )
+Bounds : ( 616.500, 233.845 ) ( 617.000, 234.480 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M2 )
+Bounds : ( 616.500, 240.480 ) ( 617.000, 242.545 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M5 )
+Bounds : ( 616.500, 229.885 ) ( 617.000, 238.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M4 )
+Bounds : ( 616.500, 229.885 ) ( 617.000, 238.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M3 )
+Bounds : ( 616.500, 229.885 ) ( 617.000, 238.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M2 )
+Bounds : ( 616.500, 223.815 ) ( 617.000, 224.855 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M2 )
+Bounds : ( 616.500, 230.870 ) ( 617.000, 231.585 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M2 )
+Bounds : ( 616.500, 234.880 ) ( 617.000, 239.880 )
+
+
+NOGRID: Special Wire of Net GND  ( M5 )
+Bounds : ( 556.860, 229.885 ) ( 557.140, 238.285 )
+
+
+NOGRID: Special Wire of Net GND  ( M4 )
+Bounds : ( 556.860, 229.885 ) ( 557.140, 238.285 )
+
+
+NOGRID: Special Wire of Net GND  ( M3 )
+Bounds : ( 556.860, 229.885 ) ( 557.140, 238.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_3  ( M6 )
+Bounds : ( 556.500, 229.885 ) ( 557.500, 238.285 )
+
+
+NOGRID: Special Wire of Net GND  ( M4 )
+Bounds : ( 496.860, 229.885 ) ( 497.140, 238.285 )
+
+
+NOGRID: Special Wire of Net GND  ( M5 )
+Bounds : ( 496.860, 229.885 ) ( 497.140, 238.285 )
+
+
+NOGRID: Special Wire of Net GND  ( M3 )
+Bounds : ( 496.860, 229.885 ) ( 497.140, 238.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_3  ( M6 )
+Bounds : ( 496.500, 229.885 ) ( 497.500, 238.285 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M5 )
+Bounds : ( 556.860, 224.205 ) ( 557.140, 229.285 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M4 )
+Bounds : ( 556.860, 224.205 ) ( 557.140, 229.285 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M3 )
+Bounds : ( 556.860, 225.470 ) ( 557.140, 229.284 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M2 )
+Bounds : ( 556.860, 225.470 ) ( 557.140, 230.470 )
+
+
+NOGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 556.860, 230.870 ) ( 557.140, 231.584 )
+
+
+NOGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 556.860, 223.815 ) ( 557.140, 224.855 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_3  ( M6 )
+Bounds : ( 556.500, 224.205 ) ( 557.500, 229.285 )
+
+
+OFFMANUGRID: Special Wire of Net VDDR  ( M3 )
+Bounds : ( 496.860, 225.470 ) ( 497.140, 229.284 )
+
+
+OFFMANUGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 496.860, 230.870 ) ( 497.140, 231.584 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M2 )
+Bounds : ( 496.860, 225.470 ) ( 497.140, 230.470 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M3 )
+Bounds : ( 496.860, 225.470 ) ( 497.140, 229.284 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M4 )
+Bounds : ( 496.860, 224.205 ) ( 497.140, 229.285 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M5 )
+Bounds : ( 496.860, 224.205 ) ( 497.140, 229.285 )
+
+
+NOGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 496.860, 230.870 ) ( 497.140, 231.584 )
+
+
+NOGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 496.860, 223.815 ) ( 497.140, 224.855 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_3  ( M6 )
+Bounds : ( 496.500, 224.205 ) ( 497.500, 229.285 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M2 )
+Bounds : ( 556.860, 233.845 ) ( 557.140, 234.479 )
+
+
+NOGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 556.860, 240.480 ) ( 557.140, 242.544 )
+
+
+NOGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 556.860, 234.880 ) ( 557.140, 239.880 )
+
+
+OFFMANUGRID: Special Wire of Net VDDR  ( M2 )
+Bounds : ( 496.860, 233.845 ) ( 497.140, 234.479 )
+
+
+OFFMANUGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 496.860, 240.480 ) ( 497.140, 242.544 )
+
+
+NOGRID: Special Wire of Net VDDR  ( M2 )
+Bounds : ( 496.860, 233.845 ) ( 497.140, 234.479 )
+
+
+NOGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 496.860, 240.480 ) ( 497.140, 242.544 )
+
+
+NOGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 496.860, 234.880 ) ( 497.140, 239.880 )
+
+
+NOGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 736.860, 223.815 ) ( 737.140, 224.855 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M6 )
+Bounds : ( 736.500, 224.205 ) ( 737.500, 229.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M6 )
+Bounds : ( 677.000, 224.205 ) ( 677.500, 229.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M5 )
+Bounds : ( 677.000, 224.205 ) ( 677.500, 229.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M4 )
+Bounds : ( 677.000, 224.205 ) ( 677.500, 229.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M3 )
+Bounds : ( 677.000, 225.470 ) ( 677.500, 229.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M2 )
+Bounds : ( 677.000, 225.470 ) ( 677.500, 230.470 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M2 )
+Bounds : ( 677.000, 233.845 ) ( 677.500, 234.480 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M2 )
+Bounds : ( 677.000, 240.480 ) ( 677.500, 242.545 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M6 )
+Bounds : ( 736.500, 229.885 ) ( 737.500, 238.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M6 )
+Bounds : ( 677.000, 229.885 ) ( 677.500, 238.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M5 )
+Bounds : ( 677.000, 229.885 ) ( 677.500, 238.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M4 )
+Bounds : ( 677.000, 229.885 ) ( 677.500, 238.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M3 )
+Bounds : ( 677.000, 229.885 ) ( 677.500, 238.285 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M2 )
+Bounds : ( 677.000, 223.815 ) ( 677.500, 224.855 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M2 )
+Bounds : ( 677.000, 230.870 ) ( 677.500, 231.585 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M2 )
+Bounds : ( 677.000, 234.880 ) ( 677.500, 239.880 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 479.260, 259.830 ) ( 479.540, 260.110 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 479.260, 259.830 ) ( 479.540, 260.110 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 479.260, 258.660 ) ( 479.540, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 479.260, 258.660 ) ( 479.540, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 479.875, 259.830 ) ( 480.155, 260.110 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 479.875, 259.830 ) ( 480.155, 260.110 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 476.855, 258.530 ) ( 477.395, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 473.660, 259.830 ) ( 473.940, 260.110 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 473.660, 259.830 ) ( 473.940, 260.110 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 473.660, 258.660 ) ( 473.940, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 473.660, 258.660 ) ( 473.940, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 473.660, 261.335 ) ( 473.940, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 473.660, 261.335 ) ( 473.940, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 474.275, 261.945 ) ( 474.555, 262.225 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 474.275, 261.945 ) ( 474.555, 262.225 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 471.080, 261.945 ) ( 471.360, 262.225 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 471.080, 261.945 ) ( 471.360, 262.225 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 468.060, 261.335 ) ( 468.340, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 468.060, 261.335 ) ( 468.340, 261.615 )
+
+
+NOGRID: Special Wire of Net VDD  ( M5 )
+Bounds : ( 556.860, 250.335 ) ( 557.140, 256.245 )
+
+
+NOGRID: Special Wire of Net VDD  ( M4 )
+Bounds : ( 556.860, 250.335 ) ( 557.140, 256.245 )
+
+
+NOGRID: Special Wire of Net VDD  ( M3 )
+Bounds : ( 556.860, 250.335 ) ( 557.140, 256.245 )
+
+
+NOGRID: Special Wire of Net VDD  ( M2 )
+Bounds : ( 556.860, 251.245 ) ( 557.140, 256.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_GND_1  ( M6 )
+Bounds : ( 616.500, 250.335 ) ( 617.500, 256.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_3  ( M6 )
+Bounds : ( 556.500, 250.335 ) ( 557.500, 256.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M5 )
+Bounds : ( 616.500, 250.335 ) ( 617.000, 256.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M4 )
+Bounds : ( 616.500, 250.335 ) ( 617.000, 256.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M3 )
+Bounds : ( 616.500, 250.335 ) ( 617.000, 256.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M2 )
+Bounds : ( 616.500, 251.245 ) ( 617.000, 256.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M6 )
+Bounds : ( 736.500, 250.335 ) ( 737.500, 256.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M6 )
+Bounds : ( 677.000, 250.335 ) ( 677.500, 256.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M5 )
+Bounds : ( 677.000, 250.335 ) ( 677.500, 256.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M4 )
+Bounds : ( 677.000, 250.335 ) ( 677.500, 256.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M3 )
+Bounds : ( 677.000, 250.335 ) ( 677.500, 256.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M2 )
+Bounds : ( 677.000, 251.245 ) ( 677.500, 256.245 )
+
+
+NOGRID: Special Wire of Net VDD  ( M2 )
+Bounds : ( 496.860, 251.245 ) ( 497.140, 256.245 )
+
+
+NOGRID: Special Wire of Net VDD  ( M3 )
+Bounds : ( 496.860, 250.335 ) ( 497.140, 256.245 )
+
+
+NOGRID: Special Wire of Net VDD  ( M4 )
+Bounds : ( 496.860, 250.335 ) ( 497.140, 256.245 )
+
+
+NOGRID: Special Wire of Net VDD  ( M5 )
+Bounds : ( 496.860, 250.335 ) ( 497.140, 256.245 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_3  ( M6 )
+Bounds : ( 496.500, 250.335 ) ( 497.500, 256.245 )
+
+
+NOGRID: Special Wire of Net GND  ( M5 )
+Bounds : ( 556.860, 243.985 ) ( 557.140, 249.735 )
+
+
+NOGRID: Special Wire of Net GND  ( M4 )
+Bounds : ( 556.860, 243.985 ) ( 557.140, 249.735 )
+
+
+NOGRID: Special Wire of Net GND  ( M3 )
+Bounds : ( 556.860, 243.985 ) ( 557.140, 249.735 )
+
+
+NOGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 556.860, 244.085 ) ( 557.140, 249.079 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_GND_1  ( M6 )
+Bounds : ( 616.500, 243.985 ) ( 617.500, 249.735 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_3  ( M6 )
+Bounds : ( 556.500, 243.985 ) ( 557.500, 249.735 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M5 )
+Bounds : ( 616.500, 243.985 ) ( 617.000, 249.735 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M4 )
+Bounds : ( 616.500, 243.985 ) ( 617.000, 249.735 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M3 )
+Bounds : ( 616.500, 243.985 ) ( 617.000, 249.735 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_4  ( M2 )
+Bounds : ( 616.500, 244.085 ) ( 617.000, 249.080 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M6 )
+Bounds : ( 736.500, 243.985 ) ( 737.500, 249.735 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M6 )
+Bounds : ( 677.000, 243.985 ) ( 677.500, 249.735 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M5 )
+Bounds : ( 677.000, 243.985 ) ( 677.500, 249.735 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M4 )
+Bounds : ( 677.000, 243.985 ) ( 677.500, 249.735 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M3 )
+Bounds : ( 677.000, 243.985 ) ( 677.500, 249.735 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_5  ( M2 )
+Bounds : ( 677.000, 244.085 ) ( 677.500, 249.080 )
+
+
+OFFMANUGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 496.860, 244.085 ) ( 497.140, 249.079 )
+
+
+NOGRID: Special Wire of Net GND  ( M3 )
+Bounds : ( 496.860, 243.985 ) ( 497.140, 249.735 )
+
+
+NOGRID: Special Wire of Net GND  ( M4 )
+Bounds : ( 496.860, 243.985 ) ( 497.140, 249.735 )
+
+
+NOGRID: Special Wire of Net GND  ( M5 )
+Bounds : ( 496.860, 243.985 ) ( 497.140, 249.735 )
+
+
+NOGRID: Special Wire of Net GND  ( M2 )
+Bounds : ( 496.860, 244.085 ) ( 497.140, 249.079 )
+
+
+NOGRID: Pin of Cell EMC_PADS_INSTANCE/P_PORT2_3  ( M6 )
+Bounds : ( 496.500, 243.985 ) ( 497.500, 249.735 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 498.440, 261.335 ) ( 498.720, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 498.440, 261.335 ) ( 498.720, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 498.440, 258.660 ) ( 498.720, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 498.440, 258.660 ) ( 498.720, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 495.640, 259.830 ) ( 495.920, 260.110 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 495.640, 259.830 ) ( 495.920, 260.110 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 493.655, 258.530 ) ( 494.195, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 493.735, 258.530 ) ( 494.115, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 487.660, 261.945 ) ( 487.940, 262.225 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 487.660, 261.945 ) ( 487.940, 262.225 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 492.840, 258.660 ) ( 493.120, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 492.840, 258.660 ) ( 493.120, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 488.055, 258.530 ) ( 488.595, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 488.135, 258.530 ) ( 488.515, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 492.030, 259.830 ) ( 492.310, 260.110 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 492.030, 259.830 ) ( 492.310, 260.110 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 484.860, 261.335 ) ( 485.140, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 484.860, 261.335 ) ( 485.140, 261.615 )
+
+
+NOGRID: Special Wire of Net VDD  ( M6 )
+Bounds : ( 519.720, 257.800 ) ( 520.520, 262.350 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 531.290, 258.660 ) ( 531.570, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 531.290, 258.660 ) ( 531.570, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 531.290, 258.660 ) ( 531.570, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 531.190, 258.530 ) ( 531.730, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 520.395, 258.660 ) ( 520.675, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 517.595, 258.660 ) ( 517.875, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 517.595, 258.660 ) ( 517.875, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 520.395, 258.660 ) ( 520.675, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 520.395, 258.660 ) ( 520.675, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 517.730, 258.530 ) ( 518.110, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 514.850, 258.530 ) ( 515.390, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 509.195, 258.660 ) ( 509.475, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 512.225, 258.660 ) ( 512.505, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 512.225, 258.660 ) ( 512.505, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 509.195, 258.660 ) ( 509.475, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 509.195, 258.660 ) ( 509.475, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 509.730, 258.530 ) ( 510.270, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 506.395, 258.660 ) ( 506.675, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 506.395, 258.660 ) ( 506.675, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 504.330, 258.530 ) ( 504.870, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 504.410, 258.530 ) ( 504.790, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 566.975, 258.660 ) ( 567.255, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 566.975, 258.660 ) ( 567.255, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 563.920, 258.660 ) ( 564.200, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 561.375, 258.660 ) ( 561.655, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 561.375, 258.660 ) ( 561.655, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 563.920, 258.660 ) ( 564.200, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 563.920, 258.660 ) ( 564.200, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 564.190, 258.530 ) ( 564.730, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 564.270, 258.530 ) ( 564.650, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 547.555, 258.660 ) ( 547.835, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 547.555, 258.660 ) ( 547.835, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 547.555, 258.660 ) ( 547.835, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 541.955, 258.660 ) ( 542.235, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 541.955, 258.660 ) ( 542.235, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 541.955, 258.660 ) ( 542.235, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 542.190, 258.530 ) ( 542.730, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 542.270, 258.530 ) ( 542.650, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 585.920, 258.660 ) ( 586.200, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 585.920, 258.660 ) ( 586.200, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 585.920, 258.660 ) ( 586.200, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 589.020, 258.530 ) ( 589.560, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 574.920, 258.660 ) ( 575.200, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 578.175, 258.660 ) ( 578.455, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 578.175, 258.660 ) ( 578.455, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 572.575, 258.660 ) ( 572.855, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 572.575, 258.660 ) ( 572.855, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 574.920, 258.660 ) ( 575.200, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 574.920, 258.660 ) ( 575.200, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 576.590, 258.530 ) ( 577.130, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 570.450, 258.530 ) ( 570.990, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 570.530, 258.530 ) ( 570.910, 259.070 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 612.865, 258.660 ) ( 613.145, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M2 )
+Bounds : ( 612.865, 258.660 ) ( 613.145, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 608.930, 258.530 ) ( 609.470, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 609.010, 258.530 ) ( 609.390, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 606.460, 258.660 ) ( 606.740, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 606.460, 258.660 ) ( 606.740, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 610.860, 258.660 ) ( 611.140, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M2 )
+Bounds : ( 610.860, 258.660 ) ( 611.140, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 609.465, 258.660 ) ( 609.745, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M2 )
+Bounds : ( 609.465, 258.660 ) ( 609.745, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M4 )
+Bounds : ( 609.060, 258.660 ) ( 609.340, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 609.060, 258.660 ) ( 609.340, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M4 )
+Bounds : ( 603.660, 258.660 ) ( 603.940, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 603.660, 258.660 ) ( 603.940, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 594.975, 258.660 ) ( 595.255, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 594.975, 258.660 ) ( 595.255, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 592.175, 258.660 ) ( 592.455, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 592.175, 258.660 ) ( 592.455, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 592.175, 258.660 ) ( 592.455, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 598.075, 258.530 ) ( 598.615, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 630.945, 258.660 ) ( 631.390, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 630.945, 258.660 ) ( 631.225, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 630.930, 258.530 ) ( 631.470, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 631.010, 258.530 ) ( 631.390, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 625.930, 258.530 ) ( 626.470, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 626.010, 258.530 ) ( 626.390, 259.070 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 634.265, 258.660 ) ( 634.545, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M2 )
+Bounds : ( 634.265, 258.660 ) ( 634.545, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 619.945, 258.660 ) ( 620.390, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 619.945, 258.660 ) ( 620.225, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 614.810, 258.530 ) ( 615.190, 259.070 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 624.365, 258.660 ) ( 624.645, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M2 )
+Bounds : ( 624.365, 258.660 ) ( 624.645, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 620.345, 258.660 ) ( 620.625, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M2 )
+Bounds : ( 620.345, 258.660 ) ( 620.625, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M4 )
+Bounds : ( 614.860, 258.660 ) ( 615.140, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 614.860, 258.660 ) ( 615.140, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 659.430, 258.660 ) ( 659.990, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 659.430, 258.660 ) ( 659.710, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 659.530, 258.530 ) ( 660.070, 259.070 )
+
+
+NOGRID: Special Via of Net GND  ( M4 )
+Bounds : ( 662.230, 258.660 ) ( 662.510, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 662.230, 258.660 ) ( 662.510, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 654.330, 258.530 ) ( 654.870, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 654.410, 258.530 ) ( 654.790, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 648.330, 258.530 ) ( 648.870, 259.070 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 654.775, 258.660 ) ( 655.055, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M2 )
+Bounds : ( 654.775, 258.660 ) ( 655.055, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M4 )
+Bounds : ( 651.030, 258.660 ) ( 651.310, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 651.030, 258.660 ) ( 651.310, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 641.945, 258.660 ) ( 642.225, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 641.945, 258.660 ) ( 642.225, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 643.345, 258.660 ) ( 643.790, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 643.345, 258.660 ) ( 643.625, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 643.330, 258.530 ) ( 643.870, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 637.130, 258.530 ) ( 637.670, 259.070 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 644.165, 258.660 ) ( 644.445, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M2 )
+Bounds : ( 644.165, 258.660 ) ( 644.445, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 694.000, 258.530 ) ( 694.540, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 694.080, 258.530 ) ( 694.460, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 688.155, 258.660 ) ( 688.435, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 688.155, 258.660 ) ( 688.435, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 688.480, 258.660 ) ( 689.095, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 688.815, 258.660 ) ( 689.095, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 688.400, 258.530 ) ( 688.940, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 688.480, 258.530 ) ( 688.860, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 681.885, 258.660 ) ( 682.165, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 681.885, 258.660 ) ( 682.165, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 671.555, 258.660 ) ( 671.835, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M2 )
+Bounds : ( 671.555, 258.660 ) ( 671.835, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 670.630, 258.660 ) ( 670.910, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 670.630, 258.660 ) ( 670.910, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 667.535, 258.660 ) ( 667.815, 258.940 )
+
+
+NOGRID: Special Via of Net GND  ( M2 )
+Bounds : ( 667.535, 258.660 ) ( 667.815, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 737.685, 258.660 ) ( 737.965, 259.220 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 737.685, 258.660 ) ( 737.965, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 737.930, 258.530 ) ( 738.470, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 731.675, 258.660 ) ( 731.955, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 731.675, 258.660 ) ( 732.190, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 731.675, 258.660 ) ( 731.955, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 731.730, 258.530 ) ( 732.270, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 731.810, 258.530 ) ( 732.190, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 726.730, 258.530 ) ( 727.270, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 726.810, 258.530 ) ( 727.190, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 720.675, 258.660 ) ( 720.955, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 720.675, 258.660 ) ( 720.955, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 720.675, 258.660 ) ( 720.955, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 715.610, 258.530 ) ( 715.990, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 709.730, 258.530 ) ( 710.270, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 709.810, 258.530 ) ( 710.190, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 706.460, 258.660 ) ( 706.740, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 706.460, 258.660 ) ( 706.740, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 706.460, 258.660 ) ( 706.740, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 697.010, 258.660 ) ( 697.290, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 697.010, 258.660 ) ( 697.290, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 697.535, 258.660 ) ( 697.815, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 697.535, 258.660 ) ( 697.815, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 696.725, 258.660 ) ( 697.005, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 696.725, 258.660 ) ( 697.005, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 785.410, 258.530 ) ( 785.950, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 785.490, 258.530 ) ( 785.870, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 783.185, 258.660 ) ( 783.465, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 782.970, 258.660 ) ( 783.465, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 783.185, 258.660 ) ( 783.465, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 775.340, 258.660 ) ( 775.620, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 775.340, 258.660 ) ( 775.620, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 774.410, 258.530 ) ( 774.950, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 767.425, 258.660 ) ( 767.705, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 767.425, 258.660 ) ( 767.705, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 767.425, 258.660 ) ( 767.705, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 768.980, 258.530 ) ( 769.360, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 763.300, 258.530 ) ( 763.840, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 763.380, 258.530 ) ( 763.760, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 761.825, 258.660 ) ( 762.105, 259.220 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 761.825, 258.660 ) ( 762.105, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 757.700, 258.530 ) ( 758.240, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 757.780, 258.530 ) ( 758.160, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 749.295, 258.660 ) ( 749.575, 259.220 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 749.295, 258.660 ) ( 749.575, 258.940 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 782.890, 258.530 ) ( 783.430, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 782.970, 258.530 ) ( 783.350, 259.070 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 761.825, 258.940 ) ( 762.105, 259.220 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 749.295, 258.940 ) ( 749.575, 259.220 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 737.685, 258.940 ) ( 737.965, 259.220 )
+
+
+NOGRID: Special Via of Net GND  ( M2 )
+Bounds : ( 670.920, 259.720 ) ( 671.200, 260.000 )
+
+
+NOGRID: Special Via of Net GND  ( M1 )
+Bounds : ( 670.920, 259.670 ) ( 671.200, 260.050 )
+
+
+NOGRID: Special Via of Net GND  ( M2 )
+Bounds : ( 667.100, 259.720 ) ( 667.380, 260.000 )
+
+
+NOGRID: Special Via of Net GND  ( M1 )
+Bounds : ( 667.100, 259.670 ) ( 667.380, 260.050 )
+
+
+NOGRID: Special Via of Net GND  ( M2 )
+Bounds : ( 652.070, 259.720 ) ( 652.350, 260.000 )
+
+
+NOGRID: Special Via of Net GND  ( M1 )
+Bounds : ( 652.070, 259.670 ) ( 652.350, 260.050 )
+
+
+NOGRID: Special Via of Net GND  ( M2 )
+Bounds : ( 633.665, 258.995 ) ( 633.945, 259.275 )
+
+
+NOGRID: Special Via of Net GND  ( M1 )
+Bounds : ( 633.665, 258.945 ) ( 633.945, 259.325 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 544.755, 261.360 ) ( 545.035, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 544.755, 261.360 ) ( 545.035, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 539.305, 261.360 ) ( 539.585, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 539.305, 261.360 ) ( 539.585, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 531.315, 261.335 ) ( 531.595, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 531.315, 261.335 ) ( 531.595, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 528.045, 261.360 ) ( 528.325, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 528.045, 261.360 ) ( 528.325, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 525.015, 261.335 ) ( 525.295, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 525.015, 261.335 ) ( 525.295, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 514.795, 261.335 ) ( 515.075, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 514.795, 261.335 ) ( 515.075, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 503.595, 261.335 ) ( 503.875, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 503.595, 261.335 ) ( 503.875, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 583.775, 261.360 ) ( 584.055, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 583.775, 261.360 ) ( 584.055, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 580.420, 261.335 ) ( 580.700, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 580.420, 261.335 ) ( 580.700, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 569.420, 261.335 ) ( 569.700, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 569.420, 261.460 ) ( 569.700, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 569.420, 261.335 ) ( 569.700, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 555.775, 261.360 ) ( 556.055, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 555.775, 261.360 ) ( 556.055, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 558.420, 261.335 ) ( 558.700, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 558.420, 261.335 ) ( 558.700, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 549.865, 261.360 ) ( 550.145, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 549.865, 261.360 ) ( 550.145, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 547.510, 261.335 ) ( 547.790, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 547.510, 261.335 ) ( 547.790, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 612.060, 261.335 ) ( 612.340, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 612.060, 261.335 ) ( 612.340, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 600.860, 261.335 ) ( 601.140, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 600.860, 261.460 ) ( 601.140, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 600.860, 261.335 ) ( 601.140, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 591.420, 261.335 ) ( 591.700, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 591.420, 261.460 ) ( 591.700, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 592.815, 261.335 ) ( 593.095, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 592.815, 261.460 ) ( 593.095, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 592.815, 261.335 ) ( 593.095, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 591.420, 261.335 ) ( 591.700, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 589.375, 261.360 ) ( 589.655, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 589.375, 261.360 ) ( 589.655, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 642.630, 261.335 ) ( 642.910, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 642.630, 261.335 ) ( 642.910, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 636.445, 261.335 ) ( 636.725, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 636.445, 261.335 ) ( 636.725, 261.615 )
+
+
+NOGRID: Special Via of Net GND  ( M4 )
+Bounds : ( 645.430, 261.360 ) ( 645.710, 261.640 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 645.430, 261.360 ) ( 645.710, 261.640 )
+
+
+NOGRID: Special Via of Net GND  ( M4 )
+Bounds : ( 639.830, 261.360 ) ( 640.110, 261.640 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 639.830, 261.360 ) ( 640.110, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 625.445, 261.335 ) ( 625.725, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 625.445, 261.335 ) ( 625.725, 261.615 )
+
+
+NOGRID: Special Via of Net GND  ( M4 )
+Bounds : ( 634.230, 261.360 ) ( 634.510, 261.640 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 634.230, 261.360 ) ( 634.510, 261.640 )
+
+
+NOGRID: Special Via of Net GND  ( M4 )
+Bounds : ( 628.630, 261.360 ) ( 628.910, 261.640 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 628.630, 261.360 ) ( 628.910, 261.640 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 623.045, 261.460 ) ( 623.325, 261.740 )
+
+
+NOGRID: Special Via of Net GND  ( M2 )
+Bounds : ( 623.045, 261.460 ) ( 623.325, 261.740 )
+
+
+NOGRID: Special Via of Net GND  ( M4 )
+Bounds : ( 623.030, 261.360 ) ( 623.310, 261.640 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 623.030, 261.360 ) ( 623.310, 261.640 )
+
+
+NOGRID: Special Via of Net GND  ( M4 )
+Bounds : ( 673.220, 261.360 ) ( 673.500, 261.640 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 673.220, 261.360 ) ( 673.500, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 670.845, 261.335 ) ( 671.125, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 670.845, 261.335 ) ( 671.125, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 665.030, 261.335 ) ( 665.310, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 665.030, 261.335 ) ( 665.310, 261.615 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 670.070, 261.460 ) ( 670.350, 261.740 )
+
+
+NOGRID: Special Via of Net GND  ( M2 )
+Bounds : ( 670.070, 261.460 ) ( 670.350, 261.740 )
+
+
+NOGRID: Special Via of Net GND  ( M4 )
+Bounds : ( 667.830, 261.360 ) ( 668.110, 261.640 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 667.830, 261.360 ) ( 668.110, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 653.830, 261.335 ) ( 654.110, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 653.830, 261.335 ) ( 654.110, 261.615 )
+
+
+NOGRID: Special Via of Net GND  ( M4 )
+Bounds : ( 656.630, 261.360 ) ( 656.910, 261.640 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 656.630, 261.360 ) ( 656.910, 261.640 )
+
+
+NOGRID: Special Via of Net GND  ( M3 )
+Bounds : ( 652.075, 261.460 ) ( 652.355, 261.740 )
+
+
+NOGRID: Special Via of Net GND  ( M2 )
+Bounds : ( 652.075, 261.460 ) ( 652.355, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 709.260, 261.360 ) ( 709.540, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 709.260, 261.360 ) ( 709.540, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 706.760, 261.335 ) ( 707.040, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 706.760, 261.335 ) ( 707.040, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 703.660, 261.360 ) ( 703.940, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 703.660, 261.360 ) ( 703.940, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 701.260, 261.335 ) ( 701.540, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 701.260, 261.335 ) ( 701.540, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 697.010, 261.335 ) ( 697.290, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 697.010, 261.335 ) ( 697.290, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 691.615, 261.360 ) ( 691.895, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 691.545, 261.360 ) ( 691.895, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M2 )
+Bounds : ( 691.545, 261.360 ) ( 691.825, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 688.815, 261.335 ) ( 689.095, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 688.815, 261.335 ) ( 689.095, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 684.790, 261.360 ) ( 685.070, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 684.790, 261.360 ) ( 685.070, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 737.685, 261.460 ) ( 737.965, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 737.685, 261.460 ) ( 737.965, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 740.485, 261.360 ) ( 740.765, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 740.485, 261.360 ) ( 740.765, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 737.175, 261.335 ) ( 737.455, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 737.175, 261.335 ) ( 737.455, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 740.810, 261.205 ) ( 741.190, 261.745 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 734.885, 261.360 ) ( 735.165, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 734.885, 261.360 ) ( 735.165, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 729.285, 261.360 ) ( 729.565, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 729.285, 261.360 ) ( 729.565, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 723.685, 261.360 ) ( 723.965, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 723.685, 261.360 ) ( 723.965, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 726.175, 261.335 ) ( 726.455, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 726.175, 261.335 ) ( 726.455, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 720.675, 261.460 ) ( 720.955, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 720.675, 261.460 ) ( 720.955, 261.740 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 718.085, 261.360 ) ( 718.365, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 718.085, 261.360 ) ( 718.365, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 785.625, 261.360 ) ( 785.905, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 785.625, 261.360 ) ( 785.905, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 780.385, 261.360 ) ( 780.665, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 780.385, 261.360 ) ( 780.665, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 777.585, 261.335 ) ( 777.865, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 777.585, 261.335 ) ( 777.865, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 764.145, 261.360 ) ( 764.425, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 764.145, 261.360 ) ( 764.425, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 767.425, 261.335 ) ( 767.705, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 767.425, 261.335 ) ( 767.705, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 759.025, 261.360 ) ( 759.305, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 759.025, 261.360 ) ( 759.305, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 752.095, 261.360 ) ( 752.375, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M3 )
+Bounds : ( 752.095, 261.360 ) ( 752.375, 261.640 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 749.775, 261.335 ) ( 750.055, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M4 )
+Bounds : ( 749.775, 261.335 ) ( 750.055, 261.615 )
+
+
+NOGRID: Special Via of Net VDD  ( M6 )
+Bounds : ( 743.080, 261.205 ) ( 743.620, 261.745 )
+
+
+NOGRID: Special Via of Net VDD  ( M5 )
+Bounds : ( 743.160, 261.205 ) ( 743.540, 261.745 )
+
+
+NOGRID: Special Via of Net GND  ( M2 )
+Bounds : ( 685.205, 261.960 ) ( 685.485, 262.240 )
+
+
+NOGRID: Special Via of Net GND  ( M1 )
+Bounds : ( 685.205, 261.910 ) ( 685.485, 262.290 )
+
+
+NOGRID: Special Via of Net GND  ( M2 )
+Bounds : ( 603.660, 261.960 ) ( 603.940, 262.240 )
+
+
+NOGRID: Special Via of Net GND  ( M1 )
+Bounds : ( 603.660, 261.910 ) ( 603.940, 262.290 )
+
+
+
+Begin Summary ...
+  Cells       : 259
+  SameNet     : 20
+  Wiring      : 367
+  Antenna     : 0
+  Short       : 0
+  Overlap     : 0
+End Summary
+
+  Total Violations : 1000 Viols.

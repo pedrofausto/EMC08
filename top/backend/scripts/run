@@ -1,0 +1,1 @@
+encounter -init scripts/run_sequence.tcl -log logs/encounter.log -overwrite

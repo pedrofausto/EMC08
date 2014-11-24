@@ -1,0 +1,62 @@
+################################################
+#                                              #
+#  FirstEncounter Global Variables File        #
+#                                              #
+################################################
+#
+# Created by student
+# Created on Wed Dec  1 13:43:10 BRT 2010
+# Version 1.1
+#
+
+setUserDataValue fpIsMaxIoHeight 0
+
+set_global clock_gating_to_be_checked "true"
+set_global lib_build_asynch_arc "false"
+set_global lib_build_asynch_de_assert_arc "false"
+set_global lib_build_timing_cond_default_arc "true"
+set_global report_precision "3"
+set_global timing_allow_input_delay_on_clock_source "false"
+set_global timing_case_analysis_for_sequential_propagation "false"
+set_global timing_case_analysis_for_icg_propagation "false"
+set_global timing_clock_phase_propagation "positive"
+set_global timing_continue_on_error "false"
+set_global timing_cppr_threshold_ps "20"
+set_global timing_cppr_transition_sense "normal"
+set_global timing_cppr_self_loop_mode "false"
+set_global timing_disable_bus_contention_check "false"
+set_global timing_disable_clockgating_checks "false"
+set_global timing_disable_clockperiod_checks "false"
+set_global timing_disable_floating_bus_check "false"
+set_global timing_disable_inferred_clock_gating_checks "false"
+set_global timing_enable_tristate_clock_gating "false"
+set_global timing_disable_internal_inout_cell_paths "true"
+set_global timing_disable_internal_inout_net_arcs "false"
+set_global timing_disable_lib_pulsewidth_checks "false"
+set_global timing_disable_library_data_to_data_checks "false"
+set_global timing_disable_nochange_checks "false"
+set_global timing_disable_recovery_removal_checks "false"
+set_global timing_disable_skew_checks "false"
+set_global timing_disable_test_signal_arc "false"
+set_global timing_disable_tristate_disable_arcs "false"
+set_global timing_disable_user_data_to_data_checks "false"
+set_global timing_enable_default_delay_arc "true"
+set_global timing_enable_preset_clear_arcs "false"
+set_global timing_enable_si_cppr "false"
+set_global timing_enable_uncertainty_for_pulsewidth_checks "false"
+set_global timing_io_use_clock_network_latency "ideal"
+set_global timing_path_groups_for_clocks "false"
+set_global timing_reduce_multi_drive_net_arcs "true"
+set_global timing_reduce_multi_drive_net_arcs_threshold "10000"
+set_global timing_remove_clock_reconvergence_pessimism "false"
+set_global timing_self_loop_paths_no_skew "false"
+set_global timing_self_loop_paths_no_skew_max_depth "10"
+set_global timing_self_loop_paths_no_skew_max_slack "0"
+set_global timing_set_scaling_for_negative_checks "default"
+set_global timing_set_scaling_for_negative_delays "default"
+set_global timing_use_latch_time_borrow "true"
+set_global write_global_slack_worst_trigger_path_on_clocks "false"
+set_global timing_disable_non_sequential_checks "false"
+set_global timing_disable_clock_gating_checks "false"
+set_global timing_enable_data_through_clock_gating "true"
+set_global locv_inter_clock_use_worst_derate "false"

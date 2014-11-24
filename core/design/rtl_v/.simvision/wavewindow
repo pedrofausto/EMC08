@@ -1,0 +1,939 @@
+# SimVision Wave Window (Fri Sep 17 07:57:25 AM BRT 2010)
+
+pattern .waveWindow0 ::WaveWindow v1.0 {
+  overall {
+    data geometry 1274x915+0+0
+    data windowname {Waveform 2}
+    data istarget 1
+    data sidebar {visibility partial}
+    data waveforms {
+
+pattern #auto ::Group v1.0 {
+  overall {
+    data options {-name ROM -overlay 0 -comment {} -parents {} -groups {}}
+    data idpos {}
+    data signals {
+pattern @public@cf SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_pc_i[15:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@cf
+    data pid 2720
+  }
+}
+pattern @public@d1 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_rom_data_i[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d1
+    data pid 2720
+  }
+}
+pattern @public@d2 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_rom_addr_o[15:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d2
+    data pid 2720
+  }
+}
+pattern @public@d3 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_rom_rd_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d3
+    data pid 2720
+  }
+}}
+    data signaloptions {{-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix %b -stylehint {verilog logic}}}
+    data penoptions {{-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}}
+    data isopen 1
+  }
+}
+
+pattern #auto ::Group v1.0 {
+  overall {
+    data options {-name RAM -overlay 0 -comment {} -parents {} -groups {}}
+    data idpos {}
+    data signals {
+pattern @public@db SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_ram_addr_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@db
+    data pid 2720
+  }
+}
+pattern @public@e7 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_ram_data_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e7
+    data pid 2720
+  }
+}
+pattern @public@e6 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_ram_data_i[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e6
+    data pid 2720
+  }
+}
+pattern @public@dc SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_ram_rd_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@dc
+    data pid 2720
+  }
+}
+pattern @public@de SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_ram_wr_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@de
+    data pid 2720
+  }
+}}
+    data signaloptions {{-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}}}
+    data penoptions {{-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}}
+    data isopen 1
+  }
+}
+
+pattern #auto ::Group v1.0 {
+  overall {
+    data options {-name SFR -overlay 0 -comment {} -parents {} -groups {}}
+    data idpos {}
+    data signals {
+pattern @public@d9 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_sfr_addr_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d9
+    data pid 2720
+  }
+}
+pattern @public@e5 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_sfr_data_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e5
+    data pid 2720
+  }
+}
+pattern @public@e4 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_sfr_data_i[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e4
+    data pid 2720
+  }
+}
+pattern @public@dd SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_sfr_rd_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@dd
+    data pid 2720
+  }
+}
+pattern @public@df SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_sfr_wr_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@df
+    data pid 2720
+  }
+}}
+    data signaloptions {{-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}}}
+    data penoptions {{-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}}
+    data isopen 1
+  }
+}
+
+pattern #auto ::Group v1.0 {
+  overall {
+    data options {-name ALU -overlay 0 -comment {} -parents {} -groups {}}
+    data idpos {}
+    data signals {
+pattern @public@e2 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_alu_opcode_o[4:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e2
+    data pid 2720
+  }
+}
+pattern @public@e0 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_alu_op1_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e0
+    data pid 2720
+  }
+}
+pattern @public@e1 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_alu_op2_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e1
+    data pid 2720
+  }
+}
+pattern @public@f4 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.ALU.alu_cy_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@f4
+    data pid 2720
+  }
+}
+pattern @public@d8 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_alu_result_i[15:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d8
+    data pid 2720
+  }
+}
+pattern @public@f6 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.fsm_alu_en_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@f6
+    data pid 2720
+  }
+}}
+    data signaloptions {{-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix %b -stylehint {verilog logic}}}
+    data penoptions {{-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}}
+    data isopen 1
+  }
+}
+
+pattern #auto ::Group v1.0 {
+  overall {
+    data options {-name PCAU -overlay 0 -comment {} -parents {} -groups {}}
+    data idpos {}
+    data signals {
+pattern @public@ea SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_pcau_en_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@ea
+    data pid 2720
+  }
+}
+pattern @public@e9 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_pcau_offset_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e9
+    data pid 2720
+  }
+}}
+    data signaloptions {{-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix {} -stylehint {verilog bus}}}
+    data penoptions {{-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}}
+    data isopen 0
+  }
+}
+
+pattern #auto ::Group v1.0 {
+  overall {
+    data options {-name INT -overlay 0 -comment {} -parents {} -groups {}}
+    data idpos {}
+    data signals {
+pattern @public@ed SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_int_vect_i[2:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@ed
+    data pid 2720
+  }
+}
+pattern @public@ef SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_int_rdy_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@ef
+    data pid 2720
+  }
+}
+pattern @public@ee SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_int_na_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@ee
+    data pid 2720
+  }
+}
+pattern @public@104 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.interrupt_flag
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@104
+    data pid 2720
+  }
+}}
+    data signaloptions {{-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}}}
+    data penoptions {{-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}}
+    data isopen 0
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_reset_i_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d6
+    data pid 2720
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen16 {} 2720 {
+pattern ::stylepen16 stylepen v1.0 {
+  overall {
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+}}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.PCAU.pcau_clock_mem_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@28e
+    data pid 2720
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen16 {} 2720 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_clock_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d5
+    data pid 2720
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen16 {} 2720 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_state_o[2:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@f2
+    data pid 2720
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus} -stylemap ::stylemap2 -colorpen ::stylepen17}
+    object stylepen ::stylepen15 {} 2720 {
+pattern ::stylepen15 stylepen v1.0 {
+  overall {
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+}}
+    object colorpen ::stylepen17 {} 2720 {
+pattern ::stylepen17 stylepen v1.0 {
+  overall {
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label {} -linecolor #000000 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+}}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_opcode[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@298
+    data pid 2720
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus} -colorpen ::stylepen17}
+    object stylepen ::stylepen15 {} 2720 {}
+    object colorpen ::stylepen17 {} 2720 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.cycle_continue
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@299
+    data pid 2720
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic} -stylemap ::stylemap4 -colorpen ::stylepen17}
+    object stylepen ::stylepen16 {} 2720 {}
+    object colorpen ::stylepen17 {} 2720 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_psw_rs_i[1:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e8
+    data pid 2720
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 2720 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_op1[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@29a
+    data pid 2720
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 2720 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_op2[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@29b
+    data pid 2720
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 2720 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_op_aux_1[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@105
+    data pid 2720
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 2720 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_op_aux_2[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@29c
+    data pid 2720
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 2720 {}
+  }
+}
+
+pattern #auto ::Group v1.0 {
+  overall {
+    data options {-name ROM -overlay 0 -comment {} -parents {} -groups {}}
+    data idpos {}
+    data signals {
+pattern @public@cf SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_pc_i[15:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@cf
+    data pid 2720
+  }
+}
+pattern @public@d1 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_rom_data_i[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d1
+    data pid 2720
+  }
+}
+pattern @public@d2 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_rom_addr_o[15:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d2
+    data pid 2720
+  }
+}
+pattern @public@d3 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_rom_rd_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d3
+    data pid 2720
+  }
+}}
+    data signaloptions {{-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix %b -stylehint {verilog logic}}}
+    data penoptions {{-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}}
+    data isopen 1
+  }
+}
+
+pattern #auto ::Group v1.0 {
+  overall {
+    data options {-name RAM -overlay 0 -comment {} -parents {} -groups {}}
+    data idpos {}
+    data signals {
+pattern @public@db SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_ram_addr_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@db
+    data pid 2720
+  }
+}
+pattern @public@e7 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_ram_data_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e7
+    data pid 2720
+  }
+}
+pattern @public@e6 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_ram_data_i[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e6
+    data pid 2720
+  }
+}
+pattern @public@dc SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_ram_rd_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@dc
+    data pid 2720
+  }
+}
+pattern @public@de SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_ram_wr_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@de
+    data pid 2720
+  }
+}}
+    data signaloptions {{-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}}}
+    data penoptions {{-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}}
+    data isopen 1
+  }
+}
+
+pattern #auto ::Group v1.0 {
+  overall {
+    data options {-name SFR -overlay 0 -comment {} -parents {} -groups {}}
+    data idpos {}
+    data signals {
+pattern @public@d9 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_sfr_addr_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d9
+    data pid 2720
+  }
+}
+pattern @public@e5 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_sfr_data_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e5
+    data pid 2720
+  }
+}
+pattern @public@e4 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_sfr_data_i[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e4
+    data pid 2720
+  }
+}
+pattern @public@dd SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_sfr_rd_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@dd
+    data pid 2720
+  }
+}
+pattern @public@df SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_sfr_wr_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@df
+    data pid 2720
+  }
+}}
+    data signaloptions {{-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}}}
+    data penoptions {{-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}}
+    data isopen 1
+  }
+}
+
+pattern #auto ::Group v1.0 {
+  overall {
+    data options {-name ALU -overlay 0 -comment {} -parents {} -groups {}}
+    data idpos {}
+    data signals {
+pattern @public@e2 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_alu_opcode_o[4:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e2
+    data pid 2720
+  }
+}
+pattern @public@e0 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_alu_op1_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e0
+    data pid 2720
+  }
+}
+pattern @public@e1 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_alu_op2_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e1
+    data pid 2720
+  }
+}
+pattern @public@f4 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.ALU.alu_cy_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@f4
+    data pid 2720
+  }
+}
+pattern @public@d8 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_alu_result_i[15:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@d8
+    data pid 2720
+  }
+}
+pattern @public@f6 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.fsm_alu_en_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@f6
+    data pid 2720
+  }
+}}
+    data signaloptions {{-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix %b -stylehint {verilog logic}}}
+    data penoptions {{-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}}
+    data isopen 1
+  }
+}
+
+pattern #auto ::Group v1.0 {
+  overall {
+    data options {-name PCAU -overlay 0 -comment {} -parents {} -groups {}}
+    data idpos {}
+    data signals {
+pattern @public@ea SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_pcau_en_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@ea
+    data pid 2720
+  }
+}
+pattern @public@e9 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_pcau_offset_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e9
+    data pid 2720
+  }
+}}
+    data signaloptions {{-mode digital -radix %b -stylehint {verilog logic} -colorpen ::stylepen18} {-mode digital -radix {} -stylehint {verilog bus} -colorpen ::stylepen18}}
+    data penoptions {{-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}}
+    data isopen 0
+  }
+}
+
+pattern #auto ::Group v1.0 {
+  overall {
+    data options {-name INT -overlay 0 -comment {} -parents {} -groups {}}
+    data idpos {}
+    data signals {
+pattern @public@ed SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.fsm_int_vect_i[2:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@ed
+    data pid 2720
+  }
+}
+pattern @public@ef SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_int_rdy_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@ef
+    data pid 2720
+  }
+}
+pattern @public@ee SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_int_na_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@ee
+    data pid 2720
+  }
+}
+pattern @public@104 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.interrupt_flag
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@104
+    data pid 2720
+  }
+}}
+    data signaloptions {{-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}}}
+    data penoptions {{-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}}
+    data isopen 0
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::core_fsm_tb.FSM.next_state[2:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@29d
+    data pid 2720
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen15 {} 2720 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::core_fsm_tb.FSM.fsm_bit_byte_flag_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@da
+    data pid 2720
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic} -stylemap ::stylemap4}
+    object stylepen ::stylepen16 {} 2720 {}
+  }
+}}
+    data searchentry {}
+    data searchlist {}
+    data cursorname TimeA
+    data baseline 337740ps
+    data timeunits ps
+    data currentzoom {283440ps : 555740ps}
+    data zoomhistory {{0 : 272,300ps} {337,740ps : 610,040ps} {0 : 1,000,000,000ns} {0 : 2000ps} {312,380ps : 752,380ps} {0 : 2,051,000ps} {2,049,000ps : 2,051,000ps} {0 : 2000ps} {0 : 10ps} {0 : 1,000,000,000ns}}
+    data displaysearchtoolbar 1
+    data labelmode name
+    data gridoptions {-state off -start 0 -delta 0}
+    data deltas {{-item baseline -value 337,740ps} {-item {cursor baseline} -value 272,300ps}}
+  }
+}

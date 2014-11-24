@@ -1,0 +1,123 @@
+# SimVision Command Script (Thu Sep 30 08:21:38 AM BRT 2010)
+#
+# Version 06.10.p001
+#
+# You can restore this configuration with:
+#
+#     ncsim -gui serial_top_tb_mode0 -tcl -update -input /home/student/EMC08/digital_A/serial/design/rtl_v/restore_mode0_presentation.tcl
+#
+
+
+#
+# preferences
+#
+preferences set toolbar-SimControl-WatchList {
+  usual
+  position -anchor e
+}
+preferences set waveform-print-variables selected
+preferences set txe-locate-add-fibers 1
+preferences set signal-type-colors {assertion #FF0000 output #FFA500 group #0099FF inout #00FFFF input #FFFF00 fiber #FF99FF errorsignal #FF0000 unknown #FFFFFF overlay #0099FF internal #00FF00 reference #FFFFFF}
+preferences set waveform-print-time range
+preferences set txe-navigate-search-locate 0
+preferences set txe-view-hold 0
+preferences set toolbar-SimControl-WaveWindow {
+  usual
+  position -anchor e
+}
+preferences set sb-editor-command kate
+preferences set verilog-colors {Su #ff0099 0 {} 1 {} HiZ #ff9900 We #00ffff Pu #9900ff Sm #00ff99 X #ff0000 StrX #ff0000 other #ffff00 Z #ff9900 Me #0000ff La #ff00ff St {}}
+preferences set save-state-on-startup 1
+preferences set restore-state-on-startup 1
+preferences set txe-navigate-waveform-locate 1
+preferences set txe-view-hidden 0
+preferences set toolbar-UserTB2-WaveWindow {
+  usual
+  add action_specman_sendto_stripechart
+  add action_specman_sendto_databrowser
+  position -row 0 -pos 3 -anchor e
+  name {Send To Specman}
+}
+preferences set toolbar-UserTB3-WaveWindow {
+  usual
+  add action_specman_sendto_stripechart
+  add action_specman_sendto_databrowser
+  position -row 0 -pos 4 -anchor e
+  name {Send To Specman}
+}
+preferences set txe-search-show-linenumbers 1
+preferences set toolbar-txe_waveform_toggle-WaveWindow {
+  usual
+  position -pos 1
+}
+preferences set toolbar-Windows-SrcBrowser {
+  usual
+  position -pos 1
+}
+preferences set print-company {CI Brasil - CT2}
+preferences set waveform-print-colors {As shown on screen}
+preferences set txe-navigate-waveform-next-child 1
+preferences set print-designer {Pedro Fausto}
+preferences set toolbar-Windows-WatchList {
+  usual
+  position -pos 2
+}
+preferences set vhdl-colors {H #00ffff L #00ffff 0 {} X #ff0000 - {} 1 {} U #9900ff Z #ff9900 W #ff0000}
+preferences set txe-locate-scroll-x 1
+preferences set txe-locate-scroll-y 1
+preferences set txe-locate-pop-waveform 1
+preferences set use-signal-type-colors 1
+
+#
+# Simulator
+#
+
+database require simulator -hints {
+	simulator "ncsim -gui serial_top_tb_mode0 -tcl -update -input restore_mode0_presentation.tcl"
+}
+
+#
+# cursors
+#
+set time 2340ns
+if {[catch {cursor new -name  TimeA -time $time}] != ""} {
+    cursor set -using TimeA -time $time
+}
+
+#
+# mmaps
+#
+mmap new -reuse -name {Boolean as Logic} -contents {
+{%c=FALSE -edgepriority 1 -shape low}
+{%c=TRUE -edgepriority 1 -shape high}
+}
+mmap new -reuse -name {Example Map} -contents {
+{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}
+}
+mmap new -reuse -name {New map} -contents {
+{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}
+}
+mmap new -reuse -name Mode -contents {
+{%b=0 -bgcolor #0099ff -font -*-courier-bold-r-normal--12-* -label MODE_0 -shape bus}
+{%b=1 -bgcolor #ff0000 -font -*-courier-bold-r-normal--12-* -label MODE_2 -shape bus}
+}
+
+#
+# Design Browser windows
+#
+if {[catch {window new WatchList -name "Design Browser 1" -geometry 700x500+0+48}] != ""} {
+    window geometry "Design Browser 1" 700x500+0+48
+}
+window target "Design Browser 1" on
+browser using {Design Browser 1}
+browser set \
+    -scope serial_top_tb_mode0.serial_top_tb_mode0
+browser yview see serial_top_tb_mode0.serial_top_tb_mode0
+browser timecontrol set -lock 0
+

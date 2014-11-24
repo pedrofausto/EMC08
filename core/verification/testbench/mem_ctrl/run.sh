@@ -1,0 +1,1 @@
+irun -access rwc -nbasync -snload mc_test.e -sntimescale 1ns/10ps -gui ../../../design/rtl_v/core_mem_ctrl*.v ROM4096X8.v SPRAM128X8.v -coverage all -snprerun "set check WARNING; test -seed=11" -input ctrl_mem_restore.tcl -covtest mc_test -covoverwrite -run &

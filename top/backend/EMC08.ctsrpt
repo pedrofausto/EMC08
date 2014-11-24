@@ -1,0 +1,2123 @@
+###############################################################
+# Complete Clock Tree Timing Report
+#
+# CLOCK: EMC_PADS_INSTANCE/P_CLOCK_MEM/Y
+#
+# Mode: preRoute
+#
+# Library Name        : D_CELLS_MOSLP_slow_1_62V_125C
+# Operating Condition : slow_1_62V_125C
+# Process             : 1
+# Voltage             : 1.62
+# Temperature         : 125
+#
+###############################################################
+
+
+Nr. of Subtrees                : 1
+Nr. of Sinks                   : 373
+Nr. of Buffer                  : 10
+Nr. of Level (including gates) : 1
+Root Rise Input Tran           : 0.1(ps)
+Root Fall Input Tran           : 0.1(ps)
+Max trig. edge delay at sink(R): EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[6]/C 693.7(ps)
+Min trig. edge delay at sink(F): EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[15]/CN 613.8(ps)
+
+                                 (Actual)               (Required)          
+Rise Phase Delay               : 632.2~693.7(ps)        0~25000(ps)         
+Fall Phase Delay               : 602.6~661.4(ps)        0~25000(ps)         
+Trig. Edge Skew                : 79.9(ps)               100(ps)             
+Rise Skew                      : 61.5(ps)               
+Fall Skew                      : 58.8(ps)               
+Max. Rise Buffer Tran          : 36.7(ps)               1000(ps)            
+Max. Fall Buffer Tran          : 36.7(ps)               1000(ps)            
+Max. Rise Sink Tran            : 607(ps)                1000(ps)            
+Max. Fall Sink Tran            : 512.4(ps)              1000(ps)            
+Min. Rise Buffer Tran          : 28.2(ps)               0(ps)               
+Min. Fall Buffer Tran          : 28.2(ps)               0(ps)               
+Min. Rise Sink Tran            : 557.6(ps)              0(ps)               
+Min. Fall Sink Tran            : 473.9(ps)              0(ps)               
+
+
+
+***** NO Max Transition Time Violation *****
+
+***** NO Min Transition Time Violation *****
+
+***** NO Max_Fanout Violation *****
+
+***** NO AC Irms Limit Violation *****
+
+EMC_PADS_INSTANCE/P_CLOCK_MEM/Y delay[0 0] (  top_clock_mem_i__L1_I9/A  top_clock_mem_i__L1_I8/A  top_clock_mem_i__L1_I7/A  top_clock_mem_i__L1_I6/A  top_clock_mem_i__L1_I5/A  top_clock_mem_i__L1_I4/A  top_clock_mem_i__L1_I3/A  top_clock_mem_i__L1_I2/A  top_clock_mem_i__L1_I1/A  top_clock_mem_i__L1_I0/A )
+********** Skew Distribution **********
+LEVEL 1 Buffer:
+-------------------------------------------------------
+Input Delay Range			Nr of Buffers
+-------------------------------------------------------
+[12.5 13.34]			1
+[13.34 14.18]			1
+[14.18 15.02]			0
+[15.02 15.86]			1
+[15.86 16.7]			0
+[16.7 17.54]			0
+[17.54 18.38]			0
+[18.38 19.22]			0
+[19.22 20.06]			1
+[20.06 20.9]			6
+(max, min, avg, skew) = (20.9(ps) 12.5(ps) 18.33(ps) 8.4(ps))
+
+-------------------------------------------------------
+Output Delay Range			Nr of Buffers
+-------------------------------------------------------
+[631.7 635.53]			1
+[635.53 639.36]			0
+[639.36 643.19]			0
+[643.19 647.02]			2
+[647.02 650.85]			2
+[650.85 654.68]			1
+[654.68 658.51]			2
+[658.51 662.34]			0
+[662.34 666.17]			1
+[666.17 670]			1
+(max, min, avg, skew) = (670(ps) 631.7(ps) 650.35(ps) 38.3(ps))
+
+
+
+LEVEL 2 Buffer:
+-------------------------------------------------------
+Input Delay Range			Nr of Buffers
+-------------------------------------------------------
+[632.2 638.35]			3
+[638.35 644.5]			10
+[644.5 650.65]			28
+[650.65 656.8]			23
+[656.8 662.95]			62
+[662.95 669.1]			50
+[669.1 675.25]			86
+[675.25 681.4]			55
+[681.4 687.55]			24
+[687.55 693.7]			32
+(max, min, avg, skew) = (693.7(ps) 632.2(ps) 665.552(ps) 61.5(ps))
+
+
+
+
+TOP LEVEL:
+EMC_PADS_INSTANCE/P_CLOCK_MEM/Y (0 0)
+
+
+LEVEL 1:
+cellName = BUCX4
+top_clock_mem_i__L1_I9/A (0.0132 0.0132)
+top_clock_mem_i__L1_I9/Q (0.6537 0.6216) load=0.202775(pf)
+
+cellName = BUCX4
+top_clock_mem_i__L1_I8/A (0.0208 0.0208)
+top_clock_mem_i__L1_I8/Q (0.6626 0.6304) load=0.202477(pf)
+
+cellName = BUCX4
+top_clock_mem_i__L1_I7/A (0.0192 0.0192)
+top_clock_mem_i__L1_I7/Q (0.67 0.6364) load=0.208824(pf)
+
+cellName = BUCX4
+top_clock_mem_i__L1_I6/A (0.0207 0.0207)
+top_clock_mem_i__L1_I6/Q (0.6498 0.6191) load=0.194804(pf)
+
+cellName = BUCX4
+top_clock_mem_i__L1_I5/A (0.0208 0.0208)
+top_clock_mem_i__L1_I5/Q (0.6551 0.6238) load=0.197434(pf)
+
+cellName = BUCX4
+top_clock_mem_i__L1_I4/A (0.0197 0.0197)
+top_clock_mem_i__L1_I4/Q (0.6436 0.6135) load=0.191238(pf)
+
+cellName = BUCX4
+top_clock_mem_i__L1_I3/A (0.0209 0.0209)
+top_clock_mem_i__L1_I3/Q (0.6462 0.6159) load=0.191335(pf)
+
+cellName = BUCX4
+top_clock_mem_i__L1_I2/A (0.0125 0.0125)
+top_clock_mem_i__L1_I2/Q (0.6317 0.6021) load=0.188368(pf)
+
+cellName = BUCX4
+top_clock_mem_i__L1_I1/A (0.0201 0.0201)
+top_clock_mem_i__L1_I1/Q (0.6473 0.6168) load=0.193448(pf)
+
+cellName = BUCX4
+top_clock_mem_i__L1_I0/A (0.0154 0.0154)
+top_clock_mem_i__L1_I0/Q (0.6435 0.6129) load=0.194828(pf)
+
+
+LEVEL 2:
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/load_sbuf_prev_reg/C (0.6692 0.6371)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[10][0]/C (0.6686 0.6365)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[10][1]/C (0.676 0.6439)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[10][2]/C (0.6758 0.6437)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[10][3]/C (0.6747 0.6426)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[10][4]/C (0.675 0.6429)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[10][5]/C (0.674 0.6419)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[10][6]/C (0.6754 0.6433)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[10][7]/C (0.6733 0.6412)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[14][0]/C (0.6602 0.6281)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[14][1]/C (0.6635 0.6314)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[14][2]/C (0.6593 0.6272)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[14][3]/C (0.6631 0.631)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[14][4]/C (0.6617 0.6296)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[14][5]/C (0.6761 0.644)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[14][6]/C (0.6762 0.6441)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[14][7]/C (0.6674 0.6353)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[17][2]/C (0.6629 0.6308)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[18][0]/C (0.6678 0.6356)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[18][1]/C (0.663 0.6309)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[18][2]/C (0.6631 0.631)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[18][3]/C (0.6628 0.6307)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[18][4]/C (0.6662 0.6341)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[18][5]/C (0.6689 0.6368)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[18][6]/C (0.6648 0.6327)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[18][7]/C (0.6626 0.6305)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[19][0]/C (0.6689 0.6368)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[19][1]/C (0.6728 0.6407)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[19][2]/C (0.6726 0.6405)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[19][3]/C (0.6728 0.6407)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[19][4]/C (0.671 0.6388)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[19][5]/C (0.6704 0.6383)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[19][6]/C (0.6703 0.6382)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[19][7]/C (0.6702 0.6381)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[24][4]/C (0.6724 0.6403)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[32][0]/C (0.6716 0.6395)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[32][1]/C (0.6714 0.6393)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[32][2]/C (0.663 0.6309)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[32][3]/C (0.6627 0.6306)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[32][4]/C (0.658 0.6259)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[32][5]/C (0.6665 0.6344)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[32][6]/C (0.6655 0.6334)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[32][7]/C (0.6701 0.638)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[8][0]/C (0.6722 0.6401)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[8][1]/C (0.6722 0.6401)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[8][3]/C (0.6724 0.6403)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[8][4]/C (0.6718 0.6397)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[8][5]/C (0.6712 0.6391)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[8][6]/C (0.6709 0.6388)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[8][7]/C (0.6685 0.6364)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[22][0]/C (0.6873 0.6551)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[22][1]/C (0.6832 0.6509)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[22][2]/C (0.6917 0.6595)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[22][3]/C (0.6794 0.6471)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[22][4]/C (0.691 0.6587)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[22][5]/C (0.6876 0.6553)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[22][6]/C (0.6886 0.6564)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[22][7]/C (0.6895 0.6573)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[23][4]/C (0.6887 0.6565)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[30][1]/C (0.6905 0.6582)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[30][4]/C (0.6893 0.6571)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[30][5]/C (0.6908 0.6586)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[30][6]/C (0.6908 0.6586)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[30][7]/C (0.6907 0.6584)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[34][0]/C (0.6871 0.6549)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[34][1]/C (0.6691 0.6369)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[34][2]/C (0.6764 0.6442)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[34][3]/C (0.6928 0.6606)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[34][4]/C (0.6924 0.6602)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[34][5]/C (0.6758 0.6436)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[34][6]/C (0.6777 0.6454)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[34][7]/C (0.6794 0.6472)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[36][4]/C (0.6864 0.6542)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[36][5]/C (0.6867 0.6545)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[36][6]/C (0.687 0.6548)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[36][7]/C (0.6869 0.6546)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[37][0]/C (0.6862 0.654)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[37][5]/C (0.6857 0.6535)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[37][7]/C (0.6851 0.6529)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[39][2]/C (0.6899 0.6577)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[40][0]/C (0.6907 0.6585)
+
+cellName = SDFRQX4
+EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[0]/C (0.6838 0.6516)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[10]/C (0.6905 0.6582)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[11]/C (0.6907 0.6584)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[12]/C (0.6907 0.6585)
+
+cellName = SDFRQX4
+EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[1]/C (0.6831 0.6509)
+
+cellName = SDFRQX1
+EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[2]/C (0.6815 0.6493)
+
+cellName = SDFRQX1
+EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[3]/C (0.6799 0.6477)
+
+cellName = SDFRQX4
+EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[4]/C (0.6792 0.647)
+
+cellName = SDFRQX1
+EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[5]/C (0.6935 0.6613)
+
+cellName = SDFRQX1
+EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[6]/C (0.6937 0.6614)
+
+cellName = SDFRQX1
+EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[7]/C (0.6934 0.6612)
+
+cellName = SDFRQX1
+EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[8]/C (0.6936 0.6614)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[9]/C (0.6917 0.6595)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/read_data_reg[3]/C (0.672 0.6384)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/serial_status_reg/C (0.6705 0.6369)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/serial_tx_tmp_reg/C (0.6717 0.6381)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[0][2]/C (0.672 0.6384)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[0][3]/C (0.6715 0.6379)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[0][4]/C (0.6723 0.6387)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[17][3]/C (0.6708 0.6372)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[17][4]/C (0.6706 0.637)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[17][5]/C (0.6767 0.6431)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[17][6]/C (0.6719 0.6383)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[17][7]/C (0.6748 0.6412)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[21][1]/C (0.6755 0.6419)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[21][2]/C (0.6756 0.642)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[21][3]/C (0.6799 0.6463)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[21][4]/C (0.68 0.6464)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[21][5]/C (0.6789 0.6453)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[21][6]/C (0.6795 0.6459)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[21][7]/C (0.6758 0.6422)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[24][1]/C (0.6717 0.6381)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[24][2]/C (0.6754 0.6418)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[24][3]/C (0.6753 0.6417)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[24][5]/C (0.6748 0.6412)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[24][6]/C (0.6749 0.6413)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[24][7]/C (0.6721 0.6385)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[26][0]/C (0.6722 0.6386)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[35][5]/C (0.6718 0.6382)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[35][6]/C (0.6718 0.6382)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[35][7]/C (0.6752 0.6416)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[4][1]/C (0.6719 0.6384)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[4][2]/C (0.6724 0.6388)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[4][3]/C (0.6793 0.6457)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[4][4]/C (0.6796 0.646)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[4][5]/C (0.6797 0.6461)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[4][6]/C (0.6727 0.6391)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[4][7]/C (0.6716 0.638)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[5][0]/C (0.6751 0.6415)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[5][1]/C (0.6793 0.6457)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[5][2]/C (0.6798 0.6462)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[5][3]/C (0.6801 0.6465)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[5][4]/C (0.6796 0.646)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[5][5]/C (0.6796 0.646)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[5][6]/C (0.6788 0.6452)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[5][7]/C (0.6776 0.644)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[6][4]/C (0.6726 0.639)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[6][5]/C (0.6726 0.639)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[6][6]/C (0.6722 0.6386)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[8][2]/C (0.6753 0.6417)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/read_data_reg[0]/C (0.6575 0.6268)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/read_data_reg[1]/C (0.6539 0.6232)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/read_data_reg[4]/C (0.6555 0.6248)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/read_data_reg[5]/C (0.6511 0.6204)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[29][2]/C (0.6662 0.6355)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[29][3]/C (0.6661 0.6354)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[29][4]/C (0.6657 0.635)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[2][0]/C (0.6562 0.6255)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[2][1]/C (0.6647 0.634)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[2][2]/C (0.664 0.6333)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[2][3]/C (0.6665 0.6358)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[2][6]/C (0.6669 0.6361)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[2][7]/C (0.6599 0.6291)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[30][0]/C (0.655 0.6243)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[30][2]/C (0.6788 0.648)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[30][3]/C (0.6787 0.648)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[31][0]/C (0.666 0.6353)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[31][1]/C (0.6648 0.634)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[31][2]/C (0.6671 0.6364)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[31][3]/C (0.6672 0.6365)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[31][4]/C (0.6674 0.6367)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[31][5]/C (0.6674 0.6366)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[31][7]/C (0.6674 0.6367)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[35][0]/C (0.6782 0.6475)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[38][2]/C (0.6734 0.6427)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[38][7]/C (0.6762 0.6455)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[39][0]/C (0.6768 0.6461)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[39][1]/C (0.6776 0.6469)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[39][3]/C (0.6577 0.627)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[39][4]/C (0.6786 0.6478)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[39][7]/C (0.678 0.6473)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[3][0]/C (0.6535 0.6228)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[3][1]/C (0.6543 0.6236)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[3][2]/C (0.6512 0.6205)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[3][3]/C (0.6565 0.6258)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[3][4]/C (0.6568 0.6261)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[3][5]/C (0.6561 0.6254)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[3][6]/C (0.6566 0.6259)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[3][7]/C (0.6571 0.6264)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[7][0]/C (0.6526 0.6219)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[7][1]/C (0.6519 0.6212)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[7][2]/C (0.6757 0.645)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[7][3]/C (0.6742 0.6435)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[7][4]/C (0.6725 0.6417)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[7][5]/C (0.6706 0.6399)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[7][6]/C (0.6686 0.6379)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[7][7]/C (0.675 0.6443)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[0][0]/C (0.6675 0.6362)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[0][1]/C (0.6641 0.6328)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[17][0]/C (0.6686 0.6373)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[17][1]/C (0.6685 0.6372)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[20][0]/C (0.6583 0.627)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[20][1]/C (0.6599 0.6286)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[20][2]/C (0.6597 0.6284)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[20][3]/C (0.6596 0.6283)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[20][4]/C (0.6568 0.6255)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[20][5]/C (0.6573 0.626)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[20][6]/C (0.6598 0.6285)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[20][7]/C (0.6584 0.6271)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[21][0]/C (0.6681 0.6369)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[24][0]/C (0.6645 0.6332)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[26][1]/C (0.6693 0.6381)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[26][2]/C (0.6693 0.6381)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[26][3]/C (0.669 0.6377)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[26][4]/C (0.6682 0.6369)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[26][5]/C (0.6692 0.638)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[26][6]/C (0.667 0.6357)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[26][7]/C (0.6697 0.6384)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[27][0]/C (0.6592 0.6279)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[27][1]/C (0.6698 0.6386)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[27][2]/C (0.6698 0.6385)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[27][3]/C (0.66 0.6287)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[27][4]/C (0.6598 0.6285)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[27][5]/C (0.6574 0.6261)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[27][6]/C (0.6692 0.6379)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[27][7]/C (0.6693 0.638)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[36][0]/C (0.6639 0.6326)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[36][1]/C (0.6645 0.6332)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[36][2]/C (0.6646 0.6333)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[36][3]/C (0.6636 0.6323)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[37][1]/C (0.658 0.6267)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[37][2]/C (0.6578 0.6265)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[37][3]/C (0.6583 0.627)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[37][4]/C (0.6572 0.6259)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[37][6]/C (0.6585 0.6272)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[40][1]/C (0.6613 0.63)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[40][2]/C (0.6647 0.6334)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[40][3]/C (0.6631 0.6318)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[40][4]/C (0.6569 0.6256)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[40][5]/C (0.6692 0.6379)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[40][6]/C (0.6613 0.63)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[40][7]/C (0.659 0.6277)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[4][0]/C (0.6669 0.6356)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[6][0]/C (0.6689 0.6376)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[6][1]/C (0.6689 0.6376)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[6][2]/C (0.6691 0.6378)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[6][3]/C (0.6692 0.6379)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[6][7]/C (0.6689 0.6376)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/read_data_reg[2]/C (0.6577 0.6276)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/read_data_reg[6]/C (0.6589 0.6288)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/read_data_reg[7]/C (0.6563 0.6262)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[0][5]/C (0.6531 0.623)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[0][6]/C (0.6562 0.6261)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[0][7]/C (0.6623 0.6322)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[16][4]/C (0.6628 0.6327)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[1][0]/C (0.6443 0.6142)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[1][1]/C (0.6451 0.615)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[1][2]/C (0.6452 0.6151)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[1][3]/C (0.6525 0.6224)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[1][4]/C (0.6562 0.6261)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[1][5]/C (0.6563 0.6262)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[1][6]/C (0.6581 0.628)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[1][7]/C (0.6545 0.6244)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[23][2]/C (0.6668 0.6367)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[23][3]/C (0.6665 0.6364)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[25][0]/C (0.656 0.6259)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[25][1]/C (0.6464 0.6163)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[25][2]/C (0.6578 0.6277)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[25][3]/C (0.6606 0.6305)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[25][4]/C (0.6673 0.6372)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[25][5]/C (0.6675 0.6373)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[25][6]/C (0.6674 0.6373)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[25][7]/C (0.6592 0.6291)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[28][0]/C (0.6632 0.6331)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[28][1]/C (0.6656 0.6355)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[28][2]/C (0.6661 0.636)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[28][3]/C (0.6644 0.6343)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[28][4]/C (0.6671 0.637)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[28][5]/C (0.6669 0.6368)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[28][6]/C (0.6669 0.6367)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[28][7]/C (0.6665 0.6364)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[29][0]/C (0.6655 0.6354)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[29][1]/C (0.6656 0.6355)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[29][5]/C (0.6452 0.6151)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[29][6]/C (0.6448 0.6147)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[29][7]/C (0.6445 0.6144)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[2][4]/C (0.6668 0.6367)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[2][5]/C (0.6668 0.6367)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[33][0]/C (0.6597 0.6296)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[33][4]/C (0.6627 0.6326)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[33][5]/C (0.6598 0.6297)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[33][6]/C (0.6626 0.6324)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[33][7]/C (0.6595 0.6294)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[9][7]/C (0.6593 0.6292)
+
+cellName = SDFFQX1
+EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[13]/CN (0.6727 0.6423)
+
+cellName = SDFFQX1
+EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[14]/CN (0.6729 0.6426)
+
+cellName = SDFFQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[1]/CN (0.6726 0.6423)
+
+cellName = SDFFQX4
+EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[2]/CN (0.6721 0.6418)
+
+cellName = SDFFQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[3]/CN (0.6704 0.6401)
+
+cellName = SDFFSX4
+EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[4]/CN (0.6708 0.6405)
+
+cellName = SDFFSQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[5]/CN (0.6706 0.6403)
+
+cellName = SDFFQX4
+EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[6]/CN (0.6726 0.6423)
+
+cellName = SDFFQX4
+EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[7]/CN (0.6729 0.6425)
+
+cellName = SDFFQX1
+EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[8]/CN (0.6725 0.6421)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[23][0]/C (0.6559 0.6256)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[23][5]/C (0.6567 0.6264)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[23][6]/C (0.6602 0.6299)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[23][7]/C (0.6601 0.6298)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[31][6]/C (0.6645 0.6342)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[35][1]/C (0.6611 0.6308)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[35][2]/C (0.6664 0.6361)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[35][3]/C (0.663 0.6327)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[35][4]/C (0.6665 0.6361)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[38][0]/C (0.6586 0.6283)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[38][1]/C (0.659 0.6287)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[38][3]/C (0.6597 0.6294)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[38][4]/C (0.6601 0.6298)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[38][5]/C (0.66 0.6297)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[38][6]/C (0.6602 0.6299)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[39][5]/C (0.6554 0.625)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[39][6]/C (0.6564 0.6261)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[13]/C (0.6571 0.6267)
+
+cellName = SDFRQX1
+EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[14]/C (0.657 0.6267)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/alu_fsm_result_reg[15]/C (0.657 0.6267)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[11][0]/C (0.6404 0.6108)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[11][1]/C (0.6322 0.6026)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[11][2]/C (0.6327 0.6031)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[11][3]/C (0.638 0.6084)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[11][4]/C (0.6379 0.6083)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[11][5]/C (0.6377 0.6081)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[11][6]/C (0.6424 0.6128)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[11][7]/C (0.6409 0.6113)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[12][0]/C (0.6443 0.6147)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[12][1]/C (0.6449 0.6153)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[12][2]/C (0.6455 0.6159)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[12][3]/C (0.6452 0.6156)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[12][4]/C (0.6439 0.6143)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[12][5]/C (0.6416 0.612)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[12][6]/C (0.6403 0.6107)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[12][7]/C (0.6402 0.6106)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[13][0]/C (0.6423 0.6127)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[13][1]/C (0.6472 0.6176)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[13][2]/C (0.646 0.6164)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[13][3]/C (0.6513 0.6217)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[13][4]/C (0.6536 0.624)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[13][5]/C (0.6483 0.6187)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[13][6]/C (0.6326 0.603)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[13][7]/C (0.6437 0.6141)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[15][0]/C (0.6447 0.6151)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[15][1]/C (0.6456 0.616)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[15][2]/C (0.6457 0.6161)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[15][3]/C (0.6435 0.6139)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[15][4]/C (0.6428 0.6132)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[15][5]/C (0.6392 0.6096)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[15][6]/C (0.6362 0.6066)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[15][7]/C (0.6378 0.6082)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[16][0]/C (0.6544 0.6248)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[16][1]/C (0.6551 0.6255)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[16][2]/C (0.6563 0.6267)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[16][3]/C (0.6562 0.6265)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[33][1]/C (0.656 0.6264)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[33][2]/C (0.6556 0.626)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[33][3]/C (0.6532 0.6236)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[9][0]/C (0.6529 0.6233)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[9][1]/C (0.6528 0.6232)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[9][2]/C (0.6527 0.6231)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[9][3]/C (0.6531 0.6235)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[9][4]/C (0.6494 0.6198)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[9][5]/C (0.653 0.6234)
+
+cellName = SDFRQX0
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[9][6]/C (0.6527 0.6231)
+
+cellName = ROM4096X8
+EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_rom/CLK (0.6716 0.6411)
+
+cellName = SDFFQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[0]/CN (0.6599 0.6294)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[16][5]/C (0.6483 0.6178)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[16][6]/C (0.6483 0.6178)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[16][7]/C (0.648 0.6175)
+
+cellName = SDFRQX2
+EMC_TOP_INSTANCE/CORE_INSTANCE/reg_ctrl/sfr_reg[23][1]/C (0.6529 0.6224)
+
+cellName = SPRAM128X8
+EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_ram/CLK (0.6537 0.6231)
+
+cellName = SDFFQX1
+EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[10]/CN (0.6454 0.6148)
+
+cellName = SDFFQX1
+EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[11]/CN (0.645 0.6144)
+
+cellName = SDFFQX1
+EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[12]/CN (0.6458 0.6152)
+
+cellName = SDFFX1
+EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[15]/CN (0.6444 0.6138)
+
+cellName = SDFFQX1
+EMC_TOP_INSTANCE/CORE_INSTANCE/pcau/pcau_pc_o_reg[9]/CN (0.6457 0.6151)
+
+
+###############################################################
+# Complete Clock Tree Timing Report
+#
+# CLOCK: EMC_PADS_INSTANCE/P_CLOCK/Y
+#
+# Mode: preRoute
+#
+# Library Name        : D_CELLS_MOSLP_slow_1_62V_125C
+# Operating Condition : slow_1_62V_125C
+# Process             : 1
+# Voltage             : 1.62
+# Temperature         : 125
+#
+###############################################################
+
+
+Nr. of Subtrees                : 3
+Nr. of Sinks                   : 339
+Nr. of Buffer                  : 16
+Nr. of Level (including gates) : 2
+Root Rise Input Tran           : 0.1(ps)
+Root Fall Input Tran           : 0.1(ps)
+Max trig. edge delay at sink(R): EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[4]/C 1686.4(ps)
+Min trig. edge delay at sink(F): EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[4]/CN 1548.5(ps)
+
+                                 (Actual)               (Required)          
+Rise Phase Delay               : 1551.5~1686.4(ps)      0~50000(ps)         
+Fall Phase Delay               : 1227.6~1625.9(ps)      0~50000(ps)         
+Trig. Edge Skew                : 137.9(ps)              100(ps)             
+Rise Skew                      : 134.9(ps)              
+Fall Skew                      : 398.3(ps)              
+Max. Rise Buffer Tran          : 975(ps)                1000(ps)            
+Max. Fall Buffer Tran          : 432.2(ps)              1000(ps)            
+Max. Rise Sink Tran            : 328.6(ps)              1000(ps)            
+Max. Fall Sink Tran            : 323.4(ps)              1000(ps)            
+Min. Rise Buffer Tran          : 9.2(ps)                0(ps)               
+Min. Fall Buffer Tran          : 9.2(ps)                0(ps)               
+Min. Rise Sink Tran            : 196.2(ps)              0(ps)               
+Min. Fall Sink Tran            : 180.7(ps)              0(ps)               
+
+
+
+***** NO Max Transition Time Violation *****
+
+***** NO Min Transition Time Violation *****
+
+***** NO Max_Fanout Violation *****
+
+***** NO AC Irms Limit Violation *****
+
+**** Sub Tree Report ****
+OUTPUT_TERM: EMC_PADS_INSTANCE/P_CLOCK/Y [0(ps) 0(ps)]
+
+Main Tree: 
+     nrSink         : 339
+     Rise Delay	   : [1551.5(ps)  1686.4(ps)]
+     Rise Skew	   : 134.9(ps)
+     Fall Delay	   : [1227.6(ps)  1625.9(ps)]
+     Fall Skew	   : 398.3(ps)
+
+
+  Child Tree 1 from EMC_TOP_INSTANCE/TIMERS_INSTANCE/p214748365A/IN1: 
+     nrSink : 48
+     Rise Delay [1665.6(ps)  1686.4(ps)] Skew [20.8(ps)]
+     Fall Delay[1348.6(ps)  1369.4(ps)] Skew=[20.8(ps)]
+
+
+  Child Tree 2 from EMC_TOP_INSTANCE/p214748365A174/IN1: 
+     nrSink : 11
+     Rise Delay [1555.9(ps)  1560.2(ps)] Skew [4.3(ps)]
+     Fall Delay[1227.6(ps)  1231.9(ps)] Skew=[4.3(ps)]
+
+
+  Main Tree from EMC_PADS_INSTANCE/P_CLOCK/Y w/o tracing through gates: 
+     nrSink : 280
+     nrGate : 2
+     Rise Delay [1551.5(ps)  1638.9(ps)] Skew [87.4(ps)]
+     Fall Delay [1541(ps)  1625.9(ps)] Skew=[84.9(ps)]
+
+
+**** Sub Tree Report ****
+INPUT_TERM: EMC_TOP_INSTANCE/TIMERS_INSTANCE/p214748365A/IN1 [6.1(ps) 6.1(ps)]
+OUTPUT_TERM: EMC_TOP_INSTANCE/TIMERS_INSTANCE/p214748365A/Q [756.4(ps) 633.8(ps)]
+
+Main Tree: 
+     nrSink         : 48
+     Rise Delay	   : [1665.6(ps)  1686.4(ps)]
+     Rise Skew	   : 20.8(ps)
+     Fall Delay	   : [1348.6(ps)  1369.4(ps)]
+     Fall Skew	   : 20.8(ps)
+
+
+  Main Tree from EMC_TOP_INSTANCE/TIMERS_INSTANCE/p214748365A/Q w/o tracing through gates: 
+     nrSink : 48
+     nrGate : 0
+     Rise Delay [1665.6(ps)  1686.4(ps)] Skew [20.8(ps)]
+     Fall Delay [1348.6(ps)  1369.4(ps)] Skew=[20.8(ps)]
+
+
+**** Sub Tree Report ****
+INPUT_TERM: EMC_TOP_INSTANCE/p214748365A174/IN1 [3.3(ps) 3.3(ps)]
+OUTPUT_TERM: EMC_TOP_INSTANCE/p214748365A174/Q [776.7(ps) 640.6(ps)]
+
+Main Tree: 
+     nrSink         : 11
+     Rise Delay	   : [1555.9(ps)  1560.2(ps)]
+     Rise Skew	   : 4.3(ps)
+     Fall Delay	   : [1227.6(ps)  1231.9(ps)]
+     Fall Skew	   : 4.3(ps)
+
+
+  Main Tree from EMC_TOP_INSTANCE/p214748365A174/Q w/o tracing through gates: 
+     nrSink : 11
+     nrGate : 0
+     Rise Delay [1555.9(ps)  1560.2(ps)] Skew [4.3(ps)]
+     Fall Delay [1227.6(ps)  1231.9(ps)] Skew=[4.3(ps)]
+
+
+EMC_PADS_INSTANCE/P_CLOCK/Y (0 0) load=0.105909(pf) 
+
+top_clock_i__L1_I0/A (0.0093 0.0093) 
+top_clock_i__L1_I0/Q (0.7653 0.7436) load=0.298605(pf) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/p214748365A/IN1 (0.0061 0.0061) 
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/p214748365A/Q (0.7564 0.6338) load=0.0149694(pf) 
+
+EMC_TOP_INSTANCE/p214748365A174/IN1 (0.0033 0.0033) 
+EMC_TOP_INSTANCE/p214748365A174/Q (0.7767 0.6406) load=0.0157545(pf) 
+
+top_clock_i__L2_I12/A (0.7927 0.771) 
+top_clock_i__L2_I12/Q (1.5505 1.54) load=0.188119(pf) 
+
+top_clock_i__L2_I11/A (0.78 0.7583) 
+top_clock_i__L2_I11/Q (1.5552 1.5439) load=0.213404(pf) 
+
+top_clock_i__L2_I10/A (0.7778 0.7561) 
+top_clock_i__L2_I10/Q (1.5642 1.5524) load=0.22973(pf) 
+
+top_clock_i__L2_I9/A (0.7843 0.7626) 
+top_clock_i__L2_I9/Q (1.5612 1.5498) load=0.215888(pf) 
+
+top_clock_i__L2_I8/A (0.7923 0.7706) 
+top_clock_i__L2_I8/Q (1.5663 1.5551) load=0.211728(pf) 
+
+top_clock_i__L2_I7/A (0.7917 0.77) 
+top_clock_i__L2_I7/Q (1.557 1.5461) load=0.198979(pf) 
+
+top_clock_i__L2_I6/A (0.7861 0.7644) 
+top_clock_i__L2_I6/Q (1.569 1.5574) load=0.224655(pf) 
+
+top_clock_i__L2_I5/A (0.7706 0.7489) 
+top_clock_i__L2_I5/Q (1.5669 1.5547) load=0.244212(pf) 
+
+top_clock_i__L2_I4/A (0.7749 0.7532) 
+top_clock_i__L2_I4/Q (1.5691 1.557) load=0.241097(pf) 
+
+top_clock_i__L2_I3/A (0.7898 0.7681) 
+top_clock_i__L2_I3/Q (1.5692 1.5577) load=0.219536(pf) 
+
+top_clock_i__L2_I2/A (0.7792 0.7575) 
+top_clock_i__L2_I2/Q (1.5772 1.5649) load=0.246661(pf) 
+
+top_clock_i__L2_I1/A (0.7798 0.7581) 
+top_clock_i__L2_I1/Q (1.5898 1.577) load=0.268423(pf) 
+
+top_clock_i__L2_I0/A (0.7878 0.7661) 
+top_clock_i__L2_I0/Q (1.605 1.592) load=0.285377(pf) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/n_85__L1_I0/A (0.7566 0.634) 
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/n_85__L1_I0/Q (1.6612 1.3442) load=0.209698(pf) 
+
+EMC_TOP_INSTANCE/n_145__L1_I0/A (0.7772 0.6411) 
+EMC_TOP_INSTANCE/n_145__L1_I0/Q (1.5552 1.2269) load=0.0401562(pf) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_width_reg[1]/C (1.5515 1.541) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_width_reg[2]/C (1.5517 1.5412) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_trans_counter_reg[0]/C (1.5518 1.5413) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_state_o_reg[2]/C (1.5738 1.5633) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[19]/C (1.5637 1.5532) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[17]/C (1.5539 1.5434) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[9]/C (1.5588 1.5483) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[2]/C (1.5619 1.5514) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[5]/C (1.5777 1.5672) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op2_reg[3]/C (1.5587 1.5474) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_reg[6]/CN (1.5624 1.5511) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_2_reg[3]/C (1.5606 1.5493) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_2_reg[4]/C (1.5617 1.5504) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[4]/CN (1.5598 1.5485) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[18]/C (1.5852 1.5739) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[4]/C (1.5711 1.5598) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/timers_timer2_pdcf_clkdiv_o_reg/C (1.5689 1.5576) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[0]/C (1.5734 1.5621) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/q_flop_reg/C (1.5669 1.5556) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/pdf_2sample_reg[2]/C (1.5625 1.5512) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_2_reg[2]/C (1.5822 1.5704) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_int_na_o_reg/C (1.5759 1.5641) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_reset_core_o_b_reg/CN (1.5722 1.5604) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_ctr_reg[1]/CN (1.5753 1.5635) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_ctr_reg[2]/CN (1.5744 1.5626) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_ctr_reg[5]/CN (1.573 1.5612) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_reg[1]/CN (1.5809 1.5691) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_reg[3]/CN (1.5809 1.5691) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_reg[4]/CN (1.5799 1.5681) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_reg[5]/CN (1.5787 1.5669) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_reg[6]/CN (1.5762 1.5644) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[6]/C (1.5823 1.5705) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[7]/C (1.5828 1.571) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[9]/C (1.5772 1.5654) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[3]/C (1.5816 1.5698) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[4]/C (1.5811 1.5693) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[5]/C (1.5807 1.5689) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[0]/C (1.578 1.5662) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_end_bit_o_reg/C (1.5772 1.5654) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_shift_o_reg/C (1.5831 1.5713) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[1]/C (1.5832 1.5714) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[2]/C (1.5832 1.5714) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[4]/C (1.5733 1.5615) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/flag_out_reg_reg[0]/C (1.5841 1.5727) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_ctr_reg[0]/CN (1.5688 1.5574) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_ctr_reg[3]/CN (1.5762 1.5648) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_ctr_reg[4]/CN (1.5707 1.5593) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_ctr_reg[6]/CN (1.579 1.5676) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_p3en_0_o_reg/C (1.5698 1.5584) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[2]/C (1.5709 1.5595) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[8]/C (1.5723 1.5609) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[1]/C (1.5708 1.5594) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_scon1_ti_o_reg/C (1.5722 1.5608) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_p3en_0_o_reg/C (1.5714 1.56) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_send_o_reg/C (1.5721 1.5607) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_data_en_o_reg/C (1.5724 1.561) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_start_idle_o_reg/C (1.574 1.5626) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_start_shifter_reg_o_reg/C (1.5737 1.5623) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_stop_bit_gen_o_reg/C (1.5733 1.5619) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[0]/C (1.5742 1.5628) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/flag_end_bit_reg/C (1.5743 1.5629) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/serial_data_tx_o_reg/C (1.5739 1.5625) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/serial_end_bit_o_reg/C (1.5741 1.5627) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[16]/C (1.5908 1.5794) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[7]/C (1.591 1.5796) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[7]/C (1.5878 1.5764) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/ff_sync_reg[1]/C (1.5955 1.5841) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/reset_aux_reg/CN (1.5869 1.5755) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_width_reg[3]/C (1.5706 1.5594) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_width_reg[4]/C (1.5706 1.5594) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_counter_reg[3]/C (1.5709 1.5597) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_counter_reg[4]/C (1.5709 1.5597) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_br_trans_o_reg/C (1.5702 1.559) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_br_o_reg/C (1.5707 1.5595) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_cm_o_reg/C (1.5698 1.5586) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_state_o_reg[0]/CN (1.5893 1.5781) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op1_reg[0]/CN (1.5928 1.5816) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[15]/C (1.5693 1.5581) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[20]/C (1.5786 1.5674) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[21]/C (1.5786 1.5674) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[3]/C (1.5666 1.5554) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[10]/C (1.57 1.5588) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[11]/C (1.57 1.5588) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[12]/C (1.5666 1.5554) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[14]/C (1.5681 1.5569) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[15]/C (1.5687 1.5575) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[19]/C (1.5699 1.5587) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[20]/C (1.5735 1.5623) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[21]/C (1.5759 1.5647) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[2]/C (1.5665 1.5553) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[3]/C (1.5672 1.556) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_width_reg[4]/C (1.5717 1.5608) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_counter_reg[2]/C (1.5701 1.5592) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_counter_reg[1]/C (1.57 1.5591) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_counter_reg[0]/C (1.5701 1.5592) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_width_reg[5]/C (1.5708 1.5599) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/aux_tran_det_reg/C (1.5682 1.5573) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/br_detect_reg/C (1.5684 1.5575) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/clear_reg/C (1.5688 1.5579) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux_reset1_reg/C (1.5696 1.5587) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux_tran_det_reg/C (1.5691 1.5582) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[10]/C (1.5695 1.5586) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[11]/C (1.5676 1.5567) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[12]/C (1.5656 1.5547) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[13]/C (1.5665 1.5556) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[14]/C (1.5699 1.559) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[22]/C (1.5774 1.5665) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[23]/C (1.576 1.5651) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[5]/C (1.5721 1.5612) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[1]/C (1.5645 1.5536) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[22]/C (1.5714 1.5605) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[23]/C (1.5714 1.5605) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[6]/C (1.5723 1.5614) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/state_reg[0]/C (1.5742 1.5633) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[1]/C (1.5849 1.574) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_counter_reg[4]/C (1.586 1.5744) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_counter_reg[2]/C (1.5868 1.5752) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_width_reg[3]/C (1.587 1.5754) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_trans_counter_reg[1]/C (1.5848 1.5732) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/flag_intx_reg[1][1]/CN (1.5751 1.5635) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/flag_out_reg_reg[1]/C (1.5711 1.5595) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/hi_ok_reg[0][0]/CN (1.577 1.5654) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/hi_ok_reg[1][0]/CN (1.5771 1.5655) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_scon0_ri_o_reg/C (1.5781 1.5665) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_load_sbuf_o_reg/C (1.5808 1.5692) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_receive_o_reg/C (1.5794 1.5678) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_p3en_1_o_reg/C (1.5772 1.5656) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/data_received_reg[0]/C (1.5825 1.5709) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/state_tx_reg[0]/C (1.5829 1.5713) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/do_first_shift_flag_reg/C (1.5823 1.5707) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/serial_p3en_1_o_reg/C (1.5828 1.5712) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[7]/C (1.5875 1.5759) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[1]/C (1.5874 1.5758) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[6]/C (1.5846 1.573) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[0]/C (1.583 1.5714) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[6]/C (1.5813 1.5697) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[7]/C (1.5783 1.5667) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[4]/C (1.5746 1.563) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[5]/C (1.5714 1.5598) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[6]/C (1.5766 1.565) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_tcon2_tf2_o_reg/C (1.5767 1.5651) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/ff_sync_reg[0]/C (1.5947 1.5831) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_trans_counter_reg[4]/C (1.6004 1.5882) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_opcode_reg[4]/C (1.5739 1.5617) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_reg[0]/CN (1.5867 1.5745) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/ier_reg[2]/CN (1.5866 1.5744) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/vect_register_reg[0]/CN (1.5842 1.572) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/vect_register_reg[1]/CN (1.5822 1.57) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/vect_register_reg[2]/CN (1.58 1.5678) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_scon2_rb8_o_reg/C (1.5932 1.581) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[6]/C (1.5893 1.5771) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[4]/C (1.5908 1.5786) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[3]/C (1.5878 1.5756) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[5]/C (1.592 1.5798) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[2]/C (1.5863 1.5741) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[1]/C (1.5867 1.5745) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[3]/C (1.598 1.5858) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[4]/C (1.5946 1.5824) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[5]/C (1.5945 1.5823) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[6]/C (1.5974 1.5852) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[7]/C (1.5953 1.5831) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[8]/C (1.5973 1.5851) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_output_shifter_reg/data_to_transmit_reg[9]/C (1.5963 1.5841) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[2]/C (1.5703 1.5581) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_width_reg[2]/C (1.5869 1.5748) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_counter_reg[1]/C (1.5882 1.5761) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_width_reg[0]/C (1.5887 1.5766) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_trans_counter_reg[0]/C (1.5877 1.5756) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_trans_counter_reg[2]/C (1.5887 1.5766) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_trans_counter_reg[3]/C (1.5886 1.5765) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_2_reg[1]/C (1.5921 1.58) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_state_o_reg[1]/C (1.5809 1.5688) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[17]/C (1.5829 1.5708) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[2]/C (1.5847 1.5726) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[4]/C (1.5856 1.5735) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[6]/C (1.5804 1.5683) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[9]/C (1.5787 1.5666) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[0]/C (1.5849 1.5728) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[13]/C (1.5845 1.5724) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[8]/C (1.5756 1.5635) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_counter_reg[3]/C (1.5831 1.5716) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/lo_ok_reg[1][0]/CN (1.5764 1.5649) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/state_rx_reg[1]/C (1.5779 1.5664) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/state_rx_reg[3]/C (1.5828 1.5713) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/aux2_tran_det_reg/C (1.5814 1.5699) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/serial_transition_detected_o_reg/C (1.5824 1.5709) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux2_tran_det_reg/C (1.582 1.5705) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/aux_tran_det_reg/C (1.5834 1.5719) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/br_detect1_reg/C (1.5831 1.5716) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/aux2_tran_det_reg/C (1.5834 1.5719) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/br_detect_reg/C (1.5835 1.572) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[0]/C (1.5745 1.563) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[1]/C (1.5795 1.568) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[16]/C (1.5825 1.571) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[18]/C (1.583 1.5715) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_reg[5]/C (1.583 1.5715) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/state_reg[1]/C (1.5824 1.5709) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[0]/C (1.586 1.5745) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[4]/C (1.5918 1.5803) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[5]/C (1.5906 1.5791) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[3]/C (1.5878 1.5763) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[4]/C (1.5845 1.573) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[1]/C (1.5789 1.5674) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[2]/C (1.5767 1.5652) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/pdf_2sample_reg[1]/C (1.6001 1.5886) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_counter_reg[0]/C (1.6094 1.5971) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_reg[0]/CN (1.5846 1.5723) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_reg[1]/CN (1.5856 1.5733) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_reg[2]/CN (1.5846 1.5723) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_reg[3]/CN (1.5867 1.5744) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_reg[4]/CN (1.5867 1.5744) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_reg[5]/CN (1.5875 1.5752) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_reg[7]/CN (1.5882 1.5759) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op2_reg[7]/C (1.5827 1.5704) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op2_reg[0]/C (1.5882 1.5759) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/lcall_hardware_flag_reg/C (1.5833 1.571) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_opcode_reg[1]/C (1.5891 1.5768) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_opcode_reg[2]/C (1.5886 1.5763) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_opcode_reg[3]/C (1.5901 1.5778) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_opcode_reg[5]/C (1.5895 1.5772) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_opcode_reg[6]/C (1.5898 1.5775) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_opcode_reg[7]/C (1.59 1.5777) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[1]/CN (1.5795 1.5672) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[3]/CN (1.5789 1.5666) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[6]/CN (1.5805 1.5682) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[7]/CN (1.5819 1.5696) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_int_rdy_o_reg/C (1.593 1.5807) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/cycle_continue_reg/CN (1.6034 1.5906) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op1_reg[7]/CN (1.5972 1.5844) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op1_reg[1]/CN (1.6158 1.603) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op1_reg[2]/CN (1.6109 1.5981) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op1_reg[3]/CN (1.6084 1.5956) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op1_reg[4]/CN (1.6129 1.6001) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op1_reg[5]/CN (1.6007 1.5879) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op1_reg[6]/CN (1.606 1.5932) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op2_reg[4]/C (1.5931 1.5803) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op2_reg[5]/C (1.5923 1.5795) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op2_reg[2]/C (1.5931 1.5803) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op2_reg[6]/C (1.5925 1.5797) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op2_reg[1]/C (1.5946 1.5818) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_2_reg[0]/C (1.5928 1.58) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_2_reg[6]/C (1.5957 1.5829) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_2_reg[7]/C (1.5953 1.5825) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_opcode_reg[0]/C (1.5955 1.5827) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[0]/CN (1.5931 1.5803) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[2]/CN (1.5932 1.5804) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_1_2_reg[5]/CN (1.5939 1.5811) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_input_shifter_reg/serial_sbuf_rx_o_reg[7]/C (1.6215 1.6087) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[6]/C (1.6178 1.605) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdcf/contador_reg[3]/C (1.618 1.6052) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/timers_timer2_pdfoutput_o_reg/C (1.6173 1.6045) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/pdf_2sample_reg[0]/C (1.6176 1.6048) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_pdf/pdf_out_reg/C (1.6172 1.6044) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_RS232_trans_counter_reg[1]/C (1.6094 1.5964) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_width_reg[1]/C (1.6089 1.5959) 
+
+EMC_TOP_INSTANCE/BAUD_RATE_INSTANCE/baud_rate_width_reg[0]/C (1.6092 1.5962) 
+
+EMC_TOP_INSTANCE/CORE_INSTANCE/fsm/fsm_op_aux_2_reg[5]/C (1.6389 1.6259) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/flag_intx_reg[0][0]/CN (1.6093 1.5963) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/flag_intx_reg[0][1]/CN (1.6086 1.5956) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/flag_intx_reg[1][0]/CN (1.6111 1.5981) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/lo_ok_reg[0][0]/CN (1.6117 1.5987) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/reset_reg/CN (1.611 1.598) 
+
+EMC_TOP_INSTANCE/INTERRUPT_INSTANCE/state_reg/CN (1.6087 1.5957) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/state_rx_reg[0]/C (1.6131 1.6001) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/state_rx_reg[2]/C (1.6133 1.6003) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_start_input_shift_reg_o_reg/C (1.6132 1.6002) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_clear_count_o_reg/C (1.6135 1.6005) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_control/serial_shift_input_shift_reg_o_reg/C (1.6124 1.5994) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/state_tx_reg[1]/C (1.6139 1.6009) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/state_tx_reg[3]/C (1.6137 1.6007) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_tx_block/serial_tx_control/state_tx_reg[2]/C (1.6139 1.6009) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/acr_inc_reg/C (1.6101 1.5971) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/angle_clk_period_reg[8]/C (1.6085 1.5955) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[2]/C (1.6193 1.6063) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[3]/C (1.6212 1.6082) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrh_o_reg[7]/C (1.6158 1.6028) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[1]/C (1.6158 1.6028) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrl_o_reg[5]/C (1.6122 1.5992) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[0]/C (1.6122 1.5992) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer2/top_acg/timers_sfr_acrm_o_reg[3]/C (1.6085 1.5955) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[0]/C (1.6779 1.3609) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[1]/C (1.6782 1.3612) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[2]/C (1.6785 1.3615) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[3]/C (1.6785 1.3615) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[4]/C (1.6783 1.3613) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[5]/C (1.6784 1.3614) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[6]/C (1.6783 1.3613) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[7]/C (1.6759 1.3589) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[0]/C (1.6759 1.3589) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[1]/C (1.6771 1.3601) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[2]/C (1.6775 1.3605) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[3]/C (1.6682 1.3512) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[4]/C (1.6682 1.3512) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[5]/C (1.6681 1.3511) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[6]/C (1.6678 1.3508) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[7]/C (1.6676 1.3506) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[0]/C (1.6669 1.3499) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[1]/C (1.6661 1.3491) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[2]/C (1.6656 1.3486) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[3]/C (1.6685 1.3515) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[4]/C (1.6713 1.3544) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[5]/C (1.6686 1.3516) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[6]/C (1.6758 1.3588) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[7]/C (1.6762 1.3593) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[0]/C (1.6839 1.3669) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[1]/C (1.6854 1.3684) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[2]/C (1.6863 1.3693) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[3]/C (1.6861 1.3691) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[4]/C (1.6864 1.3694) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[5]/C (1.6863 1.3693) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[6]/C (1.6861 1.3691) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[7]/C (1.686 1.369) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[0]/C (1.6845 1.3675) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[1]/C (1.683 1.366) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[2]/C (1.6831 1.3661) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[3]/C (1.6829 1.3659) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[4]/C (1.6821 1.3651) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[5]/C (1.6821 1.3651) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[6]/C (1.682 1.365) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[7]/C (1.6817 1.3647) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[0]/C (1.6824 1.3654) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[1]/C (1.6824 1.3654) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[2]/C (1.6822 1.3652) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[3]/C (1.6818 1.3648) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[4]/C (1.681 1.364) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[5]/C (1.6807 1.3637) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[6]/C (1.6817 1.3647) 
+
+EMC_TOP_INSTANCE/TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[7]/C (1.6832 1.3662) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/counter_reg[3]/C (1.5602 1.2319) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux2_bit_det_reg/C (1.5586 1.2303) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux1_bit_det_reg/C (1.5581 1.2298) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux3_bit_det_reg/C (1.5591 1.2308) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/counter_reg[2]/C (1.5559 1.2276) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/counter_reg[1]/C (1.557 1.2287) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/clear_br_reg/C (1.56 1.2317) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/counter_reg[0]/C (1.5601 1.2318) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux_reset2_reg/C (1.5597 1.2314) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/serial_sample_detected_o_reg/C (1.5594 1.2311) 
+
+EMC_TOP_INSTANCE/SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/serial_shift_o_reg/C (1.5595 1.2312) 
+

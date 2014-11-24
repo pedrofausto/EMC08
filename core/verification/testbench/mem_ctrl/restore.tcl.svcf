@@ -1,0 +1,243 @@
+# SimVision Command Script (Mon Sep 20 01:32:45 PM BRT 2010)
+#
+# Version 06.10.p001
+#
+# You can restore this configuration with:
+#
+#     irun -nbasync -gui -snload mc_test.e core_mem_ctrl_tb.v core_mem_ctrl.v ROM4096X8.v SPRAM128X8.v time_scale.v -access rwc +mpssession+SPECMAN18120 -input restore.tcl
+#
+
+
+#
+# preferences
+#
+preferences set txe-locate-add-fibers 1
+preferences set signal-type-colors {assertion #FF0000 output #FFA500 group #0099FF inout #00FFFF input #FFFF00 fiber #FF99FF errorsignal #FF0000 unknown #FFFFFF overlay #0099FF internal #00FF00 reference #FFFFFF}
+preferences set toolbar-UserTB0-Console {
+  usual
+  add action_reload
+  add action_restore
+  add action_show_modules
+  add action_test
+  separator
+  add action_coverage
+  add action_sys_data
+  add action_specman_config
+  position -row 4 -pos 1
+  name Specman
+}
+preferences set toolbar-UserTB0-WaveWindow {
+  usual
+  add run
+  position -row 3 -pos 0
+  name {User Toolbar}
+}
+preferences set txe-navigate-search-locate 0
+preferences set txe-view-hold 0
+preferences set sb-editor-command kwrite
+preferences set user-toolbar-list {WaveWindow UserTB0}
+preferences set save-state-on-startup 1
+preferences set restore-state-on-startup 1
+preferences set txe-navigate-waveform-locate 1
+preferences set txe-view-hidden 0
+preferences set waveform-print-paper {A4 (210mm x 297mm)}
+preferences set toolbar-UserTB2-WaveWindow {
+  usual
+  add action_specman_sendto_stripechart
+  add action_specman_sendto_databrowser
+  position -row 0 -pos 3 -anchor e
+  name {Send To Specman}
+}
+preferences set txe-search-show-linenumbers 1
+preferences set schematic-show-rtl 0
+preferences set toolbar-txe_waveform_toggle-WaveWindow {
+  usual
+  position -pos 1
+}
+preferences set print-company CT2
+preferences set toolbar-UserTB1-WatchList {
+  usual
+  add action_design_browser_sendto_specman_stripechart
+  add action_design_browser_sendto_specman_databrowser
+  add action_design_browser_sendto_specman_visualization
+  position -row 0 -pos 4 -anchor e
+  name {Send To Specman}
+}
+preferences set txe-navigate-waveform-next-child 1
+preferences set print-designer {Felipe Prado Yonehara}
+preferences set txe-locate-scroll-x 1
+preferences set txe-locate-scroll-y 1
+preferences set txe-locate-pop-waveform 1
+preferences set use-signal-type-colors 1
+
+#
+# Simulator
+#
+
+database require simulator -hints {
+	simulator "irun -nbasync -gui -snload mc_test.e core_mem_ctrl_tb.v core_mem_ctrl.v ROM4096X8.v SPRAM128X8.v time_scale.v -access rwc +mpssession+SPECMAN18120 -input restore.tcl"
+}
+
+#
+# groups
+#
+catch {group new -name BUS_CTRL -overlay 0}
+catch {group new -name RAM -overlay 0}
+catch {group new -name ROM -overlay 0}
+
+group using BUS_CTRL
+group set -overlay 0
+group set -comment {}
+group set -parents {}
+group set -groups {}
+group clear 0 end
+
+group insert \
+    core_mem_ctrl_tb.DUT.mem_ctrl_bus_ctrl_ext_ram_wr_b_o \
+    core_mem_ctrl_tb.DUT.mem_ctrl_bus_ctrl_ext_ram_rd_b_o \
+    {core_mem_ctrl_tb.DUT.mem_ctrl_bus_ctrl_addr_o[15:0]} \
+    {core_mem_ctrl_tb.DUT.mem_ctrl_bus_ctrl_data_i[7:0]} \
+    {core_mem_ctrl_tb.DUT.mem_ctrl_bus_ctrl_data_o[7:0]} \
+    core_mem_ctrl_tb.DUT.mem_ctrl_bus_ctrl_ea_b_i \
+    core_mem_ctrl_tb.DUT.mem_ctrl_bus_ctrl_ext_rom_rd_b_o
+
+group using RAM
+group set -overlay 0
+group set -comment {}
+group set -parents {}
+group set -groups {}
+group clear 0 end
+
+group insert \
+    {core_mem_ctrl_tb.DUT.mem_ctrl_ram_data_o[7:0]} \
+    {core_mem_ctrl_tb.DUT.mem_ctrl_ram_data_i[7:0]} \
+    {core_mem_ctrl_tb.DUT.mem_ctrl_ram_addr_i[7:0]}
+
+group using ROM
+group set -overlay 0
+group set -comment {}
+group set -parents {}
+group set -groups {}
+group clear 0 end
+
+group insert \
+    {core_mem_ctrl_tb.DUT.mem_ctrl_rom_addr_i[15:0]} \
+    core_mem_ctrl_tb.DUT.mem_ctrl_rom_rd_b_i \
+    {core_mem_ctrl_tb.DUT.mem_ctrl_rom_data_o[7:0]}
+
+#
+# cursors
+#
+set time 49030730ps
+if {[catch {cursor new -name  TimeA -time $time}] != ""} {
+    cursor set -using TimeA -time $time
+}
+
+#
+# mmaps
+#
+mmap new -reuse -name {Boolean as Logic} -contents {
+{%c=FALSE -edgepriority 1 -shape low}
+{%c=TRUE -edgepriority 1 -shape high}
+}
+mmap new -reuse -name {Example Map} -contents {
+{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}
+}
+mmap new -reuse -name FLAGS -contents {
+{%b=1 -bgcolor #000000 -font -*-courier-bold-r-normal--12-* -label DIS -linecolor #ffffff -shape bus -textcolor #ffffff}
+{%b=0 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label EN -linecolor #000000 -shape bus -textcolor #000000}
+}
+mmap new -reuse -name ext_ram -contents {
+{%b=1 -bgcolor #00ff00 -font -*-courier-bold-r-normal--12-* -label External -linecolor #000000 -shape bus -textcolor #ffffff}
+{%b=0 -bgcolor #ff0000 -font -*-courier-bold-r-normal--12-* -label Internal -linecolor #000000 -shape bus -textcolor #000000}
+}
+mmap new -reuse -name bit_byte -contents {
+{%b=1 -bgcolor #000000 -font -*-courier-bold-r-normal--12-* -label BIT -linecolor #ffffff -shape bus -textcolor #ffffff}
+{%b=0 -bgcolor #ffffff -font -*-courier-bold-r-normal--12-* -label BYTE -linecolor #000000 -shape bus -textcolor #000000}
+}
+
+#
+# Design Browser windows
+#
+if {[catch {window new WatchList -name "Design Browser 1" -geometry 1274x918+0+26}] != ""} {
+    window geometry "Design Browser 1" 1274x918+0+26
+}
+window target "Design Browser 1" on
+browser using {Design Browser 1}
+browser set \
+    -scope core_mem_ctrl_tb.DUT
+browser yview see core_mem_ctrl_tb.DUT
+browser timecontrol set -lock 0
+
+#
+# Waveform windows
+#
+if {[catch {window new WaveWindow -name "Waveform 1" -geometry 1274x918+0+26}] != ""} {
+    window geometry "Waveform 1" 1274x918+0+26
+}
+window target "Waveform 1" on
+waveform using {Waveform 1}
+waveform sidebar visibility partial
+waveform set \
+    -primarycursor TimeA \
+    -signalnames name \
+    -signalwidth 219 \
+    -units ps \
+    -valuewidth 75
+cursor set -using TimeA -time 49,030,730ps
+waveform baseline set -time 0
+
+set id [waveform add -signals [list core_mem_ctrl_tb.DUT.mem_ctrl_clk_i ]]
+set id [waveform add -signals [list core_mem_ctrl_tb.DUT.mem_ctrl_bit_byte_flag_i ]]
+waveform format $id -radix bit_byte -color #00ff00
+set groupId [waveform add -groups RAM]
+set glist [waveform hierarchy contents $groupId]
+set id [lindex $glist 0]
+foreach {name attrs} {
+    core_mem_ctrl_tb.DUT.mem_ctrl_ram_data_o {-color #ffffff}
+    core_mem_ctrl_tb.DUT.mem_ctrl_ram_data_i {-color #ffffff}
+    core_mem_ctrl_tb.DUT.mem_ctrl_ram_addr_i {-color #ffffff}
+} {
+    set expected [ join [waveform signals -format native $id] ]
+    if {[string equal $name $expected]} {
+        if {$attrs != ""} {
+            eval waveform format $id $attrs
+        }
+    }
+        set glist [lrange $glist 1 end]
+        set id [lindex $glist 0]
+}
+
+set id [waveform add -signals [list core_mem_ctrl_tb.DUT.mem_ctrl_ram_wr_b_i ]]
+waveform format $id -radix FLAGS
+set id [waveform add -signals [list core_mem_ctrl_tb.DUT.mem_ctrl_ram_rd_b_i ]]
+waveform format $id -radix FLAGS
+set id [waveform add -signals [list core_mem_ctrl_tb.DUT.mem_ctrl_ext_ram_i ]]
+waveform format $id -radix ext_ram
+set groupId [waveform add -groups ROM]
+set glist [waveform hierarchy contents $groupId]
+set id [lindex $glist 0]
+foreach {name attrs} {
+    core_mem_ctrl_tb.DUT.mem_ctrl_rom_addr_i {-color #ffff00}
+    core_mem_ctrl_tb.DUT.mem_ctrl_rom_rd_b_i {-radix FLAGS}
+    core_mem_ctrl_tb.DUT.mem_ctrl_rom_data_o {-color #ffff00}
+} {
+    set expected [ join [waveform signals -format native $id] ]
+    if {[string equal $name $expected]} {
+        if {$attrs != ""} {
+            eval waveform format $id $attrs
+        }
+    }
+        set glist [lrange $glist 1 end]
+        set id [lindex $glist 0]
+}
+
+set groupId [waveform add -groups BUS_CTRL]
+waveform hierarchy collapse $groupId
+
+
+waveform xview limits 0 110868000ps
+

@@ -1,0 +1,82 @@
+#
+# FirstEncounter(TM) Clock Synthesis Technology File Format
+#
+
+#-- MacroModel --
+#MacroModel pin <pin> <maxRiseDelay> <minRiseDelay> <maxFallDelay> <minFallDelay> <inputCap>
+
+#-- Special Route Type --
+#RouteTypeName specialRoute
+#TopPreferredLayer 4
+#BottomPreferredLayer 3
+#PreferredExtraSpace 1
+#End
+
+#-- Regular Route Type --
+#RouteTypeName regularRoute
+#TopPreferredLayer 4
+#BottomPreferredLayer 3
+#PreferredExtraSpace 1
+#End
+
+#-- Clock Group --
+#ClkGroup
+#+ <clockName>
+
+ClkGroup
++ EMC_PADS_INSTANCE/P_CLOCK_MEM/Y
+
+ClkGroup
++ EMC_PADS_INSTANCE/P_CLOCK/Y
+
+#------------------------------------------------------------
+# Clock Root   : EMC_PADS_INSTANCE/P_CLOCK_MEM/Y
+# Clock Name   : MEMCLK
+# Clock Period : 25ns
+#------------------------------------------------------------
+AutoCTSRootPin EMC_PADS_INSTANCE/P_CLOCK_MEM/Y
+Period         25ns
+SrcLatency     5ns # set_clock_latency -source
+MaxDelay       25ns # default value
+MinDelay       0ns   # default value
+MaxSkew        100ps # set_clock_uncertainty
+SinkMaxTran    1000ps # set_clock_transition
+BufMaxTran     1000ps # set_clock_transition
+Buffer         BUCX12 BUCX16 BUCX20 BUCX4 BUCX6 BUCX8 INCX12 INCX16 INCX20 
+NoGating       NO
+DetailReport   YES
+#SetDPinAsSync  NO
+#SetIoPinAsSync NO
+RouteClkNet    NO
+PostOpt        NO
+OptAddBuffer   YES
+#RouteType      specialRoute
+#LeafRouteType  specialRoute
+ThroughPin
+END
+
+#------------------------------------------------------------
+# Clock Root   : EMC_PADS_INSTANCE/P_CLOCK/Y
+# Clock Name   : CLK
+# Clock Period : 50ns
+#------------------------------------------------------------
+AutoCTSRootPin EMC_PADS_INSTANCE/P_CLOCK/Y
+Period         50ns
+SrcLatency     5ns # set_clock_latency -source
+MaxDelay       50ns # default value
+MinDelay       0ns   # default value
+MaxSkew        100ps # set_clock_uncertainty
+SinkMaxTran    1000ps # set_clock_transition
+BufMaxTran     1000ps # set_clock_transition
+Buffer         BUCX12 BUCX16 BUCX20 BUCX4 BUCX6 BUCX8 INCX12 INCX16 INCX20 
+NoGating       NO
+DetailReport   YES
+#SetDPinAsSync  NO
+#SetIoPinAsSync NO
+RouteClkNet    NO
+PostOpt        NO
+OptAddBuffer   YES
+#RouteType      specialRoute
+#LeafRouteType  specialRoute
+ThroughPin
+END

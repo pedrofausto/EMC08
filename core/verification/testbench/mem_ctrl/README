@@ -1,0 +1,47 @@
+
+Esse environment implementa um exemplo de verificacao simplificado para o modulo Baud Rate do projeto EMC02.
+E implementado somente um modelo de referencia simplificado para verificar se o sinal do Ciclo de maquina esta sendo
+gerado corretamente. E importante notar como funciona o environment e como se conectam os sinais com o bloco externo.
+Outros 2 exemplos de verificacao utilizando-se o specman estao dispostos em /home/hw_digA/Verification/Examples ,o qual possuem uma complexidade maior e tbm podem servir como referencia para implementacao.
+
+Arquivos que necessitam maior atencao para futura implementacao:
+
+	- br_signal_type.e: sera o arquivo base para geracao de estimulos, onde se instanciam as entradas e tipos de funcionamento de acordo com o bloco. Ira ser usado no resto do design. De acordo com os sinais criados nesse modulo he que serao criadas as sequencias para estimular a DUT.
+
+	- br_sig.e: Conecta as portas do specman com as portas da DUT (design under test). He importante notar que o path das portas sao setados igualmente para os agentes de entrada e saida (ver modelo da estrategia usado).
+
+	- br_sync.e: Conecta o clock externo ao specman. Esse clock sera usado por todos os objetos do environment (bfm, monitor, ...)
+
+	- br_agent.e: conecta as portas criadas em br_sig.e com os outros objetos do environment (bfm e monitor)
+
+	- br_bfm1.e: Objeto que manda os dados para a DUT. Importante entender o funcionamento e como se da a distribuicao dos sinais para serem enviados para a DUT.
+
+	- br_lib.e: Objeto onde se criam as sequencias para serem enviadas para a DUT. OBS: no exemplo usado as sequencias sao bem simples, porem pode-se usar os outros dois exemplos de environment para referencia.
+
+	- br_config.e: arquivo onde se deve setar o nome da instancia do test bench.
+
+	- br_monitor.e: objeto onde se criam os eventos a serem usados no Modelo de Referencia. Alem disso, he nesse objeto que se chama o metodo reference_model() o qual tera a logica do modelo de referencia.
+
+	br_reference_model.e: Arquivo onde devera ser criado o modelo de referencia e a logica de comparacao. Eventos devem ser criados em br_monitor.e para sincronizar o modelo de referencia. Apos isso, deve-se criar um modelo ou checker que verifique o comportamento do design de acordo com saidas esperadas. 
+
+	br_teste.e: arquivo onde se definem a ordem das sequencias para determinado caso de teste. He interessante criar um arquivo para cada feature os caso de teste (ex: teste_br_mode0.e ,teste_br_mode1_32, teste_br_mode1_64, etc).
+
+	Obs: E interessante mudar nos arquivos de acordo com o bloco que se verificara. Nesse caso usa-se "br" que vem de Baud Rate, entao outros blocos devem mudar os nomes (ex: serial_agent.e, core_lib.e, etc ...)
+	Obs2: Os arquivos que contem "_h" geralemnte nao serao alterados, pois instanciam o modelo de uso geral. So devem ser modificados caso a estrutura do environment percise ser modificada.
+	Obs3: E importante ver todos os arquivos para ter um entendimento do que cada um faz. O environment foi baseado nos exercicios de specman, entao os documentos dos lab podem ajudar, alem do help do spcman que contem o "manual reference"
+
+	Obs4: Se surgirem duvidas que nao foram sanadas pela documentacao, procurar ajuda da galera :D  ... (harney, Dino, vinicius, Thiago, etc...)
+ 
+Para rodar o codigo exemplo, seguir os passos:
+	
+	1 - Copiar o environment exemplo para um diretorio dentro do seu home/student
+
+	2 - carregar (source) de algum diretorio o .class_setup do specman
+	EX: source /home/student/DFund-SBTUSER_6_1_1/Data/SBTBASIC/.class_setup
+
+	3 - dar o comando do tipo:
+	irun -nbasync -gui -snload br_teste.e *.v -access r
+
+onde *.v significam o bloco em teste e o teste bench que gera o clock e conecta as portas (ver exemplo).
+teste.e seria o caso de teste a se verificar.
+

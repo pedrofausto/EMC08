@@ -1,0 +1,121 @@
+Mapeamento entradas top core
+
+core_clk_i,
+core_mem_clk_i,
+core_reset_i,
+
+core_interrupt_vect_i - vetor de entrada para a FSM do core que define se ocorreu ou nao um int. no bloco da interrupcao.
+
+core_timers_th0_i - // Timer 0 Counter Register High Nibble from Timers
+core_timers_tm0_i  // Timer 0 Counter Register Middle Nibble from Timers
+core_timers_tl0_i  // Timer 0 Counter Register Low Nibble from Timers
+core_timers_tf0_i  // Timer 0 Overflow flag from Timers
+core_timers_th1_i  // Timer 1 Counter Register High Nibble from Timers
+core_timers_tm1_i  // Timer 1 Counter Register Middle Nibble from Timers
+core_timers_tl1_i  // Timer 1 Counter Register Low Nibble from Timers
+core_timers_tf1_i  // Timer 1 Overflow flag from Timers
+core_timers_acrh_i // Timer 2 Angle Counter Register High Nibble from Timers
+core_timers_acrm_i // Timer 2 Angle Counter Register Middle Nibble from Timers
+core_timers_acrl_i // Timer 2 Angle Counter Register Low Nibble from Timers
+core_timers_tf2_i  // Timer 2 Overflow flag from Timers
+
+core_bus_ctrl_p0en_i // P0EN input from Bus ctrl in External Memory access mode
+core_bus_ctrl_p2en_i // P2EN input from Bus ctrl in External Memory access mode
+core_bus_ctrl_p3en_6_i // P3EN[6] input from Bus ctrl in External Memory access mode
+core_bus_ctrl_p3en_7_i // P3EN[7] input from Bus ctrl in External Memory access mode
+core_bus_ctrl_p2_i    / P2 input from Bus ctrl in External Memory access mode
+core_bus_ctrl_p3_6_i  // P3[6] input from Bus ctrl in External Memory access mode
+core_bus_ctrl_p3_7_i  // P3[7] input from Bus ctrl in External Memory access mode
+core_bus_ctrl_p4_i    // P4 input from Bus ctrl in External Memory access mode
+
+// External Interrupt 0 Flag from Interruption module
+// External Interrupt 1 Flag input from Interruption module
+// Timer 1 Flag from Interruption module
+// Timer 0 Flag from Interruption module
+// Timer 2 Flag from Interruption module
+// TX/RX Flag from Interruption module
+// Flag set by Interruption module when interruption need to be ignored
+core_interrupt_tcon_i // 
+core_interrupt_tcon2_i,
+core_interrupt_clear_i,
+
+core_serial_p3en_0_i, // P3EN[0] from Serial
+core_serial_p3en_1_i  / P3EN[1] from Serial
+core_serial_p3_0_i    // P3[0] Port from Serial
+core_serial_p3_1_i    // P3[1] Port from Serial
+core_serial_sbuf_rx_i // Reception Buffer from Serial
+core_serial_rb8_i     // 9th Reception bit in Mode 1 from Serial
+core_serial_ti_i      // Transmission Interruption Flag to Serial
+core_serial_ri_i      // Reception Interruption Flag to Serial
+
+core_ports_p0_io // P0 Bus from/to Ports in General Purpose Mode
+core_ports_p1_io // P1 Bus from/to Ports in General Purpose Mode
+core_ports_p2_io // P2 Bus from/to Ports in General Purpose Mode
+core_ports_p3_io // P3 Bus from/to Ports in General Purpose Mode
+
+core_bus_ctrl_p0_io P0 Bus from/to Bus ctrl when accessing external memory
+
+core_baudrate_sm0_o // Serial Mode Bit 0 to Baud Rate
+core_baudrate_sm1_o // Serial Mode Bit 1 to Baud Rate
+core_baudrate_sm2_o // Serial Mode Bit 2 to Baud Rate
+core_baudrate_cm_start_o // flag para disparar baud rate do CM
+core_baudrate_smod_o // Double Baud Rate Flag to Baud Rate
+core_baudrate_rs232_o / RS232 Baud Rate Flag to Baud Rate
+
+core_timers_th0_o // Timer 0 Counter Register High Nibble to Timers
+core_timers_tm0_o // Timer 0 Counter Register Middle Nibble to Timers
+core_timers_tl0_o // Timer 0 Counter Register Low Nibble to Timers
+core_timers_gate_t0_o // Timer 0 Gate Config Flag to Timers
+core_timers_m1_t0_o // Timer 0 M1 Config Flag to Timers
+core_timers_m0_t0_o // Timer 0 M0 Config Flag to Timer
+core_timers_tr0_o  // Timer 0 Run ctrl Bit to Timers
+core_timers_tf0_o // Timer 1 Flag to Timers
+core_timers_th1_o // Timer 1 Counter Register High Nibble to Timers,
+core_timers_tm1_o // Timer 1 Counter Register Middle Nibble to Timers
+core_timers_tl1_o // Timer 1 Counter Register Low Nibble to Timers
+core_timers_gate_t1_o // Timer 1 Gate Config Flag to Timers
+core_timers_m1_t1_o / Timer 1 M1 Config Flag to Timers
+core_timers_m0_t1_o // Timer 1 M0 Config Flag to Timers
+core_timers_int0_o // Timer 0 External Input to Timers
+core_timers_tr1_o // Timer 1 Run ctrl Bit to Timers
+core_timers_tf1_o // Timer 1 Flag to Timers
+core_timers_int1_o // Timer 1 External Input to Timers
+core_timers_tacph_o // Timer 2 Angle Clock Period Register High Nibble to Timers
+core_timers_tacpl_o // Timer 2 Angle Clock Period Register Low Nibble to Timers
+core_timers_tr2_o // Timer 2 Run ctrl Bit to Timers
+core_timers_tf2_o // Timer 2 Flag to Timers
+core_timers_dfsel_o // Timer 2 Digital Filter Sampling Selection Bit to Timers
+core_timers_edgsel_o // Timer 2 Rise/Fall Edge Selection Bit to Timers
+core_timers_dfp_o // Timer 2 Digital Filter Clock Period to Timers
+
+core_interrupt_ip_o  // Interrupt Priorities Config byte to Interruption module
+core_interrupt_ie_o   // Interrupt Enable Config byte to Interruption module
+core_interrupt_scon_o,
+core_interrupt_tcon_o,
+core_interrupt_tcon2_o,
+core_interrupt_intx_o,
+core_interrupt_na_o,
+core_interrupt_rdy_o,
+
+core_ports_p4_o // P4 Bus to Ports
+core_ports_p0en_o // P0 Config Register to Ports
+core_ports_p1en_o // P1 Config Register to Ports
+core_ports_p2en_o // P2 Config Register to Ports
+core_ports_p3en_o // P3 Config Register to Ports
+
+core_serial_sm0_o // Serial Mode Config bit to Serial
+core_serial_ren_o  // Receive Enable bit to Serial
+core_serial_p3_0_o // P3[0] Port to Serial
+core_serial_sbuf_tx_o // Transmission Buffer
+core_serial_tb8_o // 9th Transmission bit in Serial Mode 1 to Serial
+core_serial_ti_o // Transmission Interruption Flag to Serial
+core_serial_ri_o  // Receive Interruption Flag to Serial
+core_serial_tx_o // Transmission start signal to Serial
+   
+core_bus_ctrl_ea_b_i,
+core_bus_ctrl_data_i,
+core_bus_ctrl_addr_o,
+core_bus_ctrl_data_o,
+core_bus_ctrl_ext_rom_rd_b_o,
+core_bus_ctrl_ext_ram_rd_b_o,
+core_bus_ctrl_ext_ram_wr_b_o

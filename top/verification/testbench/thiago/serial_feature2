@@ -1,0 +1,7 @@
+MOV P4, SBUF   //
+
+SETB EA        // Enable All Interrupts
+SETB ES        // Enable Serial Interrupt
+CLR RI         // Clear Serial Receive Interruption Flag
+SETB REN       // Enable Serial reception
+

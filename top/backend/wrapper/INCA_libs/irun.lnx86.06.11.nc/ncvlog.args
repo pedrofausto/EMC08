@@ -1,0 +1,22 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-XLMODE
+./INCA_libs/irun.lnx86.06.11.nc
+-RUNMODE
+emc08.v
+emc_pads.v
+../synthesis/structural_v/emc_top_netlist.v
+/ddk/XFABC018/cadence/xc018/verilog/D_CELLS.v
+/ddk/XFABC018/cadence/xc018/verilog/VLG_PRIMITIVES.v
+/ddk/XFABC018/cadence/xc018/verilog/IO_CELLS_3V.v
+../../../core/design/rtl_v/SPRAM128X8.v
+../../../core/design/rtl_v/ROM4096X8.v
+-CDSLIB
+/home/student/EMC08/digital_A/top/backend/wrapper/INCA_libs/irun.lnx86.06.11.nc/cdsrun.lib
+-HDLVAR
+/home/student/EMC08/digital_A/top/backend/wrapper/INCA_libs/irun.lnx86.06.11.nc/hdlrun.var
+-MESSAGES
+-UPDATE
+-ALLOWUNBOUND

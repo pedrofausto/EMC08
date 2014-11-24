@@ -1,0 +1,321 @@
+# SimVision Command Script (Mon Sep 27 03:35:50 PM BRT 2010)
+#
+# Version 06.10.p001
+#
+# You can restore this configuration with:
+#
+#     irun -nbasync -gui -snload creg_test.e -top core_reg_ctrl_tb ./RTL/core_reg_ctrl_tb.v -access rwc -input restore.tcl -snprerun {set check WARNING; test} +mpssession+SPECMAN25061
+#
+
+
+#
+# preferences
+#
+preferences set toolbar-txe_waveform_navigate-WaveWindow {
+  usual
+  position -row 3
+}
+preferences set txe-locate-add-fibers 1
+preferences set signal-type-colors {assertion #FF0000 output #FFA500 group #0099FF inout #00FFFF input #FFFF00 fiber #FF99FF errorsignal #FF0000 unknown #FFFFFF overlay #0099FF internal #00FF00 reference #FFFFFF}
+preferences set toolbar-UserTB0-Console {
+  usual
+  add action_reload
+  add action_restore
+  add action_show_modules
+  add action_test
+  separator
+  add action_coverage
+  add action_sys_data
+  add action_specman_config
+  position -row 4 -pos 1
+  name Specman
+}
+preferences set txe-navigate-search-locate 0
+preferences set txe-view-hold 0
+preferences set toolbar-SimControl-WaveWindow {
+  usual
+  position -anchor e
+}
+preferences set toolbar-CursorControl-WaveWindow {
+  usual
+  position -anchor e
+}
+preferences set save-state-on-startup 1
+preferences set restore-state-on-startup 1
+preferences set txe-navigate-waveform-locate 1
+preferences set txe-view-hidden 0
+preferences set toolbar-UserTB2-WaveWindow {
+  usual
+  add action_specman_sendto_stripechart
+  add action_specman_sendto_databrowser
+  position -row 0 -pos 3 -anchor e
+  name {Send To Specman}
+}
+preferences set toolbar-Windows-Console {
+  usual
+  shown 1
+}
+preferences set txe-search-show-linenumbers 1
+preferences set schematic-show-rtl 1
+preferences set toolbar-txe_waveform_toggle-WaveWindow {
+  usual
+  shown 0
+  position -pos 1
+}
+preferences set toolbar-UserTB4-WaveWindow {
+  usual
+  add action_specman_sendto_stripechart
+  add action_specman_sendto_databrowser
+  position -row 0 -pos 4 -anchor e
+  name {Send To Specman}
+}
+preferences set toolbar-txe_waveform_view-WaveWindow {
+  usual
+  position -row 3
+}
+preferences set waveform-print-colors {Color on white}
+preferences set toolbar-UserTB1-WatchList {
+  usual
+  add action_design_browser_sendto_specman_stripechart
+  add action_design_browser_sendto_specman_databrowser
+  add action_design_browser_sendto_specman_visualization
+  position -row 0 -pos 4 -anchor e
+  name {Send To Specman}
+}
+preferences set txe-navigate-waveform-next-child 1
+preferences set toolbar-WaveZoom-WaveWindow {
+  usual
+  position -anchor w
+}
+preferences set txe-locate-scroll-x 1
+preferences set txe-locate-scroll-y 1
+preferences set txe-locate-pop-waveform 1
+preferences set use-signal-type-colors 1
+preferences set db-scope-gen-tracksb 1
+
+#
+# Simulator
+#
+
+database require simulator -hints {
+	simulator "irun -nbasync -gui -snload creg_test.e -top core_reg_ctrl_tb ./RTL/core_reg_ctrl_tb.v -access rwc -input restore.tcl -snprerun {set check WARNING; test} +mpssession+SPECMAN25061 -input restore.tcl"
+}
+
+#
+# groups
+#
+catch {group new -name SFR -overlay 0}
+
+group using SFR
+group set -overlay 0
+group set -comment {}
+group set -parents {}
+group set -groups {}
+group clear 0 end
+
+group insert \
+    {core_reg_ctrl_tb.ACC[7:0]} \
+    {core_reg_ctrl_tb.ACRH[7:0]} \
+    {core_reg_ctrl_tb.ACRL[7:0]} \
+    {core_reg_ctrl_tb.ACRM[7:0]} \
+    {core_reg_ctrl_tb.B[7:0]} \
+    {core_reg_ctrl_tb.DPH[7:0]} \
+    {core_reg_ctrl_tb.DPL[7:0]} \
+    {core_reg_ctrl_tb.IE[7:0]} \
+    {core_reg_ctrl_tb.IP[7:0]} \
+    {core_reg_ctrl_tb.P0[7:0]} \
+    {core_reg_ctrl_tb.P0EN[7:0]} \
+    {core_reg_ctrl_tb.P1[7:0]} \
+    {core_reg_ctrl_tb.P1EN[7:0]} \
+    {core_reg_ctrl_tb.P2[7:0]} \
+    {core_reg_ctrl_tb.P2EN[7:0]} \
+    {core_reg_ctrl_tb.P3[7:0]} \
+    {core_reg_ctrl_tb.P3EN[7:0]} \
+    {core_reg_ctrl_tb.P4[7:0]} \
+    {core_reg_ctrl_tb.PCON[7:0]} \
+    {core_reg_ctrl_tb.PSW[7:0]} \
+    {core_reg_ctrl_tb.RX0[7:0]} \
+    {core_reg_ctrl_tb.RX1[7:0]} \
+    {core_reg_ctrl_tb.SBUF_RX[7:0]} \
+    {core_reg_ctrl_tb.SBUF_TX[7:0]} \
+    {core_reg_ctrl_tb.SCON[7:0]} \
+    {core_reg_ctrl_tb.SMAP8[7:0]} \
+    {core_reg_ctrl_tb.SP[7:0]} \
+    {core_reg_ctrl_tb.TACPH[7:0]} \
+    {core_reg_ctrl_tb.TACPL[7:0]} \
+    {core_reg_ctrl_tb.TCON[7:0]} \
+    {core_reg_ctrl_tb.TCON2[7:0]} \
+    {core_reg_ctrl_tb.TH0[7:0]} \
+    {core_reg_ctrl_tb.TH1[7:0]} \
+    {core_reg_ctrl_tb.TL0[7:0]} \
+    {core_reg_ctrl_tb.TL1[7:0]} \
+    {core_reg_ctrl_tb.TM0[7:0]} \
+    {core_reg_ctrl_tb.TM1[7:0]} \
+    {core_reg_ctrl_tb.TMOD[7:0]} \
+    {core_reg_ctrl_tb.TX0[7:0]} \
+    {core_reg_ctrl_tb.TX1[7:0]}
+
+#
+# cursors
+#
+set time 9101ns
+if {[catch {cursor new -name  TimeA -time $time}] != ""} {
+    cursor set -using TimeA -time $time
+}
+
+#
+# mmaps
+#
+mmap new -reuse -name {Boolean as Logic} -contents {
+{%c=FALSE -edgepriority 1 -shape low}
+{%c=TRUE -edgepriority 1 -shape high}
+}
+mmap new -reuse -name {Example Map} -contents {
+{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}
+}
+mmap new -reuse -name FSM_ADDR -contents {
+{%x=80 -label P0-00}
+{%x=81 -label SP-01}
+{%x=82 -label { DPL-02}}
+{%x=83 -label DPH-03}
+{%x=84 -label ACRL-04}
+{%x=85 -label ACRM-05}
+{%x=86 -label ACRH-06}
+{%x=87 -label PCON-07}
+{%x=88 -label TCON-08}
+{%x=89 -label TMOD-09}
+{%x=8A -label TL0-10}
+{%x=8B -label TL1-11}
+{%x=8C -label TH0-12}
+{%x=8D -label TH1-13}
+{%x=8E -label TM0-14}
+{%x=8F -label TM1-15}
+{%x=90 -label P1-16}
+{%x=98 -label SCON-17}
+{%x=99 -label { SBUF-18-19}}
+{%x=A0 -label P2-20}
+{%x=A8 -label IE-21}
+{%x=AF -label P4-22}
+{%x=B0 -label P3-23}
+{%x=B8 -label IP-24}
+{%x=B9 -label SMAP8-25}
+{%x=BA -label TACPL-26}
+{%x=BB -label TACPH-27}
+{%x=BC -label RX1-28}
+{%x=BD -label RX0-29}
+{%x=BE -label TX1-30}
+{%x=BF -label TX0-31}
+{%x=C0 -label P0EN-32}
+{%x=C8 -label { P1EN-33}}
+{%x=D0 -label PSW-34}
+{%x=D8 -label TCON2-35}
+{%x=E0 -label ACC-36}
+{%x=E8 -label P2EN-37}
+{%x=F0 -label B-38}
+{%x=F8 -label P3EN-39}
+}
+
+#
+# Design Browser windows
+#
+if {[catch {window new WatchList -name "Design Browser 1" -geometry 750x946+0+0}] != ""} {
+    window geometry "Design Browser 1" 750x946+0+0
+}
+window target "Design Browser 1" on
+browser using {Design Browser 1}
+browser set \
+    -scope core_reg_ctrl_tb.DUT
+browser yview see core_reg_ctrl_tb.DUT
+browser timecontrol set -lock 0
+
+#
+# Waveform windows
+#
+if {[catch {window new WaveWindow -name "Waveform 1" -geometry 1280x946+-2+2}] != ""} {
+    window geometry "Waveform 1" 1280x946+-2+2
+}
+window target "Waveform 1" on
+waveform using {Waveform 1}
+waveform sidebar visibility partial
+waveform set \
+    -primarycursor TimeA \
+    -signalnames name \
+    -signalwidth 175 \
+    -units ns \
+    -valuewidth 75
+cursor set -using TimeA -time 9101ns
+waveform baseline set -time 0
+
+set id [waveform add -signals [list core_reg_ctrl_tb.DUT.reg_ctrl_clk_i ]]
+waveform format $id -color #ffff00
+set id [waveform add -signals [list core_reg_ctrl_tb.DUT.reg_ctrl_reset_b_i ]]
+waveform format $id -color #0000ff
+set id [waveform add -signals [list {core_reg_ctrl_tb.DUT.reg_ctrl_fsm_addr_i[7:0]} ]]
+waveform format $id -radix FSM_ADDR
+set id [waveform add -signals [list {core_reg_ctrl_tb.DUT.reg_ctrl_fsm_data_i[7:0]} ]]
+waveform format $id -radix %x -color #00ffff
+set id [waveform add -signals [list core_reg_ctrl_tb.DUT.reg_ctrl_fsm_bit_byte_flag_i \
+	{core_reg_ctrl_tb.DUT.reg_ctrl_fsm_data_o[7:0]} \
+	{core_reg_ctrl_tb.DUT.reg_ctrl_fsm_psw_rs_o[1:0]} ]]
+set id [waveform add -signals [list core_reg_ctrl_tb.DUT.reg_ctrl_fsm_rd_b_i ]]
+waveform format $id -color #9900ff
+set id [waveform add -signals [list core_reg_ctrl_tb.DUT.reg_ctrl_fsm_wr_b_i ]]
+waveform format $id -color #9900ff
+set id [waveform add -signals [list {core_reg_ctrl_tb.DUT.reg_ctrl_bus_ctrl_p0en_i[7:0]} \
+	{core_reg_ctrl_tb.DUT.reg_ctrl_ports_p0_io[7:0]} \
+	{core_reg_ctrl_tb.DUT.reg_ctrl_bus_ctrl_p0_io[7:0]} \
+	{core_reg_ctrl_tb.DUT.reg_ctrl_ports_p0en_o[7:0]} \
+	{core_reg_ctrl_tb.DUT.reg_ctrl_ports_p1_io[7:0]} \
+	{core_reg_ctrl_tb.DUT.reg_ctrl_ports_p1en_o[7:0]} \
+	{core_reg_ctrl_tb.DUT.reg_ctrl_ports_p2_io[7:0]} \
+	{core_reg_ctrl_tb.DUT.reg_ctrl_ports_p2en_o[7:0]} \
+	{core_reg_ctrl_tb.DUT.reg_ctrl_ports_p3_io[7:0]} \
+	{core_reg_ctrl_tb.DUT.reg_ctrl_ports_p3en_o[7:0]} \
+	{core_reg_ctrl_tb.DUT.reg_ctrl_ports_p4_o[7:0]} ]]
+set id [waveform add -signals [list core_reg_ctrl_tb.DUT.reg_ctrl_ext_rom_rd_i ]]
+waveform format $id -color #9900ff
+set id [waveform add -signals [list core_reg_ctrl_tb.DUT.reg_ctrl_ext_ram_rd_i ]]
+waveform format $id -color #9900ff
+set id [waveform add -signals [list core_reg_ctrl_tb.DUT.reg_ctrl_ext_ram_wr_i ]]
+waveform format $id -color #9900ff
+set groupId [waveform add -groups SFR]
+waveform hierarchy collapse $groupId
+
+set id [waveform add -signals [list core_reg_ctrl_tb.DUT.reg_ctrl_bus_ctrl_p3en_6_i \
+	core_reg_ctrl_tb.DUT.reg_ctrl_bus_ctrl_p3en_7_i \
+	{core_reg_ctrl_tb.DUT.reg_ctrl_ports_p0_io[7:0]} \
+	{core_reg_ctrl_tb.DUT.reg_ctrl_ports_p0en_o[7:0]} \
+	{core_reg_ctrl_tb.DUT.reg_ctrl_ports_p1_io[7:0]} \
+	{core_reg_ctrl_tb.DUT.reg_ctrl_ports_p1en_o[7:0]} \
+	{core_reg_ctrl_tb.DUT.reg_ctrl_ports_p2_io[7:0]} \
+	{core_reg_ctrl_tb.DUT.reg_ctrl_ports_p2en_o[7:0]} \
+	{core_reg_ctrl_tb.DUT.reg_ctrl_ports_p3_io[7:0]} \
+	{core_reg_ctrl_tb.DUT.reg_ctrl_ports_p3en_o[7:0]} \
+	{core_reg_ctrl_tb.DUT.reg_ctrl_ports_p4_o[7:0]} \
+	{core_reg_ctrl_tb.DUT.sfr[0:39]} ]]
+
+waveform xview limits 8851ns 9351ns
+
+#
+# Source Browser windows
+#
+if {[catch {window new SrcBrowser -name "Source Browser 1" -geometry 700x500+18+33}] != ""} {
+    window geometry "Source Browser 1" 700x500+18+33
+}
+window target "Source Browser 1" on
+srcbrowser using {Source Browser 1}
+srcbrowser set \
+    -primarycursor TimeA \
+    -units ns \
+    -radix default \
+    -showstrength 1 \
+    -showcallstack 0 \
+    -displayvalues 0
+
+srcbrowser show -scope core_reg_ctrl_tb.DUT -file /home/student/EMC08/digital_A/core/design/rtl_v/core_reg_ctrl.v -line 28
+
+srcbrowser sidebar visibility partial
+

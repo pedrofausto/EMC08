@@ -1,0 +1,96 @@
+Total 2 violations (muxed_scan)
+ 
+Async. set/reset Rule Violations
+================================
+Reporting 0 async set/reset violations
+
+Clock Rule Violations
+=====================
+Reporting 2 clock violations
+
+Violation #0:
+  Object name: vid_0_clock
+  Type: clock violation
+  Description: [CLOCK-06] clock signal driven by a sequential element
+  Source: BAUD_RATE_INSTANCE/baud_rate_br_trans_o_reg/q(../../design/rtl_v/emc_top.v:376)
+  Number of registers affected: 11
+  Affected registers:
+    SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux1_bit_det_reg
+    SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux2_bit_det_reg
+    SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux3_bit_det_reg
+    SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/aux_reset2_reg
+    SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/clear_br_reg
+    SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/counter_reg[0]
+    SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/counter_reg[1]
+    SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/counter_reg[2]
+    SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/counter_reg[3]
+    SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/serial_sample_detected_o_reg
+    SERIAL_INSTANCE/serial_rx_block/serial_rx_detector/serial_shift_o_reg
+ 
+Violation #1:
+  Object name: vid_1_clock
+  Type: clock violation
+  Description: [CLOCK-06] clock signal driven by a sequential element
+  Source: BAUD_RATE_INSTANCE/baud_rate_cm_o_reg/q(../../design/rtl_v/emc_top.v:376)
+  Number of registers affected: 48
+  Affected registers:
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[0]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[1]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[2]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[3]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[4]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[5]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[6]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_th0_o_reg[7]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[0]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[1]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[2]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[3]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[4]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[5]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[6]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_tl0_o_reg[7]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[0]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[1]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[2]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[3]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[4]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[5]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[6]
+    TIMERS_INSTANCE/dut_timer0/timers_sfr_tm0_o_reg[7]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[0]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[1]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[2]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[3]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[4]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[5]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[6]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_th1_o_reg[7]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[0]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[1]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[2]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[3]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[4]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[5]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[6]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_tl1_o_reg[7]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[0]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[1]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[2]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[3]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[4]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[5]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[6]
+    TIMERS_INSTANCE/dut_timer1/timers_sfr_tm1_o_reg[7]
+ 
+Abstract Segment Test Mode Violations
+=====================================
+Reporting 0 abstract segment violations
+
+Shift Register Segment Violations
+=================================
+Reporting 0 shift register segment violations
+
+Violation Rule Summary Report
+=============================
+[CLOCK-06] clock signal driven by a sequential element : 2 

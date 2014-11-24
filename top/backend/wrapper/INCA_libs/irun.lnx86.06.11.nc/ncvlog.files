@@ -1,0 +1,12 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+/home/student/EMC08/digital_A/top/backend/wrapper/emc08.v
+/home/student/EMC08/digital_A/top/backend/wrapper/emc_pads.v
+/home/student/EMC08/digital_A/top/backend/synthesis/structural_v/emc_top_netlist.v
+/ddk/XFABC018/cadence/xc018/verilog/D_CELLS.v
+/ddk/XFABC018/cadence/xc018/verilog/VLG_PRIMITIVES.v
+/ddk/XFABC018/cadence/xc018/verilog/IO_CELLS_3V.v
+/home/student/EMC08/digital_A/core/design/rtl_v/SPRAM128X8.v
+/home/student/EMC08/digital_A/core/design/rtl_v/ROM4096X8.v

@@ -1,0 +1,3 @@
+source scripts/set_floorplan.tcl
+source scripts/connect_global_nets.tcl
+source scripts/macro_placement.tcl

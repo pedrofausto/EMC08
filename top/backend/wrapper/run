@@ -1,0 +1,1 @@
+irun emc_top_netlist.v emc_top_netlist_tb.v ROM4096X8.v SPRAM128X8.v -top emc_top_netlist_tb /ddk/XFABC018/cadence/xc018/verilog/D_CELLS.v /ddk/XFABC018/cadence/xc018/verilog/VLG_PRIMITIVES.v -debug -timescale 1ns/10ps

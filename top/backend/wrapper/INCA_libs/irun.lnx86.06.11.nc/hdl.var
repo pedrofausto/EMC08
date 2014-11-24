@@ -1,0 +1,5 @@
+define NCSIMRC	( /cds/LPKIT71/kits/LP_KIT_HOME/TOOLS/ius611_usr4/tools/inca/files/ncsimrc, ~/.ncsimrc )
+include ./hdlrun.var
+define SNAPSHOT worklib.EMC08:v
+DEFINE RUNMODEDEFAULT 1
+DEFINE LIB_MAP ($LIB_MAP, + => worklib )

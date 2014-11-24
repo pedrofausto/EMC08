@@ -1,0 +1,225 @@
+$comment
+TOOL:	simvision	06.20-s002
+$end
+
+$date
+    Sep 03, 2010 09:52:46
+$end
+
+$timescale
+    1ns
+$end
+
+
+$scope module bus_control_tb $end
+
+$scope module dut $end
+$var wire 1 ! bus_control_ea_b_i $end
+$var wire 1 " bus_control_mem_ctrl_ea_b_o $end
+$var wire 16 # bus_control_mem_ctrl_ext_addr_i [15:0] $end
+$var wire 8 $ bus_control_mem_ctrl_ext_data_i [7:0] $end
+$var wire 8 % bus_control_mem_ctrl_ext_data_o [7:0] $end
+$var wire 1 & bus_control_mem_ctrl_ext_ram_rd_b_i $end
+$var wire 1 ' bus_control_mem_ctrl_ext_ram_wr_b_i $end
+$var wire 1 ( bus_control_mem_ctrl_ext_rom_rd_b_i $end
+$var wire 1 ) bus_control_psen_b_o $end
+$var wire 8 * bus_control_reg_ctrl_p0_io [7:0] $end
+$var wire 8 + bus_control_reg_ctrl_p0en_o [7:0] $end
+$var wire 8 , bus_control_reg_ctrl_p2_o [7:0] $end
+$var wire 8 - bus_control_reg_ctrl_p2en_o [7:0] $end
+$var wire 1 . bus_control_reg_ctrl_p3_6_o $end
+$var wire 1 / bus_control_reg_ctrl_p3_7_o $end
+$var wire 1 0 bus_control_reg_ctrl_p3en_6_o $end
+$var wire 1 1 bus_control_reg_ctrl_p3en_7_o $end
+$var wire 8 2 bus_control_reg_ctrl_p4_o [7:0] $end
+$var wire 1 3 read $end
+$var wire 1 4 write_p0 $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+#0
+$dumpvars
+z!
+z"
+bz #
+bz $
+b0 %
+z&
+z'
+z(
+x)
+bx *
+b0 +
+b0 ,
+b0 -
+0.
+0/
+00
+01
+b0 2
+03
+04
+$end
+#15
+0!
+0"
+0(
+0)
+b10000000 2
+13
+b11111010 %
+b11111010 *
+b111110010000000 #
+1&
+b1111100 ,
+b11111111 -
+1'
+#30
+z'
+b0 %
+x)
+z(
+z!
+z"
+03
+b0 2
+b0 -
+z&
+bx *
+bz #
+b0 ,
+#45
+13
+1(
+10
+11
+0)
+1'
+b1111 %
+0"
+0!
+b1111110111111000 #
+0&
+b11111000 2
+b1111 *
+1.
+#60
+0.
+z"
+x)
+03
+01
+z(
+00
+b0 %
+z'
+bx *
+bz #
+z!
+b0 2
+z&
+#75
+1&
+11
+b11100111 $
+0"
+0)
+10
+1(
+14
+b11111111 +
+b11111000 2
+b11100111 *
+0'
+0!
+b110111111000 #
+1/
+#90
+0/
+04
+bz $
+01
+z&
+z(
+x)
+z"
+00
+bz #
+b0 2
+b0 +
+z!
+bx *
+z'
+#105
+1'
+0"
+b10001111 $
+1)
+1&
+1(
+bz *
+b111100111000 #
+0!
+#120
+z!
+z&
+z'
+x)
+z"
+bz $
+bz #
+z(
+bx *
+#150
+bz *
+0"
+0!
+0)
+0&
+1'
+0(
+b10001111 $
+b111100111000 #
+#165
+bz #
+z&
+bx *
+x)
+z"
+z!
+bz $
+z'
+z(
+#180
+0(
+0"
+b111100111000 #
+0)
+1&
+bz *
+0'
+0!
+b10001111 $
+#195
+bz $
+z&
+z(
+x)
+z"
+bz #
+z!
+bx *
+z'
+#210
+0'
+0"
+b10001111 $
+0)
+0&
+1(
+bz *
+b111100111000 #
+0!
+#225

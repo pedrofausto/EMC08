@@ -1,0 +1,33 @@
+// -------------------------------------------------------------------
+// CI Brasil - CT2 Campinas
+// Phase II Project
+// EMC08 - 8 Bit Microcontroller for Automotive Engine Application
+// -------------------------------------------------------------------
+// File Name: baud_rate_defines.v
+// Module Name: Baud Rate
+// Author: Dino Cassel
+// E-mail: dino.diga8@emc08.br
+// -------------------------------------------------------------------
+// Release History
+// Version Date Description
+// 1.0 20/08/2010 Initial version
+// -------------------------------------------------------------------
+// Description
+// This file contain the defines and parameters of baud rate module.
+// -------------------------------------------------------------------
+// NAME: baud rate parameters and functions
+// TYPE: defines file
+// -------------------------------------------------------------------
+// PURPOSE: baud rate generation for serial module.
+// -------------------------------------------------------------------
+// PARAMETERS
+// PARAM_NAME : RANGE : DESCRIPTION : DEFAULT : UNITS :
+// n.a.       : n.a.  : n.a.        : n.a.    : n.a.  :
+// -------------------------------------------------------------------
+
+parameter CYCLE_MACHINE_WIDTH         = 8;
+parameter CYCLE_MACHINE_COUNTER_WIDTH = CYCLE_MACHINE_WIDTH/2;
+
+parameter SERIAL_SHIFT = 6;
+
+parameter PERIOD = 50;

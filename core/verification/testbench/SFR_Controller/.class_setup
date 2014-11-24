@@ -1,0 +1,21 @@
+
+### PRODUCTION:
+set IESPATH=/cds/
+
+### Per tool:
+set IUS=IUS61
+set SPMN=SPMN61
+set EMGR=EMGR202
+set IPCM=IPCM61
+
+  setenv LM_LICENSE_FILE 5280@sjtrnsrv1:5280@sjtrnsrv2:3221@sjtrnsrv1:3221@sjtrnsrv2
+
+  setenv VRST_HOME "${IESPATH}/${SPMN}"
+  source "${VRST_HOME}/env.csh"
+
+  setenv PATH ".:${PATH}:${IESPATH}/${IUS}/tools/bin"
+  setenv LD_LIBRARY_PATH "${LD_LIBRARY_PATH}${IESPATH}/${IUS}/tools/lib"
+
+  set filec
+  stty erase ^h
+

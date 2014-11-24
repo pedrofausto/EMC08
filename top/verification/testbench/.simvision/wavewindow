@@ -1,0 +1,1207 @@
+# SimVision Wave Window (Mon Dec 06 02:45:05 PM BRT 2010)
+
+pattern .waveWindow0 ::WaveWindow v1.0 {
+  overall {
+    data geometry 1280x920+0+26
+    data windowname {Waveform 1}
+    data istarget 1
+    data sidebar {visibility partial}
+    data waveforms {
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.reg_ctrl.sfr[0:39]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@194
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog array} -open 0}
+    object stylepen ::stylepen11 {} 20808 {
+pattern ::stylepen11 stylepen v1.0 {
+  overall {
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+}}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.TIMERS_INSTANCE.top_timers_sfr_tcon_tf0_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@195
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {
+pattern ::stylepen12 stylepen v1.0 {
+  overall {
+    data options {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}
+  }
+}}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.TIMERS_INSTANCE.top_timers_sfr_tcon_tf0_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@196
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.TIMERS_INSTANCE.top_timers_sfr_tcon_tf1_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@197
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.TIMERS_INSTANCE.top_timers_sfr_tcon_tf1_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@198
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_scon1_ti_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@199
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_scon1_ti_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@19a
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_scon0_ri_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@19b
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_scon0_ri_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@19c
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.reg_ctrl.sfr[8]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@19d
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen11 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.top_clock_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@158
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.top_cycle_machine
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@15a
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.top_ea_b_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@15b
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.top_p1_a_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@15c
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen11 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.top_p3_y_i[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@15d
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen11 {} 20808 {}
+  }
+}
+
+pattern #auto ::Group v1.0 {
+  overall {
+    data options {-name PORTS -overlay 0 -comment {} -parents {} -groups {}}
+    data idpos {}
+    data signals {
+pattern @public@e4 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.top_p0_a_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e4
+    data pid 20808
+  }
+}
+pattern @public@e5 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.top_p0_en_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e5
+    data pid 20808
+  }
+}
+pattern @public@ec SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.top_p3_a_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@ec
+    data pid 20808
+  }
+}
+pattern @public@ef SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.reg_ctrl.reg_ctrl_serial_tx_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@ef
+    data pid 20808
+  }
+}
+pattern @public@f0 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.top_p3_en_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@f0
+    data pid 20808
+  }
+}}
+    data signaloptions {{-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus} -open 1} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix {} -stylehint {verilog bus}}}
+    data penoptions {{-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}}
+    data isopen 1
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.BAUD_RATE_INSTANCE.baud_rate_br_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@253
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.top_pht_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@15e
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.top_psen_b_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@15f
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.top_reset_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@160
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.top_clock_mem_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@159
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_opcode[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@25e
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus} -stylemap ::stylemap1}
+    object stylepen ::stylepen11 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_state_o[2:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@273
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen11 {} 20808 {}
+  }
+}
+
+pattern #auto ::Group v1.0 {
+  overall {
+    data options {-name {Group 2} -overlay 0 -comment {} -parents {} -groups {}}
+    data idpos {}
+    data signals {
+pattern @public@df SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_sfr_wr_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@df
+    data pid 20808
+  }
+}
+pattern @public@e0 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_sfr_rd_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e0
+    data pid 20808
+  }
+}
+pattern @public@e1 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_sfr_addr_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e1
+    data pid 20808
+  }
+}
+pattern @public@e2 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_sfr_data_i[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e2
+    data pid 20808
+  }
+}
+pattern @public@e3 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_sfr_data_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e3
+    data pid 20808
+  }
+}}
+    data signaloptions {{-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}}}
+    data penoptions {{-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}}
+    data isopen 0
+  }
+}
+
+pattern #auto ::Group v1.0 {
+  overall {
+    data options {-name {Group 1} -overlay 0 -comment {} -parents {} -groups {}}
+    data idpos {}
+    data signals {
+pattern @public@c3 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.mem_ctrl.internal_rom.ROM_matrix[0:4095]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@c3
+    data pid 20808
+  }
+}
+pattern @public@c7 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.mem_ctrl.internal_ram.RAM_matrix[0:127]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@c7
+    data pid 20808
+  }
+}
+pattern @public@c8 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.mem_ctrl.internal_rom.ADR[11:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@c8
+    data pid 20808
+  }
+}
+pattern @public@c9 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.mem_ctrl.internal_rom.ENB
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@c9
+    data pid 20808
+  }
+}
+pattern @public@ca SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.mem_ctrl.internal_rom.OEB
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@ca
+    data pid 20808
+  }
+}
+pattern @public@cb SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.mem_ctrl.internal_rom.Q[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@cb
+    data pid 20808
+  }
+}
+pattern @public@db SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_pc_i[15:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@db
+    data pid 20808
+  }
+}
+pattern @public@dc SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_rom_addr_o[15:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@dc
+    data pid 20808
+  }
+}
+pattern @public@dd SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_rom_data_i[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@dd
+    data pid 20808
+  }
+}
+pattern @public@de SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_rom_rd_o_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@de
+    data pid 20808
+  }
+}}
+    data signaloptions {{-mode digital -radix {} -stylehint {verilog array}} {-mode digital -radix {} -stylehint {verilog array}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix %b -stylehint {verilog logic}}}
+    data penoptions {{-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}}
+    data isopen 1
+  }
+}
+
+pattern #auto ::Group v1.0 {
+  overall {
+    data options {-name {Group 3} -overlay 0 -comment {} -parents {} -groups {}}
+    data idpos {}
+    data signals {
+pattern @public@f2 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_int_vect_i[2:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@f2
+    data pid 20808
+  }
+}
+pattern @public@f3 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.reg_ctrl.reg_ctrl_fsm_rd_b_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@f3
+    data pid 20808
+  }
+}
+pattern @public@f4 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.reg_ctrl.reg_ctrl_fsm_wr_b_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@f4
+    data pid 20808
+  }
+}
+pattern @public@e1 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_sfr_addr_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e1
+    data pid 20808
+  }
+}
+pattern @public@e3 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_sfr_data_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e3
+    data pid 20808
+  }
+}
+pattern @public@e2 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_sfr_data_i[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e2
+    data pid 20808
+  }
+}
+pattern @public@f5 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_ram_addr_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@f5
+    data pid 20808
+  }
+}
+pattern @public@f6 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_ram_data_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@f6
+    data pid 20808
+  }
+}
+pattern @public@f7 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.fsm.fsm_ram_data_i[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@f7
+    data pid 20808
+  }
+}}
+    data signaloptions {{-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}}}
+    data penoptions {{-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}}
+    data isopen 0
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.CORE_INSTANCE.reg_ctrl.sfr[0:39]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@194
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog array}}
+    object stylepen ::stylepen11 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.INTERRUPT_INSTANCE.ier_ctr[6:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@287
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen11 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.INTERRUPT_INSTANCE.ier[6:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@288
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen11 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.INTERRUPT_INSTANCE.int_rdy_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@289
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.INTERRUPT_INSTANCE.int_na_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@28a
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.INTERRUPT_INSTANCE.reg_tcon_o[3:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@28b
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen11 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.INTERRUPT_INSTANCE.int_reg_clr_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@28c
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.INTERRUPT_INSTANCE.reg_tcon2_i[1:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@28d
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen11 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.INTERRUPT_INSTANCE.flag_in_comp[5:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@28e
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen11 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.INTERRUPT_INSTANCE.flag_out[5:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@28f
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen11 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_p3en_0_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@248
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_p3_0_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@24a
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.top_p0_a_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@e4
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix {} -stylehint {verilog bus}}
+    object stylepen ::stylepen11 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.BUS_CONTROL_INSTANCE.bus_control_core_ext_ram_rd_b_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@290
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.BUS_CONTROL_INSTANCE.bus_control_core_ext_ram_wr_b_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@291
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.BUS_CONTROL_INSTANCE.bus_control_core_ext_rom_rd_b_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@292
+    data pid 20808
+    data idpos {}
+    data options {-mode digital -radix %b -stylehint {verilog logic}}
+    object stylepen ::stylepen12 {} 20808 {}
+  }
+}
+
+pattern #auto ::Group v1.0 {
+  overall {
+    data options {-name Serial -overlay 0 -comment {} -parents {} -groups {}}
+    data idpos {}
+    data signals {
+pattern @public@240 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_br_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@240
+    data pid 20808
+  }
+}
+pattern @public@241 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_br_trans_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@241
+    data pid 20808
+  }
+}
+pattern @public@23e SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_clock_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@23e
+    data pid 20808
+  }
+}
+pattern @public@246 SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_data_sbuf_i[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@246
+    data pid 20808
+  }
+}
+pattern @public@24d SV_SIGNAL v1.0 {
+  overall {
+    data name {simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_data_sbuf_o[7:0]}
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@24d
+    data pid 20808
+  }
+}
+pattern @public@24e SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_load_sbuf_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@24e
+    data pid 20808
+  }
+}
+pattern @public@247 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_p3_0_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@247
+    data pid 20808
+  }
+}
+pattern @public@24a SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_p3_0_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@24a
+    data pid 20808
+  }
+}
+pattern @public@24b SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_p3_1_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@24b
+    data pid 20808
+  }
+}
+pattern @public@248 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_p3en_0_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@248
+    data pid 20808
+  }
+}
+pattern @public@249 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_p3en_1_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@249
+    data pid 20808
+  }
+}
+pattern @public@23f SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_reset_i_b
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@23f
+    data pid 20808
+  }
+}
+pattern @public@19b SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_scon0_ri_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@19b
+    data pid 20808
+  }
+}
+pattern @public@19c SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_scon0_ri_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@19c
+    data pid 20808
+  }
+}
+pattern @public@199 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_scon1_ti_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@199
+    data pid 20808
+  }
+}
+pattern @public@19a SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_scon1_ti_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@19a
+    data pid 20808
+  }
+}
+pattern @public@24c SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_scon2_rb8_o
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@24c
+    data pid 20808
+  }
+}
+pattern @public@242 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_scon3_tb8_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@242
+    data pid 20808
+  }
+}
+pattern @public@243 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_scon4_ren_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@243
+    data pid 20808
+  }
+}
+pattern @public@244 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_scon7_sm0_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@244
+    data pid 20808
+  }
+}
+pattern @public@245 SV_SIGNAL v1.0 {
+  overall {
+    data name simulator::emc_top_tb.EMC_TOP_INSTANCE.SERIAL_INSTANCE.serial_serial_tx_i
+    data expression {}
+    data exprHandle {}
+    data bus {}
+    data database {}
+    data handle @public@245
+    data pid 20808
+  }
+}}
+    data signaloptions {{-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix {} -stylehint {verilog bus}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}} {-mode digital -radix %b -stylehint {verilog logic}}}
+    data penoptions {{-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label %* -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}} {-bgcolor {} -bgstipple {} -dashes {} -edgecolor {} -edgepriority {} -font {} -image {} -interpolation {} -label {} -linecolor #00ff00 -linedimcolor {} -linewidth {} -shape {} -symbolbitmap {} -symbolcolor {} -symbolmode {} -textcolor {} -textdimcolor {}}}
+    data isopen 1
+  }
+}}
+    data searchentry {}
+    data searchlist {}
+    data cursorname TimeA
+    data baseline 200734490420ps
+    data timeunits ps
+    data currentzoom {199796226160ps : 200797041360ps}
+    data zoomhistory {{199,896,307,680ps : 200,897,122,880ps} {199,996,389,200ps : 200,997,204,400ps} {200,096,470,720ps : 201,097,285,920ps} {200,196,552,240ps : 201,197,367,440ps} {200,446,756,040ps : 200,947,163,640ps} {200,571,857,940ps : 200,822,061,740ps} {200,634,408,890ps : 200,759,510,790ps} {200,665,684,370ps : 200,728,235,320ps} {200,671,939,470ps : 200,734,490,420ps} {198,677,259,160ps : 205,259,009,160ps}}
+    data displaysearchtoolbar 1
+    data labelmode name
+    data gridoptions {-state off -start 0 -delta 0}
+    data deltas {{-item baseline -value 200,734,490,420ps} {-item {cursor baseline} -value -673,852,920ps}}
+  }
+}

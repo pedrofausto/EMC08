@@ -1,0 +1,252 @@
+# SimVision Command Script (Tue Oct 19 02:32:07 PM BRT 2010)
+#
+# Version 06.10.p001
+#
+# You can restore this configuration with:
+#
+#     irun -access rwc /home/student/EMC08/digital_A/serial/design/rtl_v/serial_top.v -gui tb_serial_final.v -timescale 1ns/10ps -input RX_TX_MODE_2.tcl
+#
+
+
+#
+# preferences
+#
+preferences set txe-locate-add-fibers 1
+preferences set signal-type-colors {assertion #FF0000 output #FFA500 group #0099FF inout #00FFFF input #FFFF00 fiber #FF99FF errorsignal #FF0000 unknown #FFFFFF overlay #0000ff internal #00FF00 reference #FFFFFF}
+preferences set txe-navigate-search-locate 0
+preferences set txe-view-hold 0
+preferences set sb-editor-command {xterm -geometry 85x40 -e kwrite}
+preferences set save-state-on-startup 1
+preferences set restore-state-on-startup 1
+preferences set txe-navigate-waveform-locate 1
+preferences set txe-view-hidden 0
+preferences set waveform-print-paper {A3 (297mm x 420mm)}
+preferences set toolbar-UserTB2-WaveWindow {
+  usual
+  add action_specman_sendto_stripechart
+  add action_specman_sendto_databrowser
+  position -row 0 -pos 5 -anchor e
+  name {Send To Specman}
+}
+preferences set txe-search-show-linenumbers 1
+preferences set schematic-show-rtl 0
+preferences set toolbar-txe_waveform_toggle-WaveWindow {
+  usual
+  position -pos 1
+}
+preferences set print-company CI-BRASIL
+preferences set waveform-print-colors {As shown on screen}
+preferences set toolbar-Windows-WaveWindow {
+  usual
+  position -pos 4
+}
+preferences set txe-navigate-waveform-next-child 1
+preferences set print-designer {Inacio Mendonca Soares Filho}
+preferences set txe-locate-scroll-x 1
+preferences set txe-locate-scroll-y 1
+preferences set txe-locate-pop-waveform 1
+preferences set use-signal-type-colors 1
+
+#
+# Simulator
+#
+
+database require simulator -hints {
+	simulator "irun -access rwc /home/student/EMC08/digital_A/serial/design/rtl_v/serial_top.v -gui tb_serial_final.v -timescale 1ns/10ps -input RX_TX_MODE_2.tcl"
+}
+
+#
+# groups
+#
+catch {group new -name RX_MODE_2 -overlay 0}
+catch {group new -name TX_MODE_2 -overlay 0}
+
+group using RX_MODE_2
+group set -overlay 0
+group set -comment {}
+group set -parents {}
+group set -groups {}
+group clear 0 end
+
+group insert \
+    tb_serial_final.serial_top_tb.serial_rx_block.serial_reset_i_b \
+    tb_serial_final.serial_top_tb.serial_rx_block.serial_br_i \
+    tb_serial_final.serial_top_tb.serial_rx_block.serial_br_trans_i \
+    tb_serial_final.serial_top_tb.serial_rx_block.serial_clock_i \
+    tb_serial_final.serial_top_tb.serial_rx_block.serial_scon0_ri_i \
+    tb_serial_final.serial_top_tb.serial_rx_block.serial_scon4_ren_i \
+    {tb_serial_final.PACOTE[10:0]} \
+    tb_serial_final.serial_top_tb.serial_rx_block.serial_scon2_rb8_o \
+    tb_serial_final.serial_top_tb.serial_rx_block.serial_scon0_ri_o \
+    {tb_serial_final.serial_top_tb.serial_rx_block.serial_sbuf_rx_o[7:0]} \
+    {tb_serial_final.DADOS[0:7]} \
+    tb_serial_final.serial_top_tb.serial_rx_block.serial_receive_o \
+    {tb_serial_final.OPTION[1:0]} \
+    tb_serial_final.OPTION_TRANS \
+    tb_serial_final.p3_0_i
+
+group using TX_MODE_2
+group set -overlay 0
+group set -comment {}
+group set -parents {}
+group set -groups {}
+group clear 0 end
+
+group insert \
+    tb_serial_final.serial_top_tb.serial_tx_block.serial_reset_i_b \
+    tb_serial_final.serial_top_tb.serial_tx_block.serial_send_o \
+    {tb_serial_final.PACOTE[10:0]} \
+    tb_serial_final.br_trans \
+    tb_serial_final.br \
+    tb_serial_final.serial_top_tb.serial_tx_block.serial_serial_tx_i \
+    tb_serial_final.serial_top_tb.serial_tx_block.serial_clock_i \
+    tb_serial_final.serial_top_tb.serial_tx_block.serial_scon3_tb8_i \
+    tb_serial_final.scon0_ri_o \
+    {tb_serial_final.serial_top_tb.serial_tx_block.serial_data_sbuf_i[7:0]} \
+    tb_serial_final.scon1_ti_o \
+    tb_serial_final.serial_top_tb.serial_p3_1_o
+
+#
+# cursors
+#
+set time 104900000ps
+if {[catch {cursor new -name  TimeA -time $time}] != ""} {
+    cursor set -using TimeA -time $time
+}
+
+#
+# mmaps
+#
+mmap new -reuse -name {Boolean as Logic} -contents {
+{%c=FALSE -edgepriority 1 -shape low}
+{%c=TRUE -edgepriority 1 -shape high}
+}
+mmap new -reuse -name {Example Map} -contents {
+{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}
+}
+mmap new -reuse -name {New map} -contents {
+{%b=0 -bgcolor #999999 -font -*-courier-medium-r-normal--12-* -label modo_0 -shape bus}
+{%b=1 -bgcolor #ff9900 -font -*-courier-medium-r-normal--12-* -label modo_2 -shape bus -textcolor #000000}
+}
+mmap new -reuse -name {New map #2} -contents {
+{%b=0 -bgcolor #ff0000 -font -*-courier-medium-r-normal--12-* -label rec_desabilitada -shape bus}
+{%b=1 -bgcolor #00ff00 -font -*-courier-medium-r-normal--12-* -label rec_habilitada -linecolor #ffff00 -shape bus -textcolor #0000ff}
+}
+mmap new -reuse -name {New map #3} -contents {
+{%b=00 -bgcolor #ffffff -font -*-courier-medium-r-normal--12-* -label BR_2 -linecolor #0000ff -shape bus -textcolor #0000ff}
+{%b=01 -bgcolor #ffff00 -font -*-courier-medium-r-normal--12-* -label BR_32 -linecolor #00ff00 -shape bus -textcolor #000000}
+{%b=10 -bgcolor #ff9900 -font -*-courier-medium-r-normal--12-* -label BR_64 -shape bus -textcolor #000000}
+{%b=11 -bgcolor #99ff00 -font -*-courier-medium-r-normal--12-* -label FREE -linecolor #0099ff -shape bus -textcolor #000000}
+}
+mmap new -reuse -name {New map #4} -contents {
+{%b=0 -bgcolor #00ffff -font -*-courier-medium-r-normal--12-* -label BR_TRANS_32 -linecolor #0000ff -shape bus -textcolor #000000}
+{%b=1 -bgcolor #9900ff -font -*-courier-medium-r-normal--12-* -label BR_TRANS_64 -shape bus}
+}
+mmap new -reuse -name {New map #5} -contents {
+{%b=000 -bgcolor #ffff00 -font -*-courier-medium-r-normal--12-* -label MODE_0_TRANS -shape bus -textcolor #000000}
+{%b=001 -bgcolor #ff9900 -font -*-courier-medium-r-normal--12-* -label MODE_0_REC -shape bus}
+{%b=010 -bgcolor #00ffff -font -*-courier-medium-r-normal--12-* -label MODE_2_TRANS -shape bus -textcolor #000000}
+{%b=011 -bgcolor #99ff00 -font -*-courier-medium-r-normal--12-* -label MODE_2_REC -shape bus -textcolor #0000ff}
+{%b=100 -bgcolor #ff0000 -font -*-courier-medium-r-normal--12-* -label MODE_INACTIVE -shape bus}
+{%b=101 -bgcolor #999999 -font -*-courier-medium-r-normal--12-* -label FREE -shape bus}
+{%b=110 -bgcolor #999999 -font -*-courier-medium-r-normal--12-* -label FREE -shape bus}
+{%b=111 -bgcolor #999999 -font -*-courier-medium-r-normal--12-* -label FREE -shape bus}
+}
+
+#
+# Design Browser windows
+#
+if {[catch {window new WatchList -name "Design Browser 1" -geometry 1280x946+0+22}] != ""} {
+    window geometry "Design Browser 1" 1280x946+0+22
+}
+window target "Design Browser 1" on
+browser using {Design Browser 1}
+browser set \
+    -scope tb_serial_final.serial_top_tb.serial_tx_block
+browser yview see tb_serial_final.serial_top_tb.serial_tx_block
+browser timecontrol set -lock 0
+
+#
+# Waveform windows
+#
+if {[catch {window new WaveWindow -name "Waveform 2" -geometry 1280x946+0+0}] != ""} {
+    window geometry "Waveform 2" 1280x946+0+0
+}
+window target "Waveform 2" on
+waveform using {Waveform 2}
+waveform sidebar visibility partial
+waveform set \
+    -primarycursor TimeA \
+    -signalnames name \
+    -signalwidth 157 \
+    -units ns \
+    -valuewidth 104
+cursor set -using TimeA -time 104,900,000ps
+waveform baseline set -time 0
+
+set groupId [waveform add -groups RX_MODE_2]
+set glist [waveform hierarchy contents $groupId]
+set id [lindex $glist 0]
+foreach {name attrs} {
+    tb_serial_final.serial_top_tb.serial_rx_block.serial_reset_i_b {}
+    tb_serial_final.serial_top_tb.serial_rx_block.serial_br_i {}
+    tb_serial_final.serial_top_tb.serial_rx_block.serial_br_trans_i {}
+    tb_serial_final.serial_top_tb.serial_rx_block.serial_clock_i {}
+    tb_serial_final.serial_top_tb.serial_rx_block.serial_scon0_ri_i {}
+    tb_serial_final.serial_top_tb.serial_rx_block.serial_scon4_ren_i {}
+    tb_serial_final.PACOTE {-radix %b}
+    tb_serial_final.serial_top_tb.serial_rx_block.serial_scon2_rb8_o {-color #ffffff}
+    tb_serial_final.serial_top_tb.serial_rx_block.serial_scon0_ri_o {-color #ffffff}
+    tb_serial_final.serial_top_tb.serial_rx_block.serial_sbuf_rx_o {-radix %b -color #ffffff}
+    tb_serial_final.DADOS {-radix %b}
+    tb_serial_final.serial_top_tb.serial_rx_block.serial_receive_o {-color #ffffff}
+    tb_serial_final.OPTION {-radix {New map #3}}
+    tb_serial_final.OPTION_TRANS {-radix {New map #4}}
+    tb_serial_final.p3_0_i {}
+} {
+    set expected [ join [waveform signals -format native $id] ]
+    if {[string equal $name $expected]} {
+        if {$attrs != ""} {
+            eval waveform format $id $attrs
+        }
+    }
+        set glist [lrange $glist 1 end]
+        set id [lindex $glist 0]
+}
+
+set groupId [waveform add -groups TX_MODE_2]
+set glist [waveform hierarchy contents $groupId]
+set id [lindex $glist 0]
+foreach {name attrs} {
+    tb_serial_final.serial_top_tb.serial_tx_block.serial_reset_i_b {}
+    tb_serial_final.serial_top_tb.serial_tx_block.serial_send_o {}
+    tb_serial_final.PACOTE {-radix %b}
+    tb_serial_final.br_trans {}
+    tb_serial_final.br {}
+    tb_serial_final.serial_top_tb.serial_tx_block.serial_serial_tx_i {-color #00ffff}
+    tb_serial_final.serial_top_tb.serial_tx_block.serial_clock_i {}
+    tb_serial_final.serial_top_tb.serial_tx_block.serial_scon3_tb8_i {-color #ffff00}
+    tb_serial_final.scon0_ri_o {}
+    tb_serial_final.serial_top_tb.serial_tx_block.serial_data_sbuf_i {-radix %b}
+    tb_serial_final.scon1_ti_o {}
+    tb_serial_final.serial_top_tb.serial_p3_1_o {-color #ffffff}
+} {
+    set expected [ join [waveform signals -format native $id] ]
+    if {[string equal $name $expected]} {
+        if {$attrs != ""} {
+            eval waveform format $id $attrs
+        }
+    }
+        set glist [lrange $glist 1 end]
+        set id [lindex $glist 0]
+}
+waveform hierarchy collapse $groupId
+
+set id [waveform add -signals [list {tb_serial_final.CONTROL_MODE[2:0]} ]]
+waveform format $id -radix {New map #5}
+
+waveform xview limits 103334.02ns 106249.66ns
+

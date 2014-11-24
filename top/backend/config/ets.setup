@@ -1,0 +1,49 @@
+#
+# Encounter Flow Saved Design Data
+# Please do not edit.
+#
+
+#### physical data ####
+read_physical_data 0
+#### End of physical data ####
+
+#### Design Data: "General" Section ####
+#### End of "General" Section ####
+
+#### Design Data: "Library" Section ####
+set ::design_setup(timelib) {/ddk/XFABC018/synopsys/xc018/MOSLP/D_CELLS_MOSLP_slow_1_62V_125C.lib /ddk/XFABC018/synopsys/xc018/MOSLP/IO/MOS3LP/IO_CELLS_3V_MOS3LP_slow_1_62V_3_30V_125C.lib ../../../common_blocks/ROM/ROM4096X8/ROM4096X8_slow_1_62V_125C.lib ../../../common_blocks/SRAM/SPRAM128X8/SPRAM128X8_slow_1_62V_125C.lib}
+set ::design_setup(timelib,max) {}
+set ::design_setup(timelib,min) {}
+set ::design_setup(cdb_file,max) {}
+set ::design_setup(cdb_file,min) {}
+set ::design_setup(cdb_file) {}
+set ::design_setup(smodDef) {}
+set ::design_setup(smodData) {}
+#### End of "Library" Section ####
+
+#### Design Data: "Design" Section ####
+set ::design_setup(topcell) {EMC08}
+set ::design_setup(netlist) {wrapper/emc08.v wrapper/emc_pads.v synthesis/structural_v/emc_top_netlist.v}
+set ::design_setup(timingcon_file) {constraints/emc08_netlist.sdc}
+set ::design_setup(spef_file) {EMC08.spef}
+set ::design_setup(sdf_file) {}
+#### End of "Design" Section ####
+
+#### Design Data: "Low Power" Section ####
+set ::design_setup(msmv_file) {}
+set ::design_setup(pwrnet) {VDD VDDR}
+set ::design_setup(gndnet) {GND}
+#### End of "Low Power" Section ####
+
+#### Design Data: "Physical" Section ####
+set ::design_setup(leffile) {/ddk/XFABC018/cadence/xc018/LEF/xc018_m6_FE/D_CELLS.lef /ddk/XFABC018/cadence/xc018/LEF/xc018_m6_FE/IO_CELLS_3V.lef ../../../common_blocks/ROM/ROM4096X8/ROM4096X8.lef ../../../common_blocks/SRAM/SPRAM128X8/SPRAM128X8.lef}
+set ::design_setup(floorfile) {EMC08.fp}
+set ::design_setup(placefile) {EMC08.place.gz}
+set ::design_setup(routefile) {EMC08.route.gz}
+set ::design_setup(deffile) {EMC08.def}
+#### End of "Physical" Section ####
+
+#### Design Data: "Multi-Mode Multi-Corner" Section ####
+set ::design_setup(view_definition_file) {}
+#### End of "Multi-Mode Multi-Corner" Section ####
+

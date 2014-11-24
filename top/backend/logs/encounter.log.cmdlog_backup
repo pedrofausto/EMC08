@@ -1,0 +1,240 @@
+#######################################################
+#                                                     #
+#  Encounter Command Logging File                     #
+#  Created on Mon Dec  6 13:45:46                     #
+#                                                     #
+#######################################################
+loadConfig config/default.conf 0
+commitConfig
+floorPlan -r 1.0 -d 1.0 1.0 30 30 30 30
+globalNetConnect VDD -type pgpin -pin vdd* -all -override -verbose
+globalNetConnect VDD -type pgpin -pin r*vdd -all -override -verbose
+globalNetConnect VDD -type pgpin -pin VDD -all -override -verbose
+globalNetConnect VDDR -type pgpin -pin VDDR -all -override -verbose
+globalNetConnect VDDR -type pgpin -pin VDDO -all -override -verbose
+globalNetConnect VDDR -type pgpin -pin VDDOR -all -override -verbose
+globalNetConnect GND -type pgpin -pin gnd* -all -override -verbose
+globalNetConnect GND -type pgpin -pin r*gnd -all -override -verbose
+globalNetConnect GND -type pgpin -pin GNDO -all -override -verbose
+globalNetConnect GND -type pgpin -pin GNDR -all -override -verbose
+globalNetConnect GND -type pgpin -pin GNDOR -all -override -verbose
+placeInstance EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_rom 287.28 773.51 R90
+placeInstance EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_ram 841.06 775.85 R0
+addHaloToBlock 15.0 38.34 15.0 15.0 EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_ram
+addHaloToBlock 15.0 36.0 105.0 15.0 EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_rom
+createRouteBlk 287.28 773.427 722.978 1007.0
+deselectAll
+selectRouteBlk 287.2800 773.4250 722.9800 1007.0000 defLayerBlkName 3
+setSelectedRouteBlk 287.28 773.425 722.98 1007.0 defLayerBlkName {{1 } {2 } {V2 } {3 } {V3 } {4 } {V4 } {5 } {V5 } {6 } {V6 }} Undefined
+createRouteBlk 841.06 775.851 1006.998 1007.0
+selectRouteBlk 841.0600 775.8500 1007.000 1007.0000 defLayerBlkName 3
+setSelectedRouteBlk 841.06 775.85 1007.0 1007.0 defLayerBlkName {{1 } {2 } {V2 } {3 } {V3 } {4 } {V4 } {5 } {V5 } {V6 }} Undefined
+cutRow
+addRing -spacing_bottom 2 -width_left 8 -width_bottom 8 -width_top 8 -spacing_top 2 -layer_bottom MET5 -center 1 -stacked_via_top_layer METTP -width_right 8 -around core -jog_distance 0.315 -offset_bottom 0.315 -layer_top MET5 -threshold 0.315 -offset_left 0.315 -spacing_right 2 -spacing_left 2 -offset_right 0.315 -offset_top 0.315 -layer_right METTP -nets {GND VDD } -stacked_via_bottom_layer MET1 -layer_left METTP
+selectInst EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_rom
+addRing -spacing_bottom 2 -width_left 8 -width_bottom 8 -width_top 8 -left 0 -top 0 -spacing_top 2 -layer_bottom MET5 -stacked_via_top_layer METTP -width_right 8 -around selected -jog_distance 0.315 -offset_bottom 18 -bl 1 -layer_top MET5 -br 1 -threshold 0.315 -right 0 -offset_left 0.315 -spacing_right 2 -spacing_left 2 -type block_rings -offset_right 0.315 -offset_top 0.315 -layer_right METTP -nets {GND VDD } -stacked_via_bottom_layer MET1 -layer_left METTP
+deselectAll
+selectInst EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/internal_ram
+addRing -lt 1 -spacing_bottom 2 -width_left 8 -width_bottom 8 -width_top 8 -top 0 -spacing_top 2 -layer_bottom MET5 -stacked_via_top_layer METTP -width_right 8 -around selected -jog_distance 0.315 -offset_bottom 18 -bottom 0 -layer_top MET5 -threshold 0.315 -right 0 -offset_left 50.0975 -spacing_right 2 -lb 1 -spacing_left 2 -type block_rings -offset_right 0.315 -offset_top 0.315 -layer_right METTP -nets {GND VDD } -stacked_via_bottom_layer MET1 -layer_left METTP
+addStripe -block_ring_top_layer_limit METTP -max_same_layer_jog_length 0.88 -padcore_ring_bottom_layer_limit MET5 -number_of_sets 1 -stacked_via_top_layer METTP -padcore_ring_top_layer_limit METTP -start_from right -spacing 2 -xleft_offset 216.3750 -xright_offset 216.040 -merge_stripes_value 0.315 -layer METTP -block_ring_bottom_layer_limit MET5 -width 8 -nets {GND VDD } -stacked_via_bottom_layer MET1
+addStripe -block_ring_top_layer_limit METTP -max_same_layer_jog_length 0.88 -padcore_ring_bottom_layer_limit MET5 -number_of_sets 1 -stacked_via_top_layer METTP -padcore_ring_top_layer_limit METTP -spacing 2 -xleft_offset 216.040 -xright_offset 216.040 -merge_stripes_value 0.315 -layer METTP -block_ring_bottom_layer_limit MET5 -width 8 -nets {GND VDD } -stacked_via_bottom_layer MET1
+addStripe -block_ring_top_layer_limit METTP -max_same_layer_jog_length 0.88 -padcore_ring_bottom_layer_limit MET4 -number_of_sets 4 -ybottom_offset 75.64 -stacked_via_top_layer METTP -padcore_ring_top_layer_limit METTP -spacing 2 -merge_stripes_value 0.315 -direction horizontal -layer MET5 -block_ring_bottom_layer_limit MET4 -ytop_offset 345.13 -width 8 -nets {GND VDD } -stacked_via_bottom_layer MET1
+sroute -jogControl { preferWithChanges differentLayer }
+setCTSMode -traceDPinAsLeaf false -traceIoPinAsLeaf false -routeClkNet false -routeGuide true -topPreferredLayer 4 -bottomPreferredLayer 3 -routeNonDefaultRule {} -useLefACLimit false -routePreferredExtraSpace 1 -opt true -optAddBuffer false -moveGate true -useHVRC true -fixLeafInst true -fixNonLeafInst true -verbose false -reportHTML false -addClockRootProp false -nameSingleDelim false -honorFence false -useLibMaxFanout false -useLibMaxCap false
+getClockMeshMode -quiet
+setFillerMode -reset
+setFillerMode -corePrefix FILLER -createRows 1 -doDRC 1 -deleteFixed 1 -ecoMode 0
+setNanoRouteMode -quiet -routeBottomRoutingLayer 1
+setNanoRouteMode -quiet -routeTopRoutingLayer 6
+setNanoRouteMode -quiet -drouteEndIteration default
+setNanoRouteMode -quiet -droutePostRouteWidenWireRule NA
+setNanoRouteMode -quiet -drouteStartIteration default
+setOptMode -effort high -leakagePowerEffort none -yieldEffort none -simplifyNetlist false -setupTargetSlack 0 -holdTargetSlack 0 -maxDensity 0.95 -drcMargin 0 -usefulSkew false
+setPlaceMode -reset
+setPlaceMode -congEffort high -timingDriven 0 -modulePlan 1 -doCongOpt 0 -clkGateAware 0 -powerDriven 0 -ignoreScan 1 -reorderScan 1 -ignoreSpare 1 -placeIOPins 1 -moduleAwareSpare 0 -checkPinLayerForAccess {  1 } -preserveRouting 0 -rmAffectedRouting 0 -checkRoute 0 -swapEEQ 0
+setScanReorderMode -reset
+setScanReorderMode -skipMode skipNone -clkAware false -defInForce false -allowSwapping false -keepHierPorts false
+setStreamOutMode -specifyViaName default -SEvianames false -virtualConnection true -uniquifyCellNamesPrefix false
+setTieHiLoMode -reset
+setTieHiLoMode -honorDontTouch false
+setTrialRouteMode -highEffort false -floorPlanMode false -detour true -maxRouteLayer 6 -minRouteLayer 1 -handlePreroute false -autoSkipTracks false -handlePartition false -handlePartitionComplex false -useM1 false -keepExistingRoutes false -ignoreAbutted2TermNet false -pinGuide true -honorPin false -selNet {} -selNetOnly {} -selMarkedNet false -selMarkedNetOnly false -ignoreObstruct true -PKS false -updateRemainTrks false -ignoreDEFTrack false -printWiresOnRTBlk false -usePagedArray false -routeObs true -routeGuide {} -blockageCostMultiple 1 -maxDetourRatio 0
+setReleaseMultiCpuLicense 0
+setMultiCpuUsage -numThreads 4 -numHosts 1 -superThreadsNumThreads 1 -superThreadsNumHosts 1
+placeDesign -prePlaceOpt
+addTieHiLo -cell {LOGIC0 LOGIC1} -prefix LTIE
+specifyscancell SDFFQX0 -in SD -out Q -scanClock CN -scanEnable SE
+specifyscancell SDFFQX1 -in SD -out Q -scanClock CN -scanEnable SE
+specifyscancell SDFFQX2 -in SD -out Q -scanClock CN -scanEnable SE
+specifyscancell SDFFQX4 -in SD -out Q -scanClock CN -scanEnable SE
+specifyScanChain emc_chain_15 -start EMC_PADS_INSTANCE/P_PORT1_6/Y -stop EMC_PADS_INSTANCE/P_PORT4_6/A
+specifyScanChain emc_chain_01 -start EMC_PADS_INSTANCE/P_PORT0_0/Y -stop EMC_PADS_INSTANCE/P_PORT2_0/A
+specifyScanChain emc_chain_02 -start EMC_PADS_INSTANCE/P_PORT0_1/Y -stop EMC_PADS_INSTANCE/P_PORT2_1/A
+specifyScanChain emc_chain_03 -start EMC_PADS_INSTANCE/P_PORT0_2/Y -stop EMC_PADS_INSTANCE/P_PORT2_2/A
+specifyScanChain emc_chain_04 -start EMC_PADS_INSTANCE/P_PORT0_3/Y -stop EMC_PADS_INSTANCE/P_PORT2_3/A
+specifyScanChain emc_chain_05 -start EMC_PADS_INSTANCE/P_PORT0_4/Y -stop EMC_PADS_INSTANCE/P_PORT2_4/A
+specifyScanChain emc_chain_06 -start EMC_PADS_INSTANCE/P_PORT0_5/Y -stop EMC_PADS_INSTANCE/P_PORT2_5/A
+specifyScanChain emc_chain_07 -start EMC_PADS_INSTANCE/P_PORT0_6/Y -stop EMC_PADS_INSTANCE/P_PORT2_6/A
+specifyScanChain emc_chain_08 -start EMC_PADS_INSTANCE/P_PORT0_7/Y -stop EMC_PADS_INSTANCE/P_PORT2_7/A
+specifyScanChain emc_chain_09 -start EMC_PADS_INSTANCE/P_PORT1_0/Y -stop EMC_PADS_INSTANCE/P_PORT4_0/A
+specifyScanChain emc_chain_10 -start EMC_PADS_INSTANCE/P_PORT1_1/Y -stop EMC_PADS_INSTANCE/P_PORT4_1/A
+specifyScanChain emc_chain_11 -start EMC_PADS_INSTANCE/P_PORT1_2/Y -stop EMC_PADS_INSTANCE/P_PORT4_2/A
+specifyScanChain emc_chain_12 -start EMC_PADS_INSTANCE/P_PORT1_3/Y -stop EMC_PADS_INSTANCE/P_PORT4_3/A
+specifyScanChain emc_chain_13 -start EMC_PADS_INSTANCE/P_PORT1_4/Y -stop EMC_PADS_INSTANCE/P_PORT4_4/A
+specifyScanChain emc_chain_14 -start EMC_PADS_INSTANCE/P_PORT1_5/Y -stop EMC_PADS_INSTANCE/P_PORT4_5/A
+specifyScanChain emc_chain_16 -start EMC_PADS_INSTANCE/P_PORT1_7/Y -stop EMC_PADS_INSTANCE/P_PORT4_7/A
+scanTrace -verbose -compLogic
+scanReorder
+defOut -floorplan -noStdCells -scanChain outputs/emc08.scan.def
+trialRoute -maxRouteLayer 6 -highEffort
+setCTSMode -traceDPinAsLeaf false -traceIoPinAsLeaf false -routeClkNet false -routeGuide true -topPreferredLayer 4 -bottomPreferredLayer 3 -routeNonDefaultRule {} -useLefACLimit false -routePreferredExtraSpace 1 -opt true -optAddBuffer false -moveGate true -useHVRC true -fixLeafInst true -fixNonLeafInst true -verbose false -reportHTML false -addClockRootProp false -nameSingleDelim false -honorFence false -useLibMaxFanout false -useLibMaxCap false
+getClockMeshMode -quiet
+setFillerMode -reset
+setFillerMode -corePrefix FILLER -createRows 1 -doDRC 1 -deleteFixed 1 -ecoMode 0
+setNanoRouteMode -quiet -routeBottomRoutingLayer 1
+setNanoRouteMode -quiet -routeTopRoutingLayer 6
+setNanoRouteMode -quiet -drouteEndIteration default
+setNanoRouteMode -quiet -drouteStartIteration default
+setUsefulSkewMode -maxSkew false -noBoundary false -useCells {BUCX12 BUCX16 BUCX20 BUCX4 BUCX6 BUCX8 BUX0 BUX1 BUX12 BUX16 BUX2 BUX20 BUX3 BUX4 BUX6 BUX8 DLY1X0 DLY1X1 DLY2X0 DLY2X1 DLY4X0 DLY4X1 DLY8X0 DLY8X1 INCX12 INCX16 INCX20 INX0 INX1 INX12 INX16 INX2 INX20 INX3 INX4 INX6 INX8} -maxAllowedDelay 2.14748e+09
+setOptMode -effort high -leakagePowerEffort none -yieldEffort none -simplifyNetlist false -setupTargetSlack 0.5 -holdTargetSlack 0.5 -maxDensity 0.95 -drcMargin 0 -usefulSkew true
+setPlaceMode -reset
+setPlaceMode -congEffort high -timingDriven 0 -modulePlan 1 -doCongOpt 0 -clkGateAware 0 -powerDriven 0 -ignoreScan 1 -reorderScan 1 -ignoreSpare 1 -placeIOPins 1 -moduleAwareSpare 0 -checkPinLayerForAccess {  1 } -preserveRouting 0 -rmAffectedRouting 0 -checkRoute 0 -swapEEQ 0
+setScanReorderMode -reset
+setScanReorderMode -skipMode skipNone -clkAware false -defInForce false -allowSwapping false -keepHierPorts false
+setStreamOutMode -specifyViaName default -SEvianames false -virtualConnection true -uniquifyCellNamesPrefix false
+setTieHiLoMode -reset
+setTieHiLoMode -honorDontTouch false
+setTrialRouteMode -highEffort false -floorPlanMode false -detour true -maxRouteLayer 6 -minRouteLayer 1 -handlePreroute false -autoSkipTracks false -handlePartition false -handlePartitionComplex false -useM1 false -keepExistingRoutes false -ignoreAbutted2TermNet false -pinGuide true -honorPin false -selNet {} -selNetOnly {} -selMarkedNet false -selMarkedNetOnly false -ignoreObstruct true -PKS false -updateRemainTrks false -ignoreDEFTrack false -printWiresOnRTBlk false -usePagedArray false -routeObs true -routeGuide {} -blockageCostMultiple 1 -maxDetourRatio 0
+optDesign -preCTS -setup -drv
+clockDesign -specFile config/emc08.ctstch -outDir clock_report -fixedInstBeforeCTS -postCTSsdcFile constraints/emc08_postCTS.sdc
+isExtractRCModeSignoff
+isExtractRCModeSignoff
+rcOut -spef EMC08.spef
+clearClockDomains
+setClockDomains -all
+timeDesign -postCTS -reportOnly -pathReports -drvReports -slackReports -numPaths 50 -prefix EMC08_postCTS -outDir timingReports
+setNanoRouteMode -quiet -routeWithTimingDriven true
+setNanoRouteMode -quiet -routeTdrEffort 3
+setNanoRouteMode -quiet -drouteStartIteration default
+setNanoRouteMode -quiet -drouteEndIteration default
+setNanoRouteMode -quiet -routeWithTimingDriven true
+setNanoRouteMode -quiet -routeWithSiDriven false
+trialRoute -handlePreroute
+setCteReport
+writeDesignTiming .timing_file.tif
+routeDesign -globalDetail
+isExtractRCModeSignoff
+isExtractRCModeSignoff
+rcOut -spef EMC08.spef
+clearClockDomains
+setClockDomains -all
+timeDesign -postRoute -si -reportOnly -pathReports -drvReports -slackReports -numPaths 50 -prefix EMC08_postRoute -outDir timingReports
+clearClockDomains
+setClockDomains -all
+timeDesign -postRoute -si -hold -reportOnly -pathReports -slackReports -numPaths 50 -prefix EMC08_postRoute -outDir timingReports
+setLayerPreference allM0 -isVisible 0
+setLayerPreference allM1 -isVisible 0
+setLayerPreference allM2 -isVisible 0
+setLayerPreference allM3 -isVisible 0
+setLayerPreference allM4 -isVisible 0
+setLayerPreference allM5 -isVisible 0
+setLayerPreference allM6 -isVisible 0
+setLayerPreference allM1Cont -isVisible 0
+setLayerPreference allM2Cont -isVisible 0
+setLayerPreference allM3Cont -isVisible 0
+setLayerPreference allM4Cont -isVisible 0
+setLayerPreference allM5Cont -isVisible 0
+setLayerPreference allM6Cont -isVisible 0
+zoomBox 265.663 778.435 1024.877 264.799
+getFillerMode -quiet
+findCoreFillerCells
+setCTSMode -traceDPinAsLeaf false -traceIoPinAsLeaf false -routeClkNet false -routeGuide true -topPreferredLayer 4 -bottomPreferredLayer 3 -routeNonDefaultRule {} -useLefACLimit false -routePreferredExtraSpace 1 -opt true -optAddBuffer false -moveGate true -useHVRC true -fixLeafInst true -fixNonLeafInst true -verbose false -reportHTML false -addClockRootProp false -nameSingleDelim false -honorFence false -useLibMaxFanout false -useLibMaxCap false
+getClockMeshMode -quiet
+setFillerMode -reset
+setFillerMode -corePrefix FILLER -createRows 1 -doDRC 1 -deleteFixed 1 -ecoMode 1
+setNanoRouteMode -quiet -routeBottomRoutingLayer 1
+setNanoRouteMode -quiet -routeTopRoutingLayer 6
+setNanoRouteMode -quiet -drouteEndIteration default
+setNanoRouteMode -quiet -drouteStartIteration default
+setUsefulSkewMode -maxSkew false -noBoundary false -useCells {DLY8X1 DLY8X0 DLY4X1 DLY4X0 DLY2X1 DLY2X0 DLY1X1 DLY1X0 BUX8 BUX6 BUX4 BUX3 BUX20 BUX2 BUX16 BUX12 BUX1 BUX0 BUCX8 BUCX6 BUCX4 BUCX20 BUCX16 BUCX12 INX8 INX6 INX4 INX3 INX20 INX2 INX16 INX12 INX1 INX0 INCX20 INCX16 INCX12} -maxAllowedDelay 2.14748e+09
+setOptMode -effort high -leakagePowerEffort none -yieldEffort none -simplifyNetlist false -setupTargetSlack 0.5 -holdTargetSlack 0.5 -maxDensity 0.95 -drcMargin 0 -usefulSkew true
+setPlaceMode -reset
+setPlaceMode -congEffort high -timingDriven 0 -modulePlan 1 -doCongOpt 0 -clkGateAware 0 -powerDriven 0 -ignoreScan 1 -reorderScan 1 -ignoreSpare 1 -placeIOPins 1 -moduleAwareSpare 0 -checkPinLayerForAccess {  1 } -preserveRouting 0 -rmAffectedRouting 0 -checkRoute 0 -swapEEQ 0
+setScanReorderMode -reset
+setScanReorderMode -skipMode skipNone -clkAware false -defInForce false -allowSwapping false -keepHierPorts false
+setStreamOutMode -specifyViaName default -SEvianames false -virtualConnection true -uniquifyCellNamesPrefix false
+setTieHiLoMode -reset
+setTieHiLoMode -honorDontTouch false
+setTrialRouteMode -highEffort false -floorPlanMode false -detour true -maxRouteLayer 6 -minRouteLayer 1 -handlePreroute true -autoSkipTracks false -handlePartition false -handlePartitionComplex false -useM1 false -keepExistingRoutes false -ignoreAbutted2TermNet false -pinGuide true -honorPin false -selNet {} -selNetOnly {} -selMarkedNet false -selMarkedNetOnly false -ignoreObstruct true -PKS false -updateRemainTrks false -ignoreDEFTrack false -printWiresOnRTBlk false -usePagedArray false -routeObs true -routeGuide {} -blockageCostMultiple 1 -maxDetourRatio 0
+addFiller -cell FEED1 FEED10 FEED2 FEED25 FEED5 FEEDCAP10 FEEDCAP10LP FEEDCAP15 FEEDCAP15LP FEEDCAP2 FEEDCAP25 FEEDCAP25LP FEEDCAP5 FEEDCAP5LP FEEDCAP7 FEEDCAP7LP -prefix FILLER -markFixed
+pageSelect pdgRAFile nbframe vcd
+readActivityFile -format VCD synthesis/structural_v/emc_top_netlist.vcd
+setDrawView place
+autoFetchDCSources
+autoFetchDCSources VDD
+setDrawView place
+savePadLocation -keepPadLocDisplay -file paAutoGen.VDD.pp
+savePadLocation -keepPadLocDisplay -file paAutoGen.VDD.pp
+probePower
+updatePower -irDropAnalysis average -vcd synthesis/structural_v/emc_top_netlist.vcd -vcdTop EMC08 -pad paAutoGen.VDD.pp -start 0.0 -reportInstancePower instance.power -timeUnit ps -mode floorplan VDD
+savePadLocation -keepPadLocDisplay -file paAutoGen.VDD.pp
+probePower
+updatePower -irDropAnalysis average -vcd synthesis/structural_v/emc_top_netlist.vcd -vcdTop EMC08 -pad paAutoGen.VDD.pp -start 0.0 -reportInstancePower instance.power -timeUnit ps -mode floorplan VDD
+setLayerPreference allM0 -isVisible 1
+setLayerPreference allM1 -isVisible 1
+setLayerPreference allM2 -isVisible 1
+setLayerPreference allM3 -isVisible 1
+setLayerPreference allM4 -isVisible 1
+setLayerPreference allM5 -isVisible 1
+setLayerPreference allM6 -isVisible 1
+setLayerPreference allM1Cont -isVisible 1
+setLayerPreference allM2Cont -isVisible 1
+setLayerPreference allM3Cont -isVisible 1
+setLayerPreference allM4Cont -isVisible 1
+setLayerPreference allM5Cont -isVisible 1
+setLayerPreference allM6Cont -isVisible 1
+displayRailAnalysisResults -violationBrowser -net VDD -type ird -threshold 0.162000000477 -filter {1 0 0.0231429} {1 0.0231429 0.0462857} {1 0.0462857 0.0694286} {1 0.0694286 0.0925714} {1 0.0925714 0.115714} {1 0.115714 0.138857} {1 0.138857 0.162} {1 0.162 1.62} -visibleLayer M6 M5 M4 M3 M2 M1 RD
+fit
+displayRailAnalysisResults -violationBrowser -net VDD -type ird -threshold 0.081 -filter {1 0 0.0115714} {1 0.0115714 0.0231429} {1 0.0231429 0.0347143} {1 0.0347143 0.0462857} {1 0.0462857 0.0578571} {1 0.0578571 0.0694286} {1 0.0694286 0.081} {1 0.081 1.62} -visibleLayer M6 M5 M4 M3 M2 M1 RD
+displayRailAnalysisResults -violationBrowser -net VDD -type em -filter {1 0 0.142857} {1 0.142857 0.285714} {1 0.285714 0.428571} {1 0.428571 0.571429} {1 0.571429 0.714286} {1 0.714286 0.857143} {1 0.857143 1} {1 1 1e+07} -visibleLayer M6 V56 M5 V45 M4 V34 M3 V23 M2 V12 M1 RD -emLimit {M6 * 2} {V56 * 0.2} {M5 * 2} {V45 * 0.2} {M4 * 2} {V34 * 0.2} {M3 * 2} {V23 * 0.2} {M2 * 2} {V12 * 0.2} {M1 * 2}
+selectInst EMC_PADS_INSTANCE/P_PORT1_4
+pageSelect pdgRRFile nbframe rprt
+reportPower -outfile EMC08.power -sort { total }
+clearRailAnalysisDisplay
+editDelete -shapes FILLWIRE
+addMetalFill -layer { 1 2 3 4 5 6 } -nets { EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/n_59 EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/n_60 EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/n_62 EMC_TOP_INSTANCE/CORE_INSTANCE/mem_ctrl/n_63 GND VDDR VDD } -timingAware sta -slackThreshold 0.5
+deselectAll
+zoomBox 964.939 1086.427 1295.802 717.653
+fit
+addViaFill -layer { V12 V23 V34 V45 V56 }
+setLayerPreference metalFill -isVisible 0
+setLayerPreference metalFill -isVisible 1
+setLayerPreference metalFill -isVisible 0
+zoomBox 585.825 1127.785 1011.466 810.708
+zoomBox 703.638 1019.150 754.309 970.782
+isExtractRCModeSignoff
+isExtractRCModeSignoff
+rcOut -spef EMC08.spef
+clearClockDomains
+setClockDomains -all
+timeDesign -signoff -si -reportOnly -pathReports -drvReports -slackReports -numPaths 50 -prefix EMC08_signOff -outDir timingReports
+clearClockDomains
+setClockDomains -all
+timeDesign -signoff -si -hold -reportOnly -pathReports -slackReports -numPaths 50 -prefix EMC08_signOff -outDir timingReports
+fit
+setLayerPreference metalFill -isVisible 1
+verifyGeometry -offRGrid -antenna
+verifyProcessAntenna -reportfile EMC08.antenna.rpt -leffile EMC08.antenna.lef -error 1000
+setMetalFill -layer 1 -windowSize 100.000 100.000 -windowStep 50.000 50.000 -minDensity 20.000 -maxDensity 80.000
+setMetalFill -layer 2 -windowSize 100.000 100.000 -windowStep 50.000 50.000 -minDensity 20.000 -maxDensity 80.000
+setMetalFill -layer 3 -windowSize 100.000 100.000 -windowStep 50.000 50.000 -minDensity 20.000 -maxDensity 80.000
+setMetalFill -layer 4 -windowSize 100.000 100.000 -windowStep 50.000 50.000 -minDensity 20.000 -maxDensity 80.000
+setMetalFill -layer 5 -windowSize 100.000 100.000 -windowStep 50.000 50.000 -minDensity 20.000 -maxDensity 80.000
+setMetalFill -layer 6 -windowSize 100.000 100.000 -windowStep 50.000 50.000 -minDensity 20.000 -maxDensity 80.000
+verifyMetalDensity -reportfile EMC08.density.rpt
+zoomBox 785.721 1051.962 1102.798 674.572
+fit
+violationBrowser -all -no_display_false
+clearDrc
+verifyConnectivity -type all -geomConnect -error 1000 -warning 50
+verifyConnectivity -type all -connectPadSpecialPorts -geomConnect -error 1000 -warning 50
+verifyACLimit -report EMC08.aclimit.rpt -toggle 1.0 -error 1000 -scaleIrms 1.0
