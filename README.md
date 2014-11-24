@@ -11,5 +11,5 @@ The Analog blocks are basically 8-bit digital to analog converter and low noise 
 This Integration Guide is focused on Digital module. The Analog and DSP modules will not be part of this team development, they are considered separated IPs which can be integrated in the SoC. However, there are two essentials analog sub-modules that are necessary to digital operation: 
 -	Phase Locked Loop: PLL
 -	Power On Reset
--	
+
 The main clock can be provided by an external crystal oscillator, or optionally, can be used the 20MHz Low-Jitter Oscillator, an analog block. The PLL provides the clock used for memories and Power On Reset provides a reliable start up of the digital core. Other analog blocks are optionally too, as well as DSP module.
